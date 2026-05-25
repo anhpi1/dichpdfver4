@@ -1,0 +1,1420 @@
+{
+    "pdf_info": [
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        59,
+                        31,
+                        133,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                30,
+                                134,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        30,
+                                        134,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        372,
+                        31,
+                        569,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                372,
+                                29,
+                                570,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        372,
+                                        29,
+                                        570,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "Bản dựng chương trình Pathloss tháng 5 năm 2002",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        502,
+                        741,
+                        569,
+                        755
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 19,
+                    "lines": [
+                        {
+                            "bbox": [
+                                501,
+                                738,
+                                571,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        501,
+                                        738,
+                                        571,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Trang 1/6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                791
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        157,
+                        68,
+                        611,
+                        90
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "Tính năng mới trong bản dựng chương trình Pathloss tháng 5 năm 2002",
+                    "original_bbox": [
+                        157,
+                        68,
+                        470,
+                        86
+                    ],
+                    "size": 20
+                },
+                {
+                    "bbox": [
+                        58,
+                        91,
+                        611,
+                        201
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 3,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                58,
+                                91,
+                                567,
+                                133
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 4,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        90,
+                                        557,
+                                        107
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                90,
+                                                557,
+                                                107
+                                            ],
+                                            "type": "text",
+                                            "content": "• Suy hao tán xạ đối lưu luôn được tính toán trên các đường truyền bị chắn và kết hợp với suy hao",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        106,
+                                        568,
+                                        121
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                106,
+                                                568,
+                                                121
+                                            ],
+                                            "type": "text",
+                                            "content": "nhiễu xạ. Một tùy chọn đã được thêm vào để không tính toán suy hao tán xạ đối lưu. Tùy chọn này có sẵn trong",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        73,
+                                        120,
+                                        257,
+                                        135
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                73,
+                                                120,
+                                                257,
+                                                135
+                                            ],
+                                            "type": "text",
+                                            "content": "các mô-đun nhiễu xạ và vùng phủ sóng.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                140,
+                                497,
+                                154
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 5,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        138,
+                                        499,
+                                        155
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                138,
+                                                499,
+                                                155
+                                            ],
+                                            "type": "text",
+                                            "content": "• Các tùy chọn in hàng loạt hiện có sẵn trong các bảng tính vi ba và VHF - UHF.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                159,
+                                564,
+                                186
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 6,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        158,
+                                        566,
+                                        175
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                158,
+                                                566,
+                                                175
+                                            ],
+                                            "type": "text",
+                                            "content": "• Các thao tác phần trước đây bị giới hạn ở các hồ sơ mới. Một tùy chọn đã được thêm vào để sử dụng các liên kết tệp hiện có.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        172,
+                                        105,
+                                        189
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                172,
+                                                105,
+                                                189
+                                            ],
+                                            "type": "text",
+                                            "content": "",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text",
+                    "original_bbox": [
+                        58,
+                        91,
+                        567,
+                        186
+                    ],
+                    "size": 19
+                },
+                {
+                    "bbox": [
+                        58,
+                        202,
+                        611,
+                        220
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 7,
+                    "content": "Thao tác phần",
+                    "original_bbox": [
+                        58,
+                        202,
+                        175,
+                        217
+                    ],
+                    "size": 21
+                },
+                {
+                    "bbox": [
+                        57,
+                        221,
+                        372,
+                        300
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "Các thao tác tệp Pathloss cho các ứng dụng điểm-điểm và điểm-đa điểm hiện có thể sử dụng các liên kết tệp hiện có. Ngoài ra, các thao tác mẫu tùy chọn đã được cung cấp cho radio - bộ song công và ăng-ten cùng đường truyền. Một số khả năng với các tính năng này bao gồm:",
+                    "original_bbox": [
+                        57,
+                        221,
+                        367,
+                        290
+                    ],
+                    "size": 18
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        373,
+                        229,
+                        564,
+                        516
+                    ],
+                    "index": 17,
+                    "sub_type": "text_image",
+                    "image_path": "1071d044f4b2773579cfd2c16e5d33c8f47fac54d65e30904bde6b51f878c252.jpg",
+                    "original_bbox": [
+                        373,
+                        229,
+                        564,
+                        516
+                    ]
+                },
+                {
+                    "bbox": [
+                        58,
+                        301,
+                        372,
+                        402
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 9,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                58,
+                                301,
+                                365,
+                                329
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 10,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        300,
+                                        367,
+                                        316
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                71,
+                                                300,
+                                                367,
+                                                316
+                                            ],
+                                            "type": "text",
+                                            "content": "tạo hồ sơ đường truyền mới cho một số vị trí đã di chuyển,",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        315,
+                                        291,
+                                        330
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                315,
+                                                291,
+                                                330
+                                            ],
+                                            "type": "text",
+                                            "content": "nhưng giữ lại tất cả các tham số thiết bị hiện có.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                335,
+                                269,
+                                349
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 11,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        334,
+                                        270,
+                                        350
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                334,
+                                                270,
+                                                350
+                                            ],
+                                            "type": "text",
+                                            "content": "• thay đổi loại radio trên một nhóm tệp",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                355,
+                                295,
+                                369
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 12,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        355,
+                                        297,
+                                        370
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                355,
+                                                297,
+                                                370
+                                            ],
+                                            "type": "text",
+                                            "content": "• thay đổi mô hình ăng-ten trên một nhóm tệp",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                374,
+                                279,
+                                389
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 13,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        374,
+                                        281,
+                                        389
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                374,
+                                                281,
+                                                389
+                                            ],
+                                            "type": "text",
+                                            "content": "• thay đổi vùng mưa cho một nhóm tệp",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text",
+                    "original_bbox": [
+                        58,
+                        301,
+                        365,
+                        389
+                    ],
+                    "size": 17
+                },
+                {
+                    "bbox": [
+                        58,
+                        403,
+                        372,
+                        421
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 14,
+                    "content": "Suy hao nhiễu xạ - Tán xạ đối lưu",
+                    "original_bbox": [
+                        58,
+                        403,
+                        295,
+                        419
+                    ],
+                    "size": 21
+                },
+                {
+                    "bbox": [
+                        57,
+                        422,
+                        372,
+                        519
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 15,
+                    "merge_prev": false,
+                    "content": "Suy hao nhiễu xạ và suy hao tán xạ đối lưu là hai cơ chế truyền sóng độc lập. Nhiễu xạ bắt đầu khi độ hở đường truyền nhỏ hơn 60% tỷ lệ vùng Fresnel đầu tiên. Suy hao tán xạ đối lưu bắt đầu khi tích của chiều dài đường truyền và góc tán xạ (góc được tạo bởi sự giao nhau của các tia chân trời trên đường truyền bị chắn) lớn hơn 0,1. Suy hao nhiễu xạ - tán xạ đối lưu kết hợp được tính như phép cộng công suất của hai suy hao. Ví dụ, suy hao nhiễu xạ 50 dB kết hợp với suy hao tán xạ đối lưu 50 dB sẽ dẫn đến suy hao kết hợp là 47 dB.",
+                    "original_bbox": [
+                        57,
+                        422,
+                        369,
+                        519
+                    ],
+                    "size": 14
+                },
+                {
+                    "bbox": [
+                        57,
+                        520,
+                        611,
+                        556
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 16,
+                    "merge_prev": true,
+                    "lines_deleted": true,
+                    "original_bbox": [
+                        57,
+                        520,
+                        556,
+                        547
+                    ],
+                    "size": 12
+                },
+                {
+                    "bbox": [
+                        57,
+                        557,
+                        611,
+                        790
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "merge_prev": false,
+                    "content": "Khi suy hao kết hợp được tính như một hàm của khoảng cách, có thể xảy ra sự gián đoạn nghiêm trọng khi suy hao tán xạ đối lưu bắt đầu xuất hiện. Một ví dụ về điều này được hiển thị dưới đây cho đường truyền dài 87 km trên địa hình bằng phẳng ở tần số 150 MHz. Chiều cao ăng-ten là 100 mét và 1,5 mét.",
+                    "original_bbox": [
+                        57,
+                        557,
+                        569,
+                        600
+                    ],
+                    "size": 38
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        42,
+                        31,
+                        237,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                29,
+                                239,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        29,
+                                        239,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "Bản dựng chương trình Pathloss tháng 5 năm 2002",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        478,
+                        31,
+                        550,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                477,
+                                30,
+                                552,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        477,
+                                        30,
+                                        552,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        41,
+                        741,
+                        108,
+                        755
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 4,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                738,
+                                110,
+                                757
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        738,
+                                        110,
+                                        757
+                                    ],
+                                    "type": "text",
+                                    "content": "Trang 2/6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                791
+            ],
+            "page_idx": 1,
+            "para_blocks": [
+                {
+                    "type": "chart",
+                    "bbox": [
+                        78,
+                        86,
+                        515,
+                        427
+                    ],
+                    "index": 2,
+                    "sub_type": "line",
+                    "image_path": "d188a655112890137997590e179d3f17129f37e895620aa953aa3f54ade1be92.jpg",
+                    "original_bbox": [
+                        78,
+                        86,
+                        515,
+                        427
+                    ]
+                },
+                {
+                    "bbox": [
+                        39,
+                        433,
+                        611,
+                        790
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "Trong vùng nhiễu xạ, suy hao tăng lên 40 dB ở khoảng cách 48 km. Tại điểm này, suy hao tán xạ đối lưu tham gia vào phương trình và suy hao kết hợp giảm xuống còn 4 dB. Trong biểu đồ vùng phủ sóng, sự gián đoạn này sẽ tạo ra các kết quả dường như mâu thuẫn như hiển thị dưới đây.",
+                    "original_bbox": [
+                        39,
+                        433,
+                        550,
+                        476
+                    ],
+                    "size": 50
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        61,
+                        32,
+                        132,
+                        43
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                30,
+                                134,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        30,
+                                        134,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        373,
+                        31,
+                        568,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                372,
+                                29,
+                                570,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        372,
+                                        29,
+                                        570,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "Bản dựng chương trình Pathloss tháng 5 năm 2002",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        503,
+                        741,
+                        568,
+                        755
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 4,
+                    "lines": [
+                        {
+                            "bbox": [
+                                501,
+                                738,
+                                571,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        501,
+                                        738,
+                                        571,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Trang 3/6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                791
+            ],
+            "page_idx": 2,
+            "para_blocks": [
+                {
+                    "type": "chart",
+                    "bbox": [
+                        103,
+                        87,
+                        524,
+                        508
+                    ],
+                    "index": 2,
+                    "sub_type": "polar_bar",
+                    "image_path": "37b4e4449d66410a5d59d9812de26b9d4b1b9808dd80148c1f48c739b65d111e.jpg",
+                    "original_bbox": [
+                        103,
+                        87,
+                        524,
+                        508
+                    ]
+                },
+                {
+                    "bbox": [
+                        59,
+                        515,
+                        611,
+                        790
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "Biểu đồ sử dụng ba mức tín hiệu được mã hóa thành màu đỏ, xanh lam và xanh lục từ tín hiệu mạnh nhất đến yếu nhất. Xem xét đường truyền ở góc phương vị 135 độ. Như dự kiến, cường độ tín hiệu giảm dần theo khoảng cách do suy hao nhiễu xạ. Sau đó, suy hao tán xạ đối lưu trở thành cơ chế truyền sóng chiếm ưu thế và mô hình lặp lại.",
+                    "original_bbox": [
+                        59,
+                        515,
+                        569,
+                        571
+                    ],
+                    "size": 39
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        31,
+                        238,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                29,
+                                239,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        29,
+                                        239,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "Bản dựng chương trình Pathloss tháng 5 năm 2002",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        477,
+                        31,
+                        551,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                476,
+                                30,
+                                552,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        476,
+                                        30,
+                                        552,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        41,
+                        741,
+                        108,
+                        756
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 7,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                738,
+                                110,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        738,
+                                        110,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Trang 4/6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                791
+            ],
+            "page_idx": 3,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        39,
+                        68,
+                        368,
+                        229
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "Một tùy chọn hiện được cung cấp để bỏ qua suy hao tán xạ đối lưu trong các mô-đun nhiễu xạ và vùng phủ sóng. Trong mô-đun nhiễu xạ, chọn Options - Diffraction Options và đặt phương pháp tán xạ thành không tính toán.",
+                    "original_bbox": [
+                        39,
+                        68,
+                        362,
+                        124
+                    ],
+                    "size": 28
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        369,
+                        76,
+                        547,
+                        229
+                    ],
+                    "index": 3,
+                    "sub_type": "text_image",
+                    "image_path": "9431b7ad2798eaf5f756b29869fa74ee129f543f44f8d3d979f2befc033dc901.jpg",
+                    "original_bbox": [
+                        369,
+                        76,
+                        547,
+                        229
+                    ]
+                },
+                {
+                    "bbox": [
+                        39,
+                        230,
+                        292,
+                        281
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "Trong mô-đun vùng phủ sóng, tùy chọn xuất hiện trong quy trình tính toán vùng phủ sóng dưới phần \"Calculate Diffraction loss\".",
+                    "original_bbox": [
+                        39,
+                        230,
+                        290,
+                        273
+                    ],
+                    "size": 18
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        293,
+                        238,
+                        545,
+                        492
+                    ],
+                    "index": 6,
+                    "sub_type": "text_image",
+                    "image_path": "57a2f2d5cb9dd3faf4ff65ec2489fa8567470e3971fd9401c563b275368c0fa9.jpg",
+                    "original_bbox": [
+                        293,
+                        238,
+                        545,
+                        492
+                    ]
+                },
+                {
+                    "bbox": [
+                        39,
+                        282,
+                        292,
+                        790
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "Kết quả tương ứng với ví dụ trên sử dụng tùy chọn \"Không tính toán\" suy hao tán xạ đối lưu được hiển thị dưới đây.",
+                    "original_bbox": [
+                        39,
+                        282,
+                        288,
+                        325
+                    ],
+                    "size": 60
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        60,
+                        31,
+                        133,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                30,
+                                134,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        30,
+                                        134,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        373,
+                        31,
+                        569,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                372,
+                                29,
+                                570,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        372,
+                                        29,
+                                        570,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "Bản dựng chương trình Pathloss tháng 5 năm 2002",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        503,
+                        741,
+                        568,
+                        755
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 3,
+                    "lines": [
+                        {
+                            "bbox": [
+                                501,
+                                738,
+                                571,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        501,
+                                        738,
+                                        571,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Trang 5/6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                791
+            ],
+            "page_idx": 4,
+            "para_blocks": [
+                {
+                    "type": "chart",
+                    "bbox": [
+                        129,
+                        75,
+                        563,
+                        416
+                    ],
+                    "index": 2,
+                    "sub_type": "line",
+                    "image_path": "d5a46ecec025b0f1178578fb1e4cd6c042d23da8bb79651924617aaf7ee6eb0d.jpg",
+                    "original_bbox": [
+                        129,
+                        75,
+                        563,
+                        416
+                    ]
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        42,
+                        31,
+                        237,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                29,
+                                239,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        29,
+                                        239,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "Bản dựng chương trình Pathloss tháng 5 năm 2002",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        477,
+                        31,
+                        550,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                476,
+                                30,
+                                552,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        476,
+                                        30,
+                                        552,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        42,
+                        741,
+                        108,
+                        755
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 3,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                738,
+                                110,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        738,
+                                        110,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Trang 6/6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                791
+            ],
+            "page_idx": 5,
+            "para_blocks": [
+                {
+                    "type": "chart",
+                    "bbox": [
+                        47,
+                        74,
+                        471,
+                        502
+                    ],
+                    "index": 2,
+                    "sub_type": "other",
+                    "image_path": "146db3be3a8d11c631a5ad892351b83af170f813854c5c11b4d6b878ec789450.jpg",
+                    "original_bbox": [
+                        47,
+                        74,
+                        471,
+                        502
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": false,
+    "_vlm_ocr_enable": false,
+    "_version_name": "3.1.8"
+}

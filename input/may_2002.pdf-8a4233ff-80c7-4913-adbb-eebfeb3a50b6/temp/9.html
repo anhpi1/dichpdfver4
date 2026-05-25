@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>PDF Replica Viewer</title>
+
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"/>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    background: #525659;
+    padding: 30px 0;
+    min-height: 100vh;
+}
+.pg {
+    overflow: hidden;
+    page-break-after: always;
+}
+
+.blk {
+    border: 2px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.dbg-label {
+    display: none;
+    position: absolute;
+    top: 0; left: 0;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 0 0 6px 0;
+    z-index: 10;
+    opacity: 0.95;
+    line-height: 1.2;
+    pointer-events: none;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+body.debug .blk {
+    border-style: dashed !important;
+    background-color: rgba(0,0,0,0.02);
+}
+body:not(.debug) .blk {
+    border-color: transparent !important;
+}
+body.debug .dbg-label {
+    display: block;
+}
+
+#debug-btn {
+    position: fixed;
+    top: 12px;
+    right: 16px;
+    z-index: 9999;
+    background: #333;
+    color: #aaa;
+    border: 1px solid #555;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Segoe UI', sans-serif;
+    transition: all 0.2s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+#debug-btn:hover { background: #444; color: #fff; }
+#debug-btn.active { background: #ff5722; color: #fff; border-color: #ff5722; }
+
+.fit {
+    display: block;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.code-block {
+    background-color: transparent;
+    border-radius: 0;
+    border: none !important;
+}
+
+.tw table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.tw td, .tw th {
+    border: 1px solid #bbb;
+    padding: 2px 4px;
+}
+
+.math .katex {
+    font-size: 1.05em !important;
+}
+</style>
+</head>
+<body>
+
+<button id="debug-btn" onclick="toggleDebug()">🔍 Debug OFF</button>
+
+<div class="pg" style="width:918px;height:1186px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:235.5px;top:102.0px;width:681.0px;height:33.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#1 title</span><span class="fit" style="font-size:20px; line-height:26px;">Tính năng mới trong bản dựng chương trình Pathloss tháng 5 năm 2002</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:136.5px;width:829.5px;height:165.0px;overflow:hidden;box-sizing:border-box;border-color:#00BCD4;" data-t="list"><span class="dbg-label" style="background:#00BCD4;">#2 list</span><ul class="fit" style="font-size:19px; line-height:24px; margin:0;padding-left:16px;"><li style="margin-bottom:4px;">Suy hao tán xạ đối lưu luôn được tính toán trên các đường truyền bị chắn và kết hợp với suy hao nhiễu xạ. Một tùy chọn đã được thêm vào để không tính toán suy hao tán xạ đối lưu. Tùy chọn này có sẵn trong các mô-đun nhiễu xạ và vùng phủ sóng.</li><li style="margin-bottom:4px;">Các tùy chọn in hàng loạt hiện có sẵn trong các bảng tính vi ba và VHF - UHF.</li><li style="margin-bottom:4px;">Các thao tác phần trước đây bị giới hạn ở các hồ sơ mới. Một tùy chọn đã được thêm vào để sử dụng các liên kết tệp hiện có.</li></ul></div>
+<div class="blk" style="position:absolute;left:87.0px;top:303.0px;width:829.5px;height:27.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#3 title</span><span class="fit" style="font-size:20px; line-height:26px;">Thao tác phần</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:331.5px;width:472.5px;height:118.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#4 text</span><span class="fit" style="font-size:18px; line-height:23px;">Các thao tác tệp Pathloss cho các ứng dụng điểm-điểm và điểm-đa điểm hiện có thể sử dụng các liên kết tệp hiện có. Ngoài ra, các thao tác mẫu tùy chọn đã được cung cấp cho radio - bộ song công và ăng-ten cùng đường truyền. Một số khả năng với các tính năng này bao gồm:</span></div>
+<div class="blk" style="position:absolute;left:559.5px;top:343.5px;width:286.5px;height:430.5px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#5 image</span><img src="../images/1071d044f4b2773579cfd2c16e5d33c8f47fac54d65e30904bde6b51f878c252.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:87.0px;top:451.5px;width:471.0px;height:151.5px;overflow:hidden;box-sizing:border-box;border-color:#00BCD4;" data-t="list"><span class="dbg-label" style="background:#00BCD4;">#6 list</span><ul class="fit" style="font-size:17px; line-height:22px; margin:0;padding-left:16px;"><li style="margin-bottom:4px;">tạo hồ sơ đường truyền mới cho một số vị trí đã di chuyển, nhưng giữ lại tất cả các tham số thiết bị hiện có.</li><li style="margin-bottom:4px;">thay đổi loại radio trên một nhóm tệp</li><li style="margin-bottom:4px;">thay đổi mô hình ăng-ten trên một nhóm tệp</li><li style="margin-bottom:4px;">thay đổi vùng mưa cho một nhóm tệp</li></ul></div>
+<div class="blk" style="position:absolute;left:87.0px;top:604.5px;width:471.0px;height:27.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#7 title</span><span class="fit" style="font-size:20px; line-height:26px;">Suy hao nhiễu xạ - Tán xạ đối lưu</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:633.0px;width:472.5px;height:145.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#8 text</span><span class="fit" style="font-size:14px; line-height:18px;">Suy hao nhiễu xạ và suy hao tán xạ đối lưu là hai cơ chế truyền sóng độc lập. Nhiễu xạ bắt đầu khi độ hở đường truyền nhỏ hơn 60% tỷ lệ vùng Fresnel đầu tiên. Suy hao tán xạ đối lưu bắt đầu khi tích của chiều dài đường truyền và góc tán xạ (góc được tạo bởi sự giao nhau của các tia chân trời trên đường truyền bị chắn) lớn hơn 0,1. Suy hao nhiễu xạ - tán xạ đối lưu kết hợp được tính như phép cộng công suất của hai suy hao. Ví dụ, suy hao nhiễu xạ 50 dB kết hợp với suy hao tán xạ đối lưu 50 dB sẽ dẫn đến suy hao kết hợp là 47 dB.</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:835.5px;width:831.0px;height:349.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#10 text</span><span class="fit" style="font-size:24px; line-height:31px;">Khi suy hao kết hợp được tính như một hàm của khoảng cách, có thể xảy ra sự gián đoạn nghiêm trọng khi suy hao tán xạ đối lưu bắt đầu xuất hiện. Một ví dụ về điều này được hiển thị dưới đây cho đường truyền dài 87 km trên địa hình bằng phẳng ở tần số 150 MHz. Chiều cao ăng-ten là 100 mét và 1,5 mét.</span></div>
+</div>
+<div class="pg" style="width:918px;height:1186px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:117.0px;top:129.0px;width:655.5px;height:511.5px;overflow:hidden;box-sizing:border-box;border-color:#9E9E9E;" data-t="chart"><span class="dbg-label" style="background:#9E9E9E;">#11 chart</span><img src="../images/d188a655112890137997590e179d3f17129f37e895620aa953aa3f54ade1be92.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:58.5px;top:649.5px;width:858.0px;height:535.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#12 text</span><span class="fit" style="font-size:24px; line-height:31px;">Trong vùng nhiễu xạ, suy hao tăng lên 40 dB ở khoảng cách 48 km. Tại điểm này, suy hao tán xạ đối lưu tham gia vào phương trình và suy hao kết hợp giảm xuống còn 4 dB. Trong biểu đồ vùng phủ sóng, sự gián đoạn này sẽ tạo ra các kết quả dường như mâu thuẫn như hiển thị dưới đây.</span></div>
+</div>
+<div class="pg" style="width:918px;height:1186px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:154.5px;top:130.5px;width:631.5px;height:631.5px;overflow:hidden;box-sizing:border-box;border-color:#9E9E9E;" data-t="chart"><span class="dbg-label" style="background:#9E9E9E;">#13 chart</span><img src="../images/37b4e4449d66410a5d59d9812de26b9d4b1b9808dd80148c1f48c739b65d111e.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:88.5px;top:772.5px;width:828.0px;height:412.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#14 text</span><span class="fit" style="font-size:24px; line-height:31px;">Biểu đồ sử dụng ba mức tín hiệu được mã hóa thành màu đỏ, xanh lam và xanh lục từ tín hiệu mạnh nhất đến yếu nhất. Xem xét đường truyền ở góc phương vị 135 độ. Như dự kiến, cường độ tín hiệu giảm dần theo khoảng cách do suy hao nhiễu xạ. Sau đó, suy hao tán xạ đối lưu trở thành cơ chế truyền sóng chiếm ưu thế và mô hình lặp lại.</span></div>
+</div>
+<div class="pg" style="width:918px;height:1186px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:58.5px;top:102.0px;width:493.5px;height:241.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#15 text</span><span class="fit" style="font-size:24px; line-height:31px;">Một tùy chọn hiện được cung cấp để bỏ qua suy hao tán xạ đối lưu trong các mô-đun nhiễu xạ và vùng phủ sóng. Trong mô-đun nhiễu xạ, chọn Options - Diffraction Options và đặt phương pháp tán xạ thành không tính toán.</span></div>
+<div class="blk" style="position:absolute;left:553.5px;top:114.0px;width:267.0px;height:229.5px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#16 image</span><img src="../images/9431b7ad2798eaf5f756b29869fa74ee129f543f44f8d3d979f2befc033dc901.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:58.5px;top:345.0px;width:379.5px;height:76.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#17 text</span><span class="fit" style="font-size:18px; line-height:23px;">Trong mô-đun vùng phủ sóng, tùy chọn xuất hiện trong quy trình tính toán vùng phủ sóng dưới phần &quot;Calculate Diffraction loss&quot;.</span></div>
+<div class="blk" style="position:absolute;left:439.5px;top:357.0px;width:378.0px;height:381.0px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#18 image</span><img src="../images/57a2f2d5cb9dd3faf4ff65ec2489fa8567470e3971fd9401c563b275368c0fa9.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:58.5px;top:423.0px;width:379.5px;height:762.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#19 text</span><span class="fit" style="font-size:24px; line-height:31px;">Kết quả tương ứng với ví dụ trên sử dụng tùy chọn &quot;Không tính toán&quot; suy hao tán xạ đối lưu được hiển thị dưới đây.</span></div>
+</div>
+<div class="pg" style="width:918px;height:1186px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:193.5px;top:112.5px;width:651.0px;height:511.5px;overflow:hidden;box-sizing:border-box;border-color:#9E9E9E;" data-t="chart"><span class="dbg-label" style="background:#9E9E9E;">#20 chart</span><img src="../images/d5a46ecec025b0f1178578fb1e4cd6c042d23da8bb79651924617aaf7ee6eb0d.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+</div>
+<div class="pg" style="width:918px;height:1186px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:70.5px;top:111.0px;width:636.0px;height:642.0px;overflow:hidden;box-sizing:border-box;border-color:#9E9E9E;" data-t="chart"><span class="dbg-label" style="background:#9E9E9E;">#21 chart</span><img src="../images/146db3be3a8d11c631a5ad892351b83af170f813854c5c11b4d6b878ec789450.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+</div>
+
+<script>
+function toggleDebug() {
+    document.body.classList.toggle('debug');
+    var btn = document.getElementById('debug-btn');
+    btn.classList.toggle('active');
+    btn.textContent = document.body.classList.contains('debug')
+        ? '🔍 Debug ON'
+        : '🔍 Debug OFF';
+}
+
+window.addEventListener('load', function() {
+    // Render math
+    if (typeof katex === 'undefined') {
+        console.warn('KaTeX not loaded');
+    } else {
+        var mathEls = document.querySelectorAll('.math');
+        for (var i = 0; i < mathEls.length; i++) {
+            var el = mathEls[i];
+            var tex = el.textContent;
+            try {
+                katex.render(tex, el, {
+                    throwOnError: false,
+                    displayMode: false,
+                    output: 'html'
+                });
+            } catch (e) {
+                console.warn('KaTeX error:', tex, e);
+            }
+        }
+    }
+});
+</script>
+
+</body>
+</html>

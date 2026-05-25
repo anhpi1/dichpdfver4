@@ -1,0 +1,42 @@
+'Determine the rain rate, \\mathtt { R } _ { 0 . 0 1 } , exceeded for 0.01% of the time. This value will be interpolated from the rain statistics file or the user can manually enter this value.'
+
+'where d is the path length in kilometers.An upper limit of 100 mm/hr is set for \\mathtt { R } _ { 0 . 0 1 } in the above equa- tion.'
+
+'• The path attenuation, \\mathrm { A _ { 0 . 0 1 } } , exceeded for 0.01% of the time is given by:'
+
+'for latitudes equal to or greater than 3 0 ^ { \\circ } north or south'
+
+'Determine the fade probability in the worst month at the residual bit error rate receive threshold level. The residual BER (RBER) is in the range from 1×10-10 to 1×10-13 . 1 \\times 1 0 ^ { - 1 0 } 1 \\times 1 0 ^ { - 1 3 }'
+
+'{ \\bf \\alpha } _ { 1 } 10 to 30, number of errors per burst for the BER in the range from 1 _ 10-3 to { \\mathrm { B E R } } _ { \\mathrm { S E S } }'
+
+'{ \\mathfrak { a } } _ { 2 } 1 to 10, number of errors per burst for the BER in the range from { \\mathrm { B E R } } _ { \\mathrm { S E S } } to RBER.'
+
+'{ \\alpha } _ { 3 } 1, number of errors per burst for the BER lower than RBER.'
+
+'Calculate the unavailability due to rain, PaR in the worst month at the { \\mathrm { B E R } } _ { \\mathrm { S E S } } receiver threshold level. The BBER and ESR values for rain are obtained by substituting PaR for SESR in the multipath calculation.'
+
+'The positive sign in equation (9) is employed for \\xi \\le 4 5 ^ { \\circ } and the negative sign for \\xi > 4 5 ^ { \\circ }'
+
+'The annual fade probability ρ is related to the worst month \\rho _ { \\mathrm { w } } by the equation:'
+
+'Step 1: Calcuate the mean path delay \\tau _ { m } from equation (19):'
+
+'\\tau _ { r } reference delay in nanoseconds used to obtain the signature'
+
+'Assuming equal main and diversity antenna gains dG = 0, v = 1 and \\mathrm { I } _ { \\mathrm { c o m b } } = 0 , a system with the following parameters:'
+
+'Calculate the square of the non selective correlation coefficient, \\mathrm { k _ { n s } }'
+
+'Calculate the square of the selective correlation coefficient, \\mathbf { k } _ { \\mathrm { s } }'
+
+'where \\mathrm { L _ { c o m b } } is the selective improvement factor due to the combiner.'
+
+'The Vigants method assumes that this improvement factor is valid for non selective and selective fades. The ITU method calculates the selective outage exactly as in the case of space diversity above using \\mathrm { I _ { c o m b } } = 0 and \\mathrm { L _ { c o m b } = 1 } .'
+
+'Calculate the path inclination \\mathfrak { E } _ { p } using equation (44) below'
+
+'For detailed link design applications, calculate the percentage of time \\mathtt { p _ { w } } that fade depth A (dB) is exceeded in the average worst month from equation (45)'
+
+'h _ { L } altitude of the lower antenna (i.e. the smaller of h _ { e } and h _ { \\mathrm { r } } )'
+

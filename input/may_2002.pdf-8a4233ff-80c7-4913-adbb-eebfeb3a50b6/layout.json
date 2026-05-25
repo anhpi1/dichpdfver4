@@ -1,0 +1,3954 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        157,
+                        68,
+                        470,
+                        86
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "lines": [
+                        {
+                            "bbox": [
+                                157,
+                                66,
+                                471,
+                                87
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        157,
+                                        66,
+                                        471,
+                                        87
+                                    ],
+                                    "type": "text",
+                                    "content": "New in the May 2002 Pathloss program build",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        58,
+                        91,
+                        567,
+                        186
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 3,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                58,
+                                91,
+                                567,
+                                133
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 4,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        90,
+                                        557,
+                                        107
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                90,
+                                                557,
+                                                107
+                                            ],
+                                            "type": "text",
+                                            "content": "• Tropospheric scatter loss is always calculated on obstructed paths and combined with the diffraction",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        106,
+                                        568,
+                                        121
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                106,
+                                                568,
+                                                121
+                                            ],
+                                            "type": "text",
+                                            "content": "loss. An option has been added to not calculate the tropospheric scatter loss. This option is available in",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        73,
+                                        120,
+                                        257,
+                                        135
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                73,
+                                                120,
+                                                257,
+                                                135
+                                            ],
+                                            "type": "text",
+                                            "content": "the diffraction and coverage modules.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                140,
+                                497,
+                                154
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 5,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        138,
+                                        499,
+                                        155
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                138,
+                                                499,
+                                                155
+                                            ],
+                                            "type": "text",
+                                            "content": "• Batch printing options are now available in the microwave and VHF - UHF worksheets.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                159,
+                                564,
+                                186
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 6,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        158,
+                                        566,
+                                        175
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                158,
+                                                566,
+                                                175
+                                            ],
+                                            "type": "text",
+                                            "content": "• Section operations were limited to new profiles. An option has been added to use existing file associa-",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        172,
+                                        105,
+                                        189
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                172,
+                                                105,
+                                                189
+                                            ],
+                                            "type": "text",
+                                            "content": "tions.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        58,
+                        202,
+                        175,
+                        217
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 7,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                200,
+                                176,
+                                219
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        200,
+                                        176,
+                                        219
+                                    ],
+                                    "type": "text",
+                                    "content": "Section Operations",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        57,
+                        221,
+                        367,
+                        290
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                220,
+                                366,
+                                236
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        220,
+                                        366,
+                                        236
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss file operations for point to point and point to multipoint",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                59,
+                                236,
+                                361,
+                                249
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        236,
+                                        361,
+                                        249
+                                    ],
+                                    "type": "text",
+                                    "content": "applications can now use existing file associations. In addition",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                59,
+                                249,
+                                368,
+                                263
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        249,
+                                        368,
+                                        263
+                                    ],
+                                    "type": "text",
+                                    "content": "optional template operations have been provided for radios - du-",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                263,
+                                367,
+                                279
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        263,
+                                        367,
+                                        279
+                                    ],
+                                    "type": "text",
+                                    "content": "plexers and antennas and transmission lines. Several possibilities",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                60,
+                                278,
+                                193,
+                                290
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        60,
+                                        278,
+                                        193,
+                                        290
+                                    ],
+                                    "type": "text",
+                                    "content": "with these features include:",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        301,
+                        365,
+                        389
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 9,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                58,
+                                301,
+                                365,
+                                329
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 10,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        300,
+                                        367,
+                                        316
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                71,
+                                                300,
+                                                367,
+                                                316
+                                            ],
+                                            "type": "text",
+                                            "content": "create new path profiles for several sites which have moved,",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        315,
+                                        291,
+                                        330
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                315,
+                                                291,
+                                                330
+                                            ],
+                                            "type": "text",
+                                            "content": "but retain all existing equipment parameters.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                335,
+                                269,
+                                349
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 11,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        334,
+                                        270,
+                                        350
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                334,
+                                                270,
+                                                350
+                                            ],
+                                            "type": "text",
+                                            "content": "• change the radio type on a group of files",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                355,
+                                295,
+                                369
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 12,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        355,
+                                        297,
+                                        370
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                355,
+                                                297,
+                                                370
+                                            ],
+                                            "type": "text",
+                                            "content": "• change the antenna models on a group of files",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                374,
+                                279,
+                                389
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 13,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        374,
+                                        281,
+                                        389
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                374,
+                                                281,
+                                                389
+                                            ],
+                                            "type": "text",
+                                            "content": "• change the rain regions for a group of files",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        58,
+                        403,
+                        295,
+                        419
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 14,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                402,
+                                297,
+                                420
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        402,
+                                        297,
+                                        420
+                                    ],
+                                    "type": "text",
+                                    "content": "Diffraction - Tropospheric Scatter Loss",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        57,
+                        422,
+                        369,
+                        519
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 15,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                421,
+                                356,
+                                438
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        421,
+                                        356,
+                                        438
+                                    ],
+                                    "type": "text",
+                                    "content": "Diffraction and tropospheric scatter loss are two independent",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                436,
+                                346,
+                                451
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        436,
+                                        346,
+                                        451
+                                    ],
+                                    "type": "text",
+                                    "content": "propagation mechanisms. Diffraction begins when the path",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                450,
+                                368,
+                                465
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        450,
+                                        368,
+                                        465
+                                    ],
+                                    "type": "text",
+                                    "content": "clearance is less than 60% of the first Fresnel zone ratio. Tropo-",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                59,
+                                464,
+                                360,
+                                479
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        464,
+                                        360,
+                                        479
+                                    ],
+                                    "type": "text",
+                                    "content": "spheric scatter loss begins when the product of the path length",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                478,
+                                361,
+                                492
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        478,
+                                        361,
+                                        492
+                                    ],
+                                    "type": "text",
+                                    "content": "and the scatter angle (the angle formed by the crossover of the",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                492,
+                                369,
+                                507
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        492,
+                                        369,
+                                        507
+                                    ],
+                                    "type": "text",
+                                    "content": "horizon rays on an obstructed path) is greater than 0.1. The com-",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                506,
+                                353,
+                                521
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        506,
+                                        353,
+                                        521
+                                    ],
+                                    "type": "text",
+                                    "content": "bined diffraction - tropospheric scatter loss is calculated as a",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        57,
+                        520,
+                        556,
+                        547
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 16,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                520,
+                                557,
+                                535
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        520,
+                                        557,
+                                        535
+                                    ],
+                                    "type": "text",
+                                    "content": "power addition of the two losses. For example a diffraction loss of 50 dB combined with a tropospheric",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                534,
+                                363,
+                                548
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        534,
+                                        363,
+                                        548
+                                    ],
+                                    "type": "text",
+                                    "content": "scatter loss of 50 dB would result in a combined loss of 47 dB.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": true
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        373,
+                        229,
+                        564,
+                        516
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                373,
+                                229,
+                                564,
+                                516
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        373,
+                                        229,
+                                        564,
+                                        516
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                373,
+                                                229,
+                                                564,
+                                                516
+                                            ],
+                                            "type": "image",
+                                            "content": "Create Pathloss data files\nPoint to point\nTemplate File\ndo not use\nuse pl4 file on disk Browse\nBeavdemm.pl4\nuse pl4 file in memory\nPINEFORT.PL4\nRadio - duplexers\nAntenna - transmission lines\nUse existing file associations\nFile names\nSite names\nCall signs Generate path profiles\nOK Cancel",
+                                            "image_path": "1071d044f4b2773579cfd2c16e5d33c8f47fac54d65e30904bde6b51f878c252.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 17
+                        }
+                    ],
+                    "index": 17,
+                    "sub_type": "text_image"
+                },
+                {
+                    "bbox": [
+                        57,
+                        557,
+                        569,
+                        600
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                556,
+                                570,
+                                575
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        556,
+                                        570,
+                                        575
+                                    ],
+                                    "type": "text",
+                                    "content": "When the combined loss is calculated as a function of distance, a severe discontinuity can occur when trop-",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                571,
+                                567,
+                                586
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        571,
+                                        567,
+                                        586
+                                    ],
+                                    "type": "text",
+                                    "content": "ospheric scatter loss begins to occur. A example of this is shown below for an 87 kilometer path over flat",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                586,
+                                406,
+                                601
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        586,
+                                        406,
+                                        601
+                                    ],
+                                    "type": "text",
+                                    "content": "terrain at 150 MHz. The antenna heights are 100 meters and 1.5 meters.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        59,
+                        31,
+                        133,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                30,
+                                134,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        30,
+                                        134,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        372,
+                        31,
+                        569,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                372,
+                                29,
+                                570,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        372,
+                                        29,
+                                        570,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "May 2002 Pathloss Program Build",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        502,
+                        741,
+                        569,
+                        755
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 19,
+                    "lines": [
+                        {
+                            "bbox": [
+                                501,
+                                738,
+                                571,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        501,
+                                        738,
+                                        571,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 1 of 6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                791
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        157,
+                        68,
+                        470,
+                        86
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "lines": [
+                        {
+                            "bbox": [
+                                157,
+                                66,
+                                471,
+                                87
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        157,
+                                        66,
+                                        471,
+                                        87
+                                    ],
+                                    "type": "text",
+                                    "content": "New in the May 2002 Pathloss program build",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        58,
+                        91,
+                        567,
+                        186
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 3,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                58,
+                                91,
+                                567,
+                                133
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 4,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        90,
+                                        557,
+                                        107
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                90,
+                                                557,
+                                                107
+                                            ],
+                                            "type": "text",
+                                            "content": "• Tropospheric scatter loss is always calculated on obstructed paths and combined with the diffraction",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        106,
+                                        568,
+                                        121
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                106,
+                                                568,
+                                                121
+                                            ],
+                                            "type": "text",
+                                            "content": "loss. An option has been added to not calculate the tropospheric scatter loss. This option is available in",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        73,
+                                        120,
+                                        257,
+                                        135
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                73,
+                                                120,
+                                                257,
+                                                135
+                                            ],
+                                            "type": "text",
+                                            "content": "the diffraction and coverage modules.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                140,
+                                497,
+                                154
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 5,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        138,
+                                        499,
+                                        155
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                138,
+                                                499,
+                                                155
+                                            ],
+                                            "type": "text",
+                                            "content": "• Batch printing options are now available in the microwave and VHF - UHF worksheets.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                159,
+                                564,
+                                186
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 6,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        158,
+                                        566,
+                                        175
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                158,
+                                                566,
+                                                175
+                                            ],
+                                            "type": "text",
+                                            "content": "• Section operations were limited to new profiles. An option has been added to use existing file associa-",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        172,
+                                        105,
+                                        189
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                172,
+                                                105,
+                                                189
+                                            ],
+                                            "type": "text",
+                                            "content": "tions.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        58,
+                        202,
+                        175,
+                        217
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 7,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                200,
+                                176,
+                                219
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        200,
+                                        176,
+                                        219
+                                    ],
+                                    "type": "text",
+                                    "content": "Section Operations",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        57,
+                        221,
+                        367,
+                        290
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                220,
+                                366,
+                                236
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        220,
+                                        366,
+                                        236
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss file operations for point to point and point to multipoint",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                59,
+                                236,
+                                361,
+                                249
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        236,
+                                        361,
+                                        249
+                                    ],
+                                    "type": "text",
+                                    "content": "applications can now use existing file associations. In addition",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                59,
+                                249,
+                                368,
+                                263
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        249,
+                                        368,
+                                        263
+                                    ],
+                                    "type": "text",
+                                    "content": "optional template operations have been provided for radios - du-",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                263,
+                                367,
+                                279
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        263,
+                                        367,
+                                        279
+                                    ],
+                                    "type": "text",
+                                    "content": "plexers and antennas and transmission lines. Several possibilities",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                60,
+                                278,
+                                193,
+                                290
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        60,
+                                        278,
+                                        193,
+                                        290
+                                    ],
+                                    "type": "text",
+                                    "content": "with these features include:",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        301,
+                        365,
+                        389
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 9,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                58,
+                                301,
+                                365,
+                                329
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 10,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        300,
+                                        367,
+                                        316
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                71,
+                                                300,
+                                                367,
+                                                316
+                                            ],
+                                            "type": "text",
+                                            "content": "create new path profiles for several sites which have moved,",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        315,
+                                        291,
+                                        330
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                315,
+                                                291,
+                                                330
+                                            ],
+                                            "type": "text",
+                                            "content": "but retain all existing equipment parameters.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                335,
+                                269,
+                                349
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 11,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        334,
+                                        270,
+                                        350
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                334,
+                                                270,
+                                                350
+                                            ],
+                                            "type": "text",
+                                            "content": "• change the radio type on a group of files",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                355,
+                                295,
+                                369
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 12,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        355,
+                                        297,
+                                        370
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                355,
+                                                297,
+                                                370
+                                            ],
+                                            "type": "text",
+                                            "content": "• change the antenna models on a group of files",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                374,
+                                279,
+                                389
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 13,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        374,
+                                        281,
+                                        389
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                374,
+                                                281,
+                                                389
+                                            ],
+                                            "type": "text",
+                                            "content": "• change the rain regions for a group of files",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        58,
+                        403,
+                        295,
+                        419
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 14,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                402,
+                                297,
+                                420
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        402,
+                                        297,
+                                        420
+                                    ],
+                                    "type": "text",
+                                    "content": "Diffraction - Tropospheric Scatter Loss",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        57,
+                        422,
+                        369,
+                        519
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 15,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                421,
+                                356,
+                                438
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        421,
+                                        356,
+                                        438
+                                    ],
+                                    "type": "text",
+                                    "content": "Diffraction and tropospheric scatter loss are two independent",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                436,
+                                346,
+                                451
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        436,
+                                        346,
+                                        451
+                                    ],
+                                    "type": "text",
+                                    "content": "propagation mechanisms. Diffraction begins when the path",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                450,
+                                368,
+                                465
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        450,
+                                        368,
+                                        465
+                                    ],
+                                    "type": "text",
+                                    "content": "clearance is less than 60% of the first Fresnel zone ratio. Tropo-",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                59,
+                                464,
+                                360,
+                                479
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        464,
+                                        360,
+                                        479
+                                    ],
+                                    "type": "text",
+                                    "content": "spheric scatter loss begins when the product of the path length",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                478,
+                                361,
+                                492
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        478,
+                                        361,
+                                        492
+                                    ],
+                                    "type": "text",
+                                    "content": "and the scatter angle (the angle formed by the crossover of the",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                492,
+                                369,
+                                507
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        492,
+                                        369,
+                                        507
+                                    ],
+                                    "type": "text",
+                                    "content": "horizon rays on an obstructed path) is greater than 0.1. The com-",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                506,
+                                353,
+                                521
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        506,
+                                        353,
+                                        521
+                                    ],
+                                    "type": "text",
+                                    "content": "bined diffraction - tropospheric scatter loss is calculated as a",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                520,
+                                557,
+                                535
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        520,
+                                        557,
+                                        535
+                                    ],
+                                    "type": "text",
+                                    "content": "power addition of the two losses. For example a diffraction loss of 50 dB combined with a tropospheric",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                534,
+                                363,
+                                548
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        534,
+                                        363,
+                                        548
+                                    ],
+                                    "type": "text",
+                                    "content": "scatter loss of 50 dB would result in a combined loss of 47 dB.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        57,
+                        520,
+                        556,
+                        547
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 16,
+                    "lines": [],
+                    "merge_prev": true,
+                    "lines_deleted": true
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        373,
+                        229,
+                        564,
+                        516
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                373,
+                                229,
+                                564,
+                                516
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        373,
+                                        229,
+                                        564,
+                                        516
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                373,
+                                                229,
+                                                564,
+                                                516
+                                            ],
+                                            "type": "image",
+                                            "content": "Create Pathloss data files\nPoint to point\nTemplate File\ndo not use\nuse pl4 file on disk Browse\nBeavdemm.pl4\nuse pl4 file in memory\nPINEFORT.PL4\nRadio - duplexers\nAntenna - transmission lines\nUse existing file associations\nFile names\nSite names\nCall signs Generate path profiles\nOK Cancel",
+                                            "image_path": "1071d044f4b2773579cfd2c16e5d33c8f47fac54d65e30904bde6b51f878c252.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 17
+                        }
+                    ],
+                    "index": 17,
+                    "sub_type": "text_image"
+                },
+                {
+                    "bbox": [
+                        57,
+                        557,
+                        569,
+                        600
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                556,
+                                570,
+                                575
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        556,
+                                        570,
+                                        575
+                                    ],
+                                    "type": "text",
+                                    "content": "When the combined loss is calculated as a function of distance, a severe discontinuity can occur when trop-",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                571,
+                                567,
+                                586
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        571,
+                                        567,
+                                        586
+                                    ],
+                                    "type": "text",
+                                    "content": "ospheric scatter loss begins to occur. A example of this is shown below for an 87 kilometer path over flat",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                586,
+                                406,
+                                601
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        586,
+                                        406,
+                                        601
+                                    ],
+                                    "type": "text",
+                                    "content": "terrain at 150 MHz. The antenna heights are 100 meters and 1.5 meters.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "chart",
+                    "bbox": [
+                        78,
+                        86,
+                        515,
+                        427
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                78,
+                                86,
+                                515,
+                                427
+                            ],
+                            "type": "chart_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        86,
+                                        515,
+                                        427
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                78,
+                                                86,
+                                                515,
+                                                427
+                                            ],
+                                            "type": "chart",
+                                            "content": "| Distance (km) | Diffraction loss (dB) |\n| ------------- | --------------------- |\n| 1.0           | 0.0                   |\n| 5             | 15.0                  |\n| 10            | 23.0                  |\n| 15            | 28.0                  |\n| 20            | 32.0                  |\n| 25            | 34.0                  |\n| 30            | 36.0                  |\n| 35            | 37.0                  |\n| 40            | 38.0                  |\n| 45            | 39.0                  |\n| 48            | 42.0                  |\n| 50            | 4.0                   |\n| 55            | 15.0                  |\n| 60            | 22.0                  |\n| 65            | 27.0                  |\n| 70            | 30.0                  |\n| 75            | 33.0                  |\n| 80            | 35.0                  |\n| 87            | 36.0                  |",
+                                            "image_path": "d188a655112890137997590e179d3f17129f37e895620aa953aa3f54ade1be92.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 2,
+                    "sub_type": "line"
+                },
+                {
+                    "bbox": [
+                        39,
+                        433,
+                        550,
+                        476
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "lines": [
+                        {
+                            "bbox": [
+                                39,
+                                431,
+                                550,
+                                448
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        39,
+                                        431,
+                                        550,
+                                        448
+                                    ],
+                                    "type": "text",
+                                    "content": "In the diffraction region the loss increases to 40 dB at 48 kilometers. At this point tropospheric scatter loss",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                40,
+                                446,
+                                545,
+                                463
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        446,
+                                        545,
+                                        463
+                                    ],
+                                    "type": "text",
+                                    "content": "enters the equation and the combined loss drops to 4 dB. In an area coverage plot, this discontinuity will",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                39,
+                                461,
+                                320,
+                                476
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        39,
+                                        461,
+                                        320,
+                                        476
+                                    ],
+                                    "type": "text",
+                                    "content": "produce seemingly contradictory results as shown below.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        42,
+                        31,
+                        237,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                29,
+                                239,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        29,
+                                        239,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "May 2002 Pathloss Program Build",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        478,
+                        31,
+                        550,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                477,
+                                30,
+                                552,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        477,
+                                        30,
+                                        552,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        41,
+                        741,
+                        108,
+                        755
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 4,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                738,
+                                110,
+                                757
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        738,
+                                        110,
+                                        757
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 2 of 6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                791
+            ],
+            "page_idx": 1,
+            "para_blocks": [
+                {
+                    "type": "chart",
+                    "bbox": [
+                        78,
+                        86,
+                        515,
+                        427
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                78,
+                                86,
+                                515,
+                                427
+                            ],
+                            "type": "chart_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        86,
+                                        515,
+                                        427
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                78,
+                                                86,
+                                                515,
+                                                427
+                                            ],
+                                            "type": "chart",
+                                            "content": "| Distance (km) | Diffraction loss (dB) |\n| ------------- | --------------------- |\n| 1.0           | 0.0                   |\n| 5             | 15.0                  |\n| 10            | 23.0                  |\n| 15            | 28.0                  |\n| 20            | 32.0                  |\n| 25            | 34.0                  |\n| 30            | 36.0                  |\n| 35            | 37.0                  |\n| 40            | 38.0                  |\n| 45            | 39.0                  |\n| 48            | 42.0                  |\n| 50            | 4.0                   |\n| 55            | 15.0                  |\n| 60            | 22.0                  |\n| 65            | 27.0                  |\n| 70            | 30.0                  |\n| 75            | 33.0                  |\n| 80            | 35.0                  |\n| 87            | 36.0                  |",
+                                            "image_path": "d188a655112890137997590e179d3f17129f37e895620aa953aa3f54ade1be92.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 2,
+                    "sub_type": "line"
+                },
+                {
+                    "bbox": [
+                        39,
+                        433,
+                        550,
+                        476
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "lines": [
+                        {
+                            "bbox": [
+                                39,
+                                431,
+                                550,
+                                448
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        39,
+                                        431,
+                                        550,
+                                        448
+                                    ],
+                                    "type": "text",
+                                    "content": "In the diffraction region the loss increases to 40 dB at 48 kilometers. At this point tropospheric scatter loss",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                40,
+                                446,
+                                545,
+                                463
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        446,
+                                        545,
+                                        463
+                                    ],
+                                    "type": "text",
+                                    "content": "enters the equation and the combined loss drops to 4 dB. In an area coverage plot, this discontinuity will",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                39,
+                                461,
+                                320,
+                                476
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        39,
+                                        461,
+                                        320,
+                                        476
+                                    ],
+                                    "type": "text",
+                                    "content": "produce seemingly contradictory results as shown below.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "chart",
+                    "bbox": [
+                        103,
+                        87,
+                        524,
+                        508
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                103,
+                                87,
+                                524,
+                                508
+                            ],
+                            "type": "chart_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        103,
+                                        87,
+                                        524,
+                                        508
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                103,
+                                                87,
+                                                524,
+                                                508
+                                            ],
+                                            "type": "chart",
+                                            "content": "| Category | Value |\n| -------- | ----- |\n| Red      | 120   |\n| Blue     | 150   |\n| Green    | 80    |",
+                                            "image_path": "37b4e4449d66410a5d59d9812de26b9d4b1b9808dd80148c1f48c739b65d111e.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 2,
+                    "sub_type": "polar_bar"
+                },
+                {
+                    "bbox": [
+                        59,
+                        515,
+                        569,
+                        571
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                515,
+                                570,
+                                531
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        515,
+                                        570,
+                                        531
+                                    ],
+                                    "type": "text",
+                                    "content": "The plot uses three signal levels coded as red, blue and green from the strongest signal to the weakest. Con-",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                529,
+                                566,
+                                544
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        529,
+                                        566,
+                                        544
+                                    ],
+                                    "type": "text",
+                                    "content": "sider the path at azimuth 135 degrees. As expected the signal strength decreases with distance due to dif-",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                57,
+                                542,
+                                569,
+                                559
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        542,
+                                        569,
+                                        559
+                                    ],
+                                    "type": "text",
+                                    "content": "fraction loss. Tropospheric scatter loss then becomes the dominant propagation mechanism and the patter",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                559,
+                                100,
+                                574
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        559,
+                                        100,
+                                        574
+                                    ],
+                                    "type": "text",
+                                    "content": "repeats.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        61,
+                        32,
+                        132,
+                        43
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                30,
+                                134,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        30,
+                                        134,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        373,
+                        31,
+                        568,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                372,
+                                29,
+                                570,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        372,
+                                        29,
+                                        570,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "May 2002 Pathloss Program Build",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        503,
+                        741,
+                        568,
+                        755
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 4,
+                    "lines": [
+                        {
+                            "bbox": [
+                                501,
+                                738,
+                                571,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        501,
+                                        738,
+                                        571,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 3 of 6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                791
+            ],
+            "page_idx": 2,
+            "para_blocks": [
+                {
+                    "type": "chart",
+                    "bbox": [
+                        103,
+                        87,
+                        524,
+                        508
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                103,
+                                87,
+                                524,
+                                508
+                            ],
+                            "type": "chart_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        103,
+                                        87,
+                                        524,
+                                        508
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                103,
+                                                87,
+                                                524,
+                                                508
+                                            ],
+                                            "type": "chart",
+                                            "content": "| Category | Value |\n| -------- | ----- |\n| Red      | 120   |\n| Blue     | 150   |\n| Green    | 80    |",
+                                            "image_path": "37b4e4449d66410a5d59d9812de26b9d4b1b9808dd80148c1f48c739b65d111e.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 2,
+                    "sub_type": "polar_bar"
+                },
+                {
+                    "bbox": [
+                        59,
+                        515,
+                        569,
+                        571
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                515,
+                                570,
+                                531
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        515,
+                                        570,
+                                        531
+                                    ],
+                                    "type": "text",
+                                    "content": "The plot uses three signal levels coded as red, blue and green from the strongest signal to the weakest. Con-",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                529,
+                                566,
+                                544
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        529,
+                                        566,
+                                        544
+                                    ],
+                                    "type": "text",
+                                    "content": "sider the path at azimuth 135 degrees. As expected the signal strength decreases with distance due to dif-",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                57,
+                                542,
+                                569,
+                                559
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        542,
+                                        569,
+                                        559
+                                    ],
+                                    "type": "text",
+                                    "content": "fraction loss. Tropospheric scatter loss then becomes the dominant propagation mechanism and the patter",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                559,
+                                100,
+                                574
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        559,
+                                        100,
+                                        574
+                                    ],
+                                    "type": "text",
+                                    "content": "repeats.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        39,
+                        68,
+                        362,
+                        124
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                68,
+                                362,
+                                82
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        68,
+                                        362,
+                                        82
+                                    ],
+                                    "type": "text",
+                                    "content": "An option is now provided to ignore tropospheric scatter loss in the",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                40,
+                                82,
+                                362,
+                                97
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        82,
+                                        362,
+                                        97
+                                    ],
+                                    "type": "text",
+                                    "content": "diffraction and coverage modules. In the diffraction module, select",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                41,
+                                96,
+                                361,
+                                111
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        96,
+                                        361,
+                                        111
+                                    ],
+                                    "type": "text",
+                                    "content": "Options - Diffraction Options and set the scatter method to do not",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                41,
+                                109,
+                                90,
+                                124
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        109,
+                                        90,
+                                        124
+                                    ],
+                                    "type": "text",
+                                    "content": "calculate.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        369,
+                        76,
+                        547,
+                        229
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                369,
+                                76,
+                                547,
+                                229
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        369,
+                                        76,
+                                        547,
+                                        229
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                369,
+                                                76,
+                                                547,
+                                                229
+                                            ],
+                                            "type": "image",
+                                            "content": "Diffraction Options\nScatter method Do not calculate\nTree type Dry bare trees\nFrequency (MHz) 150.00\nPolarization\nVertical\nHorizontal\nDivergence\nOK Cancel Help",
+                                            "image_path": "9431b7ad2798eaf5f756b29869fa74ee129f543f44f8d3d979f2befc033dc901.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3,
+                    "sub_type": "text_image"
+                },
+                {
+                    "bbox": [
+                        39,
+                        230,
+                        290,
+                        273
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                230,
+                                290,
+                                246
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        230,
+                                        290,
+                                        246
+                                    ],
+                                    "type": "text",
+                                    "content": "In the coverage module, the options appears in the",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                40,
+                                245,
+                                284,
+                                259
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        245,
+                                        284,
+                                        259
+                                    ],
+                                    "type": "text",
+                                    "content": "coverage calculation process under the “Calculate",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                41,
+                                259,
+                                159,
+                                272
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        259,
+                                        159,
+                                        272
+                                    ],
+                                    "type": "text",
+                                    "content": "Diffraction loss section.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        39,
+                        282,
+                        288,
+                        325
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                281,
+                                288,
+                                298
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        281,
+                                        288,
+                                        298
+                                    ],
+                                    "type": "text",
+                                    "content": "The results corresponding to the example above us-",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                41,
+                                296,
+                                287,
+                                312
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        296,
+                                        287,
+                                        312
+                                    ],
+                                    "type": "text",
+                                    "content": "ing the “Do not calculate” tropospheric scatter loss",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                41,
+                                311,
+                                162,
+                                325
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        311,
+                                        162,
+                                        325
+                                    ],
+                                    "type": "text",
+                                    "content": "option are shown below.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        293,
+                        238,
+                        545,
+                        492
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                293,
+                                238,
+                                545,
+                                492
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        293,
+                                        238,
+                                        545,
+                                        492
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                293,
+                                                238,
+                                                545,
+                                                492
+                                            ],
+                                            "type": "image",
+                                            "content": "Calculate Diffraction Loss\nProject name \\Cte-command\\server\\PL\\W40\\Manual_40\\new_bt\nSite Name hub\nLatitude 45 30 00.00 N\nLongitude 081 00 00.00 W\nDiffraction algorithm\nPathloss\nScatter method\nDo not calculate\nK 1.33\nBase Antenna Height (m) 100.00\nMobile Antenna Height (m) 1.50\nFrequency (MHz) 150.00\nS1\nS2\nPolarization\nVertical\nHorizontal\nLine of sight\nLine of sight only\nStructure Height\nDelay processing\n<--Back Next--> Cancel Help",
+                                            "image_path": "57a2f2d5cb9dd3faf4ff65ec2489fa8567470e3971fd9401c563b275368c0fa9.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 6
+                        }
+                    ],
+                    "index": 6,
+                    "sub_type": "text_image"
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        31,
+                        238,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                29,
+                                239,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        29,
+                                        239,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "May 2002 Pathloss Program Build",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        477,
+                        31,
+                        551,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                476,
+                                30,
+                                552,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        476,
+                                        30,
+                                        552,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        41,
+                        741,
+                        108,
+                        756
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 7,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                738,
+                                110,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        738,
+                                        110,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 4 of 6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                791
+            ],
+            "page_idx": 3,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        39,
+                        68,
+                        362,
+                        124
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                68,
+                                362,
+                                82
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        68,
+                                        362,
+                                        82
+                                    ],
+                                    "type": "text",
+                                    "content": "An option is now provided to ignore tropospheric scatter loss in the",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                40,
+                                82,
+                                362,
+                                97
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        82,
+                                        362,
+                                        97
+                                    ],
+                                    "type": "text",
+                                    "content": "diffraction and coverage modules. In the diffraction module, select",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                41,
+                                96,
+                                361,
+                                111
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        96,
+                                        361,
+                                        111
+                                    ],
+                                    "type": "text",
+                                    "content": "Options - Diffraction Options and set the scatter method to do not",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                41,
+                                109,
+                                90,
+                                124
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        109,
+                                        90,
+                                        124
+                                    ],
+                                    "type": "text",
+                                    "content": "calculate.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        369,
+                        76,
+                        547,
+                        229
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                369,
+                                76,
+                                547,
+                                229
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        369,
+                                        76,
+                                        547,
+                                        229
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                369,
+                                                76,
+                                                547,
+                                                229
+                                            ],
+                                            "type": "image",
+                                            "content": "Diffraction Options\nScatter method Do not calculate\nTree type Dry bare trees\nFrequency (MHz) 150.00\nPolarization\nVertical\nHorizontal\nDivergence\nOK Cancel Help",
+                                            "image_path": "9431b7ad2798eaf5f756b29869fa74ee129f543f44f8d3d979f2befc033dc901.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3,
+                    "sub_type": "text_image"
+                },
+                {
+                    "bbox": [
+                        39,
+                        230,
+                        290,
+                        273
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                230,
+                                290,
+                                246
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        230,
+                                        290,
+                                        246
+                                    ],
+                                    "type": "text",
+                                    "content": "In the coverage module, the options appears in the",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                40,
+                                245,
+                                284,
+                                259
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        245,
+                                        284,
+                                        259
+                                    ],
+                                    "type": "text",
+                                    "content": "coverage calculation process under the “Calculate",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                41,
+                                259,
+                                159,
+                                272
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        259,
+                                        159,
+                                        272
+                                    ],
+                                    "type": "text",
+                                    "content": "Diffraction loss section.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        39,
+                        282,
+                        288,
+                        325
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                281,
+                                288,
+                                298
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        281,
+                                        288,
+                                        298
+                                    ],
+                                    "type": "text",
+                                    "content": "The results corresponding to the example above us-",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                41,
+                                296,
+                                287,
+                                312
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        296,
+                                        287,
+                                        312
+                                    ],
+                                    "type": "text",
+                                    "content": "ing the “Do not calculate” tropospheric scatter loss",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                41,
+                                311,
+                                162,
+                                325
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        311,
+                                        162,
+                                        325
+                                    ],
+                                    "type": "text",
+                                    "content": "option are shown below.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        293,
+                        238,
+                        545,
+                        492
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                293,
+                                238,
+                                545,
+                                492
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        293,
+                                        238,
+                                        545,
+                                        492
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                293,
+                                                238,
+                                                545,
+                                                492
+                                            ],
+                                            "type": "image",
+                                            "content": "Calculate Diffraction Loss\nProject name \\Cte-command\\server\\PL\\W40\\Manual_40\\new_bt\nSite Name hub\nLatitude 45 30 00.00 N\nLongitude 081 00 00.00 W\nDiffraction algorithm\nPathloss\nScatter method\nDo not calculate\nK 1.33\nBase Antenna Height (m) 100.00\nMobile Antenna Height (m) 1.50\nFrequency (MHz) 150.00\nS1\nS2\nPolarization\nVertical\nHorizontal\nLine of sight\nLine of sight only\nStructure Height\nDelay processing\n<--Back Next--> Cancel Help",
+                                            "image_path": "57a2f2d5cb9dd3faf4ff65ec2489fa8567470e3971fd9401c563b275368c0fa9.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 6
+                        }
+                    ],
+                    "index": 6,
+                    "sub_type": "text_image"
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "chart",
+                    "bbox": [
+                        129,
+                        75,
+                        563,
+                        416
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                129,
+                                75,
+                                563,
+                                416
+                            ],
+                            "type": "chart_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        129,
+                                        75,
+                                        563,
+                                        416
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                129,
+                                                75,
+                                                563,
+                                                416
+                                            ],
+                                            "type": "chart",
+                                            "content": "| Distance (km) | Diffraction loss (dB) |\n| ------------- | --------------------- |\n| 1.0           | 0.0                   |\n| 5             | 15.0                  |\n| 10            | 22.0                  |\n| 15            | 28.0                  |\n| 20            | 32.0                  |\n| 25            | 35.0                  |\n| 30            | 37.0                  |\n| 35            | 38.0                  |\n| 40            | 39.0                  |\n| 45            | 40.0                  |\n| 50            | 42.0                  |\n| 55            | 44.0                  |\n| 60            | 46.0                  |\n| 65            | 48.0                  |\n| 70            | 50.0                  |\n| 75            | 52.0                  |\n| 80            | 54.0                  |\n| 87.0          | 56.0                  |",
+                                            "image_path": "d5a46ecec025b0f1178578fb1e4cd6c042d23da8bb79651924617aaf7ee6eb0d.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 2,
+                    "sub_type": "line"
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        60,
+                        31,
+                        133,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                30,
+                                134,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        30,
+                                        134,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        373,
+                        31,
+                        569,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                372,
+                                29,
+                                570,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        372,
+                                        29,
+                                        570,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "May 2002 Pathloss Program Build",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        503,
+                        741,
+                        568,
+                        755
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 3,
+                    "lines": [
+                        {
+                            "bbox": [
+                                501,
+                                738,
+                                571,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        501,
+                                        738,
+                                        571,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 5 of 6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                791
+            ],
+            "page_idx": 4,
+            "para_blocks": [
+                {
+                    "type": "chart",
+                    "bbox": [
+                        129,
+                        75,
+                        563,
+                        416
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                129,
+                                75,
+                                563,
+                                416
+                            ],
+                            "type": "chart_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        129,
+                                        75,
+                                        563,
+                                        416
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                129,
+                                                75,
+                                                563,
+                                                416
+                                            ],
+                                            "type": "chart",
+                                            "content": "| Distance (km) | Diffraction loss (dB) |\n| ------------- | --------------------- |\n| 1.0           | 0.0                   |\n| 5             | 15.0                  |\n| 10            | 22.0                  |\n| 15            | 28.0                  |\n| 20            | 32.0                  |\n| 25            | 35.0                  |\n| 30            | 37.0                  |\n| 35            | 38.0                  |\n| 40            | 39.0                  |\n| 45            | 40.0                  |\n| 50            | 42.0                  |\n| 55            | 44.0                  |\n| 60            | 46.0                  |\n| 65            | 48.0                  |\n| 70            | 50.0                  |\n| 75            | 52.0                  |\n| 80            | 54.0                  |\n| 87.0          | 56.0                  |",
+                                            "image_path": "d5a46ecec025b0f1178578fb1e4cd6c042d23da8bb79651924617aaf7ee6eb0d.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 2,
+                    "sub_type": "line"
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "chart",
+                    "bbox": [
+                        47,
+                        74,
+                        471,
+                        502
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                47,
+                                74,
+                                471,
+                                502
+                            ],
+                            "type": "chart_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        47,
+                                        74,
+                                        471,
+                                        502
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                47,
+                                                74,
+                                                471,
+                                                502
+                                            ],
+                                            "type": "chart",
+                                            "content": "| Category | Value |\n|---|---|\n| Green | 100 |\n| Blue | 85 |\n| Red | 70 |\n| Grey | 65 |",
+                                            "image_path": "146db3be3a8d11c631a5ad892351b83af170f813854c5c11b4d6b878ec789450.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 2,
+                    "sub_type": "other"
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        42,
+                        31,
+                        237,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                29,
+                                239,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        29,
+                                        239,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "May 2002 Pathloss Program Build",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        477,
+                        31,
+                        550,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                476,
+                                30,
+                                552,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        476,
+                                        30,
+                                        552,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        42,
+                        741,
+                        108,
+                        755
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 3,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                738,
+                                110,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        738,
+                                        110,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 6 of 6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                791
+            ],
+            "page_idx": 5,
+            "para_blocks": [
+                {
+                    "type": "chart",
+                    "bbox": [
+                        47,
+                        74,
+                        471,
+                        502
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                47,
+                                74,
+                                471,
+                                502
+                            ],
+                            "type": "chart_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        47,
+                                        74,
+                                        471,
+                                        502
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                47,
+                                                74,
+                                                471,
+                                                502
+                                            ],
+                                            "type": "chart",
+                                            "content": "| Category | Value |\n|---|---|\n| Green | 100 |\n| Blue | 85 |\n| Red | 70 |\n| Grey | 65 |",
+                                            "image_path": "146db3be3a8d11c631a5ad892351b83af170f813854c5c11b4d6b878ec789450.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 2,
+                    "sub_type": "other"
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": false,
+    "_vlm_ocr_enable": false,
+    "_version_name": "3.1.8"
+}

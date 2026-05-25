@@ -1,0 +1,739 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "New in the May 2002 Pathloss program build "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                256,
+                85,
+                767,
+                108
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Tropospheric scatter loss is always calculated on obstructed paths and combined with the diffraction loss. An option has been added to not calculate the tropospheric scatter loss. This option is available in the diffraction and coverage modules. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Batch printing options are now available in the microwave and VHF - UHF worksheets. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Section operations were limited to new profiles. An option has been added to use existing file associations. "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                94,
+                115,
+                926,
+                235
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Section Operations "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                94,
+                255,
+                285,
+                274
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Pathloss file operations for point to point and point to multipoint applications can now use existing file associations. In addition optional template operations have been provided for radios - duplexers and antennas and transmission lines. Several possibilities with these features include: "
+                    }
+                ]
+            },
+            "bbox": [
+                93,
+                279,
+                599,
+                366
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "create new path profiles for several sites which have moved, but retain all existing equipment parameters. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• change the radio type on a group of files "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• change the antenna models on a group of files "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• change the rain regions for a group of files "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                94,
+                380,
+                596,
+                491
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffraction - Tropospheric Scatter Loss "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                94,
+                509,
+                482,
+                529
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffraction and tropospheric scatter loss are two independent propagation mechanisms. Diffraction begins when the path clearance is less than 60% of the first Fresnel zone ratio. Tropospheric scatter loss begins when the product of the path length and the scatter angle (the angle formed by the crossover of the horizon rays on an obstructed path) is greater than 0.1. The combined diffraction - tropospheric scatter loss is calculated as a power addition of the two losses. For example a diffraction loss of 50 dB combined with a tropospheric scatter loss of 50 dB would result in a combined loss of 47 dB. "
+                    }
+                ]
+            },
+            "bbox": [
+                93,
+                533,
+                602,
+                656
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                93,
+                657,
+                908,
+                691
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1071d044f4b2773579cfd2c16e5d33c8f47fac54d65e30904bde6b51f878c252.jpg"
+                },
+                "content": "Create Pathloss data files\nPoint to point\nTemplate File\ndo not use\nuse pl4 file on disk Browse\nBeavdemm.pl4\nuse pl4 file in memory\nPINEFORT.PL4\nRadio - duplexers\nAntenna - transmission lines\nUse existing file associations\nFile names\nSite names\nCall signs Generate path profiles\nOK Cancel",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                609,
+                289,
+                921,
+                652
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "When the combined loss is calculated as a function of distance, a severe discontinuity can occur when tropospheric scatter loss begins to occur. A example of this is shown below for an 87 kilometer path over flat terrain at 150 MHz. The antenna heights are 100 meters and 1.5 meters. "
+                    }
+                ]
+            },
+            "bbox": [
+                93,
+                704,
+                929,
+                758
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Pathloss 4.0 "
+                    }
+                ]
+            },
+            "bbox": [
+                96,
+                39,
+                217,
+                55
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "May 2002 Pathloss Program Build "
+                    }
+                ]
+            },
+            "bbox": [
+                607,
+                39,
+                929,
+                56
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 1 of 6 "
+                    }
+                ]
+            },
+            "bbox": [
+                820,
+                936,
+                929,
+                954
+            ]
+        }
+    ],
+    [
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/d188a655112890137997590e179d3f17129f37e895620aa953aa3f54ade1be92.jpg"
+                },
+                "content": "| Distance (km) | Diffraction loss (dB) |\n| ------------- | --------------------- |\n| 1.0           | 0.0                   |\n| 5             | 15.0                  |\n| 10            | 23.0                  |\n| 15            | 28.0                  |\n| 20            | 32.0                  |\n| 25            | 34.0                  |\n| 30            | 36.0                  |\n| 35            | 37.0                  |\n| 40            | 38.0                  |\n| 45            | 39.0                  |\n| 48            | 42.0                  |\n| 50            | 4.0                   |\n| 55            | 15.0                  |\n| 60            | 22.0                  |\n| 65            | 27.0                  |\n| 70            | 30.0                  |\n| 75            | 33.0                  |\n| 80            | 35.0                  |\n| 87            | 36.0                  |",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "sub_type": "line",
+            "bbox": [
+                127,
+                108,
+                841,
+                539
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In the diffraction region the loss increases to 40 dB at 48 kilometers. At this point tropospheric scatter loss enters the equation and the combined loss drops to 4 dB. In an area coverage plot, this discontinuity will produce seemingly contradictory results as shown below. "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                547,
+                898,
+                601
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "May 2002 Pathloss Program Build "
+                    }
+                ]
+            },
+            "bbox": [
+                68,
+                39,
+                387,
+                56
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Pathloss 4.0 "
+                    }
+                ]
+            },
+            "bbox": [
+                781,
+                39,
+                898,
+                55
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 2 of 6 "
+                    }
+                ]
+            },
+            "bbox": [
+                66,
+                936,
+                176,
+                954
+            ]
+        }
+    ],
+    [
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/37b4e4449d66410a5d59d9812de26b9d4b1b9808dd80148c1f48c739b65d111e.jpg"
+                },
+                "content": "| Category | Value |\n| -------- | ----- |\n| Red      | 120   |\n| Blue     | 150   |\n| Green    | 80    |",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "sub_type": "polar_bar",
+            "bbox": [
+                168,
+                109,
+                856,
+                642
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The plot uses three signal levels coded as red, blue and green from the strongest signal to the weakest. Consider the path at azimuth 135 degrees. As expected the signal strength decreases with distance due to diffraction loss. Tropospheric scatter loss then becomes the dominant propagation mechanism and the patter repeats. "
+                    }
+                ]
+            },
+            "bbox": [
+                96,
+                651,
+                929,
+                721
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Pathloss 4.0 "
+                    }
+                ]
+            },
+            "bbox": [
+                99,
+                40,
+                215,
+                54
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "May 2002 Pathloss Program Build "
+                    }
+                ]
+            },
+            "bbox": [
+                609,
+                39,
+                928,
+                56
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 3 of 6 "
+                    }
+                ]
+            },
+            "bbox": [
+                821,
+                936,
+                928,
+                954
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "An option is now provided to ignore tropospheric scatter loss in the diffraction and coverage modules. In the diffraction module, select Options - Diffraction Options and set the scatter method to do not calculate. "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                85,
+                591,
+                156
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/9431b7ad2798eaf5f756b29869fa74ee129f543f44f8d3d979f2befc033dc901.jpg"
+                },
+                "content": "Diffraction Options\nScatter method Do not calculate\nTree type Dry bare trees\nFrequency (MHz) 150.00\nPolarization\nVertical\nHorizontal\nDivergence\nOK Cancel Help",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                602,
+                96,
+                893,
+                289
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In the coverage module, the options appears in the coverage calculation process under the “Calculate Diffraction loss section. "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                290,
+                473,
+                345
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The results corresponding to the example above using the “Do not calculate” tropospheric scatter loss option are shown below. "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                356,
+                470,
+                410
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/57a2f2d5cb9dd3faf4ff65ec2489fa8567470e3971fd9401c563b275368c0fa9.jpg"
+                },
+                "content": "Calculate Diffraction Loss\nProject name \\Cte-command\\server\\PL\\W40\\Manual_40\\new_bt\nSite Name hub\nLatitude 45 30 00.00 N\nLongitude 081 00 00.00 W\nDiffraction algorithm\nPathloss\nScatter method\nDo not calculate\nK 1.33\nBase Antenna Height (m) 100.00\nMobile Antenna Height (m) 1.50\nFrequency (MHz) 150.00\nS1\nS2\nPolarization\nVertical\nHorizontal\nLine of sight\nLine of sight only\nStructure Height\nDelay processing\n<--Back Next--> Cancel Help",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                478,
+                300,
+                890,
+                621
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "May 2002 Pathloss Program Build "
+                    }
+                ]
+            },
+            "bbox": [
+                66,
+                39,
+                388,
+                56
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Pathloss 4.0 "
+                    }
+                ]
+            },
+            "bbox": [
+                779,
+                39,
+                900,
+                56
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 4 of 6 "
+                    }
+                ]
+            },
+            "bbox": [
+                66,
+                936,
+                176,
+                955
+            ]
+        }
+    ],
+    [
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/d5a46ecec025b0f1178578fb1e4cd6c042d23da8bb79651924617aaf7ee6eb0d.jpg"
+                },
+                "content": "| Distance (km) | Diffraction loss (dB) |\n| ------------- | --------------------- |\n| 1.0           | 0.0                   |\n| 5             | 15.0                  |\n| 10            | 22.0                  |\n| 15            | 28.0                  |\n| 20            | 32.0                  |\n| 25            | 35.0                  |\n| 30            | 37.0                  |\n| 35            | 38.0                  |\n| 40            | 39.0                  |\n| 45            | 40.0                  |\n| 50            | 42.0                  |\n| 55            | 44.0                  |\n| 60            | 46.0                  |\n| 65            | 48.0                  |\n| 70            | 50.0                  |\n| 75            | 52.0                  |\n| 80            | 54.0                  |\n| 87.0          | 56.0                  |",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "sub_type": "line",
+            "bbox": [
+                210,
+                94,
+                919,
+                525
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Pathloss 4.0 "
+                    }
+                ]
+            },
+            "bbox": [
+                98,
+                39,
+                217,
+                55
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "May 2002 Pathloss Program Build "
+                    }
+                ]
+            },
+            "bbox": [
+                609,
+                39,
+                929,
+                56
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 5 of 6 "
+                    }
+                ]
+            },
+            "bbox": [
+                821,
+                936,
+                928,
+                954
+            ]
+        }
+    ],
+    [
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/146db3be3a8d11c631a5ad892351b83af170f813854c5c11b4d6b878ec789450.jpg"
+                },
+                "content": "| Category | Value |\n|---|---|\n| Green | 100 |\n| Blue | 85 |\n| Red | 70 |\n| Grey | 65 |",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "sub_type": "other",
+            "bbox": [
+                76,
+                93,
+                769,
+                634
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "May 2002 Pathloss Program Build "
+                    }
+                ]
+            },
+            "bbox": [
+                68,
+                39,
+                387,
+                56
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Pathloss 4.0 "
+                    }
+                ]
+            },
+            "bbox": [
+                779,
+                39,
+                898,
+                55
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 6 of 6 "
+                    }
+                ]
+            },
+            "bbox": [
+                68,
+                936,
+                176,
+                954
+            ]
+        }
+    ]
+]
