@@ -1,0 +1,2396 @@
+{
+    "pdf_info": [
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        59,
+                        31,
+                        133,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                30,
+                                134,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        30,
+                                        134,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        300,
+                        31,
+                        568,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                29,
+                                569,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        29,
+                                        569,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "MSI PLANET Cơ sở dữ liệu địa hình Phép chiếu UTM",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        502,
+                        741,
+                        569,
+                        756
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 20,
+                    "lines": [
+                        {
+                            "bbox": [
+                                501,
+                                738,
+                                571,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        501,
+                                        738,
+                                        571,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Trang 1/6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        139,
+                        67,
+                        610,
+                        106
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "Dữ liệu địa hình MSI PLANET Phép chiếu UTM",
+                    "original_bbox": [
+                        139,
+                        67,
+                        490,
+                        88
+                    ],
+                    "size": 31
+                },
+                {
+                    "bbox": [
+                        58,
+                        107,
+                        610,
+                        131
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 3,
+                    "content": "Phép chiếu Universal Transverse Mercator (UTM)",
+                    "original_bbox": [
+                        58,
+                        107,
+                        403,
+                        126
+                    ],
+                    "size": 28
+                },
+                {
+                    "bbox": [
+                        57,
+                        132,
+                        610,
+                        183
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "Phép chiếu UTM chia thế giới thành 60 khu vực hoặc đoạn. Mỗi khu vực bao phủ 6 độ kinh độ. Khu vực đầu tiên bắt đầu tại đường đổi ngày quốc tế và các số tăng dần về phía đông. Tại trung tâm của mỗi khu vực là một kinh tuyến trung tâm, là tham chiếu đo lường cho khu vực đó.",
+                    "original_bbox": [
+                        57,
+                        132,
+                        567,
+                        174
+                    ],
+                    "size": 19
+                },
+                {
+                    "bbox": [
+                        57,
+                        184,
+                        610,
+                        234
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "Các đường lưới đông-tây được gắn vào kinh tuyến trung tâm ở góc vuông và đi theo các đường tròn lớn ra xa khỏi nó. Đây là các đường có hằng số northing và không đi theo các vĩ tuyến, vì các vĩ tuyến không phải là đường tròn lớn. Cuối cùng, các đường lưới bắc-nam được vẽ như các đường có hằng số easting.",
+                    "original_bbox": [
+                        57,
+                        184,
+                        567,
+                        227
+                    ],
+                    "size": 17
+                },
+                {
+                    "bbox": [
+                        57,
+                        235,
+                        610,
+                        301
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "Tọa độ UTM tương đối với một số khu vực cụ thể và được biểu thị dưới dạng tọa độ easting hoặc X và tọa độ northing hoặc Y. Easting là khoảng cách từ kinh tuyến trung tâm dọc theo các đường lưới đông-tây sử dụng quy ước dấu dương đông âm tây. Để tránh số âm, một easting giả 500.000 mét được gán cho kinh tuyến trung tâm.",
+                    "original_bbox": [
+                        57,
+                        235,
+                        567,
+                        292
+                    ],
+                    "size": 19
+                },
+                {
+                    "bbox": [
+                        57,
+                        302,
+                        610,
+                        366
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "merge_prev": false,
+                    "content": "Northing là khoảng cách từ xích đạo dọc theo các đường lưới bắc-nam sử dụng quy ước dấu dương bắc - âm nam. Để tránh số âm ở bán cầu nam, một northing giả 10.000.000 mét được gán cho xích đạo. Northing giả này tạo ra sự mơ hồ trong hệ tọa độ này. Xem xét tọa độ UTM:",
+                    "original_bbox": [
+                        57,
+                        302,
+                        569,
+                        358
+                    ],
+                    "size": 19
+                },
+                {
+                    "bbox": [
+                        103,
+                        367,
+                        610,
+                        390
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "khu vực = 12, easting = 575 km, northing = 5600 km.",
+                    "original_bbox": [
+                        103,
+                        367,
+                        419,
+                        382
+                    ],
+                    "size": 26
+                },
+                {
+                    "bbox": [
+                        58,
+                        391,
+                        610,
+                        415
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "Sử dụng mốc WGS84, điều này chuyển đổi thành:",
+                    "original_bbox": [
+                        58,
+                        391,
+                        267,
+                        406
+                    ],
+                    "size": 28
+                },
+                {
+                    "bbox": [
+                        103,
+                        416,
+                        610,
+                        443
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "vĩ độ 50 32 49.64 N và kinh độ 109 56 29.12 W ở bắc bán cầu hoặc",
+                    "original_bbox": [
+                        103,
+                        416,
+                        496,
+                        442
+                    ],
+                    "size": 24
+                },
+                {
+                    "bbox": [
+                        103,
+                        444,
+                        610,
+                        467
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "vĩ độ 39 44 47.78 S và kinh độ 110 07 28.56 W ở nam bán cầu",
+                    "original_bbox": [
+                        103,
+                        444,
+                        494,
+                        458
+                    ],
+                    "size": 26
+                },
+                {
+                    "bbox": [
+                        57,
+                        468,
+                        610,
+                        525
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "merge_prev": false,
+                    "content": "Để giải quyết sự mơ hồ này, chương trình Pathloss thêm hậu tố N hoặc S vào khu vực UTM. Ví dụ: 12N hoặc 12S. Northing giả này gây ra một phức tạp bổ sung khi cơ sở dữ liệu địa hình trải dài qua xích đạo. Northing 20 và 9980 km đại diện cho các điểm cách xích đạo 20 km về phía bắc và phía nam tương ứng.",
+                    "original_bbox": [
+                        57,
+                        468,
+                        569,
+                        510
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        58,
+                        526,
+                        610,
+                        549
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 13,
+                    "content": "Mô tả Cơ sở dữ liệu địa hình Planet",
+                    "original_bbox": [
+                        58,
+                        526,
+                        311,
+                        544
+                    ],
+                    "size": 26
+                },
+                {
+                    "bbox": [
+                        57,
+                        550,
+                        610,
+                        615
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 14,
+                    "merge_prev": false,
+                    "content": "Định dạng cơ sở dữ liệu địa hình Planet bao gồm một mảng độ cao đều đặn. Mỗi độ cao đại diện cho độ cao trung bình trong một ô vuông. Tệp được sắp xếp theo các hàng chạy từ tây sang đông bắt đầu từ góc Tây Nam hoặc Tây Bắc của tệp. Thông thường, các độ cao được lưu trữ dưới dạng số nguyên 2 byte. Thứ tự byte có thể là INTEL (little endian) hoặc SPARC (big endian)",
+                    "original_bbox": [
+                        57,
+                        550,
+                        569,
+                        607
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        57,
+                        616,
+                        610,
+                        638
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 15,
+                    "merge_prev": false,
+                    "content": "Thông tin tham chiếu địa lý được chứa trong hai tệp bên ngoài: một tệp chỉ mục và một tệp chiếu.",
+                    "original_bbox": [
+                        57,
+                        616,
+                        546,
+                        631
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        57,
+                        639,
+                        610,
+                        673
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 16,
+                    "merge_prev": false,
+                    "content": "Một ví dụ về tệp chiếu được đưa ra dưới đây. Định dạng sẽ thay đổi tùy thuộc vào phép chiếu. Ví dụ này biểu thị phép chiếu UTM trong khu vực 18 sử dụng mốc WGS84.",
+                    "original_bbox": [
+                        57,
+                        639,
+                        569,
+                        668
+                    ],
+                    "size": 19
+                },
+                {
+                    "bbox": [
+                        58,
+                        674,
+                        610,
+                        689
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 17,
+                    "merge_prev": false,
+                    "content": "WGS-84",
+                    "original_bbox": [
+                        58,
+                        674,
+                        105,
+                        686
+                    ],
+                    "size": 17
+                },
+                {
+                    "bbox": [
+                        59,
+                        690,
+                        610,
+                        702
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "merge_prev": false,
+                    "content": "18",
+                    "original_bbox": [
+                        59,
+                        690,
+                        75,
+                        700
+                    ],
+                    "size": 14
+                },
+                {
+                    "bbox": [
+                        59,
+                        703,
+                        610,
+                        790
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 19,
+                    "merge_prev": false,
+                    "content": "UTM",
+                    "original_bbox": [
+                        59,
+                        703,
+                        83,
+                        714
+                    ],
+                    "size": 100
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        31,
+                        308,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                29,
+                                310,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        29,
+                                        310,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "MSI PLANET Cơ sở dữ liệu địa hình Phép chiếu UTM",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        477,
+                        31,
+                        551,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                477,
+                                30,
+                                551,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        477,
+                                        30,
+                                        551,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        41,
+                        741,
+                        108,
+                        756
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 17,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                738,
+                                110,
+                                757
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        738,
+                                        110,
+                                        757
+                                    ],
+                                    "type": "text",
+                                    "content": "Trang 2/6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 1,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        39,
+                        68,
+                        610,
+                        105
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "Tệp chỉ mục xác định các cạnh của cơ sở dữ liệu địa hình và chỉ định kích thước ô. Một mục nhập được cung cấp cho mỗi tệp. Một ví dụ về một dòng trong tệp chỉ mục được đưa ra dưới đây.",
+                    "original_bbox": [
+                        39,
+                        68,
+                        549,
+                        97
+                    ],
+                    "size": 19
+                },
+                {
+                    "bbox": [
+                        40,
+                        106,
+                        610,
+                        137
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "toluca1.hgt 384000 484050 2080200 2180250 50",
+                    "original_bbox": [
+                        40,
+                        106,
+                        361,
+                        120
+                    ],
+                    "size": 35
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        277,
+                        138,
+                        544,
+                        450
+                    ],
+                    "index": 9,
+                    "sub_type": "text_image",
+                    "image_path": "78b79b6fce67ead0977fc55882499b69d62d3d0814125f53b90e6ea99fa4d000.jpg",
+                    "original_bbox": [
+                        277,
+                        138,
+                        544,
+                        450
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        41,
+                        153,
+                        265,
+                        287
+                    ],
+                    "index": 5,
+                    "image_path": "e460b4c1ae651c0318213bd7a98d3d9af5d36d4337e9bd01498adfa674549a8f.jpg",
+                    "original_bbox": [
+                        41,
+                        153,
+                        265,
+                        287
+                    ]
+                },
+                {
+                    "bbox": [
+                        40,
+                        298,
+                        276,
+                        355
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "Các cạnh đông và tây là các easting UTM và các cạnh bắc và nam là các northing UTM.",
+                    "original_bbox": [
+                        40,
+                        298,
+                        266,
+                        340
+                    ],
+                    "size": 22
+                },
+                {
+                    "bbox": [
+                        40,
+                        356,
+                        276,
+                        378
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 7,
+                    "content": "Mặc định Địa lý",
+                    "original_bbox": [
+                        40,
+                        356,
+                        185,
+                        374
+                    ],
+                    "size": 26
+                },
+                {
+                    "bbox": [
+                        39,
+                        379,
+                        276,
+                        451
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "Bước đầu tiên là đặt mốc hoặc ellipsoid tương ứng với tệp chiếu. Chọn Configure - Geographic Defaults. Đặt hệ tọa độ lưới (phép chiếu) thành UTM.",
+                    "original_bbox": [
+                        39,
+                        379,
+                        273,
+                        436
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        40,
+                        452,
+                        610,
+                        475
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 10,
+                    "content": "Cấu hình",
+                    "original_bbox": [
+                        40,
+                        452,
+                        141,
+                        469
+                    ],
+                    "size": 26
+                },
+                {
+                    "bbox": [
+                        39,
+                        476,
+                        610,
+                        527
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "Chương trình Pathloss sử dụng một trình đọc cơ sở dữ liệu địa hình chung được phát triển cho định dạng tệp Logica Odyssey. Các tệp độ cao Planet có thể được đọc trực tiếp. Không cần chuyển đổi tệp. Quy trình thiết lập được mô tả dưới đây:",
+                    "original_bbox": [
+                        39,
+                        476,
+                        549,
+                        518
+                    ],
+                    "size": 19
+                },
+                {
+                    "bbox": [
+                        39,
+                        528,
+                        259,
+                        565
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "merge_prev": false,
+                    "content": "Chọn Configure - Terrain Database và sau đó chọn Odyssey UTM.",
+                    "original_bbox": [
+                        39,
+                        528,
+                        237,
+                        556
+                    ],
+                    "size": 19
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        260,
+                        536,
+                        545,
+                        636
+                    ],
+                    "index": 16,
+                    "sub_type": "text_image",
+                    "image_path": "618dc15f3e81cdb4d515328376f2d5134cd96ed8a7e2364192a05b10bbf7feae.jpg",
+                    "original_bbox": [
+                        260,
+                        536,
+                        545,
+                        636
+                    ]
+                },
+                {
+                    "bbox": [
+                        39,
+                        566,
+                        259,
+                        607
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 13,
+                    "merge_prev": false,
+                    "content": "Nhấp vào nút Setup Primary để cấu hình cơ sở dữ liệu địa hình.",
+                    "original_bbox": [
+                        39,
+                        566,
+                        252,
+                        594
+                    ],
+                    "size": 22
+                },
+                {
+                    "bbox": [
+                        40,
+                        608,
+                        259,
+                        626
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 14,
+                    "content": "Đặt thư mục",
+                    "original_bbox": [
+                        40,
+                        608,
+                        121,
+                        624
+                    ],
+                    "size": 21
+                },
+                {
+                    "bbox": [
+                        39,
+                        627,
+                        610,
+                        790
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 15,
+                    "merge_prev": false,
+                    "content": "Nhấp vào nút Set Directory và trỏ đến thư mục (folder) chứa các tệp dữ liệu Planet.",
+                    "original_bbox": [
+                        39,
+                        627,
+                        298,
+                        655
+                    ],
+                    "size": 63
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        59,
+                        31,
+                        133,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                30,
+                                134,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        30,
+                                        134,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        300,
+                        31,
+                        568,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                29,
+                                569,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        29,
+                                        569,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "MSI PLANET Cơ sở dữ liệu địa hình Phép chiếu UTM",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        502,
+                        741,
+                        569,
+                        756
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 14,
+                    "lines": [
+                        {
+                            "bbox": [
+                                501,
+                                739,
+                                571,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        501,
+                                        739,
+                                        571,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Trang 3/6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 2,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        58,
+                        68,
+                        274,
+                        86
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "Các phương pháp khu vực UTM",
+                    "original_bbox": [
+                        58,
+                        68,
+                        180,
+                        83
+                    ],
+                    "size": 21
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        275,
+                        75,
+                        565,
+                        243
+                    ],
+                    "index": 5,
+                    "sub_type": "text_image",
+                    "image_path": "ee4bb8c73b48cfca3442d67e57edd2f3231972a0e00c0abfbffc921a6dc6a443.jpg",
+                    "original_bbox": [
+                        275,
+                        75,
+                        565,
+                        243
+                    ]
+                },
+                {
+                    "bbox": [
+                        57,
+                        87,
+                        274,
+                        180
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "Trong nhiều trường hợp, dữ liệu địa hình được cung cấp trong một tệp duy nhất. Các cạnh đông và tây có thể mở rộng ra ngoài ranh giới khu vực UTM tiêu chuẩn. Trong những trường hợp này, khu vực UTM phải được chỉ định bằng một trong hai phương pháp sau:",
+                    "original_bbox": [
+                        57,
+                        87,
+                        271,
+                        170
+                    ],
+                    "size": 15
+                },
+                {
+                    "bbox": [
+                        57,
+                        181,
+                        274,
+                        274
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "Chọn tùy chọn \"Use specified index file\" và sau đó chọn tệp từ danh sách thả xuống. Khu vực UTM liên quan đến tệp đã chọn sẽ được sử dụng và chỉ tệp đã chọn sẽ được sử dụng ngay cả khi chỉ mục chứa nhiều tệp.",
+                    "original_bbox": [
+                        57,
+                        181,
+                        268,
+                        265
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        57,
+                        275,
+                        610,
+                        325
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "Chọn tùy chọn \"Use specified UTM zone\" và nhập số khu vực có hậu tố N hoặc S. Nếu N hoặc S không được chỉ định, khu vực sẽ mặc định là bắc bán cầu. Hậu tố S phải được chỉ định cho nam bán cầu.",
+                    "original_bbox": [
+                        57,
+                        275,
+                        570,
+                        317
+                    ],
+                    "size": 19
+                },
+                {
+                    "bbox": [
+                        58,
+                        326,
+                        610,
+                        354
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "merge_prev": false,
+                    "content": "Trong tất cả các trường hợp khác, sử dụng tùy chọn \"Use standard UTM zones in index\".",
+                    "original_bbox": [
+                        58,
+                        326,
+                        392,
+                        341
+                    ],
+                    "size": 20
+                },
+                {
+                    "bbox": [
+                        58,
+                        355,
+                        610,
+                        373
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 8,
+                    "content": "Dữ liệu tòa nhà nhúng",
+                    "original_bbox": [
+                        58,
+                        355,
+                        210,
+                        370
+                    ],
+                    "size": 21
+                },
+                {
+                    "bbox": [
+                        57,
+                        374,
+                        610,
+                        431
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "Thông thường, độ cao được nội suy từ bốn độ cao gần nhất đến điểm quan tâm. Nếu dữ liệu địa hình chứa dữ liệu tòa nhà hoặc tán cây nhúng, hãy chọn tùy chọn \"Embedded building data\". Độ cao ô sẽ được sử dụng trong trường hợp này.",
+                    "original_bbox": [
+                        57,
+                        374,
+                        570,
+                        416
+                    ],
+                    "size": 22
+                },
+                {
+                    "bbox": [
+                        58,
+                        432,
+                        178,
+                        455
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 10,
+                    "content": "Chỉ mục",
+                    "original_bbox": [
+                        58,
+                        432,
+                        101,
+                        447
+                    ],
+                    "size": 26
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        179,
+                        439,
+                        565,
+                        548
+                    ],
+                    "index": 12,
+                    "sub_type": "text_image",
+                    "image_path": "b020fb6617c0546ef96a9781cebef8beaf64b8ef8a3fa54b3466eed0bf3d5d7d.jpg",
+                    "original_bbox": [
+                        179,
+                        439,
+                        565,
+                        548
+                    ]
+                },
+                {
+                    "bbox": [
+                        57,
+                        456,
+                        178,
+                        552
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "Nhấp vào nút Index để truy cập chỉ mục bản đồ kỹ thuật số. Dữ liệu có thể được nhập thủ công. Chọn Edit- Add trên thanh menu Index và nhập dữ liệu như được hiển thị trên trang tiếp theo. Thông tin này có sẵn từ các tệp chỉ mục Planet. Khi nhập dữ liệu hoàn tất, nhấp OK.",
+                    "original_bbox": [
+                        57,
+                        456,
+                        175,
+                        552
+                    ],
+                    "size": 12
+                },
+                {
+                    "bbox": [
+                        57,
+                        553,
+                        610,
+                        790
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 13,
+                    "merge_prev": true,
+                    "lines_deleted": true,
+                    "original_bbox": [
+                        57,
+                        553,
+                        562,
+                        580
+                    ],
+                    "size": 12
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        31,
+                        309,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                29,
+                                310,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        29,
+                                        310,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "MSI PLANET Cơ sở dữ liệu địa hình Phép chiếu UTM",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        477,
+                        31,
+                        551,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                477,
+                                30,
+                                551,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        477,
+                                        30,
+                                        551,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        41,
+                        741,
+                        108,
+                        756
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 14,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                738,
+                                110,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        738,
+                                        110,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Trang 4/6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 3,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        40,
+                        68,
+                        356,
+                        104
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "Hai trường bổ sung phải được đặt trực tiếp trên biểu mẫu nhập dữ liệu Grid. Đó là:",
+                    "original_bbox": [
+                        40,
+                        68,
+                        350,
+                        95
+                    ],
+                    "size": 21
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        357,
+                        71,
+                        546,
+                        222
+                    ],
+                    "index": 5,
+                    "image_path": "ef6c99cd0c16e2dfe8ccf599f42bc5d3451010d0803869c67d63d23ed4ee4703.jpg",
+                    "original_bbox": [
+                        357,
+                        71,
+                        546,
+                        222
+                    ]
+                },
+                {
+                    "bbox": [
+                        40,
+                        105,
+                        356,
+                        184
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "Bottom up Trường này xác định xem tệp bắt đầu ở góc tây nam hay góc tây bắc. Nhấp đúp vào trường này để thay đổi cài đặt thành true hoặc false. Nếu nền mạng hoặc chế độ xem địa hình bị lộn ngược, hãy thay đổi trường này.",
+                    "original_bbox": [
+                        40,
+                        105,
+                        350,
+                        177
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        40,
+                        185,
+                        356,
+                        241
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "Byte order Điều này tương đương với \"big and little endian\". Nhấp đúp vào trường này để thay đổi trường thành SPARC (big endian) hoặc INTEL (little endian).",
+                    "original_bbox": [
+                        40,
+                        185,
+                        349,
+                        229
+                    ],
+                    "size": 17
+                },
+                {
+                    "bbox": [
+                        40,
+                        242,
+                        280,
+                        260
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 6,
+                    "content": "Nhập chỉ mục",
+                    "original_bbox": [
+                        40,
+                        242,
+                        124,
+                        257
+                    ],
+                    "size": 21
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        281,
+                        250,
+                        546,
+                        496
+                    ],
+                    "index": 13,
+                    "sub_type": "text_image",
+                    "image_path": "77ed9dc9bd1d8d9f065023b868160672da4bc48959f02706d054aecc5f94a026.jpg",
+                    "original_bbox": [
+                        281,
+                        250,
+                        546,
+                        496
+                    ]
+                },
+                {
+                    "bbox": [
+                        40,
+                        261,
+                        280,
+                        312
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "merge_prev": false,
+                    "content": "Một tính năng nhập văn bản tổng quát có thể được tùy chỉnh để đọc các tệp chỉ mục Planet. Chọn Files - Index để mở hộp thoại định nghĩa trường.",
+                    "original_bbox": [
+                        40,
+                        261,
+                        276,
+                        304
+                    ],
+                    "size": 15
+                },
+                {
+                    "bbox": [
+                        40,
+                        313,
+                        280,
+                        350
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "Nhấp vào nút Planet để có được các cài đặt mặc định cho các chỉ mục Planet.",
+                    "original_bbox": [
+                        40,
+                        313,
+                        274,
+                        340
+                    ],
+                    "size": 19
+                },
+                {
+                    "bbox": [
+                        40,
+                        351,
+                        280,
+                        388
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "Lưu ý rằng các tùy chọn \"Byte order\" và \"Bottom up\" có thể phải được xác định bằng thực nghiệm.",
+                    "original_bbox": [
+                        40,
+                        351,
+                        276,
+                        379
+                    ],
+                    "size": 15
+                },
+                {
+                    "bbox": [
+                        40,
+                        389,
+                        280,
+                        482
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "Nhập hậu tố N hoặc S của khu vực UTM và chọn \"Zone number\". Một chỉ mục Planet không bao gồm số khu vực UTM. Nếu khu vực UTM được bao gồm trong tệp chỉ mục, hãy nhập số trường cho khu vực UTM và chọn tùy chọn \"Field number\".",
+                    "original_bbox": [
+                        40,
+                        389,
+                        274,
+                        474
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        40,
+                        483,
+                        280,
+                        520
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "Cài đặt \"Bytes per pixel\" luôn là 2 và \"Edge units\" luôn là mét đối với Planet.",
+                    "original_bbox": [
+                        40,
+                        483,
+                        272,
+                        511
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        40,
+                        521,
+                        610,
+                        790
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "merge_prev": false,
+                    "content": "Nhấp OK và tải tệp chỉ mục Planet.",
+                    "original_bbox": [
+                        40,
+                        521,
+                        236,
+                        535
+                    ],
+                    "size": 103
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        59,
+                        31,
+                        133,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                30,
+                                134,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        30,
+                                        134,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        300,
+                        31,
+                        568,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                29,
+                                569,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        29,
+                                        569,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "MSI PLANET Cơ sở dữ liệu địa hình Phép chiếu UTM",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        502,
+                        741,
+                        569,
+                        756
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 18,
+                    "lines": [
+                        {
+                            "bbox": [
+                                501,
+                                739,
+                                571,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        501,
+                                        739,
+                                        571,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Trang 5/6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 4,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        58,
+                        68,
+                        610,
+                        90
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "Kiểm tra Cài đặt Cơ sở dữ liệu Địa hình",
+                    "original_bbox": [
+                        58,
+                        68,
+                        318,
+                        86
+                    ],
+                    "size": 26
+                },
+                {
+                    "bbox": [
+                        57,
+                        91,
+                        281,
+                        199
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "Điều này được thực hiện tốt nhất trong mô-đun Network. Tạo hai địa điểm tại các góc tây nam và đông bắc của phạm vi các tệp cơ sở dữ liệu địa hình. Tham khảo chỉ mục để biết tọa độ UTM. Chọn Files - New để xóa màn hình. Chọn Site Data - Site List và sau đó chọn Edit - Add.",
+                    "original_bbox": [
+                        57,
+                        91,
+                        276,
+                        189
+                    ],
+                    "size": 17
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        282,
+                        100,
+                        564,
+                        277
+                    ],
+                    "index": 6,
+                    "image_path": "429b81497815b17999a3af977817df570c6f55eb1d316cb30c64d151831e2b0a.jpg",
+                    "original_bbox": [
+                        282,
+                        100,
+                        564,
+                        277
+                    ]
+                },
+                {
+                    "bbox": [
+                        58,
+                        200,
+                        281,
+                        237
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "Nhập easting, northing và các khu vực UTM. Vĩ độ sẽ được xác định tự động.",
+                    "original_bbox": [
+                        58,
+                        200,
+                        277,
+                        228
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        58,
+                        238,
+                        281,
+                        284
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "Khi cả hai địa điểm đều có trên màn hình, chọn Site Data - Create background.",
+                    "original_bbox": [
+                        58,
+                        238,
+                        276,
+                        265
+                    ],
+                    "size": 18
+                },
+                {
+                    "type": "chart",
+                    "bbox": [
+                        65,
+                        285,
+                        141,
+                        541
+                    ],
+                    "index": 7,
+                    "sub_type": "heatmap",
+                    "image_path": "59395c168e35ebc563a77d6dbaae75a2148aa70b12beb612b8da599f2e731014.jpg",
+                    "original_bbox": [
+                        65,
+                        285,
+                        141,
+                        541
+                    ]
+                },
+                {
+                    "type": "chart",
+                    "bbox": [
+                        282,
+                        287,
+                        563,
+                        563
+                    ],
+                    "index": 9,
+                    "sub_type": "heatmap",
+                    "image_path": "72476647a461f21e3e121996b57629243051c73406288e63f20b8df99ba453dc.jpg",
+                    "original_bbox": [
+                        282,
+                        287,
+                        563,
+                        563
+                    ]
+                },
+                {
+                    "bbox": [
+                        58,
+                        565,
+                        610,
+                        583
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 10,
+                    "content": "Các vấn đề có thể xảy ra",
+                    "original_bbox": [
+                        58,
+                        565,
+                        170,
+                        579
+                    ],
+                    "size": 21
+                },
+                {
+                    "bbox": [
+                        58,
+                        584,
+                        610,
+                        607
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 11,
+                    "content": "Nền không được tạo",
+                    "original_bbox": [
+                        58,
+                        584,
+                        231,
+                        599
+                    ],
+                    "size": 26
+                },
+                {
+                    "bbox": [
+                        58,
+                        608,
+                        610,
+                        790
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 12,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                58,
+                                608,
+                                554,
+                                637
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 13,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        606,
+                                        556,
+                                        624
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                606,
+                                                556,
+                                                624
+                                            ],
+                                            "type": "text",
+                                            "content": "• Tên tệp trong tệp chỉ mục không giống với các tệp cơ sở dữ liệu thực tế. Các phần mở rộng có thể bị thiếu hoặc khác.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        73,
+                                        623,
+                                        174,
+                                        636
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                73,
+                                                623,
+                                                174,
+                                                636
+                                            ],
+                                            "type": "text",
+                                            "content": "• Các khu vực UTM trong tệp chỉ mục không đúng hoặc thiếu hậu tố N-S.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                642,
+                                441,
+                                657
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 14,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        639,
+                                        441,
+                                        658
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                57,
+                                                639,
+                                                441,
+                                                658
+                                            ],
+                                            "type": "text",
+                                            "content": "• Phương pháp UTM sai. Khu vực được chỉ định không chính xác hoặc thiếu hậu tố N-S.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                662,
+                                505,
+                                677
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 15,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        658,
+                                        508,
+                                        679
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                57,
+                                                658,
+                                                508,
+                                                679
+                                            ],
+                                            "type": "text",
+                                            "content": "• Cài đặt SPARC - INTEL sai.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                682,
+                                259,
+                                696
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 16,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        680,
+                                        260,
+                                        699
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                680,
+                                                260,
+                                                699
+                                            ],
+                                            "type": "text",
+                                            "content": "• Thư mục tệp bản đồ được đặt không chính xác.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                702,
+                                266,
+                                716
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 17,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        700,
+                                        268,
+                                        719
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                57,
+                                                700,
+                                                268,
+                                                719
+                                            ],
+                                            "type": "text",
+                                            "content": "MSI PLANET Cơ sở dữ liệu địa hình Phép chiếu UTM",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text",
+                    "original_bbox": [
+                        58,
+                        608,
+                        554,
+                        717
+                    ],
+                    "size": 24
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        31,
+                        308,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                29,
+                                310,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        29,
+                                        310,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        477,
+                        31,
+                        551,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                477,
+                                30,
+                                551,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        477,
+                                        30,
+                                        551,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Trang 6/6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        41,
+                        741,
+                        108,
+                        755
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 16,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                739,
+                                110,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        739,
+                                        110,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "• Tệp chứa độ cao \"không có dữ liệu\". Các giá trị này thường là 9999 và chương trình sẽ bỏ qua chúng.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 5,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        40,
+                        68,
+                        610,
+                        101
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "Độ cao không đúng hoặc màn hình hiển thị không đầy đủ",
+                    "original_bbox": [
+                        40,
+                        68,
+                        526,
+                        95
+                    ],
+                    "size": 34
+                },
+                {
+                    "bbox": [
+                        40,
+                        102,
+                        610,
+                        125
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 3,
+                    "content": "• Cài đặt SPARC - INTEL sai.",
+                    "original_bbox": [
+                        40,
+                        102,
+                        340,
+                        117
+                    ],
+                    "size": 26
+                },
+                {
+                    "bbox": [
+                        40,
+                        126,
+                        610,
+                        144
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "Màn hình hiển thị bị lộn ngược. Điều này sẽ rất rõ ràng nếu cơ sở dữ liệu có nhiều ô dọc.",
+                    "original_bbox": [
+                        40,
+                        126,
+                        240,
+                        140
+                    ],
+                    "size": 20
+                },
+                {
+                    "bbox": [
+                        40,
+                        145,
+                        610,
+                        169
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 5,
+                    "content": "• Cài đặt bottom - up trong chỉ mục sai.",
+                    "original_bbox": [
+                        40,
+                        145,
+                        524,
+                        161
+                    ],
+                    "size": 28
+                },
+                {
+                    "bbox": [
+                        40,
+                        170,
+                        610,
+                        199
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "Cân nhắc về Xích đạo",
+                    "original_bbox": [
+                        40,
+                        170,
+                        274,
+                        185
+                    ],
+                    "size": 33
+                },
+                {
+                    "bbox": [
+                        40,
+                        200,
+                        297,
+                        223
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 7,
+                    "content": "Các cơ sở dữ liệu địa hình trải dài qua xích đạo yêu cầu cân nhắc đặc biệt. Hai tệp chỉ mục được hiển thị bên dưới. Cả hai đều bao gồm bốn tệp dữ liệu địa hình bao phủ một khu vực 20 km x 20 km. Hai trong số các tệp này mở rộng 20 km phía trên xích đạo và hai tệp còn lại mở rộng 20 km phía dưới xích đạo.",
+                    "original_bbox": [
+                        40,
+                        200,
+                        224,
+                        217
+                    ],
+                    "size": 8
+                },
+                {
+                    "type": "chart",
+                    "bbox": [
+                        298,
+                        206,
+                        546,
+                        391
+                    ],
+                    "index": 10,
+                    "sub_type": "scatter",
+                    "image_path": "cce50ac428406aecf5e48e553396df0a59087f6f744bb86ea6f2174914c34d45.jpg",
+                    "original_bbox": [
+                        298,
+                        206,
+                        546,
+                        391
+                    ]
+                },
+                {
+                    "bbox": [
+                        39,
+                        224,
+                        297,
+                        331
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "Chỉ mục đầu tiên được tham chiếu đến bắc bán cầu. Các northing cạnh bản đồ là +20.000 mét, 0 và -20.000 mét. Trong trường hợp này, một khu vực UTM bắc bán cầu phải được chỉ định trong cả chỉ mục và phương pháp khu vực UTM.",
+                    "original_bbox": [
+                        39,
+                        224,
+                        292,
+                        321
+                    ],
+                    "size": 20
+                },
+                {
+                    "bbox": [
+                        39,
+                        332,
+                        297,
+                        434
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "Chỉ mục thứ hai được tham chiếu đến nam bán cầu. Northing của xích đạo là 10.000.000 mét. Các northing cạnh bản đồ là 9.980.000 mét, 10.000.000 mét",
+                    "original_bbox": [
+                        39,
+                        332,
+                        290,
+                        401
+                    ],
+                    "size": 23
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        41,
+                        435,
+                        309,
+                        522
+                    ],
+                    "index": 12,
+                    "image_path": "5a87c72bc2168cc3d709650564b852861458c2794a3005dd04344aa3d88fc28c.jpg",
+                    "original_bbox": [
+                        41,
+                        435,
+                        309,
+                        522
+                    ]
+                },
+                {
+                    "bbox": [
+                        39,
+                        532,
+                        610,
+                        606
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 13,
+                    "merge_prev": false,
+                    "content": "và 10.020.000 mét. Trong trường hợp này, một khu vực UTM nam bán cầu phải được chỉ định trong cả chỉ mục và phương pháp khu vực UTM.",
+                    "original_bbox": [
+                        39,
+                        532,
+                        549,
+                        575
+                    ],
+                    "size": 29
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        41,
+                        607,
+                        374,
+                        693
+                    ],
+                    "index": 15,
+                    "image_path": "fec36aee238722bb33ac30cc83369f75003e04938ecb3a6c6f787b682554b74e.jpg",
+                    "original_bbox": [
+                        41,
+                        607,
+                        374,
+                        693
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": false,
+    "_vlm_ocr_enable": false,
+    "_version_name": "3.1.8"
+}

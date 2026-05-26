@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>PDF Replica Viewer</title>
+
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"/>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    background: #525659;
+    padding: 30px 0;
+    min-height: 100vh;
+}
+.pg {
+    overflow: hidden;
+    page-break-after: always;
+}
+
+.blk {
+    border: 2px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.dbg-label {
+    display: none;
+    position: absolute;
+    top: 0; left: 0;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 0 0 6px 0;
+    z-index: 10;
+    opacity: 0.95;
+    line-height: 1.2;
+    pointer-events: none;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+body.debug .blk {
+    border-style: dashed !important;
+    background-color: rgba(0,0,0,0.02);
+}
+body:not(.debug) .blk {
+    border-color: transparent !important;
+}
+body.debug .dbg-label {
+    display: block;
+}
+
+#debug-btn {
+    position: fixed;
+    top: 12px;
+    right: 16px;
+    z-index: 9999;
+    background: #333;
+    color: #aaa;
+    border: 1px solid #555;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Segoe UI', sans-serif;
+    transition: all 0.2s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+#debug-btn:hover { background: #444; color: #fff; }
+#debug-btn.active { background: #ff5722; color: #fff; border-color: #ff5722; }
+
+.fit {
+    display: block;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.code-block {
+    background-color: transparent;
+    border-radius: 0;
+    border: none !important;
+}
+
+.tw table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.tw td, .tw th {
+    border: 1px solid #bbb;
+    padding: 2px 4px;
+}
+
+.math .katex {
+    font-size: 1.05em !important;
+}
+</style>
+</head>
+<body>
+
+<button id="debug-btn" onclick="toggleDebug()">🔍 Debug OFF</button>
+
+<div class="pg" style="width:916px;height:1186px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:291.0px;top:102.0px;width:624.0px;height:33.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#1 title</span><span class="fit" style="font-size:21px; line-height:27px;">Khóa và chia sẻ tệp Pathloss</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:136.5px;width:829.5px;height:105.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#2 text</span><span class="fit" style="font-size:17px; line-height:22px;">Bản dựng chương trình Pathloss ngày 03 tháng 6 năm 2002 giới thiệu tính năng khóa tệp dữ liệu Pathloss (pl4) và chia sẻ tệp mạng (gr4) khi các tệp này nằm trên một ổ đĩa mạng dùng chung. Tính năng khóa và chia sẻ được kích hoạt nếu ổ đĩa gốc chứa tệp dữ liệu mạng hoặc Pathloss là một ổ đĩa từ xa. Lưu ý rằng điều này có thể thất bại trên mạng ngang hàng nếu một ổ đĩa được truy cập như một ổ đĩa cục bộ.</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:243.0px;width:828.0px;height:27.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#3 title</span><span class="fit" style="font-size:21px; line-height:27px;">Khóa tệp dữ liệu Pathloss (pl4)</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:271.5px;width:307.5px;height:229.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#4 text</span><span class="fit" style="font-size:17px; line-height:22px;">Cơ chế khóa tạo một tệp mới có cùng tên với tệp dữ liệu Pathloss với phần mở rộng lck. Khi người dùng đóng tệp này, tệp khóa sẽ bị xóa. Nếu người dùng khác cố gắng mở tệp, một lời nhắc sẽ được đưa ra rằng tệp đang được sử dụng và sẽ được mở ở chế độ chỉ đọc. Không thể lưu tệp dưới một tên khác. Chương trình không kiểm tra xem tệp khóa đã bị xóa chưa.</span></div>
+<div class="blk" style="position:absolute;left:394.5px;top:283.5px;width:451.5px;height:159.0px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#5 image</span><img src="../images/d88980b4ababde82881da8c5815d88409c973cfa4536ab36546873f8ec609fa6.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:87.0px;top:502.5px;width:828.0px;height:27.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#6 title</span><span class="fit" style="font-size:21px; line-height:27px;">Chia sẻ tệp mạng (gr4)</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:531.0px;width:829.5px;height:97.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#7 text</span><span class="fit" style="font-size:18px; line-height:23px;">Để kích hoạt chia sẻ tệp mạng (gr4), chọn Tệp - Hoạt động tệp dùng chung trên thanh menu mạng. Bước này phải được thực hiện trước khi tải một tệp mạng. Để kích hoạt chia sẻ tệp mạng sau khi tệp đã được tải, chọn Tệp - Mới và sau đó chọn Tệp - Hoạt động tệp dùng chung. Sau đó tải lại tệp. Cài đặt chia sẻ được lưu trong tệp tùy chọn chương trình.</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:630.0px;width:828.0px;height:34.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#8 text</span><span class="fit" style="font-size:18px; line-height:23px;">Ở chế độ này, một tệp không thể được lưu nếu các điều kiện sau không được đáp ứng.</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:666.0px;width:828.0px;height:121.5px;overflow:hidden;box-sizing:border-box;border-color:#00BCD4;" data-t="list"><span class="dbg-label" style="background:#00BCD4;">#9 list</span><ul class="fit" style="font-size:17px; line-height:22px; margin:0;padding-left:16px;"><li style="margin-bottom:4px;">Mỗi trạm phải có một dấu hiệu gọi duy nhất. Đây là một mã định danh gồm 15 ký tự và không thể để trống. Cùng một dấu hiệu gọi không thể được sử dụng tại các trạm khác nhau. Dấu hiệu gọi đóng vai trò như một mã định danh duy nhất để xác định các thay đổi đối với các trạm và liên kết.</li><li style="margin-bottom:4px;">Ngày sửa đổi của tệp trên đĩa phải giống với tệp trong bộ nhớ. Các thay đổi của người dùng khác không thể bị ghi đè.</li></ul></div>
+<div class="blk" style="position:absolute;left:85.5px;top:789.0px;width:829.5px;height:55.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#10 text</span><span class="fit" style="font-size:18px; line-height:23px;">Cơ chế chia sẻ sử dụng một tệp có cùng tên với tệp mạng với phần mở rộng glk. Tệp này sẽ được gọi là tệp glk trong các mô tả sau và tệp chứa các thông tin sau:</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:846.0px;width:828.0px;height:109.5px;overflow:hidden;box-sizing:border-box;border-color:#00BCD4;" data-t="list"><span class="dbg-label" style="background:#00BCD4;">#11 list</span><ul class="fit" style="font-size:18px; line-height:23px; margin:0;padding-left:16px;"><li style="margin-bottom:4px;">ngày sửa đổi và số thay đổi</li><li style="margin-bottom:4px;">danh sách tất cả người dùng đã mở tệp mạng</li><li style="margin-bottom:4px;">một loạt các bản ghi chứa các thay đổi được thực hiện đối với tệp. Các bản ghi này được sử dụng để cập nhật các tệp của từng người dùng</li></ul></div>
+<div class="blk" style="position:absolute;left:85.5px;top:957.0px;width:829.5px;height:75.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#12 text</span><span class="fit" style="font-size:18px; line-height:23px;">Tệp glk được tạo khi người dùng đầu tiên mở tệp mạng. Tại thời điểm này, tệp chứa tên của người dùng và ngày sửa đổi. Số thay đổi được đặt thành không. Chương trình sau đó sẽ bắt đầu giám sát tệp glk trong khoảng thời gian 30 giây để xác định xem ngày sửa đổi có thay đổi hay không.</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:1033.5px;width:828.0px;height:151.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#13 text</span><span class="fit" style="font-size:18px; line-height:23px;">Tệp glk bị xóa khi người dùng cuối cùng đóng tệp mạng.</span></div>
+</div>
+<div class="pg" style="width:916px;height:1186px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:58.5px;top:102.0px;width:378.0px;height:139.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#14 text</span><span class="fit" style="font-size:18px; line-height:23px;">Khi tệp mạng đã được mở bởi người dùng đầu tiên, tất cả người dùng khác mở tệp sẽ được hiển thị danh sách những người dùng đã mở tệp. Người dùng mới được thêm vào danh sách người dùng và nhận ngày sửa đổi tại thời điểm họ tải tệp.</span></div>
+<div class="blk" style="position:absolute;left:438.0px;top:112.5px;width:379.5px;height:159.0px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#15 image</span><img src="../images/74560d270ca6afc42ba8c728f1a2ae688b8923f36a7b9fa488106c2942f785e7.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:58.5px;top:243.0px;width:378.0px;height:55.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#16 text</span><span class="fit" style="font-size:14px; line-height:18px;">Giả sử một người dùng thực hiện một số thay đổi đối với tệp và lưu các thay đổi. Một thay đổi được định nghĩa như sau:</span></div>
+<div class="blk" style="position:absolute;left:60.0px;top:300.0px;width:390.0px;height:198.0px;overflow:hidden;box-sizing:border-box;border-color:#00BCD4;" data-t="list"><span class="dbg-label" style="background:#00BCD4;">#17 list</span><ul class="fit" style="font-size:18px; line-height:23px; margin:0;padding-left:16px;"><li style="margin-bottom:4px;">một trạm đã được thêm</li><li style="margin-bottom:4px;">một trạm đã bị xóa</li><li style="margin-bottom:4px;">một trạm đã được di chuyển</li><li style="margin-bottom:4px;">một liên kết đã được thêm</li><li style="margin-bottom:4px;">một liên kết đã bị xóa</li><li style="margin-bottom:4px;">tệp Pathloss liên kết với liên kết đã được thay đổi.</li></ul></div>
+<div class="blk" style="position:absolute;left:451.5px;top:312.0px;width:366.0px;height:442.5px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#18 image</span><img src="../images/23ba5375a6ac90ab093ddfc43e97e837c3e226d07409224fe4079840cf03e6f8.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:58.5px;top:499.5px;width:391.5px;height:120.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#19 text</span><span class="fit" style="font-size:18px; line-height:23px;">Khi tệp được lưu, một bản ghi các thay đổi trước tiên được tạo bằng cách so sánh tệp trong bộ nhớ với tệp trên đĩa. Tệp glk sẽ được cập nhật với ngày sửa đổi mới và bản ghi các thay đổi sẽ được thêm vào tệp.</span></div>
+<div class="blk" style="position:absolute;left:58.5px;top:621.0px;width:391.5px;height:100.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#20 text</span><span class="fit" style="font-size:17px; line-height:22px;">Trong môi trường chia sẻ này, chương trình kiểm tra tệp glk mỗi 30 giây và nếu có thay đổi xảy ra, người dùng sẽ được thông báo với danh sách các thay đổi. Mỗi thay đổi có thể được xem.</span></div>
+<div class="blk" style="position:absolute;left:60.0px;top:723.0px;width:390.0px;height:22.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#21 title</span><span class="fit" style="font-size:17px; line-height:22px;">Thực hiện thay đổi</span></div>
+<div class="blk" style="position:absolute;left:58.5px;top:747.0px;width:856.5px;height:58.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#22 text</span><span class="fit" style="font-size:18px; line-height:23px;">Các thay đổi được thực hiện trực tiếp từ tệp glk. Màn hình sẽ không được định dạng lại. Tất cả các thay đổi trong tệp glk sẽ được thực hiện.</span></div>
+<div class="blk" style="position:absolute;left:60.0px;top:807.0px;width:855.0px;height:21.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#23 title</span><span class="fit" style="font-size:16px; line-height:20px;">Tải lại tệp</span></div>
+<div class="blk" style="position:absolute;left:58.5px;top:829.5px;width:856.5px;height:57.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#24 text</span><span class="fit" style="font-size:18px; line-height:23px;">Toàn bộ tệp sẽ được tải lại và màn hình sẽ được định dạng lại. Tùy chọn tải lại tệp chỉ khả dụng trong các mô-đun mạng và mapgrid.</span></div>
+<div class="blk" style="position:absolute;left:58.5px;top:888.0px;width:856.5px;height:75.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#25 text</span><span class="fit" style="font-size:18px; line-height:23px;">Nếu nút hủy được nhấp, người dùng có thể cập nhật tệp bằng cách quay lại mô-đun mạng hoặc mapgrid và tải lại tệp bằng cách sử dụng Tệp - Mở hoặc chọn Tệp - Trạng thái tệp dùng chung. Tùy chọn sau tạo ra cùng một màn hình và tùy chọn như một thông báo thay đổi trong các mô-đun mạng hoặc mapgrid.</span></div>
+<div class="blk" style="position:absolute;left:58.5px;top:964.5px;width:856.5px;height:220.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#26 text</span><span class="fit" style="font-size:18px; line-height:23px;">Chỉ một thông báo thay đổi được đưa ra ngay cả khi người dùng quyết định không tải lại tệp. Khi tệp đã được cập nhật, thông báo thay đổi sẽ bắt đầu lại.</span></div>
+</div>
+<div class="pg" style="width:916px;height:1186px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:87.0px;top:102.0px;width:828.0px;height:27.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#27 title</span><span class="fit" style="font-size:21px; line-height:27px;">Tính toán nhiễu trên một tệp mạng dùng chung</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:130.5px;width:321.0px;height:139.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#28 text</span><span class="fit" style="font-size:18px; line-height:23px;">Các lược đồ khóa bảng vốn có trong công cụ cơ sở dữ liệu Borland không cho phép người dùng thực hiện các tính toán nhiễu đồng thời. Một tính toán nhiễu tạo ra một tập hợp các bảng liên quan đến tệp gr4 mạng.</span></div>
+<div class="blk" style="position:absolute;left:409.5px;top:141.0px;width:436.5px;height:456.0px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#29 image</span><img src="../images/6241fddf026b6454ee1de892dea4a55988d9856b50d36abae4ec44092845c42a.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:87.0px;top:271.5px;width:321.0px;height:97.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#30 text</span><span class="fit" style="font-size:15px; line-height:19px;">Bản dựng chương trình ngày 02 tháng 6 năm 2002 cho phép người dùng chỉ định một thư mục riêng tư cho các tính toán nhiễu. Việc lựa chọn được thực hiện khi bắt đầu một tính toán nhiễu.</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:370.5px;width:321.0px;height:814.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#31 text</span><span class="fit" style="font-size:18px; line-height:23px;">Các thao tác như chỉ định tương quan fading sẽ thất bại nếu tệp mạng hiện tại không khớp với các bảng cơ sở dữ liệu trong thư mục riêng tư.</span></div>
+</div>
+
+<script>
+function toggleDebug() {
+    document.body.classList.toggle('debug');
+    var btn = document.getElementById('debug-btn');
+    btn.classList.toggle('active');
+    btn.textContent = document.body.classList.contains('debug')
+        ? '🔍 Debug ON'
+        : '🔍 Debug OFF';
+}
+
+window.addEventListener('load', function() {
+    // Render math
+    if (typeof katex === 'undefined') {
+        console.warn('KaTeX not loaded');
+    } else {
+        var mathEls = document.querySelectorAll('.math');
+        for (var i = 0; i < mathEls.length; i++) {
+            var el = mathEls[i];
+            var tex = el.textContent;
+            try {
+                katex.render(tex, el, {
+                    throwOnError: false,
+                    displayMode: false,
+                    output: 'html'
+                });
+            } catch (e) {
+                console.warn('KaTeX error:', tex, e);
+            }
+        }
+    }
+});
+</script>
+
+</body>
+</html>

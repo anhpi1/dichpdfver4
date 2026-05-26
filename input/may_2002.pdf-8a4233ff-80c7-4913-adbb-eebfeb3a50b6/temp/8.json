@@ -568,7 +568,7 @@
                     "type": "title",
                     "angle": 0,
                     "index": 14,
-                    "content": "Suy hao nhiễu xạ - Tán xạ đối lưu",
+                    "content": "Nhiễu xạ - Suy hao tán xạ đối lưu",
                     "original_bbox": [
                         58,
                         403,
@@ -588,7 +588,7 @@
                     "angle": 0,
                     "index": 15,
                     "merge_prev": false,
-                    "content": "Suy hao nhiễu xạ và suy hao tán xạ đối lưu là hai cơ chế truyền sóng độc lập. Nhiễu xạ bắt đầu khi độ hở đường truyền nhỏ hơn 60% tỷ lệ vùng Fresnel đầu tiên. Suy hao tán xạ đối lưu bắt đầu khi tích của chiều dài đường truyền và góc tán xạ (góc được tạo bởi sự giao nhau của các tia chân trời trên đường truyền bị chắn) lớn hơn 0,1. Suy hao nhiễu xạ - tán xạ đối lưu kết hợp được tính như phép cộng công suất của hai suy hao. Ví dụ, suy hao nhiễu xạ 50 dB kết hợp với suy hao tán xạ đối lưu 50 dB sẽ dẫn đến suy hao kết hợp là 47 dB.",
+                    "content": "Suy hao nhiễu xạ và suy hao tán xạ đối lưu là hai cơ chế truyền sóng độc lập. Nhiễu xạ bắt đầu khi độ hở đường truyền nhỏ hơn 60% tỷ lệ vùng Fresnel đầu tiên. Suy hao tán xạ đối lưu bắt đầu khi tích của chiều dài đường truyền và góc tán xạ (góc được hình thành bởi sự giao nhau của các tia đường chân trời trên một đường truyền bị chắn) lớn hơn 0,1. Suy hao kết hợp nhiễu xạ - tán xạ đối lưu được tính như phép cộng công suất của hai suy hao. Ví dụ, suy hao nhiễu xạ 50 dB kết hợp với suy hao tán xạ đối lưu 50 dB sẽ dẫn đến suy hao kết hợp là 47 dB.",
                     "original_bbox": [
                         57,
                         422,
@@ -779,7 +779,7 @@
                     "angle": 0,
                     "index": 3,
                     "merge_prev": false,
-                    "content": "Trong vùng nhiễu xạ, suy hao tăng lên 40 dB ở khoảng cách 48 km. Tại điểm này, suy hao tán xạ đối lưu tham gia vào phương trình và suy hao kết hợp giảm xuống còn 4 dB. Trong biểu đồ vùng phủ sóng, sự gián đoạn này sẽ tạo ra các kết quả dường như mâu thuẫn như hiển thị dưới đây.",
+                    "content": "Trong vùng nhiễu xạ, suy hao tăng lên 40 dB ở khoảng cách 48 km. Tại điểm này, suy hao tán xạ đối lưu tham gia vào phương trình và suy hao kết hợp giảm xuống còn 4 dB. Trong biểu đồ vùng phủ sóng, sự gián đoạn này sẽ tạo ra các kết quả có vẻ mâu thuẫn như hiển thị dưới đây.",
                     "original_bbox": [
                         39,
                         433,
@@ -930,7 +930,7 @@
                     "angle": 0,
                     "index": 3,
                     "merge_prev": false,
-                    "content": "Biểu đồ sử dụng ba mức tín hiệu được mã hóa thành màu đỏ, xanh lam và xanh lục từ tín hiệu mạnh nhất đến yếu nhất. Xem xét đường truyền ở góc phương vị 135 độ. Như dự kiến, cường độ tín hiệu giảm dần theo khoảng cách do suy hao nhiễu xạ. Sau đó, suy hao tán xạ đối lưu trở thành cơ chế truyền sóng chiếm ưu thế và mô hình lặp lại.",
+                    "content": "Biểu đồ sử dụng ba mức tín hiệu được mã hóa thành màu đỏ, xanh dương và xanh lục từ tín hiệu mạnh nhất đến yếu nhất. Xem xét đường truyền ở góc phương vị 135 độ. Như dự kiến, cường độ tín hiệu giảm dần theo khoảng cách do suy hao nhiễu xạ. Sau đó, suy hao tán xạ đối lưu trở thành cơ chế truyền sóng chiếm ưu thế và mô hình lặp lại.",
                     "original_bbox": [
                         59,
                         515,
@@ -1063,7 +1063,7 @@
                     "angle": 0,
                     "index": 2,
                     "merge_prev": false,
-                    "content": "Một tùy chọn hiện được cung cấp để bỏ qua suy hao tán xạ đối lưu trong các mô-đun nhiễu xạ và vùng phủ sóng. Trong mô-đun nhiễu xạ, chọn Options - Diffraction Options và đặt phương pháp tán xạ thành không tính toán.",
+                    "content": "Một tùy chọn hiện được cung cấp để bỏ qua suy hao tán xạ đối lưu trong các mô-đun nhiễu xạ và vùng phủ sóng. Trong mô-đun nhiễu xạ, chọn Options - Diffraction Options và đặt phương pháp tán xạ thành do not calculate.",
                     "original_bbox": [
                         39,
                         68,
@@ -1101,7 +1101,7 @@
                     "angle": 0,
                     "index": 4,
                     "merge_prev": false,
-                    "content": "Trong mô-đun vùng phủ sóng, tùy chọn xuất hiện trong quy trình tính toán vùng phủ sóng dưới phần \"Calculate Diffraction loss\".",
+                    "content": "Trong mô-đun vùng phủ sóng, tùy chọn xuất hiện trong quá trình tính toán vùng phủ sóng dưới phần \"Calculate Diffraction loss\".",
                     "original_bbox": [
                         39,
                         230,
@@ -1139,7 +1139,7 @@
                     "angle": 0,
                     "index": 5,
                     "merge_prev": false,
-                    "content": "Kết quả tương ứng với ví dụ trên sử dụng tùy chọn \"Không tính toán\" suy hao tán xạ đối lưu được hiển thị dưới đây.",
+                    "content": "Kết quả tương ứng với ví dụ trên sử dụng tùy chọn \"Do not calculate\" suy hao tán xạ đối lưu được hiển thị dưới đây.",
                     "original_bbox": [
                         39,
                         282,

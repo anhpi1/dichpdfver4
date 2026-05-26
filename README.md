@@ -121,11 +121,12 @@ python 10.py
   - `MIN_FONT_SIZE = 12`: Ngưỡng kích thước chữ tối thiểu. Bất cứ block văn bản nào có cỡ chữ `< 12` đều sẽ kích hoạt quá trình san sẻ sang hàng xóm để được nâng cỡ chữ lên.
 
 ### Bước 8: `8.py` - Chuẩn hóa Kích thước chữ (Font Size Normalization)
-**Chức năng:** Cắt bỏ sự lồi lõm của tài liệu bằng cách "cắt ngọn" các đoạn chữ phình to bất thường. Hệ thống tách làm 2 luồng: Tiêu đề (`title`) và Văn bản (`body`). Tính toán giá trị trung bình dựa trên **trọng số số lượng từ**, đồng thời sử dụng thuật toán **Trimmed Mean** để lọc bỏ các giá trị nhiễu khổng lồ.
+**Chức năng:** Cắt bỏ sự lồi lõm của tài liệu bằng cách loại bỏ các đoạn chữ phình to bất thường hoặc quá bé rác. Hệ thống tách làm 2 luồng riêng biệt: Tiêu đề (`title`) và Văn bản (`body`). Tính toán giá trị trung bình dựa trên **trọng số số lượng từ**, sử dụng thuật toán **Trimmed Mean** để lọc nhiễu.
 - Đầu vào: `7.json`
 - Đầu ra: `8.json`
 - **Tham số chính:**
-  - `CONFIDENCE_LEVEL = 0.90`: Độ tin cậy của thuật toán Trimmed Mean. Giá trị `0.90` có nghĩa là hệ thống sẽ giữ lại 90% các từ có kích thước từ bé đến trung bình, và thẳng tay **loại bỏ 10% các từ có kích thước to khổng lồ nhất** ra khỏi phép tính trung bình để tránh làm bóp méo kết quả.
+  - `TITLE_CONFIDENCE_LEVEL = 0.90`: Độ tin cậy cho tiêu đề. Hệ thống sẽ **cắt bỏ đáy** (loại bỏ 10% các từ có kích thước bé nhất) và tính trung bình phần to còn lại (từ 10% đến 100%) để tránh bị tụt size do nhiễu rác.
+  - `BODY_CONFIDENCE_LEVEL = 0.90`: Độ tin cậy cho văn bản. Hệ thống sẽ **cắt ngọn** (loại bỏ 10% các từ có kích thước to khổng lồ nhất) và tính trung bình phần bé còn lại (từ 0% đến 90%) để tránh bị bóp méo khung chữ.
 
 ### Bước 9: `9.py` - Trình xuất HTML tĩnh (HTML Renderer)
 **Chức năng:** Kết hợp dữ liệu văn bản, tọa độ absolute và kích thước chữ đã tính toán để sinh ra file HTML. Tích hợp KaTeX để render hoàn hảo các công thức toán học nội suy.
@@ -144,5 +145,5 @@ python 10.py
 ---
 
 ## 🛠 Lời khuyên
-- Các tham số như `MIN_FONT_SIZE` trong `7.py` hay `CONFIDENCE_LEVEL` trong `8.py` là cực kỳ quan trọng để thay đổi hành vi hiển thị của tài liệu. Nếu thấy chữ trung bình vẫn quá to, hãy giảm `CONFIDENCE_LEVEL` xuống `0.80` để gạt bỏ nhiều nhiễu hơn.
+- Các tham số như `MIN_FONT_SIZE` trong `7.py`, hay `TITLE_CONFIDENCE_LEVEL` / `BODY_CONFIDENCE_LEVEL` trong `8.py` là cực kỳ quan trọng để thay đổi hành vi hiển thị của tài liệu. Nếu thấy phần thân chữ trung bình vẫn quá to, hãy giảm `BODY_CONFIDENCE_LEVEL` xuống `0.80` để gạt bỏ nhiều nhiễu hơn.
 - Nếu bạn chỉ muốn tinh chỉnh ở khâu xuất PDF, bạn chỉ việc chạy lại `python 10.py` mà không cần chạy lại các bước giả lập.

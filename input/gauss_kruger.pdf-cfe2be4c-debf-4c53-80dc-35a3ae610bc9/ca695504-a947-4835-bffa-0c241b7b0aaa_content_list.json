@@ -1,0 +1,487 @@
+[
+    {
+        "type": "text",
+        "text": "Gauss Kruger Projection ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            64,
+            374,
+            85
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The Gauss Kruger coordinate system is implemented as a generalized Transverse Mercator projection. The specific parameters are set in the Geographic Defaults dialog box. Select Configure - Geographic defaults. Set the grid coordinate ",
+        "bbox": [
+            111,
+            106,
+            444,
+            218
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/561fbf26d618f5b36d21b7e3a703316f1ca66ad3e897063dda7ca45ad785e5c9.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Gauss Kruger - Transverse Mercator Definition\nLatitude Origin (deg) 00 00 00.00\nLongitude Origin (deg) 015 48 29.80 E\nFalse easting (m) 1500000.00\nFalse northing (m) 0.00\nScale factor 1.00000\nOK\nCancel\nHelp\nSwedish Grid",
+        "sub_type": "text_image",
+        "bbox": [
+            450,
+            63,
+            883,
+            212
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "system to Gauss Kruger. The Gauss Kruger parameter definition button becomes active once the grid coordinates selection is made. ",
+        "bbox": [
+            111,
+            220,
+            866,
+            255
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/1f48898800b03675a489256bcb46f50a690b9de2b96315117a40c08b97973203.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Latitude Origin (deg)</td><td>The latitude origin is entered in decimal degrees and is positive in the northern hemisphere. This is usually zero which means that the equator is the origin.</td></tr><tr><td>Longitude Origin (deg)</td><td>The longitude origin is entered in decimal degrees and is positive in the eastern hemisphere. Eastings are measured from the longitude origin which is also called the central meridian.In some Gauss Kruger implementations, the first digit in the easting is referred to the zone number. The longitude origin is equal to the zone number multiplied by 3.</td></tr><tr><td>False Easting (m)</td><td>A false easting eliminates negative numbers by assigning a sufficiently large positive number to the central meridian. See the specific tables below for common values.</td></tr><tr><td>False Northing (m)</td><td>A false northing eliminates negative values in the same manner as the false easting. The false northing and latitude origin are usually set to zero which means that the northing will be the distance from the equator.</td></tr><tr><td>Scale factor</td><td>This is the scale factor along the central meridian and is usually equal to 1.0 for Gauss Kruger projections. The scale factor for the Universal Transverse Mercator projection is 0.9996.</td></tr></table>",
+        "bbox": [
+            179,
+            273,
+            875,
+            729
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The latitude and longitude origins can be entered as decimal degrees or as degrees minutes and seconds with a space separating the values. ",
+        "bbox": [
+            111,
+            750,
+            882,
+            787
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The Swedish Grid button sets the parameters to the Swedish grid coordinate system. ",
+        "bbox": [
+            111,
+            806,
+            740,
+            824
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "When the definitions are complete, close the dialog with the OK button. The parameters will be saved in a file named gauskrug.bin in the pathloss program directory. All conversions between geographic and easting - northings will use these definitions. ",
+        "bbox": [
+            109,
+            844,
+            877,
+            902
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ellipsoid - Datum ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            64,
+            259,
+            82
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "In addition to the specified Transverse Mercator parameters, the conversion between geographic coordinates and easting - northings are based on the ellipsoid definition. Both the Bessel and Krassovsky ellipsoids are used. Therefore, you must select an ellipsoid and check the Use Ellipsoid button in the Geographic defaults dialog. ",
+        "bbox": [
+            109,
+            102,
+            846,
+            176
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Note that there is no datum cooresponding to these two ellipsoids. ",
+        "bbox": [
+            111,
+            178,
+            433,
+            215
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/6615a59357f23777afb1b7fff8ee2decca6db64fc472b042fd60e4048139132a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Ellipsoid\nBessel 1841\nUse\n○ Datum\n● Ellipsoid",
+        "sub_type": "text_image",
+        "bbox": [
+            467,
+            176,
+            867,
+            234
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Terrain Database ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            234,
+            264,
+            251
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The Odyssey - Gauss Kruger terrain data base option has been implemented for this projection. This can be used with any terrain database with elevations arranged in west to east rows such as MSI Planet. The Gauss Kruger definitions can also be set as part of the database configuration. This is same as setting the parameters in the Geographic defaults. ",
+        "bbox": [
+            109,
+            272,
+            874,
+            348
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "A problem can occur when creating an index for a Gauss Kruger database from a text file. The east and west edges specification can include the zone number as the first digit of the value. The conversion process checks the value of the east and west edges. If the value is greater than 1000, the first digit is removed. In most cases the results will be correct; however a value greater than 1000 could also be an actual easting. ",
+        "bbox": [
+            109,
+            367,
+            875,
+            460
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Parameters ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            481,
+            210,
+            498
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The parameters used for the Gauss Kruger Projection in Baden-Wuerttemberg are: ",
+        "bbox": [
+            111,
+            518,
+            732,
+            537
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/1b3f625de208d4b967e83e3abe7b1f5f13c2994591eac2a0052d61759a621711.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>spheroid</td><td>Bessel 1841</td></tr><tr><td>latitude origin</td><td>0.0</td></tr><tr><td>longitude origin</td><td>9 degrees E (zone 3)</td></tr><tr><td>false easting (m)</td><td>3500000</td></tr><tr><td>false northing</td><td>0.0</td></tr><tr><td>scale factor</td><td>1.</td></tr></table>",
+        "bbox": [
+            111,
+            555,
+            428,
+            667
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "In Germany, there are 5 zones using the Gauss-Kruger / Transverse Mercator projection. ",
+        "bbox": [
+            111,
+            689,
+            772,
+            705
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/31dd3a7fb61d331ffbc7cd2f1b84d7e412b6fd26dd3c9353befbb4d2eee7b254.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>zone</td><td>latitude origin degrees</td><td>longitude origin degrees</td><td>scale factor</td><td>false easting meters</td><td>false northing meters</td><td>spheroid</td></tr><tr><td>1</td><td>0</td><td>3E</td><td>1.0</td><td>150,000</td><td>0</td><td></td></tr><tr><td>2</td><td>0</td><td>6E</td><td>1.0</td><td>250,000</td><td>0</td><td></td></tr><tr><td>3</td><td>0</td><td>9E</td><td>1.0</td><td>350,000</td><td>0</td><td></td></tr><tr><td>4</td><td>0</td><td>12E</td><td>1.0</td><td>450,000</td><td>0</td><td></td></tr><tr><td>5</td><td>0</td><td>15E</td><td>1.0</td><td>550,000</td><td>0</td><td></td></tr></table>",
+        "bbox": [
+            114,
+            705,
+            883,
+            928
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Swedish Grid System ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            64,
+            294,
+            82
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "The Swedish grid system uses the following parameters ",
+        "bbox": [
+            112,
+            102,
+            524,
+            119
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "spheroid Bessel 1841 ",
+        "bbox": [
+            112,
+            121,
+            362,
+            138
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "latitude origin 0.0 ",
+        "bbox": [
+            114,
+            140,
+            297,
+            157
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "longitude origin 15º 48' 29.8\" E (15.80827778 degrees E) ",
+        "bbox": [
+            114,
+            159,
+            586,
+            176
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "false easting (m) 1500000.00 ",
+        "bbox": [
+            114,
+            178,
+            370,
+            195
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "false northing 0.00 ",
+        "bbox": [
+            114,
+            196,
+            310,
+            213
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "scale factor 1.00 ",
+        "bbox": [
+            114,
+            215,
+            305,
+            231
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Slovakia ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            272,
+            189,
+            287
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "In Slovakia the following projections are used: ",
+        "bbox": [
+            112,
+            310,
+            459,
+            329
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "spheroid Krassovsky ",
+        "bbox": [
+            112,
+            348,
+            367,
+            364
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "latitude origin 0.0 ",
+        "bbox": [
+            114,
+            367,
+            297,
+            383
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "longitude origin 15 degrees E ",
+        "bbox": [
+            114,
+            386,
+            370,
+            402
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "false easting (m) 3500000 ",
+        "bbox": [
+            114,
+            405,
+            344,
+            422
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "false northing 0.0 ",
+        "bbox": [
+            114,
+            424,
+            300,
+            441
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "scale factor 1. ",
+        "bbox": [
+            114,
+            443,
+            285,
+            458
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "spheroid Krassovsky ",
+        "bbox": [
+            112,
+            481,
+            367,
+            498
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "latitude origin 0.0 ",
+        "bbox": [
+            114,
+            500,
+            297,
+            516
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "longitude origin 21 degrees E ",
+        "bbox": [
+            114,
+            518,
+            370,
+            536
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "false easting (m) 3500000 ",
+        "bbox": [
+            114,
+            537,
+            344,
+            555
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "false northing 0.0 ",
+        "bbox": [
+            114,
+            556,
+            300,
+            573
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "scale factor 1. ",
+        "bbox": [
+            114,
+            575,
+            285,
+            590
+        ],
+        "page_idx": 2
+    }
+]

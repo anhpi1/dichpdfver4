@@ -1,0 +1,1863 @@
+{
+    "pdf_info": [
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        59,
+                        31,
+                        133,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                30,
+                                134,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        30,
+                                        134,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "[1]",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        300,
+                        31,
+                        568,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                29,
+                                569,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        29,
+                                        569,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "[2]",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        502,
+                        741,
+                        569,
+                        756
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 20,
+                    "lines": [
+                        {
+                            "bbox": [
+                                501,
+                                738,
+                                571,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        501,
+                                        738,
+                                        571,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "[3]",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        139,
+                        67,
+                        490,
+                        88
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "[4]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        107,
+                        403,
+                        126
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 3,
+                    "content": "[5]"
+                },
+                {
+                    "bbox": [
+                        57,
+                        132,
+                        567,
+                        174
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "[6]"
+                },
+                {
+                    "bbox": [
+                        57,
+                        184,
+                        567,
+                        227
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "[7]"
+                },
+                {
+                    "bbox": [
+                        57,
+                        235,
+                        567,
+                        292
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "[8]"
+                },
+                {
+                    "bbox": [
+                        57,
+                        302,
+                        569,
+                        358
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "merge_prev": false,
+                    "content": "[9]"
+                },
+                {
+                    "bbox": [
+                        103,
+                        367,
+                        419,
+                        382
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "[10]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        391,
+                        267,
+                        406
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "[11]"
+                },
+                {
+                    "bbox": [
+                        103,
+                        416,
+                        496,
+                        442
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "[12]"
+                },
+                {
+                    "bbox": [
+                        103,
+                        444,
+                        494,
+                        458
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "[13]"
+                },
+                {
+                    "bbox": [
+                        57,
+                        468,
+                        569,
+                        510
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "merge_prev": false,
+                    "content": "[14]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        526,
+                        311,
+                        544
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 13,
+                    "content": "[15]"
+                },
+                {
+                    "bbox": [
+                        57,
+                        550,
+                        569,
+                        607
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 14,
+                    "merge_prev": false,
+                    "content": "[16]"
+                },
+                {
+                    "bbox": [
+                        57,
+                        616,
+                        546,
+                        631
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 15,
+                    "merge_prev": false,
+                    "content": "[17]"
+                },
+                {
+                    "bbox": [
+                        57,
+                        639,
+                        569,
+                        668
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 16,
+                    "merge_prev": false,
+                    "content": "[18]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        674,
+                        105,
+                        686
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 17,
+                    "merge_prev": false,
+                    "content": "[19]"
+                },
+                {
+                    "bbox": [
+                        59,
+                        690,
+                        75,
+                        700
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "merge_prev": false,
+                    "content": "[20]"
+                },
+                {
+                    "bbox": [
+                        59,
+                        703,
+                        83,
+                        714
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 19,
+                    "merge_prev": false,
+                    "content": "[21]"
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        31,
+                        308,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                29,
+                                310,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        29,
+                                        310,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "[22]",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        477,
+                        31,
+                        551,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                477,
+                                30,
+                                551,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        477,
+                                        30,
+                                        551,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "[23]",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        41,
+                        741,
+                        108,
+                        756
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 17,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                738,
+                                110,
+                                757
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        738,
+                                        110,
+                                        757
+                                    ],
+                                    "type": "text",
+                                    "content": "[24]",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 1,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        39,
+                        68,
+                        549,
+                        97
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "[25]"
+                },
+                {
+                    "bbox": [
+                        40,
+                        106,
+                        361,
+                        120
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "[26]"
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        41,
+                        153,
+                        265,
+                        287
+                    ],
+                    "index": 5,
+                    "image_path": "e460b4c1ae651c0318213bd7a98d3d9af5d36d4337e9bd01498adfa674549a8f.jpg"
+                },
+                {
+                    "bbox": [
+                        40,
+                        298,
+                        266,
+                        340
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "[27]"
+                },
+                {
+                    "bbox": [
+                        40,
+                        356,
+                        185,
+                        374
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 7,
+                    "content": "[28]"
+                },
+                {
+                    "bbox": [
+                        39,
+                        379,
+                        273,
+                        436
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "[29]"
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        277,
+                        138,
+                        544,
+                        450
+                    ],
+                    "index": 9,
+                    "sub_type": "text_image",
+                    "image_path": "78b79b6fce67ead0977fc55882499b69d62d3d0814125f53b90e6ea99fa4d000.jpg"
+                },
+                {
+                    "bbox": [
+                        40,
+                        452,
+                        141,
+                        469
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 10,
+                    "content": "[30]"
+                },
+                {
+                    "bbox": [
+                        39,
+                        476,
+                        549,
+                        518
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "[31]"
+                },
+                {
+                    "bbox": [
+                        39,
+                        528,
+                        237,
+                        556
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "merge_prev": false,
+                    "content": "[32]"
+                },
+                {
+                    "bbox": [
+                        39,
+                        566,
+                        252,
+                        594
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 13,
+                    "merge_prev": false,
+                    "content": "[33]"
+                },
+                {
+                    "bbox": [
+                        40,
+                        608,
+                        121,
+                        624
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 14,
+                    "content": "[34]"
+                },
+                {
+                    "bbox": [
+                        39,
+                        627,
+                        298,
+                        655
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 15,
+                    "merge_prev": false,
+                    "content": "[35]"
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        260,
+                        536,
+                        545,
+                        636
+                    ],
+                    "index": 16,
+                    "sub_type": "text_image",
+                    "image_path": "618dc15f3e81cdb4d515328376f2d5134cd96ed8a7e2364192a05b10bbf7feae.jpg"
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        59,
+                        31,
+                        133,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                30,
+                                134,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        30,
+                                        134,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "[36]",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        300,
+                        31,
+                        568,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                29,
+                                569,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        29,
+                                        569,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "[37]",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        502,
+                        741,
+                        569,
+                        756
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 14,
+                    "lines": [
+                        {
+                            "bbox": [
+                                501,
+                                739,
+                                571,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        501,
+                                        739,
+                                        571,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "[38]",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 2,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        58,
+                        68,
+                        180,
+                        83
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "[39]"
+                },
+                {
+                    "bbox": [
+                        57,
+                        87,
+                        271,
+                        170
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "[40]"
+                },
+                {
+                    "bbox": [
+                        57,
+                        181,
+                        268,
+                        265
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "[41]"
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        275,
+                        75,
+                        565,
+                        243
+                    ],
+                    "index": 5,
+                    "sub_type": "text_image",
+                    "image_path": "ee4bb8c73b48cfca3442d67e57edd2f3231972a0e00c0abfbffc921a6dc6a443.jpg"
+                },
+                {
+                    "bbox": [
+                        57,
+                        275,
+                        570,
+                        317
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "[42]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        326,
+                        392,
+                        341
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "merge_prev": false,
+                    "content": "[43]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        355,
+                        210,
+                        370
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 8,
+                    "content": "[44]"
+                },
+                {
+                    "bbox": [
+                        57,
+                        374,
+                        570,
+                        416
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "[45]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        432,
+                        101,
+                        447
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 10,
+                    "content": "[46]"
+                },
+                {
+                    "bbox": [
+                        57,
+                        456,
+                        175,
+                        552
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "[47]"
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        179,
+                        439,
+                        565,
+                        548
+                    ],
+                    "index": 12,
+                    "sub_type": "text_image",
+                    "image_path": "b020fb6617c0546ef96a9781cebef8beaf64b8ef8a3fa54b3466eed0bf3d5d7d.jpg"
+                },
+                {
+                    "bbox": [
+                        57,
+                        553,
+                        562,
+                        580
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 13,
+                    "merge_prev": true,
+                    "lines_deleted": true
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        31,
+                        309,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                29,
+                                310,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        29,
+                                        310,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "[48]",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        477,
+                        31,
+                        551,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                477,
+                                30,
+                                551,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        477,
+                                        30,
+                                        551,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "[49]",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        41,
+                        741,
+                        108,
+                        756
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 14,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                738,
+                                110,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        738,
+                                        110,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "[50]",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 3,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        40,
+                        68,
+                        350,
+                        95
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "[51]"
+                },
+                {
+                    "bbox": [
+                        40,
+                        105,
+                        350,
+                        177
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "[52]"
+                },
+                {
+                    "bbox": [
+                        40,
+                        185,
+                        349,
+                        229
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "[53]"
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        357,
+                        71,
+                        546,
+                        222
+                    ],
+                    "index": 5,
+                    "image_path": "ef6c99cd0c16e2dfe8ccf599f42bc5d3451010d0803869c67d63d23ed4ee4703.jpg"
+                },
+                {
+                    "bbox": [
+                        40,
+                        242,
+                        124,
+                        257
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 6,
+                    "content": "[54]"
+                },
+                {
+                    "bbox": [
+                        40,
+                        261,
+                        276,
+                        304
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "merge_prev": false,
+                    "content": "[55]"
+                },
+                {
+                    "bbox": [
+                        40,
+                        313,
+                        274,
+                        340
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "[56]"
+                },
+                {
+                    "bbox": [
+                        40,
+                        351,
+                        276,
+                        379
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "[57]"
+                },
+                {
+                    "bbox": [
+                        40,
+                        389,
+                        274,
+                        474
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "[58]"
+                },
+                {
+                    "bbox": [
+                        40,
+                        483,
+                        272,
+                        511
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "[59]"
+                },
+                {
+                    "bbox": [
+                        40,
+                        521,
+                        236,
+                        535
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "merge_prev": false,
+                    "content": "[60]"
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        281,
+                        250,
+                        546,
+                        496
+                    ],
+                    "index": 13,
+                    "sub_type": "text_image",
+                    "image_path": "77ed9dc9bd1d8d9f065023b868160672da4bc48959f02706d054aecc5f94a026.jpg"
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        59,
+                        31,
+                        133,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                30,
+                                134,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        30,
+                                        134,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "[61]",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        300,
+                        31,
+                        568,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                29,
+                                569,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        29,
+                                        569,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "[62]",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        502,
+                        741,
+                        569,
+                        756
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 18,
+                    "lines": [
+                        {
+                            "bbox": [
+                                501,
+                                739,
+                                571,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        501,
+                                        739,
+                                        571,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "[63]",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 4,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        58,
+                        68,
+                        318,
+                        86
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "[64]"
+                },
+                {
+                    "bbox": [
+                        57,
+                        91,
+                        276,
+                        189
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "[65]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        200,
+                        277,
+                        228
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "[66]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        238,
+                        276,
+                        265
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "[67]"
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        282,
+                        100,
+                        564,
+                        277
+                    ],
+                    "index": 6,
+                    "image_path": "429b81497815b17999a3af977817df570c6f55eb1d316cb30c64d151831e2b0a.jpg"
+                },
+                {
+                    "type": "chart",
+                    "bbox": [
+                        65,
+                        285,
+                        141,
+                        541
+                    ],
+                    "index": 7,
+                    "sub_type": "heatmap",
+                    "image_path": "59395c168e35ebc563a77d6dbaae75a2148aa70b12beb612b8da599f2e731014.jpg"
+                },
+                {
+                    "type": "chart",
+                    "bbox": [
+                        282,
+                        287,
+                        563,
+                        563
+                    ],
+                    "index": 9,
+                    "sub_type": "heatmap",
+                    "image_path": "72476647a461f21e3e121996b57629243051c73406288e63f20b8df99ba453dc.jpg"
+                },
+                {
+                    "bbox": [
+                        58,
+                        565,
+                        170,
+                        579
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 10,
+                    "content": "[68]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        584,
+                        231,
+                        599
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 11,
+                    "content": "[69]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        608,
+                        554,
+                        717
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 12,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                58,
+                                608,
+                                554,
+                                637
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 13,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        606,
+                                        556,
+                                        624
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                606,
+                                                556,
+                                                624
+                                            ],
+                                            "type": "text",
+                                            "content": "[70]",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        73,
+                                        623,
+                                        174,
+                                        636
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                73,
+                                                623,
+                                                174,
+                                                636
+                                            ],
+                                            "type": "text",
+                                            "content": "[71]",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                642,
+                                441,
+                                657
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 14,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        639,
+                                        441,
+                                        658
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                57,
+                                                639,
+                                                441,
+                                                658
+                                            ],
+                                            "type": "text",
+                                            "content": "[72]",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                662,
+                                505,
+                                677
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 15,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        658,
+                                        508,
+                                        679
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                57,
+                                                658,
+                                                508,
+                                                679
+                                            ],
+                                            "type": "text",
+                                            "content": "[73]",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                682,
+                                259,
+                                696
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 16,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        680,
+                                        260,
+                                        699
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                680,
+                                                260,
+                                                699
+                                            ],
+                                            "type": "text",
+                                            "content": "[74]",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                702,
+                                266,
+                                716
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 17,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        700,
+                                        268,
+                                        719
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                57,
+                                                700,
+                                                268,
+                                                719
+                                            ],
+                                            "type": "text",
+                                            "content": "[75]",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        31,
+                        308,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                29,
+                                310,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        29,
+                                        310,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "[76]",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        477,
+                        31,
+                        551,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                477,
+                                30,
+                                551,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        477,
+                                        30,
+                                        551,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "[77]",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        41,
+                        741,
+                        108,
+                        755
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 16,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                739,
+                                110,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        739,
+                                        110,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "[78]",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 5,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        40,
+                        68,
+                        526,
+                        95
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "[79]"
+                },
+                {
+                    "bbox": [
+                        40,
+                        102,
+                        340,
+                        117
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 3,
+                    "content": "[80]"
+                },
+                {
+                    "bbox": [
+                        40,
+                        126,
+                        240,
+                        140
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "[81]"
+                },
+                {
+                    "bbox": [
+                        40,
+                        145,
+                        524,
+                        161
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 5,
+                    "content": "[82]"
+                },
+                {
+                    "bbox": [
+                        40,
+                        170,
+                        274,
+                        185
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "[83]"
+                },
+                {
+                    "bbox": [
+                        40,
+                        200,
+                        224,
+                        217
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 7,
+                    "content": "[84]"
+                },
+                {
+                    "bbox": [
+                        39,
+                        224,
+                        292,
+                        321
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "[85]"
+                },
+                {
+                    "bbox": [
+                        39,
+                        332,
+                        290,
+                        401
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "[86]"
+                },
+                {
+                    "type": "chart",
+                    "bbox": [
+                        298,
+                        206,
+                        546,
+                        391
+                    ],
+                    "index": 10,
+                    "sub_type": "scatter",
+                    "image_path": "cce50ac428406aecf5e48e553396df0a59087f6f744bb86ea6f2174914c34d45.jpg"
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        41,
+                        435,
+                        309,
+                        522
+                    ],
+                    "index": 12,
+                    "image_path": "5a87c72bc2168cc3d709650564b852861458c2794a3005dd04344aa3d88fc28c.jpg"
+                },
+                {
+                    "bbox": [
+                        39,
+                        532,
+                        549,
+                        575
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 13,
+                    "merge_prev": false,
+                    "content": "[87]"
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        41,
+                        607,
+                        374,
+                        693
+                    ],
+                    "index": 15,
+                    "image_path": "fec36aee238722bb33ac30cc83369f75003e04938ecb3a6c6f787b682554b74e.jpg"
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": false,
+    "_vlm_ocr_enable": false,
+    "_version_name": "3.1.8"
+}

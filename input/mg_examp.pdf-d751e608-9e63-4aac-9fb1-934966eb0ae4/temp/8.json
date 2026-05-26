@@ -1,0 +1,3275 @@
+{
+    "pdf_info": [
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        42,
+                        43,
+                        115,
+                        56
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                41,
+                                116,
+                                57
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        41,
+                                        116,
+                                        57
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        462,
+                        43,
+                        569,
+                        58
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                461,
+                                42,
+                                570,
+                                58
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        461,
+                                        42,
+                                        570,
+                                        58
+                                    ],
+                                    "type": "text",
+                                    "content": "Map Grid Example",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        512,
+                        757,
+                        569,
+                        770
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 12,
+                    "lines": [
+                        {
+                            "bbox": [
+                                511,
+                                756,
+                                571,
+                                771
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        511,
+                                        756,
+                                        571,
+                                        771
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 1 of 7",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        229,
+                        120,
+                        611,
+                        219
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "VÍ DỤ VỀ LƯỚI BẢN ĐỒ",
+                    "original_bbox": [
+                        229,
+                        120,
+                        378,
+                        134
+                    ],
+                    "size": 34
+                },
+                {
+                    "bbox": [
+                        73,
+                        220,
+                        611,
+                        235
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "TẢI TỆP DỰ ÁN LƯỚI BẢN ĐỒ",
+                    "original_bbox": [
+                        73,
+                        220,
+                        570,
+                        234
+                    ],
+                    "size": 17
+                },
+                {
+                    "bbox": [
+                        74,
+                        236,
+                        611,
+                        249
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "ĐIỀU HƯỚNG HIỂN THỊ LƯỚI BẢN ĐỒ",
+                    "original_bbox": [
+                        74,
+                        236,
+                        569,
+                        248
+                    ],
+                    "size": 15
+                },
+                {
+                    "bbox": [
+                        74,
+                        250,
+                        611,
+                        263
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "TẢI TỆP VÍ DỤ MẠNG",
+                    "original_bbox": [
+                        74,
+                        250,
+                        569,
+                        262
+                    ],
+                    "size": 15
+                },
+                {
+                    "bbox": [
+                        74,
+                        264,
+                        611,
+                        277
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "KIỂM TRA KHOẢNG HỞ",
+                    "original_bbox": [
+                        74,
+                        264,
+                        569,
+                        277
+                    ],
+                    "size": 15
+                },
+                {
+                    "bbox": [
+                        74,
+                        278,
+                        611,
+                        292
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "merge_prev": false,
+                    "content": "CHẾ ĐỘ XEM CAO ĐỘ",
+                    "original_bbox": [
+                        74,
+                        278,
+                        569,
+                        290
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        74,
+                        293,
+                        611,
+                        306
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "THÊM VÀ DI CHUYỂN CÁC TRẠM",
+                    "original_bbox": [
+                        74,
+                        293,
+                        569,
+                        304
+                    ],
+                    "size": 15
+                },
+                {
+                    "bbox": [
+                        74,
+                        307,
+                        611,
+                        320
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "TẠO DỰ ÁN LƯỚI BẢN ĐỒ",
+                    "original_bbox": [
+                        74,
+                        307,
+                        569,
+                        319
+                    ],
+                    "size": 15
+                },
+                {
+                    "bbox": [
+                        74,
+                        321,
+                        611,
+                        334
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "TỆP GEOTIF",
+                    "original_bbox": [
+                        74,
+                        321,
+                        569,
+                        333
+                    ],
+                    "size": 15
+                },
+                {
+                    "bbox": [
+                        74,
+                        335,
+                        611,
+                        791
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "NGUỒN DỮ LIỆU NỀN",
+                    "original_bbox": [
+                        74,
+                        335,
+                        569,
+                        348
+                    ],
+                    "size": 18
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        43,
+                        116,
+                        57
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                41,
+                                116,
+                                57
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        41,
+                                        116,
+                                        57
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        462,
+                        43,
+                        569,
+                        58
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                461,
+                                42,
+                                570,
+                                58
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        461,
+                                        42,
+                                        570,
+                                        58
+                                    ],
+                                    "type": "text",
+                                    "content": "Map Grid Example",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        512,
+                        757,
+                        569,
+                        770
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 22,
+                    "lines": [
+                        {
+                            "bbox": [
+                                511,
+                                755,
+                                571,
+                                772
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        511,
+                                        755,
+                                        571,
+                                        772
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 2 of 7",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 1,
+            "para_blocks": [
+                {
+                    "type": "code",
+                    "bbox": [
+                        348,
+                        76,
+                        611,
+                        235
+                    ],
+                    "index": 6,
+                    "sub_type": "algorithm",
+                    "content": "map_grid     /))heights)))0) index     *     *) projectn     *     .) vancvr.bil     /))backdrop))0) index     *     *) projectn     *     *) vcr_map.tif     *     .) vcrphoto.tif     *     .) vancvr.bil     /))Geo_Tiff )))sp27gtif.tif     mg_examp.bkd     mg_examp.gr4",
+                    "original_bbox": [
+                        348,
+                        76,
+                        569,
+                        234
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        77,
+                        347,
+                        104
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "VÍ DỤ VỀ LƯỚI BẢN ĐỒ",
+                    "original_bbox": [
+                        37,
+                        77,
+                        165,
+                        90
+                    ],
+                    "size": 31
+                },
+                {
+                    "bbox": [
+                        37,
+                        105,
+                        347,
+                        175
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "Các tệp và cấu trúc thư mục cho ví dụ về lưới bản đồ được hiển thị ở bên phải. Sao chép các tệp này vào ổ cứng của bạn và ghi chú lại thư mục vì thư mục này phải được xác định như một phần của quy trình thiết lập.",
+                    "original_bbox": [
+                        37,
+                        105,
+                        339,
+                        162
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        176,
+                        345,
+                        261
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "Các thư mục được đặt tên là heights và backdrop. Thư mục backdrop chứa một bản đồ địa hình đã được quét và ảnh hàng không ở định dạng tệp TIF. Thư mục heights chứa cơ sở dữ liệu địa hình có cùng phạm vi với bản đồ đã quét. Mỗi thư mục chứa một tệp chỉ mục và một tệp chiếu ở định dạng MSI Planet. Tệp chỉ mục xác định tên tệp và các cạnh của tệp và tệp này sẽ được tải vào chương trình. Tệp chiếu nêu rõ phép chiếu cần thiết.",
+                    "original_bbox": [
+                        37,
+                        176,
+                        329,
+                        261
+                    ],
+                    "size": 14
+                },
+                {
+                    "bbox": [
+                        346,
+                        236,
+                        611,
+                        261
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "merge_prev": false,
+                    "content": "Các tệp và thư mục ví dụ về lưới bản đồ",
+                    "original_bbox": [
+                        346,
+                        236,
+                        538,
+                        251
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        262,
+                        611,
+                        301
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": true,
+                    "lines_deleted": true,
+                    "original_bbox": [
+                        37,
+                        262,
+                        559,
+                        289
+                    ],
+                    "size": 12
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        361,
+                        302,
+                        570,
+                        564
+                    ],
+                    "index": 15,
+                    "sub_type": "text_image",
+                    "image_path": "cc1210ba3bf522d1827a01b183c4ac9842208bd3c975aed4b12595c4e7a20b30.jpg",
+                    "original_bbox": [
+                        361,
+                        302,
+                        570,
+                        564
+                    ]
+                },
+                {
+                    "bbox": [
+                        37,
+                        304,
+                        360,
+                        345
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "Tệp mg_examp.bkd là một tệp dự án lưới bản đồ chứa tất cả các định nghĩa cần thiết cho cả nền và cơ sở dữ liệu địa hình.",
+                    "original_bbox": [
+                        37,
+                        304,
+                        351,
+                        344
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        37,
+                        346,
+                        360,
+                        387
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "Tệp mg_examp.gr4 là một tệp dữ liệu mạng Pathloss có thể được xem trong cả mô-đun mạng và lưới bản đồ.",
+                    "original_bbox": [
+                        37,
+                        346,
+                        352,
+                        374
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        388,
+                        360,
+                        444
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "Phần đầu tiên của ví dụ sử dụng tệp dự án lưới bản đồ. Phần thứ hai mô tả các bước để tạo tệp dự án lưới bản đồ và các nguồn dữ liệu cũng như các vấn đề về sản xuất.",
+                    "original_bbox": [
+                        37,
+                        388,
+                        351,
+                        431
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        445,
+                        360,
+                        472
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 11,
+                    "content": "TẢI TỆP DỰ ÁN LƯỚI BẢN ĐỒ",
+                    "original_bbox": [
+                        37,
+                        445,
+                        264,
+                        459
+                    ],
+                    "size": 31
+                },
+                {
+                    "bbox": [
+                        38,
+                        473,
+                        360,
+                        572
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 12,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                38,
+                                473,
+                                347,
+                                515
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 13,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        472,
+                                        350,
+                                        489
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                472,
+                                                350,
+                                                489
+                                            ],
+                                            "type": "text",
+                                            "content": "Chọn Module - Map Grid để vào mô-đun lưới bản đồ.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        74,
+                                        487,
+                                        335,
+                                        503
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                487,
+                                                335,
+                                                503
+                                            ],
+                                            "type": "text",
+                                            "content": "Nếu có một tệp mạng hiện có hoặc một tệp tạm thời,",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        75,
+                                        502,
+                                        259,
+                                        517
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                75,
+                                                502,
+                                                259,
+                                                517
+                                            ],
+                                            "type": "text",
+                                            "content": "chọn Files - New để xóa màn hình hiển thị.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                38,
+                                517,
+                                345,
+                                572
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 14,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        514,
+                                        346,
+                                        532
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                514,
+                                                346,
+                                                532
+                                            ],
+                                            "type": "text",
+                                            "content": "Chọn Site data - Backdrop. Sau đó chọn Files - Open trên",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        75,
+                                        531,
+                                        340,
+                                        544
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                75,
+                                                531,
+                                                340,
+                                                544
+                                            ],
+                                            "type": "text",
+                                            "content": "thanh menu của hộp thoại backdrop. Mở tệp",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        74,
+                                        545,
+                                        333,
+                                        559
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                545,
+                                                333,
+                                                559
+                                            ],
+                                            "type": "text",
+                                            "content": "mg_examp.bkd. Tệp này chứa tất cả thông tin cần thiết",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        74,
+                                        558,
+                                        309,
+                                        574
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                558,
+                                                309,
+                                                574
+                                            ],
+                                            "type": "text",
+                                            "content": "cho ví dụ; tuy nhiên, sẽ cần",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text",
+                    "original_bbox": [
+                        38,
+                        473,
+                        348,
+                        572
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        72,
+                        573,
+                        611,
+                        600
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 16,
+                    "merge_prev": false,
+                    "content": "xác định vị trí của các thư mục backdrop và heights để tương ứng với cấu trúc thư mục máy tính của bạn.",
+                    "original_bbox": [
+                        72,
+                        573,
+                        530,
+                        601
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        37,
+                        601,
+                        611,
+                        629
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 17,
+                    "merge_prev": false,
+                    "content": "\" Màn hình hiển thị nền được chia thành hai phần - nền và cao độ. Trong phần nền, nhấp vào nút Set directory và xác định thư mục backdrop.",
+                    "original_bbox": [
+                        37,
+                        601,
+                        566,
+                        628
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        37,
+                        630,
+                        611,
+                        657
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "merge_prev": false,
+                    "content": "\" Nhấp vào tab Elevation để chuyển sang phần này. Sau đó nhấp vào nút Set directory và xác định thư mục heights.",
+                    "original_bbox": [
+                        37,
+                        630,
+                        555,
+                        657
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        37,
+                        658,
+                        611,
+                        685
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 19,
+                    "merge_prev": false,
+                    "content": "\" Chọn Files - Save trên thanh menu của hộp thoại backdrop và lưu tệp dự án lưới bản đồ đã sửa đổi với các vị trí thư mục đã được cập nhật.",
+                    "original_bbox": [
+                        37,
+                        658,
+                        566,
+                        686
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        37,
+                        686,
+                        611,
+                        699
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 20,
+                    "merge_prev": false,
+                    "content": "\" Nhấp vào nút OK. Tệp nền vcr_map.tif sẽ được tải và hiển thị.",
+                    "original_bbox": [
+                        37,
+                        686,
+                        467,
+                        700
+                    ],
+                    "size": 15
+                },
+                {
+                    "bbox": [
+                        37,
+                        700,
+                        611,
+                        791
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 21,
+                    "merge_prev": false,
+                    "content": "\" Một tệp thứ hai (vcrphoto.tif) nằm trong tệp chỉ mục. Để kích hoạt tệp này, chọn Site data - Backdrop - Index và nhấp vào tùy chọn “show”.",
+                    "original_bbox": [
+                        37,
+                        700,
+                        568,
+                        728
+                    ],
+                    "size": 18
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        43,
+                        115,
+                        56
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                41,
+                                116,
+                                57
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        41,
+                                        116,
+                                        57
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        462,
+                        43,
+                        569,
+                        58
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                461,
+                                42,
+                                570,
+                                58
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        461,
+                                        42,
+                                        570,
+                                        58
+                                    ],
+                                    "type": "text",
+                                    "content": "Map Grid Example",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        512,
+                        757,
+                        569,
+                        770
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 20,
+                    "lines": [
+                        {
+                            "bbox": [
+                                511,
+                                756,
+                                571,
+                                771
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        511,
+                                        756,
+                                        571,
+                                        771
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 3 of 7",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 2,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        37,
+                        77,
+                        611,
+                        104
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "ĐIỀU HƯỚNG HIỂN THỊ LƯỚI BẢN ĐỒ",
+                    "original_bbox": [
+                        37,
+                        77,
+                        268,
+                        90
+                    ],
+                    "size": 31
+                },
+                {
+                    "bbox": [
+                        37,
+                        105,
+                        611,
+                        278
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 3,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                37,
+                                105,
+                                532,
+                                138
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 4,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        39,
+                                        105,
+                                        533,
+                                        124
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                39,
+                                                110,
+                                                49,
+                                                119
+                                            ],
+                                            "type": "text",
+                                            "content": "\"",
+                                            "score": 1.0
+                                        },
+                                        {
+                                            "bbox": [
+                                                72,
+                                                105,
+                                                533,
+                                                124
+                                            ],
+                                            "type": "text",
+                                            "content": "Ban đầu, toàn bộ tệp sẽ được hiển thị trên màn hình. Nhấp vào nút để đặt tỷ lệ thu phóng thành một",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        75,
+                                        123,
+                                        446,
+                                        140
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                75,
+                                                123,
+                                                446,
+                                                140
+                                            ],
+                                            "type": "text",
+                                            "content": "pixel vẽ bằng một pixel màn hình. Đây là độ phân giải dễ đọc nhất.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                37,
+                                140,
+                                561,
+                                171
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 5,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        39,
+                                        137,
+                                        564,
+                                        158
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                39,
+                                                142,
+                                                49,
+                                                152
+                                            ],
+                                            "type": "text",
+                                            "content": "\"",
+                                            "score": 1.0
+                                        },
+                                        {
+                                            "bbox": [
+                                                72,
+                                                137,
+                                                564,
+                                                158
+                                            ],
+                                            "type": "text",
+                                            "content": "Nhấp vào nút để di chuyển màn hình hiển thị. Giữ nút chuột trái và di chuyển chuột để di chuyển",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        152,
+                                        135,
+                                        175
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                152,
+                                                135,
+                                                175
+                                            ],
+                                            "type": "text",
+                                            "content": "màn hình hiển thị.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                37,
+                                171,
+                                561,
+                                217
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 6,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        39,
+                                        171,
+                                        536,
+                                        190
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                39,
+                                                175,
+                                                49,
+                                                185
+                                            ],
+                                            "type": "text",
+                                            "content": "\"",
+                                            "score": 1.0
+                                        },
+                                        {
+                                            "bbox": [
+                                                72,
+                                                171,
+                                                536,
+                                                190
+                                            ],
+                                            "type": "text",
+                                            "content": "Để thu phóng màn hình hiển thị theo cài đặt tùy chỉnh, nhấp vào nút. Một cú nhấp chuột trái trên",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        74,
+                                        190,
+                                        563,
+                                        205
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                190,
+                                                563,
+                                                205
+                                            ],
+                                            "type": "text",
+                                            "content": "màn hình hiển thị sẽ phóng to màn hình hiển thị một lượng đã cài đặt trước và căn giữa màn hình hiển thị tại điểm đã chọn. Một cú nhấp chuột phải",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        203,
+                                        282,
+                                        220
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                203,
+                                                282,
+                                                220
+                                            ],
+                                            "type": "text",
+                                            "content": "sẽ thu nhỏ màn hình hiển thị.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                37,
+                                218,
+                                566,
+                                246
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 7,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        39,
+                                        217,
+                                        569,
+                                        234
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                39,
+                                                220,
+                                                49,
+                                                229
+                                            ],
+                                            "type": "text",
+                                            "content": "\"",
+                                            "score": 1.0
+                                        },
+                                        {
+                                            "bbox": [
+                                                74,
+                                                217,
+                                                569,
+                                                234
+                                            ],
+                                            "type": "text",
+                                            "content": "Để thu phóng một khu vực cụ thể, di chuyển chuột đến một góc của khu vực, giữ nút chuột trái và kéo",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        74,
+                                        232,
+                                        290,
+                                        248
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                232,
+                                                290,
+                                                248
+                                            ],
+                                            "type": "text",
+                                            "content": "chuột đến góc đối diện theo đường chéo.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                37,
+                                247,
+                                320,
+                                265
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 8,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        247,
+                                        323,
+                                        264
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                247,
+                                                263,
+                                                263
+                                            ],
+                                            "type": "text",
+                                            "content": "Để hiển thị toàn bộ bản đồ, nhấp vào",
+                                            "score": 1.0
+                                        },
+                                        {
+                                            "bbox": [
+                                                264,
+                                                247,
+                                                323,
+                                                264
+                                            ],
+                                            "type": "text",
+                                            "content": "nút.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text",
+                    "original_bbox": [
+                        37,
+                        105,
+                        566,
+                        265
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        279,
+                        611,
+                        307
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 9,
+                    "content": "TẢI TỆP VÍ DỤ MẠNG",
+                    "original_bbox": [
+                        37,
+                        279,
+                        264,
+                        293
+                    ],
+                    "size": 33
+                },
+                {
+                    "bbox": [
+                        36,
+                        308,
+                        611,
+                        339
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "Chọn Files - Open và tải tệp mạng ví dụ mg_examp.gr4. Nhấp vào nút để thu phóng màn hình hiển thị theo phạm vi của các trạm.",
+                    "original_bbox": [
+                        36,
+                        308,
+                        538,
+                        339
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        36,
+                        340,
+                        611,
+                        367
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "Lưu ý rằng mô-đun lưới bản đồ không thay thế mô-đun mạng. Bạn có thể chuyển đổi giữa mô-đun mạng và lưới bản đồ. Về mặt chức năng, hai mô-đun này giống hệt nhau.",
+                    "original_bbox": [
+                        36,
+                        340,
+                        550,
+                        367
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        37,
+                        368,
+                        611,
+                        401
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "merge_prev": false,
+                    "content": "Nhấp vào nút để đặt chế độ con trỏ liên kết. Chế độ này được yêu cầu cho các thao tác sau:",
+                    "original_bbox": [
+                        37,
+                        368,
+                        521,
+                        387
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        72,
+                        402,
+                        611,
+                        414
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 13,
+                    "merge_prev": false,
+                    "content": "tạo một liên kết giữa hai trạm.",
+                    "original_bbox": [
+                        72,
+                        402,
+                        236,
+                        415
+                    ],
+                    "size": 14
+                },
+                {
+                    "bbox": [
+                        72,
+                        415,
+                        611,
+                        457
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 14,
+                    "merge_prev": false,
+                    "content": "chọn một mô-đun thiết kế bằng cách nhấp chuột trái vào liên kết giữa hai trạm, chỉnh sửa chú thích trạm, thuộc tính liên kết và tên trạm và di chuyển tên trạm.",
+                    "original_bbox": [
+                        72,
+                        415,
+                        451,
+                        443
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        458,
+                        611,
+                        485
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 15,
+                    "merge_prev": false,
+                    "content": "Trong mô-đun mạng, đây là chế độ con trỏ mặc định.",
+                    "original_bbox": [
+                        37,
+                        458,
+                        302,
+                        471
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        486,
+                        611,
+                        513
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 16,
+                    "content": "KIỂM TRA KHOẢNG HỞ",
+                    "original_bbox": [
+                        37,
+                        486,
+                        173,
+                        499
+                    ],
+                    "size": 31
+                },
+                {
+                    "bbox": [
+                        36,
+                        514,
+                        611,
+                        565
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 17,
+                    "merge_prev": false,
+                    "content": "Các mặt cắt đường truyền có thể được tạo động trên màn hình. Ví dụ, xác định tính khả thi của một đường truyền giữa các trạm BC Rail và Capitol Hill. Nhấp vào nút. Đặt chuột vào trạm BC Rail. Giữ nút chuột trái và kéo chuột đến trạm Capitol Hill.",
+                    "original_bbox": [
+                        36,
+                        514,
+                        544,
+                        562
+                    ],
+                    "size": 18
+                },
+                {
+                    "type": "chart",
+                    "bbox": [
+                        77,
+                        566,
+                        531,
+                        693
+                    ],
+                    "index": 18,
+                    "sub_type": "line",
+                    "image_path": "3050f69df24fc4b753c14b889a3b08b0bc6afd7d61852ee0756941cebea05059.jpg",
+                    "original_bbox": [
+                        77,
+                        566,
+                        531,
+                        693
+                    ]
+                },
+                {
+                    "bbox": [
+                        36,
+                        703,
+                        611,
+                        791
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 19,
+                    "merge_prev": false,
+                    "content": "Mặt cắt sẽ được hiển thị động trên màn hình cùng với chiều dài đường truyền và một đường thẳng giữa các ăng-ten. Màn hình hiển thị này không bao gồm độ cong trái đất. Nếu bạn nhấp chuột phải bất kỳ lúc nào trong quá trình",
+                    "original_bbox": [
+                        36,
+                        703,
+                        556,
+                        732
+                    ],
+                    "size": 18
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        42,
+                        43,
+                        115,
+                        56
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                41,
+                                116,
+                                57
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        41,
+                                        116,
+                                        57
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        462,
+                        43,
+                        569,
+                        58
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                461,
+                                42,
+                                570,
+                                58
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        461,
+                                        42,
+                                        570,
+                                        58
+                                    ],
+                                    "type": "text",
+                                    "content": "Map Grid Example",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        512,
+                        757,
+                        569,
+                        770
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 5,
+                    "lines": [
+                        {
+                            "bbox": [
+                                511,
+                                756,
+                                571,
+                                771
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        511,
+                                        756,
+                                        571,
+                                        771
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 4 of 7",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 3,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        37,
+                        77,
+                        611,
+                        117
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "thao tác này, mặt cắt sẽ được đặt lại. Thả nút chuột tại trạm Capitol Hill và một màn hình hiển thị mặt cắt chi tiết sẽ được tạo ra, cho phép phân tích khoảng hở chặt chẽ hơn.",
+                    "original_bbox": [
+                        37,
+                        77,
+                        545,
+                        106
+                    ],
+                    "size": 18
+                },
+                {
+                    "type": "chart",
+                    "bbox": [
+                        69,
+                        118,
+                        541,
+                        462
+                    ],
+                    "index": 3,
+                    "sub_type": "line",
+                    "image_path": "52fe4c749a1a613d9b658790a9b01b7bd154c0ad56f4925c86236f60c1c1abc8.jpg",
+                    "original_bbox": [
+                        69,
+                        118,
+                        541,
+                        462
+                    ]
+                },
+                {
+                    "bbox": [
+                        37,
+                        474,
+                        611,
+                        791
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "Liên kết có thể được thêm vào màn hình hiển thị và một tệp dữ liệu Pathloss có thể được tạo tại thời điểm này.",
+                    "original_bbox": [
+                        37,
+                        474,
+                        461,
+                        488
+                    ],
+                    "size": 18
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        43,
+                        116,
+                        57
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                41,
+                                116,
+                                57
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        41,
+                                        116,
+                                        57
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        462,
+                        43,
+                        569,
+                        58
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                461,
+                                42,
+                                570,
+                                58
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        461,
+                                        42,
+                                        570,
+                                        58
+                                    ],
+                                    "type": "text",
+                                    "content": "Map Grid Example",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        512,
+                        757,
+                        569,
+                        770
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 19,
+                    "lines": [
+                        {
+                            "bbox": [
+                                511,
+                                756,
+                                571,
+                                771
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        511,
+                                        756,
+                                        571,
+                                        771
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 5 of 7",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 4,
+            "para_blocks": [
+                {
+                    "type": "image",
+                    "bbox": [
+                        373,
+                        76,
+                        569,
+                        335
+                    ],
+                    "index": 8,
+                    "sub_type": "text_image",
+                    "image_path": "fb1bff2f052c3b873bb3c83e189b48d1024bf09a06f10c90dea02ac05a78fb4f.jpg",
+                    "original_bbox": [
+                        373,
+                        76,
+                        569,
+                        335
+                    ]
+                },
+                {
+                    "bbox": [
+                        37,
+                        77,
+                        372,
+                        105
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "CHẾ ĐỘ XEM CAO ĐỘ",
+                    "original_bbox": [
+                        37,
+                        77,
+                        157,
+                        90
+                    ],
+                    "size": 33
+                },
+                {
+                    "bbox": [
+                        37,
+                        106,
+                        372,
+                        119
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "Một chế độ xem cao độ có thể được thêm vào màn hình hiển thị.",
+                    "original_bbox": [
+                        37,
+                        106,
+                        263,
+                        119
+                    ],
+                    "size": 15
+                },
+                {
+                    "bbox": [
+                        37,
+                        120,
+                        372,
+                        160
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "Chọn Site data - Elevation view - Create. Phạm vi hiển thị luôn là màn hình hiện tại.",
+                    "original_bbox": [
+                        37,
+                        120,
+                        348,
+                        148
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        161,
+                        372,
+                        194
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "Nút bật/tắt chế độ xem cao độ.",
+                    "original_bbox": [
+                        37,
+                        161,
+                        299,
+                        182
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        195,
+                        372,
+                        307
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "Chế độ xem cao độ phủ lên nền bằng cách sử dụng các thao tác raster. Một số tùy chọn cho mã thao tác raster có sẵn. Chọn Site Data - Elevation view - Options. Mã SRCCOPY hiển thị ở bên phải ghi đè hoàn toàn lên nền. Mã DSPDxax là một hiển thị trong suốt, hữu ích với hình ảnh nền thang độ xám 8 bit.",
+                    "original_bbox": [
+                        37,
+                        195,
+                        370,
+                        280
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        308,
+                        372,
+                        336
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 7,
+                    "content": "THÊM VÀ DI CHUYỂN CÁC TRẠM",
+                    "original_bbox": [
+                        37,
+                        308,
+                        211,
+                        321
+                    ],
+                    "size": 30
+                },
+                {
+                    "bbox": [
+                        37,
+                        337,
+                        611,
+                        349
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "Chọn Site data - Add site hoặc Move site để truy cập các tính năng này.",
+                    "original_bbox": [
+                        37,
+                        337,
+                        346,
+                        350
+                    ],
+                    "size": 14
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        271,
+                        350,
+                        410,
+                        470
+                    ],
+                    "index": 11,
+                    "sub_type": "text_image",
+                    "image_path": "7db233d1437b63f6e63bf035964fa44a8a02a04363b210c1b4ae85edc4a7c9a9.jpg",
+                    "original_bbox": [
+                        271,
+                        350,
+                        410,
+                        470
+                    ]
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        413,
+                        350,
+                        569,
+                        555
+                    ],
+                    "index": 13,
+                    "sub_type": "text_image",
+                    "image_path": "6b53e85c43db024af7df665c129c74120f5314b72293cf4aede0c288ca9ebf91.jpg",
+                    "original_bbox": [
+                        413,
+                        350,
+                        569,
+                        555
+                    ]
+                },
+                {
+                    "bbox": [
+                        37,
+                        365,
+                        270,
+                        484
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "Các vị trí trạm ban đầu và các điều chỉnh tiếp theo có thể được thực hiện bằng các thao tác thêm và di chuyển trạm. Di chuyển một trạm yêu cầu hai bước. Đầu tiên, nhấp vào trạm cần di chuyển. Sau đó, di chuyển trạm đến vị trí mới của nó.",
+                    "original_bbox": [
+                        37,
+                        365,
+                        257,
+                        437
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        44,
+                        485,
+                        412,
+                        548
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "merge_prev": false,
+                    "content": "Di chuyển một trạm không tự động tạo lại các mặt cắt đường truyền cho bất kỳ liên kết nào được kết nối với trạm này.",
+                    "original_bbox": [
+                        44,
+                        485,
+                        396,
+                        513
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        549,
+                        412,
+                        577
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 14,
+                    "content": "TẠO DỰ ÁN LƯỚI BẢN ĐỒ",
+                    "original_bbox": [
+                        37,
+                        549,
+                        241,
+                        562
+                    ],
+                    "size": 33
+                },
+                {
+                    "bbox": [
+                        36,
+                        578,
+                        611,
+                        591
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 15,
+                    "merge_prev": false,
+                    "content": "Phần này mô tả cách tạo tệp dự án lưới bản đồ cho ví dụ này.",
+                    "original_bbox": [
+                        36,
+                        578,
+                        416,
+                        592
+                    ],
+                    "size": 15
+                },
+                {
+                    "bbox": [
+                        36,
+                        592,
+                        611,
+                        619
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 16,
+                    "merge_prev": false,
+                    "content": "Chọn Site data - Backdrop và nhấp vào nút reset để xóa dự án hiện tại.",
+                    "original_bbox": [
+                        36,
+                        592,
+                        426,
+                        605
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        36,
+                        620,
+                        611,
+                        661
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 17,
+                    "merge_prev": false,
+                    "content": "Trong bản phát hành này, cùng một phép chiếu phải được sử dụng cho cả dữ liệu nền và dữ liệu cao độ. Ngay cả khi không có nền, bạn vẫn phải đặt phép chiếu cho cả hai. Bắt đầu với nền, tiến hành như sau.",
+                    "original_bbox": [
+                        36,
+                        620,
+                        563,
+                        649
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        36,
+                        662,
+                        611,
+                        791
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "merge_prev": false,
+                    "content": "Tệp \\backdrop\\projectn.txt chứa dòng “NAD27 Clarke 1886 zone 10\". Đây là các tham số cần thiết cho phép chiếu UTM.",
+                    "original_bbox": [
+                        36,
+                        662,
+                        535,
+                        691
+                    ],
+                    "size": 18
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        43,
+                        116,
+                        57
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                41,
+                                116,
+                                57
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        41,
+                                        116,
+                                        57
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        462,
+                        43,
+                        569,
+                        58
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                461,
+                                42,
+                                570,
+                                58
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        461,
+                                        42,
+                                        570,
+                                        58
+                                    ],
+                                    "type": "text",
+                                    "content": "Map Grid Example",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        512,
+                        757,
+                        569,
+                        770
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 24,
+                    "lines": [
+                        {
+                            "bbox": [
+                                511,
+                                755,
+                                571,
+                                772
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        511,
+                                        755,
+                                        571,
+                                        772
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 6 of 7",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 5,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        37,
+                        77,
+                        611,
+                        104
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "Cài đặt Nền",
+                    "original_bbox": [
+                        37,
+                        77,
+                        129,
+                        91
+                    ],
+                    "size": 31
+                },
+                {
+                    "bbox": [
+                        37,
+                        105,
+                        611,
+                        176
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 3,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                37,
+                                105,
+                                552,
+                                133
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 4,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        39,
+                                        104,
+                                        553,
+                                        120
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                39,
+                                                107,
+                                                49,
+                                                116
+                                            ],
+                                            "type": "text",
+                                            "content": "\"",
+                                            "score": 1.0
+                                        },
+                                        {
+                                            "bbox": [
+                                                73,
+                                                104,
+                                                553,
+                                                120
+                                            ],
+                                            "type": "text",
+                                            "content": "Đặt lựa chọn tọa độ lưới thành Universal Transverse Mercator (UTM) và nhập 10 vào trường",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        118,
+                                        105,
+                                        135
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                118,
+                                                105,
+                                                135
+                                            ],
+                                            "type": "text",
+                                            "content": "zone.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                37,
+                                133,
+                                561,
+                                176
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 5,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        39,
+                                        133,
+                                        553,
+                                        148
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                39,
+                                                136,
+                                                49,
+                                                145
+                                            ],
+                                            "type": "text",
+                                            "content": "\"",
+                                            "score": 1.0
+                                        },
+                                        {
+                                            "bbox": [
+                                                74,
+                                                133,
+                                                553,
+                                                148
+                                            ],
+                                            "type": "text",
+                                            "content": "Đặt datum thành North American 27 (NAD27). Việc chuyển đổi tọa độ giữa các datum chưa",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        74,
+                                        148,
+                                        562,
+                                        163
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                148,
+                                                562,
+                                                163
+                                            ],
+                                            "type": "text",
+                                            "content": "được triển khai trong mô-đun Map Grid hiện tại; tuy nhiên, cần phải chỉ định một khu vực cho",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        74,
+                                        162,
+                                        476,
+                                        177
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                162,
+                                                476,
+                                                177
+                                            ],
+                                            "type": "text",
+                                            "content": "datum. Trong ví dụ này, đặt khu vực thành “Canada (Alberta - British Columbia)”.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text",
+                    "original_bbox": [
+                        37,
+                        105,
+                        563,
+                        176
+                    ],
+                    "size": 17
+                },
+                {
+                    "bbox": [
+                        37,
+                        177,
+                        379,
+                        204
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "C Nhấp vào nút set directory và xác định thư mục chứa các tệp nền.",
+                    "original_bbox": [
+                        37,
+                        177,
+                        341,
+                        205
+                    ],
+                    "size": 16
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        380,
+                        177,
+                        569,
+                        368
+                    ],
+                    "index": 12,
+                    "sub_type": "text_image",
+                    "image_path": "cc0be12e23f411844cdc951ef0a2c8f50f3ac23c8d5fc15ee7600986b2e1d5fb.jpg",
+                    "original_bbox": [
+                        380,
+                        177,
+                        569,
+                        368
+                    ]
+                },
+                {
+                    "bbox": [
+                        37,
+                        205,
+                        379,
+                        258
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "merge_prev": false,
+                    "content": "\" Nhấp vào nút index để mở biểu mẫu chỉ mục. Chọn Files - Import list trên thanh menu. Tệp chỉ mục chứa các dòng sau ở định dạng Planet:",
+                    "original_bbox": [
+                        37,
+                        205,
+                        375,
+                        247
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        259,
+                        379,
+                        272
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "vcr_map.tif 491000 500000 5456000 5468000",
+                    "original_bbox": [
+                        37,
+                        259,
+                        350,
+                        273
+                    ],
+                    "size": 15
+                },
+                {
+                    "bbox": [
+                        37,
+                        273,
+                        379,
+                        299
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "vcrphoto.tif 480711 509042 5448588 5461808",
+                    "original_bbox": [
+                        37,
+                        273,
+                        343,
+                        286
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        300,
+                        379,
+                        343
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "\" Nhấp vào nút Planet để đặt các giá trị mặc định này. Các cạnh là tọa độ UTM của các góc của tệp. Trường cell size là tùy chọn và nên để trống cho ví dụ này.",
+                    "original_bbox": [
+                        37,
+                        300,
+                        375,
+                        344
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        37,
+                        344,
+                        379,
+                        371
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "Nhấp OK, tải tệp chỉ mục và xác minh các mục nhập.",
+                    "original_bbox": [
+                        37,
+                        344,
+                        323,
+                        359
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        372,
+                        611,
+                        399
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 13,
+                    "content": "Cài đặt Cao độ",
+                    "original_bbox": [
+                        37,
+                        372,
+                        129,
+                        386
+                    ],
+                    "size": 31
+                },
+                {
+                    "bbox": [
+                        37,
+                        400,
+                        611,
+                        427
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 14,
+                    "merge_prev": false,
+                    "content": "\" Chuyển sang phần cao độ và đặt dữ liệu chiếu thành các giá trị giống như trong phần nền.",
+                    "original_bbox": [
+                        37,
+                        400,
+                        536,
+                        427
+                    ],
+                    "size": 18
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        401,
+                        428,
+                        569,
+                        656
+                    ],
+                    "index": 22,
+                    "sub_type": "text_image",
+                    "image_path": "c0ad4d4aa690e179d0ad359b257dd579174af12ba9c64096867ed446777462ae.jpg",
+                    "original_bbox": [
+                        401,
+                        428,
+                        569,
+                        656
+                    ]
+                },
+                {
+                    "bbox": [
+                        37,
+                        429,
+                        400,
+                        455
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 15,
+                    "merge_prev": false,
+                    "content": "\" Nhấp vào nút set directory và xác định thư mục chứa các tệp cao độ.",
+                    "original_bbox": [
+                        37,
+                        429,
+                        393,
+                        456
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        37,
+                        456,
+                        400,
+                        511
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 16,
+                    "merge_prev": false,
+                    "content": "\" Nhấp vào nút index để mở biểu mẫu chỉ mục. Chọn Files - Import list trên thanh menu. Tệp chỉ mục chứa dòng sau ở định dạng Planet:",
+                    "original_bbox": [
+                        37,
+                        456,
+                        392,
+                        499
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        512,
+                        400,
+                        539
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 17,
+                    "merge_prev": false,
+                    "content": "vancvr.bil 491000 500000 5456000 5468000 25",
+                    "original_bbox": [
+                        37,
+                        512,
+                        350,
+                        525
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        540,
+                        400,
+                        568
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "merge_prev": false,
+                    "content": "\" Nhấp vào nút Planet để đặt các giá trị mặc định này. Các cạnh là tọa độ UTM của các góc của tệp.",
+                    "original_bbox": [
+                        37,
+                        540,
+                        375,
+                        568
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        37,
+                        569,
+                        400,
+                        596
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 19,
+                    "merge_prev": false,
+                    "content": "\" Tùy chọn bottom up xác định xem tệp sẽ được đọc từ dưới lên hay từ trên xuống. Một lỗi ở đây sẽ dẫn đến hiển thị bị lộn ngược.",
+                    "original_bbox": [
+                        37,
+                        569,
+                        394,
+                        597
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        37,
+                        597,
+                        400,
+                        653
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 20,
+                    "merge_prev": false,
+                    "content": "\" Tùy chọn byte order nên được đặt thành Intel cho ví dụ này. Nếu cài đặt này không chính xác, các giá trị cao độ sẽ rất lớn và được hiểu là giá trị không có dữ liệu. Tuy nhiên, gần mực nước biển, một số dữ liệu có thể được tạo ra, dẫn đến kết quả rất khó hiểu.",
+                    "original_bbox": [
+                        37,
+                        597,
+                        386,
+                        654
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        37,
+                        654,
+                        400,
+                        680
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 21,
+                    "merge_prev": false,
+                    "content": "Nhấp OK, tải tệp chỉ mục và xác minh các mục nhập.",
+                    "original_bbox": [
+                        37,
+                        654,
+                        323,
+                        668
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        36,
+                        681,
+                        611,
+                        791
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 23,
+                    "merge_prev": false,
+                    "content": "Chọn Files - Save trên thanh menu nền và lưu dự án. Lần tiếp theo chương trình Pathloss khởi động, tệp dự án lưới bản đồ sẽ được tự động tải lại.",
+                    "original_bbox": [
+                        36,
+                        681,
+                        561,
+                        711
+                    ],
+                    "size": 18
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        43,
+                        115,
+                        56
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                41,
+                                116,
+                                57
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        41,
+                                        116,
+                                        57
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        462,
+                        43,
+                        569,
+                        58
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                461,
+                                42,
+                                570,
+                                58
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        461,
+                                        42,
+                                        570,
+                                        58
+                                    ],
+                                    "type": "text",
+                                    "content": "Map Grid Example",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        512,
+                        757,
+                        569,
+                        770
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 13,
+                    "lines": [
+                        {
+                            "bbox": [
+                                511,
+                                756,
+                                571,
+                                771
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        511,
+                                        756,
+                                        571,
+                                        771
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 7 of 7",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 6,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        37,
+                        77,
+                        240,
+                        104
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "TỆP GEOTIF",
+                    "original_bbox": [
+                        37,
+                        77,
+                        126,
+                        90
+                    ],
+                    "size": 31
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        241,
+                        77,
+                        569,
+                        406
+                    ],
+                    "index": 7,
+                    "sub_type": "text_image",
+                    "image_path": "e3e9187e1059949f757a24cce86dbb6bb1c96c06111e9fbfe47c52c0ea2a2a37.jpg",
+                    "original_bbox": [
+                        241,
+                        77,
+                        569,
+                        406
+                    ]
+                },
+                {
+                    "bbox": [
+                        37,
+                        105,
+                        240,
+                        231
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "Tệp GeoTif là các tệp hình ảnh TIF có phần mở rộng để tham chiếu địa lý cho tệp. Mô-đun lưới bản đồ hỗ trợ các tệp GeoTif với phép chiếu tọa độ UTM và US state plane. Thư mục map_grid\\Geo_Tiff chứa một ví dụ về tệp GeoTif sử dụng tọa độ US state plane.",
+                    "original_bbox": [
+                        37,
+                        105,
+                        227,
+                        218
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        232,
+                        240,
+                        303
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "Chọn Site data - Backdrop và nhấp vào nút reset để tạo một dự án lưới bản đồ mới. Trong phần nền, nhấp vào nút index.",
+                    "original_bbox": [
+                        37,
+                        232,
+                        236,
+                        289
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        304,
+                        240,
+                        387
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "Chọn Files - Geo Tiff file và tải tệp map_grid\\geo_tiff\\sp27gtif.tif. Hộp thoại thông tin ở bên phải tóm tắt trạng thái địa lý của tệp.",
+                    "original_bbox": [
+                        37,
+                        304,
+                        233,
+                        373
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        388,
+                        240,
+                        444
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "Nhấp vào nút create index. Tất cả các khía cạnh của định nghĩa nền được điền đầy đủ.",
+                    "original_bbox": [
+                        37,
+                        388,
+                        220,
+                        430
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        445,
+                        611,
+                        486
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "Đóng chỉ mục và nhấp vào nút OK để hiển thị tệp.",
+                    "original_bbox": [
+                        37,
+                        445,
+                        323,
+                        459
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        487,
+                        611,
+                        515
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 9,
+                    "content": "NGUỒN DỮ LIỆU NỀN",
+                    "original_bbox": [
+                        37,
+                        487,
+                        206,
+                        501
+                    ],
+                    "size": 33
+                },
+                {
+                    "bbox": [
+                        36,
+                        516,
+                        611,
+                        600
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "Tệp vcr_map.tif được tạo ra bằng cách quét một bản đồ địa hình thành nhiều phần và ghép các phần lại với nhau trong một chương trình chỉnh sửa hình ảnh. Một máy quét Hewlett Packard ScanJet 3200C đã được sử dụng. Các cạnh phải được tham chiếu địa lý. Điều này có nghĩa là tọa độ hình chữ nhật của các cạnh phải được biết. Đây là một quy trình tương đối đơn giản nếu bản đồ chứa lưới UTM. Các cạnh của hình ảnh có thể được cắt theo các đường lưới và các giá trị này sẽ được nhập vào chỉ mục.",
+                    "original_bbox": [
+                        36,
+                        516,
+                        553,
+                        586
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        37,
+                        601,
+                        611,
+                        628
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "Định dạng tệp có thể là tệp hình ảnh được gắn thẻ (TIF) hoặc bitmap Windows (BMP).",
+                    "original_bbox": [
+                        37,
+                        601,
+                        435,
+                        616
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        36,
+                        629,
+                        611,
+                        791
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "merge_prev": false,
+                    "content": "Màu sắc nên được đặt thành bảng màu 8 bit cho cả hình ảnh màu và thang độ xám. Kích thước tệp cơ bản sẽ là một byte trên mỗi pixel. Nếu sử dụng màu 24 bit, kích thước tệp cơ bản sẽ lớn gấp ba lần.",
+                    "original_bbox": [
+                        36,
+                        629,
+                        547,
+                        658
+                    ],
+                    "size": 18
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": false,
+    "_vlm_ocr_enable": false,
+    "_version_name": "3.1.8"
+}

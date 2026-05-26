@@ -1,0 +1,2027 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "MAP GRID EXAMPLE "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                374,
+                151,
+                617,
+                169
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "LOADING A MAP GRID PROJECT FILE "
+                    }
+                ]
+            },
+            "bbox": [
+                119,
+                277,
+                931,
+                295
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "NAVIGATING THE MAP GRID DISPLAY "
+                    }
+                ]
+            },
+            "bbox": [
+                120,
+                297,
+                929,
+                313
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "LOAD THE NETWORK EXAMPLE FILE "
+                    }
+                ]
+            },
+            "bbox": [
+                120,
+                315,
+                929,
+                330
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "CLEARANCE TESTING "
+                    }
+                ]
+            },
+            "bbox": [
+                120,
+                333,
+                929,
+                349
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ELEVATION VIEWS "
+                    }
+                ]
+            },
+            "bbox": [
+                120,
+                351,
+                929,
+                366
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ADDING AND MOVING SITES "
+                    }
+                ]
+            },
+            "bbox": [
+                120,
+                369,
+                929,
+                383
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "CREATING A MAP GRID PROJECT "
+                    }
+                ]
+            },
+            "bbox": [
+                120,
+                387,
+                929,
+                402
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "GEOTIF FILES "
+                    }
+                ]
+            },
+            "bbox": [
+                120,
+                405,
+                929,
+                420
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "BACKDROP DATA SOURCES "
+                    }
+                ]
+            },
+            "bbox": [
+                120,
+                422,
+                929,
+                439
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Pathloss 4.0 "
+                    }
+                ]
+            },
+            "bbox": [
+                68,
+                54,
+                187,
+                70
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Map Grid Example "
+                    }
+                ]
+            },
+            "bbox": [
+                754,
+                54,
+                929,
+                73
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 1 of 7 "
+                    }
+                ]
+            },
+            "bbox": [
+                836,
+                955,
+                929,
+                972
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "MAP GRID EXAMPLE "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                60,
+                97,
+                269,
+                113
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The files and directory structure for the map grid example are shown at the right. Copy these file to your hard drive and make note of the directory as this must be identified as part of the setup procedure. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                132,
+                553,
+                204
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The directories are named heights and backdrop. The backdrop directory contains a scanned topographic map and ariel photo in the TIF file format. The heights directory contains a terrain database with the same extents as the scanned map. Each directory contains an index file and a projection file in the MSI Planet format. The index file identifies the file name and the edges of the file and this will be loaded into the program. The projection file states the required projection. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                222,
+                537,
+                329
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                60,
+                330,
+                913,
+                364
+            ]
+        },
+        {
+            "type": "algorithm",
+            "content": {
+                "algorithm_caption": [],
+                "algorithm_content": [
+                    {
+                        "type": "text",
+                        "content": "map_grid\n    /))heights)))0) index\n    *\n    *) projectn\n    *\n    .) vancvr.bil\n    /))backdrop))0) index\n    *\n    *) projectn\n    *\n    *) vcr_map.tif\n    *\n    .) vcrphoto.tif\n    *\n    .) vancvr.bil\n    /))Geo_Tiff )))sp27gtif.tif\n    mg_examp.bkd\n    mg_examp.gr4 "
+                    }
+                ]
+            },
+            "bbox": [
+                568,
+                95,
+                929,
+                295
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Map Grid example files and directories "
+                    }
+                ]
+            },
+            "bbox": [
+                565,
+                297,
+                879,
+                316
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The file mg_examp.bkd is a map grid project file which contains all of the required definitions for both the backdrop and the terrain database. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                383,
+                573,
+                434
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The file mg_examp.gr4 is a Pathloss network data file which can be viewed in both the network and map grid modules. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                436,
+                575,
+                472
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The first part of the example uses the map grid project file. The second part describes the steps to create the map grid project file and data sources and production issues. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                489,
+                573,
+                544
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "LOADING A MAP GRID PROJECT FILE "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                60,
+                561,
+                431,
+                579
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Select Module - Map Grid to enter the map grid module. If there is an existing network file or a temporary file, select Files - New to clear the display. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Select Site data - Backdrop. Then select Files - Open on the menu bar of the backdrop dialog box. Open the file mg_examp.bkd. This file contains all of the required information for the example; however, it will be "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                597,
+                568,
+                722
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/cc1210ba3bf522d1827a01b183c4ac9842208bd3c975aed4b12595c4e7a20b30.jpg"
+                },
+                "content": "200 Granville\nHarbour Center\n700 Hamilton",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                589,
+                381,
+                931,
+                712
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "necessary to identify the location of the backdrop and heights directories to correspond to your computers directory structure. "
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                723,
+                866,
+                758
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "\" The back drop display is divided into two sections - backdrop and elevations. In the backdrop section, click the Set directory button and identify the backdrop directory. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                758,
+                924,
+                792
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "\" Click the Elevation tab to switch to this section. Then click the Set directory button and identify the heights directory. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                795,
+                906,
+                829
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "\" Select Files - Save on the on the menu bar of the backdrop dialog box and save the modified map grid project file with the revised directory locations. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                830,
+                924,
+                866
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "\" Click the OK button. The backdrop file vcr_map.tif will be loaded and displayed. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                866,
+                763,
+                883
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "\" A second file (vcrphoto.tif) is in the index file. To activate this file, select Site data - Backdrop - Index and click the “show” option. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                883,
+                928,
+                919
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Pathloss 4.0 "
+                    }
+                ]
+            },
+            "bbox": [
+                66,
+                54,
+                189,
+                71
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Map Grid Example "
+                    }
+                ]
+            },
+            "bbox": [
+                754,
+                54,
+                929,
+                73
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 2 of 7 "
+                    }
+                ]
+            },
+            "bbox": [
+                836,
+                955,
+                929,
+                972
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "NAVIGATING THE MAP GRID DISPLAY "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                60,
+                97,
+                437,
+                113
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "\" Initially the entire file will displayed on the screen. Click the button to set the zoom to one drawing pixel equal to one screen pixel. This is the most readable resolution. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "\" Click the button to pan the display. Hold down the left mouse button and move the mouse to pan the display. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "\" To zoom the display to a custom setting, click the button. A left mouse button click on the display, will magnify the display a preset amount and center the display on the selected point. A right mouse button click will shrink the display. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "\" To zoom a specific area, move the mouse to one corner of the area, hold down the left button and drag the mouse to the diagonally opposite corner. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "To display the complete map, click the button. "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                132,
+                924,
+                334
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "LOAD THE NETWORK EXAMPLE FILE "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                60,
+                352,
+                431,
+                369
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Select Files - Open and load the example network file mg_examp.gr4. Click the button to zoom the display to the extents of the sites. "
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                388,
+                879,
+                428
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Note that the map grid module does not replace the network module. You can switch between the network and map grid modules. Functionally the two modules are identical. "
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                429,
+                898,
+                463
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Click the button to set the link cursor mode. This mode is required for the following operations: "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                464,
+                851,
+                488
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "creating a link between two sites. "
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                507,
+                385,
+                523
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "selecting a design module by a left mouse click on the link between two sites editing the site legend, link and site name attributes and moving the site name. "
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                523,
+                736,
+                559
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In the network module, this is the default cursor mode. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                578,
+                493,
+                594
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "CLEARANCE TESTING "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                60,
+                613,
+                282,
+                630
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Path profiles can be dynamically generated on screen. As an example, determine the feasability of a path between the BC Rail and Capitol Hill sites. Click the button. Position the mouse on the BC Rail site. Hold the left mouse button down and drag the mouse to the Capitol Hill site. "
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                648,
+                888,
+                709
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/3050f69df24fc4b753c14b889a3b08b0bc6afd7d61852ee0756941cebea05059.jpg"
+                },
+                "content": "| Position | Value |\n| -------- | ----- |\n| Start    | 3.62  |",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "sub_type": "line",
+            "bbox": [
+                125,
+                714,
+                867,
+                875
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The profile will be dynamically displayed on screen along with the path length and a line between antennas. This display does not include earth curvature. If you click the right mouse button at any time during this "
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                887,
+                908,
+                924
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Pathloss 4.0 "
+                    }
+                ]
+            },
+            "bbox": [
+                66,
+                54,
+                187,
+                70
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Map Grid Example "
+                    }
+                ]
+            },
+            "bbox": [
+                754,
+                54,
+                929,
+                73
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 3 of 7 "
+                    }
+                ]
+            },
+            "bbox": [
+                836,
+                955,
+                929,
+                972
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "operation, the profile will be reset. Release the mouse button at the Capitol Hill site and a detailed profile display will be created which allows a more rigorous clearance analysis. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                97,
+                890,
+                133
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/52fe4c749a1a613d9b658790a9b01b7bd154c0ad56f4925c86236f60c1c1abc8.jpg"
+                },
+                "content": "| Metric | Value |\n| --- | --- |\n| Distance (mi) | 1.01 |\n| Elevation (ft) | 157.48 |\n| Frequency (MHz) | 5882.00 |\n| Earth Radius Factor K | 1.33 |\n| Earth Bulge (ft) | 1.31 |\n| Clearance (ft) | 45.85 |\n| First Fresnel Zone (F1) (ft) | 25.35 |\n| Clearance /F1 (%) | 180.88 |\n| Left Side Angles (°) | 0.218 -0.229 |\n| Right Side Angles (°) | 0.913 -0.941 |",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "sub_type": "line",
+            "bbox": [
+                112,
+                148,
+                883,
+                583
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The link can be added to the display and a Pathloss data file can be created at this point. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                598,
+                753,
+                616
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Pathloss 4.0 "
+                    }
+                ]
+            },
+            "bbox": [
+                68,
+                54,
+                187,
+                70
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Map Grid Example "
+                    }
+                ]
+            },
+            "bbox": [
+                754,
+                54,
+                929,
+                73
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 4 of 7 "
+                    }
+                ]
+            },
+            "bbox": [
+                836,
+                955,
+                929,
+                972
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "ELEVATION VIEWS "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                60,
+                97,
+                256,
+                113
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "An elevation view can be added to the display. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                133,
+                429,
+                150
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Select Site data - Elevation view - Create. The display extents is always the current screen. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                151,
+                568,
+                186
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The button toggles the elevation view on and off. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                203,
+                488,
+                229
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The elevation view overlays the backdrop using raster operations. Several options for the raster operation codes are available. Select Site Data - Elevation view - Options. The SRCCOPY code shown at the right completely overwrites the backdrop. The DSPDxax code is a transparent display which is useful with 8 bit grey scale backdrop images. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                246,
+                604,
+                353
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "ADDING AND MOVING SITES "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                60,
+                388,
+                344,
+                405
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/fb1bff2f052c3b873bb3c83e189b48d1024bf09a06f10c90dea02ac05a78fb4f.jpg"
+                },
+                "content": "Lynn Creek\nSeymour Heights\nBC Rail\n200 Granville\nHarbour Center\n700 Hamilton\nCapitol Hill",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                609,
+                95,
+                929,
+                422
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Select Site data - Add site or Move site to access these features. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                425,
+                565,
+                441
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The initial site locations and subsequent adjustments can be made with the add and move site operations. Moving a site requires two steps. First click on the site to be moved. Then move the site to its new position. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                460,
+                419,
+                551
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/7db233d1437b63f6e63bf035964fa44a8a02a04363b210c1b4ae85edc4a7c9a9.jpg"
+                },
+                "content": "Add Site\nLatitude 49 17 03.17 N\nLongitude 123 06 36.01 W\nEasting (km) 492.000\nNorthing (km) 5458.838\nElevation (ft) 62\nCancel Add Site",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                442,
+                441,
+                669,
+                593
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Moving a site does not automatically regenerate the path profiles for any links connected to this site "
+                    }
+                ]
+            },
+            "bbox": [
+                71,
+                612,
+                647,
+                647
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6b53e85c43db024af7df665c129c74120f5314b72293cf4aede0c288ca9ebf91.jpg"
+                },
+                "content": "Move Site\n700 Hamilton\nfrom\n49 16 45.00 N\n123 06 49.00 W\n68.9 ft\nto\n49 16 46.97 N\n123 06 51.28 W\n78.7 ft\nOK Cancel",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                674,
+                441,
+                929,
+                700
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "CREATING A MAP GRID PROJECT "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                60,
+                693,
+                393,
+                709
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "This section describes how to create the map grid project file for this example. "
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                729,
+                679,
+                747
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Select Site data - Backdrop and click the reset button to clear the current project. "
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                747,
+                696,
+                763
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In this release the same projection must be used for both the backdrop and the elevation data. Even if there is no backdrop you must set the projection for both. Starting with the backdrop proceed as follows. "
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                782,
+                919,
+                819
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The file \\backdrop\\projectn.txt contains the line “NAD27 Clarke 1886 zone 10\". These are the required parameters for a UTM projection. "
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                835,
+                874,
+                872
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Pathloss 4.0 "
+                    }
+                ]
+            },
+            "bbox": [
+                66,
+                54,
+                189,
+                71
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Map Grid Example "
+                    }
+                ]
+            },
+            "bbox": [
+                754,
+                54,
+                929,
+                73
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 5 of 7 "
+                    }
+                ]
+            },
+            "bbox": [
+                836,
+                955,
+                929,
+                972
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Backdrop Settings "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                60,
+                97,
+                210,
+                114
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "\" Set the grid coordinate selection to Universal Transverse Mercator (UTM) and enter 10 in the zone field. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "\" Set the datum to North American 27 (NAD27). Coordinate transformation between datums has not been implemented in the Map Grid module at present; however, it is necessary to specify a region for the datum. In this example set the region to “Canada (Alberta - British Columbia)”. "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                132,
+                919,
+                222
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "C Click the set directory button and identify the directory containing the backdrop files. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                223,
+                557,
+                258
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "\" Click the index button to bring up the index form. Select Files - Import list on the menu bar. The index file contains the following lines in the Planet format: "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                258,
+                612,
+                311
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "vcr_map.tif 491000 500000 5456000 5468000 "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                327,
+                571,
+                344
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "vcrphoto.tif 480711 509042 5448588 5461808 "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                344,
+                560,
+                361
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "\" Click the Planet button to set these defaults. The edges are the UTM coordinates of the corners of the file. The cell size field is optional and should be blank for this example. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                378,
+                612,
+                434
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Click OK, load the index file and verify the entries. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                434,
+                527,
+                453
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/cc0be12e23f411844cdc951ef0a2c8f50f3ac23c8d5fc15ee7600986b2e1d5fb.jpg"
+                },
+                "content": "Load Backdrop Index File\nField Name Number\nFile name 1\nWest edge 2\nEast edge 3\nSouth edge 4\nNorth edge 5\nCell Size\nEdge units\nmeters\nkilometers\nIntl feet\nUS survey feet\nDefaults\nOdyssey\nPlanet\nOK Cancel Help",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                620,
+                223,
+                929,
+                464
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Elevation Settings "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                60,
+                469,
+                210,
+                487
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "\" Switch to the elevation section and set the projection data to the same values as in the backdrop section. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                505,
+                875,
+                539
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "\" Click the set directory button and identify the directory containing the elevation files. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                541,
+                642,
+                575
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "\" Click the index button to bring up the index form. Select Files - Import list on the menu bar. The index file contains the following line in the Planet format: "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                575,
+                640,
+                630
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "vancvr.bil 491000 500000 5456000 5468000 25 "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                646,
+                571,
+                662
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "\" Click the Planet button to set these defaults. The edges are the UTM coordinates of the corners of the file. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                681,
+                612,
+                717
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "\" The bottom up option determines if the file is to be read from the bottom or top. An error here will result in an upside down display. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                718,
+                643,
+                753
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "\" The byte order option should be set to Intel for this example. If this is incorrectly set, the elevations will be very large and interpreted as no data values. However near sea level, some data may be produced which can lead to very confusing results. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                753,
+                630,
+                825
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Click OK, load the index file and verify the entries. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                825,
+                527,
+                843
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c0ad4d4aa690e179d0ad359b257dd579174af12ba9c64096867ed446777462ae.jpg"
+                },
+                "content": "Load Index File\nField Name Number\nFile name 1\nWest edge 2\nEast edge 3\nSouth edge 4\nNorth edge 5\nCell size 6\nEdge units\nmeters\nkilometers\nByte order\nSPARC\nINTEL\nBottom up\nTrue\nFalse\nDefaults\nOdyssey\nPlanet\nBytes per pixel 2\nOK Cancel Help",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                655,
+                540,
+                929,
+                828
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Select Files - Save on the backdrop menu bar and save the project. The next time the Pathloss program starts the map grid project file will be automatically reloaded. "
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                859,
+                916,
+                897
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Pathloss 4.0 "
+                    }
+                ]
+            },
+            "bbox": [
+                66,
+                54,
+                189,
+                71
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Map Grid Example "
+                    }
+                ]
+            },
+            "bbox": [
+                754,
+                54,
+                929,
+                73
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 6 of 7 "
+                    }
+                ]
+            },
+            "bbox": [
+                836,
+                955,
+                929,
+                972
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "GEOTIF FILES "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                60,
+                97,
+                205,
+                113
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "GeoTif files are TIF image files with extensions to geographically reference the file. The map grid module supports GeoTif files with UTM and US state plane coordinate projections. The directory map_grid\\Geo_Tiff contains an example of a GeoTif file using US state plane coordinates. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                132,
+                370,
+                275
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Select Site data - Backdrop and click the reset button to create a new map grid project. In the backdrop section click the index button. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                292,
+                385,
+                364
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Select Files - Geo Tiff file and load the file map_grid\\geo_tiff\\sp27gtif.tif. The information dialog at the right summarizes the geographic status of the file. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                383,
+                380,
+                470
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Click the create index button. All aspects of the backdrop definition are filled in. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                489,
+                359,
+                542
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e3e9187e1059949f757a24cce86dbb6bb1c96c06111e9fbfe47c52c0ea2a2a37.jpg"
+                },
+                "content": "Geo Tiff Data\nH:\\GeoTIFF\\SPOT\\chicago\\Sp27otif.tif\nGeoTiff version 1.0.2\nImage width 699\nImage height 929\nModel type Projection coordinate system\nRaster type Raster pixel is area\nProjection 26771\nNAD27 Illinois East\nTie points\n0.0 0.0 0.0 681480.0 1913050.0 0.0\nPixel scale\n32.8 32.8 0.0\nState Plane NAD27, Feet\nNAD27 in Feet default\"\nCreate Index Cancel Help",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                393,
+                97,
+                929,
+                512
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Close the index and click the OK button to display the file. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                561,
+                527,
+                579
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "BACKDROP DATA SOURCES "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                60,
+                614,
+                336,
+                632
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The file vcr_map.tif was produced by scanning a topographic map in several sections and joining up the sections in a image editing program. A Hewlett Packard ScanJet 3200C was used. The edges must be georeferenced. This means that the rectangular coordinates of the edges must be known. This is a relatively simple procedure if the map contains a UTM grid. The edges of the image can be cut to the grid lines and these values will be entered into the index. "
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                651,
+                903,
+                739
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The file format can be either a tagged image file (TIF) or windows bitmap (BMP). "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                758,
+                710,
+                777
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The color should be set to 8 bit palette for both color and grey scale images. The base file size will be one byte per pixel. If 24 bit color is used the base file size will be three times the size. "
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                794,
+                893,
+                830
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Pathloss 4.0 "
+                    }
+                ]
+            },
+            "bbox": [
+                66,
+                54,
+                187,
+                70
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Map Grid Example "
+                    }
+                ]
+            },
+            "bbox": [
+                754,
+                54,
+                929,
+                73
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 7 of 7 "
+                    }
+                ]
+            },
+            "bbox": [
+                836,
+                955,
+                929,
+                972
+            ]
+        }
+    ]
+]

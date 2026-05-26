@@ -1,0 +1,1521 @@
+{
+    "pdf_info": [
+        {
+            "discarded_blocks": [],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        91,
+                        72,
+                        611,
+                        104
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 0,
+                    "content": "NADCON TỌA ĐỘ CHUYỂN ĐỔI (NAD27 - NAD83)",
+                    "original_bbox": [
+                        91,
+                        72,
+                        520,
+                        89
+                    ]
+                },
+                {
+                    "bbox": [
+                        68,
+                        105,
+                        611,
+                        179
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 1,
+                    "merge_prev": false,
+                    "content": "Phiên bản tháng 3 năm 2001 của chương trình Pathloss hiện sử dụng dữ liệu NADCON để chuyển đổi vĩ độ và kinh độ giữa Hệ thống Dữ liệu Bắc Mỹ năm 1927 (NAD27) và Hệ thống Dữ liệu Bắc Mỹ năm 1983 (NAD83). Việc chuyển đổi chỉ có hiệu lực trong phạm vi lãnh thổ Hoa Kỳ. NADCON là tiêu chuẩn liên bang Hoa Kỳ cho các chuyển đổi hệ dữ liệu từ NAD27 sang NAD83.",
+                    "original_bbox": [
+                        68,
+                        105,
+                        534,
+                        163
+                    ]
+                },
+                {
+                    "bbox": [
+                        69,
+                        180,
+                        611,
+                        193
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "Các thao tác sau đây bị ảnh hưởng:",
+                    "original_bbox": [
+                        69,
+                        180,
+                        242,
+                        193
+                    ]
+                },
+                {
+                    "bbox": [
+                        69,
+                        194,
+                        611,
+                        223
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "• Chuyển đổi tọa độ giữa các hệ dữ liệu NAD27 và NAD83 trong quy trình Tọa độ - Chuyển đổi trong mô-đun Dữ liệu Địa hình.",
+                    "original_bbox": [
+                        69,
+                        194,
+                        512,
+                        223
+                    ]
+                },
+                {
+                    "bbox": [
+                        69,
+                        224,
+                        611,
+                        254
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "• Tất cả các thao tác cơ sở dữ liệu địa hình sử dụng DEMS 7,5 phút - 30 mét của USGS bao gồm:",
+                    "original_bbox": [
+                        69,
+                        224,
+                        502,
+                        239
+                    ]
+                },
+                {
+                    "bbox": [
+                        104,
+                        255,
+                        611,
+                        328
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 5,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                105,
+                                255,
+                                223,
+                                268
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 6,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        254,
+                                        223,
+                                        270
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                105,
+                                                254,
+                                                223,
+                                                270
+                                            ],
+                                            "type": "text",
+                                            "content": "- tạo mặt cắt đơn",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                105,
+                                270,
+                                338,
+                                283
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 7,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        268,
+                                        339,
+                                        285
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                105,
+                                                268,
+                                                339,
+                                                285
+                                            ],
+                                            "type": "text",
+                                            "content": "- tạo mặt cắt xuyên tâm trong Mô-đun Phủ sóng",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                106,
+                                285,
+                                215,
+                                298
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 8,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        285,
+                                        215,
+                                        299
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                105,
+                                                285,
+                                                215,
+                                                299
+                                            ],
+                                            "type": "text",
+                                            "content": "- nền mạng",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                106,
+                                300,
+                                168,
+                                312
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 9,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        299,
+                                        170,
+                                        313
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                105,
+                                                299,
+                                                170,
+                                                313
+                                            ],
+                                            "type": "text",
+                                            "content": "- xem địa hình",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text",
+                    "original_bbox": [
+                        104,
+                        255,
+                        338,
+                        312
+                    ]
+                },
+                {
+                    "bbox": [
+                        104,
+                        329,
+                        611,
+                        374
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "Nếu hệ dữ liệu NAD83 đã được chỉ định, thì một bản sao tọa độ của người dùng sẽ tự động được chuyển đổi sang hệ dữ liệu NAD27 để đọc cơ sở dữ liệu.",
+                    "original_bbox": [
+                        104,
+                        329,
+                        493,
+                        359
+                    ]
+                },
+                {
+                    "bbox": [
+                        69,
+                        375,
+                        611,
+                        404
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 11,
+                    "content": "Quy trình Chuyển đổi",
+                    "original_bbox": [
+                        69,
+                        375,
+                        202,
+                        388
+                    ]
+                },
+                {
+                    "bbox": [
+                        68,
+                        405,
+                        611,
+                        446
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "merge_prev": false,
+                    "content": "Để chuyển đổi tọa độ giữa các hệ dữ liệu NAD27 và NAD83, phải thực hiện các cài đặt sau trong hộp thoại Mặc định Địa lý:",
+                    "original_bbox": [
+                        68,
+                        405,
+                        517,
+                        434
+                    ]
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        493,
+                        447,
+                        502,
+                        459
+                    ],
+                    "index": 18,
+                    "image_path": "e7e6f44a963c04a5b03ca4c9646ad4b2fc068a4f6f0b6447b09b3bb44a22a5b9.jpg",
+                    "original_bbox": [
+                        493,
+                        447,
+                        502,
+                        459
+                    ]
+                },
+                {
+                    "bbox": [
+                        69,
+                        449,
+                        491,
+                        481
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 13,
+                    "merge_prev": false,
+                    "content": "“Sử dụng Hệ dữ liệu” phải được chọn trong hộp thoại Sử dụng Hệ dữ liệu hoặc Ellipsoid.",
+                    "original_bbox": [
+                        69,
+                        449,
+                        399,
+                        464
+                    ]
+                },
+                {
+                    "bbox": [
+                        506,
+                        449,
+                        611,
+                        463
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 19,
+                    "merge_prev": false,
+                    "content": "Hệ dữ liệu",
+                    "original_bbox": [
+                        506,
+                        449,
+                        533,
+                        459
+                    ]
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        492,
+                        463,
+                        504,
+                        475
+                    ],
+                    "index": 20,
+                    "image_path": "078fbb2872835fba82c8c3a34bcdd33a5598767a7d564bfcfe0001f68dabcb71.jpg",
+                    "original_bbox": [
+                        492,
+                        463,
+                        504,
+                        475
+                    ]
+                },
+                {
+                    "bbox": [
+                        506,
+                        464,
+                        611,
+                        501
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 21,
+                    "merge_prev": false,
+                    "content": "Ellipsoid",
+                    "original_bbox": [
+                        506,
+                        464,
+                        538,
+                        475
+                    ]
+                },
+                {
+                    "bbox": [
+                        69,
+                        482,
+                        350,
+                        501
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 14,
+                    "merge_prev": false,
+                    "content": "Phải chọn hệ dữ liệu NAD27 hoặc NAD83.",
+                    "original_bbox": [
+                        69,
+                        482,
+                        320,
+                        495
+                    ]
+                },
+                {
+                    "bbox": [
+                        351,
+                        483,
+                        384,
+                        501
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 16,
+                    "merge_prev": false,
+                    "content": "Hệ dữ liệu",
+                    "original_bbox": [
+                        351,
+                        483,
+                        378,
+                        494
+                    ]
+                },
+                {
+                    "bbox": [
+                        385,
+                        483,
+                        505,
+                        501
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 17,
+                    "merge_prev": false,
+                    "content": "Bắc Mỹ 1927",
+                    "original_bbox": [
+                        385,
+                        483,
+                        465,
+                        494
+                    ]
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        341,
+                        502,
+                        539,
+                        547
+                    ],
+                    "index": 23,
+                    "sub_type": "text_image",
+                    "image_path": "21b9f28f4b6cdaa7105878fa612d515cdadde12271181dda13fd8c1a074f0a33.jpg",
+                    "original_bbox": [
+                        341,
+                        502,
+                        539,
+                        547
+                    ]
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        292,
+                        514,
+                        336,
+                        533
+                    ],
+                    "index": 22,
+                    "image_path": "47751b56908c435765c3ce0b0f54fbb861126d043c8dbe1f1498ad87805afa8d.jpg",
+                    "original_bbox": [
+                        292,
+                        514,
+                        336,
+                        533
+                    ]
+                },
+                {
+                    "bbox": [
+                        69,
+                        517,
+                        291,
+                        548
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 15,
+                    "merge_prev": false,
+                    "content": "Chọn vùng NADCON.",
+                    "original_bbox": [
+                        69,
+                        517,
+                        204,
+                        531
+                    ]
+                },
+                {
+                    "bbox": [
+                        68,
+                        549,
+                        611,
+                        593
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 24,
+                    "merge_prev": false,
+                    "content": "Trong trường hợp hệ dữ liệu NAD27, vùng NADCON là một thuật ngữ bao quát và bao gồm các hệ dữ liệu và vùng cụ thể sau đây.",
+                    "original_bbox": [
+                        68,
+                        549,
+                        526,
+                        578
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        68,
+                        594,
+                        396,
+                        696
+                    ],
+                    "index": 25,
+                    "image_path": "cb0936f936c3cdab8736216768d987cdf9f75fbd8aeb31bbffb71804d5a9bcb4.jpg",
+                    "original_bbox": [
+                        68,
+                        594,
+                        396,
+                        696
+                    ]
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 1,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        68,
+                        72,
+                        611,
+                        117
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 0,
+                    "merge_prev": false,
+                    "content": "Dữ liệu chuyển đổi được chứa trong bảy tệp. Chương trình sẽ tự động chọn tệp chính xác dựa trên tọa độ.",
+                    "original_bbox": [
+                        68,
+                        72,
+                        537,
+                        102
+                    ]
+                },
+                {
+                    "bbox": [
+                        69,
+                        118,
+                        291,
+                        147
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 1,
+                    "content": "Chuyển đổi Tọa độ",
+                    "original_bbox": [
+                        69,
+                        118,
+                        196,
+                        132
+                    ]
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        292,
+                        118,
+                        541,
+                        353
+                    ],
+                    "index": 6,
+                    "sub_type": "text_image",
+                    "image_path": "14fc66a837e133b8c74d640112042c04e671af7eeeae2035b0a156063a58502b.jpg",
+                    "original_bbox": [
+                        292,
+                        118,
+                        541,
+                        353
+                    ]
+                },
+                {
+                    "bbox": [
+                        68,
+                        148,
+                        291,
+                        237
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "Chuyển đổi Tọa độ được thực hiện trong mô-đun Dữ liệu Địa hình. Chọn Tọa độ - Chuyển đổi. Để truy cập quy trình này, phải chọn một hệ dữ liệu và nhập tọa độ cho ít nhất một địa điểm.",
+                    "original_bbox": [
+                        68,
+                        148,
+                        284,
+                        221
+                    ]
+                },
+                {
+                    "bbox": [
+                        68,
+                        238,
+                        291,
+                        282
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "Đặt “Đến Hệ dữ liệu” thành NAD27 hoặc NAD83 và sau đó chọn vùng NADCON.",
+                    "original_bbox": [
+                        68,
+                        238,
+                        284,
+                        268
+                    ]
+                },
+                {
+                    "bbox": [
+                        68,
+                        283,
+                        291,
+                        327
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "Nhấp vào nút Chuyển đổi để thực hiện chuyển đổi tọa độ.",
+                    "original_bbox": [
+                        68,
+                        283,
+                        267,
+                        312
+                    ]
+                },
+                {
+                    "bbox": [
+                        68,
+                        328,
+                        291,
+                        387
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "Nút Chấp nhận thay đổi tọa độ địa điểm thành tọa độ đã chuyển đổi.",
+                    "original_bbox": [
+                        68,
+                        328,
+                        287,
+                        357
+                    ]
+                },
+                {
+                    "bbox": [
+                        68,
+                        388,
+                        611,
+                        417
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 7,
+                    "content": "NADCON và Cơ sở dữ liệu Địa hình 7,5 phút (30 mét) của USGS.",
+                    "original_bbox": [
+                        68,
+                        388,
+                        403,
+                        402
+                    ]
+                },
+                {
+                    "bbox": [
+                        67,
+                        418,
+                        611,
+                        492
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "Khi cơ sở dữ liệu địa hình 7,5 phút (30 mét) của USGS đã được chọn và tọa độ đầu vào ở hệ dữ liệu NAD83, tọa độ sẽ được chuyển đổi sang NAD27 cho thao tác cơ sở dữ liệu cụ thể. Việc chuyển đổi này sẽ luôn được thực hiện cho bất kỳ lựa chọn vùng nào có sẵn dưới hệ dữ liệu NAD83.",
+                    "original_bbox": [
+                        67,
+                        418,
+                        530,
+                        477
+                    ]
+                },
+                {
+                    "bbox": [
+                        68,
+                        493,
+                        611,
+                        522
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "Thao tác Cơ sở dữ liệu Địa hình Chính và Phụ",
+                    "original_bbox": [
+                        68,
+                        493,
+                        310,
+                        507
+                    ]
+                },
+                {
+                    "bbox": [
+                        68,
+                        523,
+                        611,
+                        536
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "Với tình huống dưới đây:",
+                    "original_bbox": [
+                        68,
+                        523,
+                        189,
+                        536
+                    ]
+                },
+                {
+                    "bbox": [
+                        68,
+                        537,
+                        611,
+                        627
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 11,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                69,
+                                538,
+                                254,
+                                551
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 12,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        538,
+                                        254,
+                                        551
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                70,
+                                                539,
+                                                77,
+                                                545
+                                            ],
+                                            "type": "text",
+                                            "content": "o",
+                                            "score": 0.991
+                                        },
+                                        {
+                                            "bbox": [
+                                                107,
+                                                538,
+                                                254,
+                                                551
+                                            ],
+                                            "type": "text",
+                                            "content": "Tọa độ người dùng ở NAD83",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                552,
+                                411,
+                                567
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 13,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        552,
+                                        411,
+                                        568
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                70,
+                                                554,
+                                                76,
+                                                559
+                                            ],
+                                            "type": "text",
+                                            "content": "o",
+                                            "score": 0.987
+                                        },
+                                        {
+                                            "bbox": [
+                                                106,
+                                                552,
+                                                411,
+                                                568
+                                            ],
+                                            "type": "text",
+                                            "content": "Cơ sở dữ liệu địa hình chính được đặt thành USGS 7,5 phút (30 mét)",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                68,
+                                567,
+                                529,
+                                596
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 14,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        564,
+                                        529,
+                                        586
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                70,
+                                                569,
+                                                77,
+                                                575
+                                            ],
+                                            "type": "text",
+                                            "content": "o",
+                                            "score": 0.987
+                                        },
+                                        {
+                                            "bbox": [
+                                                104,
+                                                564,
+                                                529,
+                                                586
+                                            ],
+                                            "type": "text",
+                                            "content": "Cơ sở dữ liệu địa hình phụ được đặt thành USGS 3 giây nén, GTOPO30 hoặc bất kỳ",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        105,
+                                        582,
+                                        431,
+                                        597
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                105,
+                                                582,
+                                                431,
+                                                597
+                                            ],
+                                            "type": "text",
+                                            "content": "lựa chọn DTED nào. Tất cả đều được tham chiếu đến hệ dữ liệu WGS84.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                68,
+                                597,
+                                535,
+                                627
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 15,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        597,
+                                        537,
+                                        613
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                70,
+                                                598,
+                                                77,
+                                                605
+                                            ],
+                                            "type": "text",
+                                            "content": "o",
+                                            "score": 0.986
+                                        },
+                                        {
+                                            "bbox": [
+                                                105,
+                                                597,
+                                                537,
+                                                613
+                                            ],
+                                            "type": "text",
+                                            "content": "Do phạm vi phủ sóng không đầy đủ của cơ sở dữ liệu USGS 7,5 phút, cơ sở dữ liệu phụ sẽ được",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        105,
+                                        613,
+                                        230,
+                                        628
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                105,
+                                                613,
+                                                230,
+                                                628
+                                            ],
+                                            "type": "text",
+                                            "content": "sử dụng cho một phần của mặt cắt.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text",
+                    "original_bbox": [
+                        68,
+                        537,
+                        536,
+                        627
+                    ]
+                },
+                {
+                    "bbox": [
+                        68,
+                        628,
+                        611,
+                        657
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 16,
+                    "merge_prev": false,
+                    "content": "Nên chọn vùng nào cho hệ dữ liệu NAD83?",
+                    "original_bbox": [
+                        68,
+                        628,
+                        323,
+                        642
+                    ]
+                },
+                {
+                    "bbox": [
+                        67,
+                        658,
+                        611,
+                        791
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 17,
+                    "merge_prev": false,
+                    "content": "Không nên chọn vùng NADCON. Thay vào đó, hãy sử dụng vùng cụ thể (ví dụ: CONUS, Hawaii, Alaska không bao gồm Quần đảo Aleutian hoặc Quần đảo Aleutian). Khi chương trình đọc cơ sở dữ liệu USGS 7,5 phút, tọa độ sẽ tự động được chuyển đổi sang NAD27 bằng NADCON. Khi chương trình đọc cơ sở dữ liệu phụ, việc chuyển đổi sang WGS 84 sẽ được thực hiện cho",
+                    "original_bbox": [
+                        67,
+                        658,
+                        526,
+                        718
+                    ]
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 2,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        71,
+                        73,
+                        611,
+                        101
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 0,
+                    "merge_prev": false,
+                    "content": "vùng đã chỉ định.",
+                    "original_bbox": [
+                        71,
+                        73,
+                        145,
+                        87
+                    ]
+                },
+                {
+                    "bbox": [
+                        71,
+                        102,
+                        611,
+                        132
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 1,
+                    "content": "Nâng cấp NADCON",
+                    "original_bbox": [
+                        71,
+                        102,
+                        169,
+                        118
+                    ]
+                },
+                {
+                    "bbox": [
+                        71,
+                        133,
+                        611,
+                        206
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "Các bộ dữ liệu NADCON được sử dụng trong chương trình Pathloss bao gồm bảy tệp được hiển thị trong bảng dưới đây. Dữ liệu NADCON gốc sử dụng các tệp riêng biệt cho vĩ độ và kinh độ cho mỗi vùng. Trong chương trình Pathloss, chúng đã được kết hợp thành một tệp duy nhất. Các tệp này phải được đặt trong một thư mục con có tên NADCON trong thư mục chương trình Pathloss.",
+                    "original_bbox": [
+                        71,
+                        133,
+                        530,
+                        191
+                    ]
+                },
+                {
+                    "bbox": [
+                        71,
+                        207,
+                        611,
+                        281
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "Các tệp dữ liệu NADCON để sử dụng với chương trình Pathloss có sẵn từ trang web CTE (www.pathloss.com) và được đóng gói trong một tệp WinZip tự giải nén có tên PLnadcon.exe. Tải xuống tệp này và thực thi nó. Thư mục đích phải được đặt thành thư mục chương trình Pathloss. Thư mục con cần thiết sẽ được tự động tạo.",
+                    "original_bbox": [
+                        71,
+                        207,
+                        506,
+                        266
+                    ]
+                },
+                {
+                    "bbox": [
+                        71,
+                        282,
+                        611,
+                        311
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 4,
+                    "content": "Mô tả NADCON",
+                    "original_bbox": [
+                        71,
+                        282,
+                        186,
+                        297
+                    ]
+                },
+                {
+                    "bbox": [
+                        70,
+                        312,
+                        611,
+                        402
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "Ngoài Lãnh thổ Liên bang Hoa Kỳ, dữ liệu NADCON cũng được sử dụng để chuyển đổi dữ liệu ban đầu được biểu thị bằng các hệ dữ liệu đảo cũ tồn tại ở Alaska, Hawaii, Puerto Rico và Quần đảo Virgin thành dữ liệu được tham chiếu đến NAD 83. Tuy nhiên, tất cả các hệ dữ liệu, bao gồm cả các hệ này, đều được gọi là NAD 27. Quy trình tự động chọn phép chuyển đổi phù hợp; người dùng không cần biết tên cụ thể của các hệ dữ liệu gốc.",
+                    "original_bbox": [
+                        70,
+                        312,
+                        539,
+                        386
+                    ]
+                },
+                {
+                    "bbox": [
+                        71,
+                        403,
+                        611,
+                        432
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 6,
+                    "content": "Độ chính xác Chuyển đổi",
+                    "original_bbox": [
+                        71,
+                        403,
+                        188,
+                        416
+                    ]
+                },
+                {
+                    "bbox": [
+                        70,
+                        433,
+                        611,
+                        447
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "merge_prev": false,
+                    "content": "Ở mức độ tin cậy 67 phần trăm, việc chuyển đổi đưa ra các độ không chắc chắn sau:",
+                    "original_bbox": [
+                        70,
+                        433,
+                        485,
+                        446
+                    ]
+                },
+                {
+                    "bbox": [
+                        70,
+                        448,
+                        611,
+                        521
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 12,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                70,
+                                448,
+                                449,
+                                462
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 8,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        72,
+                                        448,
+                                        451,
+                                        462
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                449,
+                                                78,
+                                                454
+                                            ],
+                                            "type": "text",
+                                            "content": "",
+                                            "score": 0.0
+                                        },
+                                        {
+                                            "bbox": [
+                                                106,
+                                                448,
+                                                451,
+                                                462
+                                            ],
+                                            "type": "text",
+                                            "content": "khoảng 0,15 mét độ không chắc chắn trong lãnh thổ liên bang Hoa Kỳ",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                71,
+                                463,
+                                274,
+                                476
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 9,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        106,
+                                        463,
+                                        274,
+                                        477
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                106,
+                                                463,
+                                                274,
+                                                477
+                                            ],
+                                            "type": "text",
+                                            "content": "0,50 mét độ không chắc chắn trong Alaska",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                71,
+                                477,
+                                274,
+                                491
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 10,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        478,
+                                        274,
+                                        491
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                479,
+                                                76,
+                                                483
+                                            ],
+                                            "type": "text",
+                                            "content": "I",
+                                            "score": 0.841
+                                        },
+                                        {
+                                            "bbox": [
+                                                106,
+                                                478,
+                                                274,
+                                                491
+                                            ],
+                                            "type": "text",
+                                            "content": "0,20 mét độ không chắc chắn trong Hawaii",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                492,
+                                399,
+                                507
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 11,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        72,
+                                        492,
+                                        400,
+                                        507
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                494,
+                                                78,
+                                                498
+                                            ],
+                                            "type": "text",
+                                            "content": "n",
+                                            "score": 0.514
+                                        },
+                                        {
+                                            "bbox": [
+                                                105,
+                                                492,
+                                                400,
+                                                507
+                                            ],
+                                            "type": "text",
+                                            "content": "0,05 mét độ không chắc chắn trong Puerto Rico và Quần đảo Virgin.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text",
+                    "original_bbox": [
+                        70,
+                        448,
+                        449,
+                        507
+                    ]
+                },
+                {
+                    "bbox": [
+                        71,
+                        522,
+                        611,
+                        552
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 13,
+                    "merge_prev": false,
+                    "content": "Ở những khu vực có phạm vi phủ sóng dữ liệu trắc địa thưa thớt, NADCON có thể cho kết quả kém chính xác hơn, nhưng hiếm khi vượt quá 1,0 mét.",
+                    "original_bbox": [
+                        71,
+                        522,
+                        520,
+                        550
+                    ]
+                },
+                {
+                    "bbox": [
+                        71,
+                        553,
+                        611,
+                        791
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 14,
+                    "merge_prev": false,
+                    "content": "Ở các vùng gần bờ biển, kết quả sẽ kém chính xác hơn nhưng hiếm khi vượt quá 5,0 mét. Xa hơn ngoài khơi, NAD 27 không được xác định.",
+                    "original_bbox": [
+                        71,
+                        553,
+                        507,
+                        580
+                    ]
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 3,
+            "para_blocks": [
+                {
+                    "type": "table",
+                    "bbox": [
+                        70,
+                        70,
+                        541,
+                        323
+                    ],
+                    "index": 0,
+                    "image_path": "5efe5578ee1149fd128b205b32542c96c136ea09b0caf9f575ebde2e11d3e87b.jpg",
+                    "original_bbox": [
+                        70,
+                        70,
+                        541,
+                        323
+                    ]
+                },
+                {
+                    "bbox": [
+                        70,
+                        338,
+                        611,
+                        426
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 1,
+                    "merge_prev": false,
+                    "content": "Đảo St. George và Đảo St. Paul là một phần của khu vực được gọi là Quần đảo Pribilof. Có hai hệ dữ liệu riêng biệt, một cho mỗi đảo, trước NAD 83. Các hệ dữ liệu đảo cũ khác biệt đáng kể so với NAD 27. Dữ liệu đầu vào vào NADCON phải nhất quán với các bộ dữ liệu chuyển đổi đã xác định. Việc chuyển đổi dữ liệu bị xác định sai có thể dẫn đến sai số rất lớn (lên tới hàng trăm mét).",
+                    "original_bbox": [
+                        70,
+                        338,
+                        526,
+                        411
+                    ]
+                },
+                {
+                    "bbox": [
+                        70,
+                        427,
+                        611,
+                        791
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "Tệp CONUS bao phủ một khu vực từ 20 đến 50 độ vĩ bắc và từ 63 đến 131 độ kinh tây. Tệp Alaska bao phủ một khu vực từ 46 đến 77 độ vĩ bắc và từ 128 đến 194 độ kinh tây. Các tệp CONUS và Alaska chồng lấn giữa 46 đến 50 độ vĩ bắc và 128 đến 131 độ kinh tây. Trong khu vực này, các tệp CONUS và Alaska thống nhất trong phạm vi 2 cm. Đối với những trường hợp yêu cầu độ chính xác cao hơn mức này, tệp CONUS được coi là chính xác. Trong vùng chồng lấn này, tệp CONUS sẽ luôn được sử dụng trong chương trình Pathloss. Các chuyển đổi dựa trên dữ liệu NADCON chỉ nên được sử dụng trong phạm vi lãnh thổ Hoa Kỳ.",
+                    "original_bbox": [
+                        70,
+                        427,
+                        539,
+                        546
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": false,
+    "_vlm_ocr_enable": false,
+    "_version_name": "3.1.8"
+}

@@ -1,0 +1,687 @@
+[
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.349,
+                0.085,
+                0.68,
+                0.106
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.101,
+                0.126,
+                0.794,
+                0.145
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.094,
+                0.151,
+                0.932,
+                0.196
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.094,
+                0.206,
+                0.928,
+                0.253
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.095,
+                0.262,
+                0.707,
+                0.277
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.095,
+                0.287,
+                0.93,
+                0.406
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.095,
+                0.287,
+                0.93,
+                0.317
+            ],
+            "angle": 0,
+            "content": "- The file names must be \"ant_xref.txt\" and \"rad_xref.txt\" for the antennas and radios cross reference files respectively. These files must be located in the same directory that the Pathloss program is installed in.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.095,
+                0.324,
+                0.928,
+                0.354
+            ],
+            "angle": 0,
+            "content": "- Each line in the file must consist of the import data descriptor in double quotes followed by the Pathloss code file name separated by a space or tab.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.095,
+                0.361,
+                0.928,
+                0.406
+            ],
+            "angle": 0,
+            "content": "- The comparison in the cross reference is not case sensitive; however the spelling in the cross reference file must be the same as the data file. If there are several variants in the import data file, then a cross reference line must be created for each variant. The same Pathloss code file name could be used for each variant.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.095,
+                0.413,
+                0.61,
+                0.428
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.095,
+                0.438,
+                0.184,
+                0.452
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.095,
+                0.463,
+                0.338,
+                0.605
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.095,
+                0.463,
+                0.315,
+                0.478
+            ],
+            "angle": 0,
+            "content": "\"15_GHz/0.6m Andrew\" 6962",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.095,
+                0.488,
+                0.315,
+                0.503
+            ],
+            "angle": 0,
+            "content": "\"15_GHz/1.2m Andrew\" 6964",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.095,
+                0.513,
+                0.313,
+                0.528
+            ],
+            "angle": 0,
+            "content": "\"15_GHz/0.3m Andrew\" 6961",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.095,
+                0.538,
+                0.331,
+                0.553
+            ],
+            "angle": 0,
+            "content": "\"18_GHz/0.6m ANDREW\" 6967",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.095,
+                0.564,
+                0.331,
+                0.579
+            ],
+            "angle": 0,
+            "content": "\"18_GHz/0.3m ANDREW\" 7010",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.095,
+                0.589,
+                0.338,
+                0.604
+            ],
+            "angle": 0,
+            "content": "\"18_Ghz/1.2m ANDREW\" 4504a",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.095,
+                0.64,
+                0.184,
+                0.655
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.095,
+                0.665,
+                0.464,
+                0.681
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.095,
+                0.69,
+                0.455,
+                0.706
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.095,
+                0.715,
+                0.482,
+                0.731
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.095,
+                0.74,
+                0.464,
+                0.756
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.095,
+                0.766,
+                0.455,
+                0.782
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.095,
+                0.791,
+                0.482,
+                0.807
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.094,
+                0.817,
+                0.926,
+                0.863
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.35,
+                0.084,
+                0.682,
+                0.108
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.102,
+                0.124,
+                0.795,
+                0.15
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.095,
+                0.148,
+                0.919,
+                0.169
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.097,
+                0.167,
+                0.925,
+                0.182
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.097,
+                0.181,
+                0.933,
+                0.197
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.097,
+                0.206,
+                0.929,
+                0.224
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.096,
+                0.221,
+                0.928,
+                0.239
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.096,
+                0.235,
+                0.736,
+                0.253
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.111,
+                0.359,
+                0.931,
+                0.378
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.12,
+                0.376,
+                0.931,
+                0.392
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.12,
+                0.39,
+                0.807,
+                0.406
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.097,
+                0.816,
+                0.928,
+                0.834
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.094,
+                0.829,
+                0.928,
+                0.851
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.097,
+                0.847,
+                0.414,
+                0.863
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.097,
+                0.259,
+                0.708,
+                0.279
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.095,
+                0.286,
+                0.934,
+                0.304
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.119,
+                0.301,
+                0.821,
+                0.318
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.097,
+                0.322,
+                0.929,
+                0.341
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.118,
+                0.339,
+                0.378,
+                0.356
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.097,
+                0.412,
+                0.612,
+                0.429
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.097,
+                0.437,
+                0.185,
+                0.453
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.097,
+                0.64,
+                0.185,
+                0.656
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.098,
+                0.462,
+                0.316,
+                0.479
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.098,
+                0.488,
+                0.316,
+                0.504
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.098,
+                0.513,
+                0.314,
+                0.529
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.098,
+                0.538,
+                0.332,
+                0.554
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.098,
+                0.564,
+                0.333,
+                0.58
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.098,
+                0.589,
+                0.339,
+                0.606
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.099,
+                0.665,
+                0.466,
+                0.682
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.1,
+                0.69,
+                0.457,
+                0.707
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.099,
+                0.715,
+                0.484,
+                0.732
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.099,
+                0.74,
+                0.466,
+                0.757
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.099,
+                0.766,
+                0.457,
+                0.783
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.099,
+                0.791,
+                0.484,
+                0.808
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    []
+]

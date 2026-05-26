@@ -1,0 +1,600 @@
+[
+    {
+        "type": "text",
+        "text": "NADCON COORDINATE TRANSFORMATION (NAD27 - NAD83) ",
+        "text_level": 1,
+        "bbox": [
+            148,
+            90,
+            849,
+            112
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The March 2001 build of the Pathloss program now uses NADCON data to transform latitudes and longitudes between the North American Datum of 1927 (NAD27) and the North American Datum of 1983 (NAD83). The transformation is only valid in the United States territorial limits. NADCON is the United States Federal standard for NAD27 to NAD83 datum transformations. ",
+        "bbox": [
+            111,
+            132,
+            872,
+            205
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The following operations are affected: ",
+        "bbox": [
+            112,
+            227,
+            395,
+            243
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Coordinate transformation between the NAD27 and NAD83 datums in the Coordinates - Transform procedure in the Terrain Data module. ",
+        "bbox": [
+            112,
+            244,
+            836,
+            281
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• All terrain database operations using the USGS 7.5 minute - 30 meter DEMS including: ",
+        "bbox": [
+            112,
+            282,
+            820,
+            301
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "- single profile generation ",
+            "- radial profiles generation in the Coverage Module ",
+            "- network backgrounds ",
+            "- terrain view "
+        ],
+        "bbox": [
+            169,
+            321,
+            552,
+            393
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "If the NAD83 datum has been specified, then a copy of the user’s coordinates will be automatically transformed to the NAD27 datum to read the database. ",
+        "bbox": [
+            169,
+            415,
+            805,
+            453
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Transformation Procedure ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            473,
+            330,
+            489
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "To transform coordinates between the NAD27 and NAD83 datums, the following settings must be made in the Geographic Defaults dialog box: ",
+        "bbox": [
+            111,
+            511,
+            844,
+            547
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "“Use Datum” must be checked in the Use Datum or Ellipsoid dialog box. ",
+        "bbox": [
+            112,
+            566,
+            651,
+            585
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Either the NAD27 or NAD83 datum must be selected. ",
+        "bbox": [
+            112,
+            608,
+            522,
+            625
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Select the NADCON region. ",
+        "bbox": [
+            112,
+            652,
+            333,
+            670
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Datum ",
+        "bbox": [
+            573,
+            609,
+            617,
+            623
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "North American 1927 ",
+        "bbox": [
+            629,
+            609,
+            759,
+            623
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/e7e6f44a963c04a5b03ca4c9646ad4b2fc068a4f6f0b6447b09b3bb44a22a5b9.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            805,
+            564,
+            820,
+            579
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Datum ",
+        "bbox": [
+            826,
+            566,
+            870,
+            579
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/078fbb2872835fba82c8c3a34bcdd33a5598767a7d564bfcfe0001f68dabcb71.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            803,
+            584,
+            823,
+            599
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ellipsoid ",
+        "bbox": [
+            826,
+            585,
+            879,
+            599
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/47751b56908c435765c3ce0b0f54fbb861126d043c8dbe1f1498ad87805afa8d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            477,
+            648,
+            549,
+            672
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/21b9f28f4b6cdaa7105878fa612d515cdadde12271181dda13fd8c1a074f0a33.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "NADCON CONUS, Hawaii, Puerto Rico and Virgin Islands, St. Lawrence, St. George, St. Paul, Alaska",
+        "sub_type": "text_image",
+        "bbox": [
+            557,
+            633,
+            880,
+            690
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "In the case of the NAD27 datum, the NADCON region is an all encompassing term and includes the following specific datums and regions. ",
+        "bbox": [
+            111,
+            693,
+            859,
+            729
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/cb0936f936c3cdab8736216768d987cdf9f75fbd8aeb31bbffb71804d5a9bcb4.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>CONUS (lower 48 states)</td><td>North American datum of 1927</td></tr><tr><td>Hawaii</td><td>Old Hawaiian datum</td></tr><tr><td>Puerto Rico and Virgin Islands</td><td>Puerto Rico datum</td></tr><tr><td>St. Laurence Island, Alaska</td><td>Old Island datum within Alaska</td></tr><tr><td>St. George Island, Alaska</td><td>Old Island datum within Alaska</td></tr><tr><td>St. Paul Island, Alaska</td><td>Old Island datum within Alaska</td></tr><tr><td>Alaska</td><td>North American datum of 1927</td></tr></table>",
+        "bbox": [
+            111,
+            750,
+            647,
+            878
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The transformation data is contained in seven files. The program will automatically select the correct file based on the coordinates. ",
+        "bbox": [
+            111,
+            90,
+            877,
+            128
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Coordinate Transformation ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            148,
+            320,
+            166
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Coordinate Transformation is carried out in the Terrain Data module. Select Coordinates - Transform. To access this procedure, a datum must be selected and coordinates for at least one site must be entered. ",
+        "bbox": [
+            111,
+            186,
+            464,
+            279
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Set the “To Datum” to either NAD27 or NAD83 and then select the NADCON region. ",
+        "bbox": [
+            111,
+            300,
+            464,
+            338
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Click the Transform button to carry out the coordinate transformation. ",
+        "bbox": [
+            111,
+            357,
+            436,
+            393
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The Accept button changes the site coordinates to the transformed coordinates. ",
+        "bbox": [
+            111,
+            414,
+            468,
+            450
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/14fc66a837e133b8c74d640112042c04e671af7eeeae2035b0a156063a58502b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Transform Coordinates\nTransform Site 1 Site 2\nLatitude 45 00 00.00 N 46 00 00.00 N\nLongitude 100 00 00.00 W 101 00 00.00 W\nFrom Datum North American 1927\nNADCON CONUS, Hawaii, Puerto Rico and Virgin Islands, St.\nLawrence, St. George, St. Paul, Alaska\nTo Datum\nRegion North American 1983\nNADCON CONUS, Hawaii, Puerto Rico and Virgin Islands, St.\nLawrence, St. George, St. Paul, Alaska\nLatitude 44 59 59.93 N 46 00 00.01 N\nLongitude 100 00 01.42 W 101 00 01.47 W\nUncertainty NADCON transformation\nAccept Transform Cancel Help",
+        "sub_type": "text_image",
+        "bbox": [
+            477,
+            148,
+            883,
+            445
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "NADCON and the USGS 7.5 minute (30 meter) Terrain Database. ",
+        "text_level": 1,
+        "bbox": [
+            111,
+            489,
+            658,
+            507
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "When the USGS 7.5 minute quad (30 meter) terrain database has been selected, and the input coordinates are in the NAD83, datum, the coordinates will be transformed to NAD27 for the specific database operation. This transformation will always be carried out for any of the region selections available under the NAD83 datum. ",
+        "bbox": [
+            109,
+            527,
+            866,
+            602
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Primary and Secondary Terrain Database Operation ",
+        "bbox": [
+            111,
+            622,
+            506,
+            640
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Given the situation below: ",
+        "bbox": [
+            111,
+            660,
+            308,
+            676
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "o User coordinates are in NAD83 ",
+            "o The primary terrain database is set to USGS 7.5 minute (30 meter) ",
+            "o The secondary terrain database is set to the USGS 3 second compressed, GTOPO30 or any of the DTED selections. These are all referenced to the WGS84 datum. ",
+            "o Due to incomplete coverage of the USGS 7.5 minute database, the secondary database will be used for part of the profile. "
+        ],
+        "bbox": [
+            111,
+            678,
+            875,
+            791
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "What region should be selected for the NAD83 datum? ",
+        "bbox": [
+            111,
+            792,
+            527,
+            810
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The NADCON region should not be selected. Instead use the specific region (i.e. CONUS, Hawaii, Alaska excluding Aleutian Is or the Aleutian Islands). When the program reads the USGS 7.5 minute database, the coordinates will be automatically transformed to NAD27 using NADCON. When the program reads the secondary database, the transformation to WGS 84 will be carried out for the ",
+        "bbox": [
+            109,
+            830,
+            859,
+            906
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "specified region. ",
+        "bbox": [
+            116,
+            92,
+            236,
+            109
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "NADCON Upgrade ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            128,
+            276,
+            148
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "The NADCON data sets used in the Pathloss program, consists of the seven files shown in the table below. The original NADCON data uses separate files for latitudes and longitudes for each region. In the Pathloss program, these have been combined into a single file. These files must be located in a sub directory named NADCON in the Pathloss program directory. ",
+        "bbox": [
+            116,
+            167,
+            866,
+            241
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "The NADCON data files for use with the Pathloss program are available from the CTE web site (www.pathloss.com) and are packaged in a self-extracting WinZip file named PLnadcon.exe. Download this file and execute it. The destination directory must be set to the Pathloss program directory. The required subdirectory will be automatically created. ",
+        "bbox": [
+            116,
+            261,
+            826,
+            335
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "NADCON Description ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            356,
+            303,
+            375
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "In addition to the Conterminous United States, the NADCON data is also used to transform data originally expressed in old island datums that exist in Alaska, Hawaii, Puerto Rico and the Virgin Islands into data referenced to NAD 83. However all datums, including these, are referred to as NAD 27. The procedure automatically chooses the proper transformation; the user does not need to know the specific name of the original datums. ",
+        "bbox": [
+            114,
+            393,
+            880,
+            487
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Transformation Accuracy ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            508,
+            307,
+            525
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "At the 67 percent confidence level, the transformation introduces the following uncertainties: ",
+        "bbox": [
+            114,
+            546,
+            792,
+            563
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "approximately 0.15 meter uncertainty within the conterminous United States ",
+            "0.50 meter uncertainty within Alaska ",
+            "I 0.20 meter uncertainty within Hawaii ",
+            "n 0.05 meter uncertainty within Puerto Rico and the Virgin Islands. "
+        ],
+        "bbox": [
+            114,
+            565,
+            733,
+            640
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "In areas of sparse geodetic data coverage NADCON may yield less accurate results, but seldom in excess of 1.0 meter. ",
+        "bbox": [
+            116,
+            659,
+            849,
+            694
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "In near offshore regions, results will be less accurate but seldom in excess of 5.0 meters. Farther offshore NAD 27 was undefined. ",
+        "bbox": [
+            116,
+            698,
+            828,
+            732
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/5efe5578ee1149fd128b205b32542c96c136ea09b0caf9f575ebde2e11d3e87b.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Area</td><td>File</td><td>Latitude</td><td>Longitude</td><td>Grid-deg</td></tr><tr><td>Conterminous US (lower 48 states)</td><td>conus.ncd</td><td>20N - 50NW</td><td>63W - 131W</td><td>0.25</td></tr><tr><td>Alaska including the Aleutian Islands</td><td>alaska.ncd</td><td>46N - 77N</td><td>128W- 194W</td><td>0.125</td></tr><tr><td>St. Lawrence Is., Alaska - Old Island Datum within Alaska</td><td>stlrnc.ncd</td><td>62N - 64N</td><td>168W - 172W</td><td>0.05</td></tr><tr><td>St. George Is., Alaska - Old Island Datum within Alaska</td><td>stgeorge.ncd</td><td>56N - 57N</td><td>169W - 171W</td><td>0.01667</td></tr><tr><td>St. Paul Is., Alaska - Old Island Datum within Alaska</td><td>stpaul.ncd</td><td>57N - 58N</td><td>169W - 171W</td><td>0.05</td></tr><tr><td>Puerto Rico and the Virgin Islands</td><td>prvi.ncd</td><td>17N - 19N</td><td>64W - 68W</td><td>0.05</td></tr><tr><td>Hawaiian Islands</td><td>hawaii.ncd</td><td>18N - 23N</td><td>154W - 161W</td><td>0.025</td></tr></table>",
+        "bbox": [
+            114,
+            88,
+            883,
+            407
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "St. George Island and St. Paul Island are part of a region known as the Pribilof Islands. There were two separate datums, one for each island, before NAD 83. The old island datums differ significantly from NAD 27. Data input into NADCON must be consistent with the identified transformation data sets. The transformation of misidentified data can result in very large errors (as much as hundreds of meters). ",
+        "bbox": [
+            114,
+            426,
+            859,
+            518
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The CONUS file covers an area from 20 to 50 degrees north latitude and from 63 to 131 degrees west longitude. The Alaskan file covers an area from 46 to 77 degrees north latitude and from 128 to 194 degrees west longitude. The CONUS and Alaskan files overlap between 46 to 50 degrees north latitude and 128 to 131 degrees west longitude. In this area, the CONUS and Alaskan files agree within 2 centimeters. For those cases requiring precision greater than this, the CONUS file is considered correct. In this overlapping region the CONUS file will always be used in the Pathloss program. Transformations based on NADCON data should be used only within the U.S. territorial limits. ",
+        "bbox": [
+            114,
+            539,
+            880,
+            689
+        ],
+        "page_idx": 3
+    }
+]

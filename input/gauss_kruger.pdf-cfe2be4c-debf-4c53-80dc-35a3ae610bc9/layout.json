@@ -1,0 +1,4322 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        69,
+                        51,
+                        229,
+                        68
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                49,
+                                230,
+                                70
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        49,
+                                        230,
+                                        70
+                                    ],
+                                    "type": "text",
+                                    "content": "Gauss Kruger Projection",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        68,
+                        84,
+                        272,
+                        173
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                83,
+                                250,
+                                99
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        83,
+                                        250,
+                                        99
+                                    ],
+                                    "type": "text",
+                                    "content": "The Gauss Kruger coordinate system is",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                99,
+                                257,
+                                114
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        99,
+                                        257,
+                                        114
+                                    ],
+                                    "type": "text",
+                                    "content": "implemented as a generalized Transverse",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                114,
+                                223,
+                                129
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        114,
+                                        223,
+                                        129
+                                    ],
+                                    "type": "text",
+                                    "content": "Mercator projection. The specific",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                130,
+                                239,
+                                144
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        130,
+                                        239,
+                                        144
+                                    ],
+                                    "type": "text",
+                                    "content": "parameters are set in the Geographic",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                144,
+                                248,
+                                159
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        144,
+                                        248,
+                                        159
+                                    ],
+                                    "type": "text",
+                                    "content": "Defaults dialog box. Select Configure -",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                160,
+                                272,
+                                174
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        160,
+                                        272,
+                                        174
+                                    ],
+                                    "type": "text",
+                                    "content": "Geographic defaults. Set the grid coordinate",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        276,
+                        50,
+                        541,
+                        168
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                276,
+                                50,
+                                541,
+                                168
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        276,
+                                        50,
+                                        541,
+                                        168
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                276,
+                                                50,
+                                                541,
+                                                168
+                                            ],
+                                            "type": "image",
+                                            "content": "Gauss Kruger - Transverse Mercator Definition\nLatitude Origin (deg) 00 00 00.00\nLongitude Origin (deg) 015 48 29.80 E\nFalse easting (m) 1500000.00\nFalse northing (m) 0.00\nScale factor 1.00000\nOK\nCancel\nHelp\nSwedish Grid",
+                                            "image_path": "561fbf26d618f5b36d21b7e3a703316f1ca66ad3e897063dda7ca45ad785e5c9.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 2,
+                    "sub_type": "text_image"
+                },
+                {
+                    "bbox": [
+                        68,
+                        175,
+                        530,
+                        202
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "lines": [
+                        {
+                            "bbox": [
+                                68,
+                                174,
+                                529,
+                                190
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        174,
+                                        529,
+                                        190
+                                    ],
+                                    "type": "text",
+                                    "content": "system to Gauss Kruger. The Gauss Kruger parameter definition button becomes active once the grid",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                188,
+                                208,
+                                203
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        188,
+                                        208,
+                                        203
+                                    ],
+                                    "type": "text",
+                                    "content": "coordinates selection is made.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        110,
+                        217,
+                        536,
+                        578
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                110,
+                                217,
+                                536,
+                                578
+                            ],
+                            "type": "table_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        217,
+                                        536,
+                                        578
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                110,
+                                                217,
+                                                536,
+                                                578
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td>Latitude Origin (deg)</td><td>The latitude origin is entered in decimal degrees and is positive in the northern hemisphere. This is usually zero which means that the equator is the origin.</td></tr><tr><td>Longitude Origin (deg)</td><td>The longitude origin is entered in decimal degrees and is positive in the eastern hemisphere. Eastings are measured from the longitude origin which is also called the central meridian.In some Gauss Kruger implementations, the first digit in the easting is referred to the zone number. The longitude origin is equal to the zone number multiplied by 3.</td></tr><tr><td>False Easting (m)</td><td>A false easting eliminates negative numbers by assigning a sufficiently large positive number to the central meridian. See the specific tables below for common values.</td></tr><tr><td>False Northing (m)</td><td>A false northing eliminates negative values in the same manner as the false easting. The false northing and latitude origin are usually set to zero which means that the northing will be the distance from the equator.</td></tr><tr><td>Scale factor</td><td>This is the scale factor along the central meridian and is usually equal to 1.0 for Gauss Kruger projections. The scale factor for the Universal Transverse Mercator projection is 0.9996.</td></tr></table>",
+                                            "image_path": "1f48898800b03675a489256bcb46f50a690b9de2b96315117a40c08b97973203.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 4
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "bbox": [
+                        68,
+                        594,
+                        540,
+                        624
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                592,
+                                541,
+                                611
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        592,
+                                        541,
+                                        611
+                                    ],
+                                    "type": "text",
+                                    "content": "The latitude and longitude origins can be entered as decimal degrees or as degrees minutes and seconds",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                609,
+                                229,
+                                624
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        609,
+                                        229,
+                                        624
+                                    ],
+                                    "type": "text",
+                                    "content": "with a space separating the values.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        68,
+                        639,
+                        453,
+                        653
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                637,
+                                454,
+                                654
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        637,
+                                        454,
+                                        654
+                                    ],
+                                    "type": "text",
+                                    "content": "The Swedish Grid button sets the parameters to the Swedish grid coordinate system.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        67,
+                        669,
+                        537,
+                        715
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                669,
+                                532,
+                                685
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        669,
+                                        532,
+                                        685
+                                    ],
+                                    "type": "text",
+                                    "content": "When the definitions are complete, close the dialog with the OK button. The parameters will be saved",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                685,
+                                537,
+                                700
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        685,
+                                        537,
+                                        700
+                                    ],
+                                    "type": "text",
+                                    "content": "in a file named gauskrug.bin in the pathloss program directory. All conversions between geographic and",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                699,
+                                268,
+                                715
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        699,
+                                        268,
+                                        715
+                                    ],
+                                    "type": "text",
+                                    "content": "easting - northings will use these definitions.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        69,
+                        51,
+                        229,
+                        68
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                49,
+                                230,
+                                70
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        49,
+                                        230,
+                                        70
+                                    ],
+                                    "type": "text",
+                                    "content": "Gauss Kruger Projection",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        68,
+                        84,
+                        272,
+                        173
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                83,
+                                250,
+                                99
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        83,
+                                        250,
+                                        99
+                                    ],
+                                    "type": "text",
+                                    "content": "The Gauss Kruger coordinate system is",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                99,
+                                257,
+                                114
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        99,
+                                        257,
+                                        114
+                                    ],
+                                    "type": "text",
+                                    "content": "implemented as a generalized Transverse",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                114,
+                                223,
+                                129
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        114,
+                                        223,
+                                        129
+                                    ],
+                                    "type": "text",
+                                    "content": "Mercator projection. The specific",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                130,
+                                239,
+                                144
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        130,
+                                        239,
+                                        144
+                                    ],
+                                    "type": "text",
+                                    "content": "parameters are set in the Geographic",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                144,
+                                248,
+                                159
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        144,
+                                        248,
+                                        159
+                                    ],
+                                    "type": "text",
+                                    "content": "Defaults dialog box. Select Configure -",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                160,
+                                272,
+                                174
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        160,
+                                        272,
+                                        174
+                                    ],
+                                    "type": "text",
+                                    "content": "Geographic defaults. Set the grid coordinate",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        276,
+                        50,
+                        541,
+                        168
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                276,
+                                50,
+                                541,
+                                168
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        276,
+                                        50,
+                                        541,
+                                        168
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                276,
+                                                50,
+                                                541,
+                                                168
+                                            ],
+                                            "type": "image",
+                                            "content": "Gauss Kruger - Transverse Mercator Definition\nLatitude Origin (deg) 00 00 00.00\nLongitude Origin (deg) 015 48 29.80 E\nFalse easting (m) 1500000.00\nFalse northing (m) 0.00\nScale factor 1.00000\nOK\nCancel\nHelp\nSwedish Grid",
+                                            "image_path": "561fbf26d618f5b36d21b7e3a703316f1ca66ad3e897063dda7ca45ad785e5c9.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 2,
+                    "sub_type": "text_image"
+                },
+                {
+                    "bbox": [
+                        68,
+                        175,
+                        530,
+                        202
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "lines": [
+                        {
+                            "bbox": [
+                                68,
+                                174,
+                                529,
+                                190
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        174,
+                                        529,
+                                        190
+                                    ],
+                                    "type": "text",
+                                    "content": "system to Gauss Kruger. The Gauss Kruger parameter definition button becomes active once the grid",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                188,
+                                208,
+                                203
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        188,
+                                        208,
+                                        203
+                                    ],
+                                    "type": "text",
+                                    "content": "coordinates selection is made.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        110,
+                        217,
+                        536,
+                        578
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                110,
+                                217,
+                                536,
+                                578
+                            ],
+                            "type": "table_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        217,
+                                        536,
+                                        578
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                110,
+                                                217,
+                                                536,
+                                                578
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td>Latitude Origin (deg)</td><td>The latitude origin is entered in decimal degrees and is positive in the northern hemisphere. This is usually zero which means that the equator is the origin.</td></tr><tr><td>Longitude Origin (deg)</td><td>The longitude origin is entered in decimal degrees and is positive in the eastern hemisphere. Eastings are measured from the longitude origin which is also called the central meridian.In some Gauss Kruger implementations, the first digit in the easting is referred to the zone number. The longitude origin is equal to the zone number multiplied by 3.</td></tr><tr><td>False Easting (m)</td><td>A false easting eliminates negative numbers by assigning a sufficiently large positive number to the central meridian. See the specific tables below for common values.</td></tr><tr><td>False Northing (m)</td><td>A false northing eliminates negative values in the same manner as the false easting. The false northing and latitude origin are usually set to zero which means that the northing will be the distance from the equator.</td></tr><tr><td>Scale factor</td><td>This is the scale factor along the central meridian and is usually equal to 1.0 for Gauss Kruger projections. The scale factor for the Universal Transverse Mercator projection is 0.9996.</td></tr></table>",
+                                            "image_path": "1f48898800b03675a489256bcb46f50a690b9de2b96315117a40c08b97973203.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 4
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "bbox": [
+                        68,
+                        594,
+                        540,
+                        624
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                592,
+                                541,
+                                611
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        592,
+                                        541,
+                                        611
+                                    ],
+                                    "type": "text",
+                                    "content": "The latitude and longitude origins can be entered as decimal degrees or as degrees minutes and seconds",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                609,
+                                229,
+                                624
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        609,
+                                        229,
+                                        624
+                                    ],
+                                    "type": "text",
+                                    "content": "with a space separating the values.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        68,
+                        639,
+                        453,
+                        653
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                637,
+                                454,
+                                654
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        637,
+                                        454,
+                                        654
+                                    ],
+                                    "type": "text",
+                                    "content": "The Swedish Grid button sets the parameters to the Swedish grid coordinate system.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        67,
+                        669,
+                        537,
+                        715
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                669,
+                                532,
+                                685
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        669,
+                                        532,
+                                        685
+                                    ],
+                                    "type": "text",
+                                    "content": "When the definitions are complete, close the dialog with the OK button. The parameters will be saved",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                685,
+                                537,
+                                700
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        685,
+                                        537,
+                                        700
+                                    ],
+                                    "type": "text",
+                                    "content": "in a file named gauskrug.bin in the pathloss program directory. All conversions between geographic and",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                699,
+                                268,
+                                715
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        699,
+                                        268,
+                                        715
+                                    ],
+                                    "type": "text",
+                                    "content": "easting - northings will use these definitions.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        69,
+                        51,
+                        159,
+                        65
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                51,
+                                159,
+                                66
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        51,
+                                        159,
+                                        66
+                                    ],
+                                    "type": "text",
+                                    "content": "Ellipsoid - Datum",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        67,
+                        81,
+                        518,
+                        140
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                81,
+                                507,
+                                95
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        81,
+                                        507,
+                                        95
+                                    ],
+                                    "type": "text",
+                                    "content": "In addition to the specified Transverse Mercator parameters, the conversion between geographic",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                97,
+                                487,
+                                110
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        97,
+                                        487,
+                                        110
+                                    ],
+                                    "type": "text",
+                                    "content": "coordinates and easting - northings are based on the ellipsoid definition. Both the Bessel and",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                110,
+                                520,
+                                126
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        110,
+                                        520,
+                                        126
+                                    ],
+                                    "type": "text",
+                                    "content": "Krassovsky ellipsoids are used. Therefore, you must select an ellipsoid and check the Use Ellipsoid",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                68,
+                                124,
+                                254,
+                                143
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        124,
+                                        254,
+                                        143
+                                    ],
+                                    "type": "text",
+                                    "content": "button in the Geographic defaults dialog.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        68,
+                        141,
+                        265,
+                        171
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                139,
+                                266,
+                                157
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        139,
+                                        266,
+                                        157
+                                    ],
+                                    "type": "text",
+                                    "content": "Note that there is no datum cooresponding",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                156,
+                                176,
+                                171
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        156,
+                                        176,
+                                        171
+                                    ],
+                                    "type": "text",
+                                    "content": "to these two ellipsoids.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        286,
+                        140,
+                        531,
+                        186
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                286,
+                                140,
+                                531,
+                                186
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        286,
+                                        140,
+                                        531,
+                                        186
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                286,
+                                                140,
+                                                531,
+                                                186
+                                            ],
+                                            "type": "image",
+                                            "content": "Ellipsoid\nBessel 1841\nUse\n○ Datum\n● Ellipsoid",
+                                            "image_path": "6615a59357f23777afb1b7fff8ee2decca6db64fc472b042fd60e4048139132a.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3,
+                    "sub_type": "text_image"
+                },
+                {
+                    "bbox": [
+                        69,
+                        186,
+                        162,
+                        199
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 4,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                184,
+                                162,
+                                201
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        184,
+                                        162,
+                                        201
+                                    ],
+                                    "type": "text",
+                                    "content": "Terrain Database",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        67,
+                        216,
+                        535,
+                        276
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                216,
+                                526,
+                                231
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        216,
+                                        526,
+                                        231
+                                    ],
+                                    "type": "text",
+                                    "content": "The Odyssey - Gauss Kruger terrain data base option has been implemented for this projection. This",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                231,
+                                509,
+                                246
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        231,
+                                        509,
+                                        246
+                                    ],
+                                    "type": "text",
+                                    "content": "can be used with any terrain database with elevations arranged in west to east rows such as MSI",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                68,
+                                245,
+                                535,
+                                262
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        245,
+                                        535,
+                                        262
+                                    ],
+                                    "type": "text",
+                                    "content": "Planet. The Gauss Kruger definitions can also be set as part of the database configuration. This is same",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                262,
+                                307,
+                                275
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        262,
+                                        307,
+                                        275
+                                    ],
+                                    "type": "text",
+                                    "content": "as setting the parameters in the Geographic defaults.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        67,
+                        291,
+                        536,
+                        365
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                293,
+                                521,
+                                305
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        293,
+                                        521,
+                                        305
+                                    ],
+                                    "type": "text",
+                                    "content": "A problem can occur when creating an index for a Gauss Kruger database from a text file. The east",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                308,
+                                533,
+                                320
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        308,
+                                        533,
+                                        320
+                                    ],
+                                    "type": "text",
+                                    "content": "and west edges specification can include the zone number as the first digit of the value. The conversion",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                68,
+                                321,
+                                527,
+                                336
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        321,
+                                        527,
+                                        336
+                                    ],
+                                    "type": "text",
+                                    "content": "process checks the value of the east and west edges. If the value is greater than 1000, the first digit is",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                336,
+                                537,
+                                351
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        336,
+                                        537,
+                                        351
+                                    ],
+                                    "type": "text",
+                                    "content": "removed. In most cases the results will be correct; however a value greater than 1000 could also be an",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                350,
+                                136,
+                                367
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        350,
+                                        136,
+                                        367
+                                    ],
+                                    "type": "text",
+                                    "content": "actual easting.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        69,
+                        381,
+                        129,
+                        395
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 7,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                380,
+                                130,
+                                396
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        380,
+                                        130,
+                                        396
+                                    ],
+                                    "type": "text",
+                                    "content": "Parameters",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        68,
+                        411,
+                        448,
+                        426
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                411,
+                                449,
+                                427
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        411,
+                                        449,
+                                        427
+                                    ],
+                                    "type": "text",
+                                    "content": "The parameters used for the Gauss Kruger Projection in Baden-Wuerttemberg are:",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        68,
+                        440,
+                        262,
+                        529
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                68,
+                                440,
+                                262,
+                                529
+                            ],
+                            "type": "table_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        440,
+                                        262,
+                                        529
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                68,
+                                                440,
+                                                262,
+                                                529
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td>spheroid</td><td>Bessel 1841</td></tr><tr><td>latitude origin</td><td>0.0</td></tr><tr><td>longitude origin</td><td>9 degrees E (zone 3)</td></tr><tr><td>false easting (m)</td><td>3500000</td></tr><tr><td>false northing</td><td>0.0</td></tr><tr><td>scale factor</td><td>1.</td></tr></table>",
+                                            "image_path": "1b3f625de208d4b967e83e3abe7b1f5f13c2994591eac2a0052d61759a621711.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 9
+                        }
+                    ],
+                    "index": 9
+                },
+                {
+                    "bbox": [
+                        68,
+                        546,
+                        473,
+                        559
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                543,
+                                474,
+                                563
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        543,
+                                        474,
+                                        563
+                                    ],
+                                    "type": "text",
+                                    "content": "In Germany, there are 5 zones using the Gauss-Kruger / Transverse Mercator projection.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        70,
+                        559,
+                        541,
+                        735
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                70,
+                                559,
+                                541,
+                                735
+                            ],
+                            "type": "table_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        559,
+                                        541,
+                                        735
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                70,
+                                                559,
+                                                541,
+                                                735
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td>zone</td><td>latitude origin degrees</td><td>longitude origin degrees</td><td>scale factor</td><td>false easting meters</td><td>false northing meters</td><td>spheroid</td></tr><tr><td>1</td><td>0</td><td>3E</td><td>1.0</td><td>150,000</td><td>0</td><td></td></tr><tr><td>2</td><td>0</td><td>6E</td><td>1.0</td><td>250,000</td><td>0</td><td></td></tr><tr><td>3</td><td>0</td><td>9E</td><td>1.0</td><td>350,000</td><td>0</td><td></td></tr><tr><td>4</td><td>0</td><td>12E</td><td>1.0</td><td>450,000</td><td>0</td><td></td></tr><tr><td>5</td><td>0</td><td>15E</td><td>1.0</td><td>550,000</td><td>0</td><td></td></tr></table>",
+                                            "image_path": "31dd3a7fb61d331ffbc7cd2f1b84d7e412b6fd26dd3c9353befbb4d2eee7b254.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 11
+                        }
+                    ],
+                    "index": 11
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 1,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        69,
+                        51,
+                        159,
+                        65
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                51,
+                                159,
+                                66
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        51,
+                                        159,
+                                        66
+                                    ],
+                                    "type": "text",
+                                    "content": "Ellipsoid - Datum",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        67,
+                        81,
+                        518,
+                        140
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                81,
+                                507,
+                                95
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        81,
+                                        507,
+                                        95
+                                    ],
+                                    "type": "text",
+                                    "content": "In addition to the specified Transverse Mercator parameters, the conversion between geographic",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                97,
+                                487,
+                                110
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        97,
+                                        487,
+                                        110
+                                    ],
+                                    "type": "text",
+                                    "content": "coordinates and easting - northings are based on the ellipsoid definition. Both the Bessel and",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                110,
+                                520,
+                                126
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        110,
+                                        520,
+                                        126
+                                    ],
+                                    "type": "text",
+                                    "content": "Krassovsky ellipsoids are used. Therefore, you must select an ellipsoid and check the Use Ellipsoid",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                68,
+                                124,
+                                254,
+                                143
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        124,
+                                        254,
+                                        143
+                                    ],
+                                    "type": "text",
+                                    "content": "button in the Geographic defaults dialog.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        68,
+                        141,
+                        265,
+                        171
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                139,
+                                266,
+                                157
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        139,
+                                        266,
+                                        157
+                                    ],
+                                    "type": "text",
+                                    "content": "Note that there is no datum cooresponding",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                156,
+                                176,
+                                171
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        156,
+                                        176,
+                                        171
+                                    ],
+                                    "type": "text",
+                                    "content": "to these two ellipsoids.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        286,
+                        140,
+                        531,
+                        186
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                286,
+                                140,
+                                531,
+                                186
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        286,
+                                        140,
+                                        531,
+                                        186
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                286,
+                                                140,
+                                                531,
+                                                186
+                                            ],
+                                            "type": "image",
+                                            "content": "Ellipsoid\nBessel 1841\nUse\n○ Datum\n● Ellipsoid",
+                                            "image_path": "6615a59357f23777afb1b7fff8ee2decca6db64fc472b042fd60e4048139132a.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3,
+                    "sub_type": "text_image"
+                },
+                {
+                    "bbox": [
+                        69,
+                        186,
+                        162,
+                        199
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 4,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                184,
+                                162,
+                                201
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        184,
+                                        162,
+                                        201
+                                    ],
+                                    "type": "text",
+                                    "content": "Terrain Database",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        67,
+                        216,
+                        535,
+                        276
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                216,
+                                526,
+                                231
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        216,
+                                        526,
+                                        231
+                                    ],
+                                    "type": "text",
+                                    "content": "The Odyssey - Gauss Kruger terrain data base option has been implemented for this projection. This",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                231,
+                                509,
+                                246
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        231,
+                                        509,
+                                        246
+                                    ],
+                                    "type": "text",
+                                    "content": "can be used with any terrain database with elevations arranged in west to east rows such as MSI",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                68,
+                                245,
+                                535,
+                                262
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        245,
+                                        535,
+                                        262
+                                    ],
+                                    "type": "text",
+                                    "content": "Planet. The Gauss Kruger definitions can also be set as part of the database configuration. This is same",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                262,
+                                307,
+                                275
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        262,
+                                        307,
+                                        275
+                                    ],
+                                    "type": "text",
+                                    "content": "as setting the parameters in the Geographic defaults.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        67,
+                        291,
+                        536,
+                        365
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                293,
+                                521,
+                                305
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        293,
+                                        521,
+                                        305
+                                    ],
+                                    "type": "text",
+                                    "content": "A problem can occur when creating an index for a Gauss Kruger database from a text file. The east",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                308,
+                                533,
+                                320
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        308,
+                                        533,
+                                        320
+                                    ],
+                                    "type": "text",
+                                    "content": "and west edges specification can include the zone number as the first digit of the value. The conversion",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                68,
+                                321,
+                                527,
+                                336
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        321,
+                                        527,
+                                        336
+                                    ],
+                                    "type": "text",
+                                    "content": "process checks the value of the east and west edges. If the value is greater than 1000, the first digit is",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                336,
+                                537,
+                                351
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        336,
+                                        537,
+                                        351
+                                    ],
+                                    "type": "text",
+                                    "content": "removed. In most cases the results will be correct; however a value greater than 1000 could also be an",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                350,
+                                136,
+                                367
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        350,
+                                        136,
+                                        367
+                                    ],
+                                    "type": "text",
+                                    "content": "actual easting.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        69,
+                        381,
+                        129,
+                        395
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 7,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                380,
+                                130,
+                                396
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        380,
+                                        130,
+                                        396
+                                    ],
+                                    "type": "text",
+                                    "content": "Parameters",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        68,
+                        411,
+                        448,
+                        426
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                411,
+                                449,
+                                427
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        411,
+                                        449,
+                                        427
+                                    ],
+                                    "type": "text",
+                                    "content": "The parameters used for the Gauss Kruger Projection in Baden-Wuerttemberg are:",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        68,
+                        440,
+                        262,
+                        529
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                68,
+                                440,
+                                262,
+                                529
+                            ],
+                            "type": "table_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        440,
+                                        262,
+                                        529
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                68,
+                                                440,
+                                                262,
+                                                529
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td>spheroid</td><td>Bessel 1841</td></tr><tr><td>latitude origin</td><td>0.0</td></tr><tr><td>longitude origin</td><td>9 degrees E (zone 3)</td></tr><tr><td>false easting (m)</td><td>3500000</td></tr><tr><td>false northing</td><td>0.0</td></tr><tr><td>scale factor</td><td>1.</td></tr></table>",
+                                            "image_path": "1b3f625de208d4b967e83e3abe7b1f5f13c2994591eac2a0052d61759a621711.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 9
+                        }
+                    ],
+                    "index": 9
+                },
+                {
+                    "bbox": [
+                        68,
+                        546,
+                        473,
+                        559
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                543,
+                                474,
+                                563
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        543,
+                                        474,
+                                        563
+                                    ],
+                                    "type": "text",
+                                    "content": "In Germany, there are 5 zones using the Gauss-Kruger / Transverse Mercator projection.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        70,
+                        559,
+                        541,
+                        735
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                70,
+                                559,
+                                541,
+                                735
+                            ],
+                            "type": "table_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        559,
+                                        541,
+                                        735
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                70,
+                                                559,
+                                                541,
+                                                735
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td>zone</td><td>latitude origin degrees</td><td>longitude origin degrees</td><td>scale factor</td><td>false easting meters</td><td>false northing meters</td><td>spheroid</td></tr><tr><td>1</td><td>0</td><td>3E</td><td>1.0</td><td>150,000</td><td>0</td><td></td></tr><tr><td>2</td><td>0</td><td>6E</td><td>1.0</td><td>250,000</td><td>0</td><td></td></tr><tr><td>3</td><td>0</td><td>9E</td><td>1.0</td><td>350,000</td><td>0</td><td></td></tr><tr><td>4</td><td>0</td><td>12E</td><td>1.0</td><td>450,000</td><td>0</td><td></td></tr><tr><td>5</td><td>0</td><td>15E</td><td>1.0</td><td>550,000</td><td>0</td><td></td></tr></table>",
+                                            "image_path": "31dd3a7fb61d331ffbc7cd2f1b84d7e412b6fd26dd3c9353befbb4d2eee7b254.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 11
+                        }
+                    ],
+                    "index": 11
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        69,
+                        51,
+                        180,
+                        65
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                50,
+                                180,
+                                66
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        50,
+                                        180,
+                                        66
+                                    ],
+                                    "type": "text",
+                                    "content": "Swedish Grid System",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        69,
+                        81,
+                        321,
+                        95
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                79,
+                                322,
+                                97
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        79,
+                                        322,
+                                        97
+                                    ],
+                                    "type": "text",
+                                    "content": "The Swedish grid system uses the following parameters",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        69,
+                        96,
+                        222,
+                        110
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                95,
+                                223,
+                                110
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        96,
+                                        113,
+                                        110
+                                    ],
+                                    "type": "text",
+                                    "content": "spheroid",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        164,
+                                        95,
+                                        223,
+                                        109
+                                    ],
+                                    "type": "text",
+                                    "content": "Bessel 1841",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        111,
+                        182,
+                        125
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                109,
+                                184,
+                                126
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        110,
+                                        134,
+                                        126
+                                    ],
+                                    "type": "text",
+                                    "content": "latitude origin",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        163,
+                                        109,
+                                        184,
+                                        125
+                                    ],
+                                    "type": "text",
+                                    "content": "0.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        126,
+                        359,
+                        140
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "lines": [
+                        {
+                            "bbox": [
+                                68,
+                                124,
+                                359,
+                                142
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        125,
+                                        143,
+                                        142
+                                    ],
+                                    "type": "text",
+                                    "content": "longitude origin",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        164,
+                                        124,
+                                        359,
+                                        141
+                                    ],
+                                    "type": "text",
+                                    "content": "15º 48' 29.8\" E (15.80827778 degrees E)",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        141,
+                        227,
+                        155
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "lines": [
+                        {
+                            "bbox": [
+                                68,
+                                139,
+                                228,
+                                157
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        139,
+                                        147,
+                                        157
+                                    ],
+                                    "type": "text",
+                                    "content": "false easting (m)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        167,
+                                        139,
+                                        228,
+                                        156
+                                    ],
+                                    "type": "text",
+                                    "content": "1500000.00",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        156,
+                        190,
+                        169
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                154,
+                                193,
+                                171
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        155,
+                                        134,
+                                        171
+                                    ],
+                                    "type": "text",
+                                    "content": "false northing",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        166,
+                                        154,
+                                        193,
+                                        170
+                                    ],
+                                    "type": "text",
+                                    "content": "0.00",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        171,
+                        187,
+                        183
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                169,
+                                190,
+                                186
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        171,
+                                        127,
+                                        185
+                                    ],
+                                    "type": "text",
+                                    "content": "scale factor",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        164,
+                                        169,
+                                        190,
+                                        186
+                                    ],
+                                    "type": "text",
+                                    "content": "1.00",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        69,
+                        216,
+                        116,
+                        228
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 8,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                216,
+                                118,
+                                229
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        216,
+                                        118,
+                                        229
+                                    ],
+                                    "type": "text",
+                                    "content": "Slovakia",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        69,
+                        246,
+                        281,
+                        261
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                245,
+                                282,
+                                261
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        245,
+                                        282,
+                                        261
+                                    ],
+                                    "type": "text",
+                                    "content": "In Slovakia the following projections are used:",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        69,
+                        276,
+                        225,
+                        289
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "lines": [
+                        {
+                            "bbox": [
+                                68,
+                                274,
+                                226,
+                                291
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        276,
+                                        113,
+                                        290
+                                    ],
+                                    "type": "text",
+                                    "content": "spheroid",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        167,
+                                        274,
+                                        226,
+                                        291
+                                    ],
+                                    "type": "text",
+                                    "content": "Krassovsky",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        291,
+                        182,
+                        304
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                289,
+                                184,
+                                307
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        289,
+                                        134,
+                                        307
+                                    ],
+                                    "type": "text",
+                                    "content": "latitude origin",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        163,
+                                        289,
+                                        184,
+                                        305
+                                    ],
+                                    "type": "text",
+                                    "content": "0.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        306,
+                        227,
+                        319
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                304,
+                                229,
+                                322
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        304,
+                                        143,
+                                        322
+                                    ],
+                                    "type": "text",
+                                    "content": "longitude origin",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        164,
+                                        304,
+                                        229,
+                                        320
+                                    ],
+                                    "type": "text",
+                                    "content": "15 degrees E",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        321,
+                        211,
+                        335
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 13,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                319,
+                                213,
+                                337
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        320,
+                                        147,
+                                        337
+                                    ],
+                                    "type": "text",
+                                    "content": "false easting (m)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        165,
+                                        319,
+                                        213,
+                                        335
+                                    ],
+                                    "type": "text",
+                                    "content": "3500000",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        336,
+                        184,
+                        350
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 14,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                334,
+                                187,
+                                352
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        334,
+                                        134,
+                                        352
+                                    ],
+                                    "type": "text",
+                                    "content": "false northing",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        166,
+                                        334,
+                                        187,
+                                        350
+                                    ],
+                                    "type": "text",
+                                    "content": "0.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        351,
+                        175,
+                        363
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 15,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                350,
+                                176,
+                                365
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        351,
+                                        126,
+                                        365
+                                    ],
+                                    "type": "text",
+                                    "content": "scale factor",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        165,
+                                        350,
+                                        176,
+                                        364
+                                    ],
+                                    "type": "text",
+                                    "content": "1.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        69,
+                        381,
+                        225,
+                        395
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 16,
+                    "lines": [
+                        {
+                            "bbox": [
+                                68,
+                                380,
+                                225,
+                                396
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        380,
+                                        113,
+                                        396
+                                    ],
+                                    "type": "text",
+                                    "content": "spheroid",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        167,
+                                        380,
+                                        225,
+                                        396
+                                    ],
+                                    "type": "text",
+                                    "content": "Krassovsky",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        396,
+                        182,
+                        409
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 17,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                394,
+                                184,
+                                411
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        396,
+                                        135,
+                                        411
+                                    ],
+                                    "type": "text",
+                                    "content": "latitude origin",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        163,
+                                        394,
+                                        184,
+                                        410
+                                    ],
+                                    "type": "text",
+                                    "content": "0.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        411,
+                        227,
+                        425
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                410,
+                                229,
+                                427
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        410,
+                                        143,
+                                        427
+                                    ],
+                                    "type": "text",
+                                    "content": "longitude origin",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        164,
+                                        410,
+                                        229,
+                                        426
+                                    ],
+                                    "type": "text",
+                                    "content": "21 degrees E",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        426,
+                        211,
+                        440
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 19,
+                    "lines": [
+                        {
+                            "bbox": [
+                                68,
+                                424,
+                                213,
+                                442
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        424,
+                                        147,
+                                        442
+                                    ],
+                                    "type": "text",
+                                    "content": "false easting (m)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        165,
+                                        424,
+                                        213,
+                                        440
+                                    ],
+                                    "type": "text",
+                                    "content": "3500000",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        441,
+                        184,
+                        454
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 20,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                439,
+                                187,
+                                456
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        439,
+                                        134,
+                                        456
+                                    ],
+                                    "type": "text",
+                                    "content": "false northing",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        166,
+                                        439,
+                                        187,
+                                        455
+                                    ],
+                                    "type": "text",
+                                    "content": "0.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        456,
+                        175,
+                        468
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 21,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                455,
+                                177,
+                                470
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        456,
+                                        126,
+                                        470
+                                    ],
+                                    "type": "text",
+                                    "content": "scale factor",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        164,
+                                        455,
+                                        177,
+                                        470
+                                    ],
+                                    "type": "text",
+                                    "content": "1.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 2,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        69,
+                        51,
+                        180,
+                        65
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                50,
+                                180,
+                                66
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        50,
+                                        180,
+                                        66
+                                    ],
+                                    "type": "text",
+                                    "content": "Swedish Grid System",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        69,
+                        81,
+                        321,
+                        95
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                79,
+                                322,
+                                97
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        79,
+                                        322,
+                                        97
+                                    ],
+                                    "type": "text",
+                                    "content": "The Swedish grid system uses the following parameters",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        69,
+                        96,
+                        222,
+                        110
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                95,
+                                223,
+                                110
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        96,
+                                        113,
+                                        110
+                                    ],
+                                    "type": "text",
+                                    "content": "spheroid",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        164,
+                                        95,
+                                        223,
+                                        109
+                                    ],
+                                    "type": "text",
+                                    "content": "Bessel 1841",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        111,
+                        182,
+                        125
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                109,
+                                184,
+                                126
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        110,
+                                        134,
+                                        126
+                                    ],
+                                    "type": "text",
+                                    "content": "latitude origin",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        163,
+                                        109,
+                                        184,
+                                        125
+                                    ],
+                                    "type": "text",
+                                    "content": "0.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        126,
+                        359,
+                        140
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "lines": [
+                        {
+                            "bbox": [
+                                68,
+                                124,
+                                359,
+                                142
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        125,
+                                        143,
+                                        142
+                                    ],
+                                    "type": "text",
+                                    "content": "longitude origin",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        164,
+                                        124,
+                                        359,
+                                        141
+                                    ],
+                                    "type": "text",
+                                    "content": "15º 48' 29.8\" E (15.80827778 degrees E)",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        141,
+                        227,
+                        155
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "lines": [
+                        {
+                            "bbox": [
+                                68,
+                                139,
+                                228,
+                                157
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        139,
+                                        147,
+                                        157
+                                    ],
+                                    "type": "text",
+                                    "content": "false easting (m)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        167,
+                                        139,
+                                        228,
+                                        156
+                                    ],
+                                    "type": "text",
+                                    "content": "1500000.00",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        156,
+                        190,
+                        169
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                154,
+                                193,
+                                171
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        155,
+                                        134,
+                                        171
+                                    ],
+                                    "type": "text",
+                                    "content": "false northing",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        166,
+                                        154,
+                                        193,
+                                        170
+                                    ],
+                                    "type": "text",
+                                    "content": "0.00",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        171,
+                        187,
+                        183
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                169,
+                                190,
+                                186
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        171,
+                                        127,
+                                        185
+                                    ],
+                                    "type": "text",
+                                    "content": "scale factor",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        164,
+                                        169,
+                                        190,
+                                        186
+                                    ],
+                                    "type": "text",
+                                    "content": "1.00",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        69,
+                        216,
+                        116,
+                        228
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 8,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                216,
+                                118,
+                                229
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        216,
+                                        118,
+                                        229
+                                    ],
+                                    "type": "text",
+                                    "content": "Slovakia",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        69,
+                        246,
+                        281,
+                        261
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                245,
+                                282,
+                                261
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        245,
+                                        282,
+                                        261
+                                    ],
+                                    "type": "text",
+                                    "content": "In Slovakia the following projections are used:",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        69,
+                        276,
+                        225,
+                        289
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "lines": [
+                        {
+                            "bbox": [
+                                68,
+                                274,
+                                226,
+                                291
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        276,
+                                        113,
+                                        290
+                                    ],
+                                    "type": "text",
+                                    "content": "spheroid",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        167,
+                                        274,
+                                        226,
+                                        291
+                                    ],
+                                    "type": "text",
+                                    "content": "Krassovsky",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        291,
+                        182,
+                        304
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                289,
+                                184,
+                                307
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        289,
+                                        134,
+                                        307
+                                    ],
+                                    "type": "text",
+                                    "content": "latitude origin",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        163,
+                                        289,
+                                        184,
+                                        305
+                                    ],
+                                    "type": "text",
+                                    "content": "0.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        306,
+                        227,
+                        319
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                304,
+                                229,
+                                322
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        304,
+                                        143,
+                                        322
+                                    ],
+                                    "type": "text",
+                                    "content": "longitude origin",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        164,
+                                        304,
+                                        229,
+                                        320
+                                    ],
+                                    "type": "text",
+                                    "content": "15 degrees E",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        321,
+                        211,
+                        335
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 13,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                319,
+                                213,
+                                337
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        320,
+                                        147,
+                                        337
+                                    ],
+                                    "type": "text",
+                                    "content": "false easting (m)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        165,
+                                        319,
+                                        213,
+                                        335
+                                    ],
+                                    "type": "text",
+                                    "content": "3500000",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        336,
+                        184,
+                        350
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 14,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                334,
+                                187,
+                                352
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        334,
+                                        134,
+                                        352
+                                    ],
+                                    "type": "text",
+                                    "content": "false northing",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        166,
+                                        334,
+                                        187,
+                                        350
+                                    ],
+                                    "type": "text",
+                                    "content": "0.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        351,
+                        175,
+                        363
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 15,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                350,
+                                176,
+                                365
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        351,
+                                        126,
+                                        365
+                                    ],
+                                    "type": "text",
+                                    "content": "scale factor",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        165,
+                                        350,
+                                        176,
+                                        364
+                                    ],
+                                    "type": "text",
+                                    "content": "1.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        69,
+                        381,
+                        225,
+                        395
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 16,
+                    "lines": [
+                        {
+                            "bbox": [
+                                68,
+                                380,
+                                225,
+                                396
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        380,
+                                        113,
+                                        396
+                                    ],
+                                    "type": "text",
+                                    "content": "spheroid",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        167,
+                                        380,
+                                        225,
+                                        396
+                                    ],
+                                    "type": "text",
+                                    "content": "Krassovsky",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        396,
+                        182,
+                        409
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 17,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                394,
+                                184,
+                                411
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        396,
+                                        135,
+                                        411
+                                    ],
+                                    "type": "text",
+                                    "content": "latitude origin",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        163,
+                                        394,
+                                        184,
+                                        410
+                                    ],
+                                    "type": "text",
+                                    "content": "0.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        411,
+                        227,
+                        425
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                410,
+                                229,
+                                427
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        410,
+                                        143,
+                                        427
+                                    ],
+                                    "type": "text",
+                                    "content": "longitude origin",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        164,
+                                        410,
+                                        229,
+                                        426
+                                    ],
+                                    "type": "text",
+                                    "content": "21 degrees E",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        426,
+                        211,
+                        440
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 19,
+                    "lines": [
+                        {
+                            "bbox": [
+                                68,
+                                424,
+                                213,
+                                442
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        424,
+                                        147,
+                                        442
+                                    ],
+                                    "type": "text",
+                                    "content": "false easting (m)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        165,
+                                        424,
+                                        213,
+                                        440
+                                    ],
+                                    "type": "text",
+                                    "content": "3500000",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        441,
+                        184,
+                        454
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 20,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                439,
+                                187,
+                                456
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        439,
+                                        134,
+                                        456
+                                    ],
+                                    "type": "text",
+                                    "content": "false northing",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        166,
+                                        439,
+                                        187,
+                                        455
+                                    ],
+                                    "type": "text",
+                                    "content": "0.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        70,
+                        456,
+                        175,
+                        468
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 21,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                455,
+                                177,
+                                470
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        456,
+                                        126,
+                                        470
+                                    ],
+                                    "type": "text",
+                                    "content": "scale factor",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        164,
+                                        455,
+                                        177,
+                                        470
+                                    ],
+                                    "type": "text",
+                                    "content": "1.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": false,
+    "_vlm_ocr_enable": false,
+    "_version_name": "3.1.8"
+}

@@ -1,0 +1,2640 @@
+{
+    "pdf_info": [
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        42,
+                        43,
+                        115,
+                        56
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                41,
+                                116,
+                                57
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        41,
+                                        116,
+                                        57
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        462,
+                        43,
+                        569,
+                        58
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                461,
+                                42,
+                                570,
+                                58
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        461,
+                                        42,
+                                        570,
+                                        58
+                                    ],
+                                    "type": "text",
+                                    "content": "Map Grid Example",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        512,
+                        757,
+                        569,
+                        770
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 12,
+                    "lines": [
+                        {
+                            "bbox": [
+                                511,
+                                756,
+                                571,
+                                771
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        511,
+                                        756,
+                                        571,
+                                        771
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 1 of 7",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        229,
+                        120,
+                        378,
+                        134
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "MAP GRID EXAMPLE"
+                },
+                {
+                    "bbox": [
+                        73,
+                        220,
+                        570,
+                        234
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "LOADING A MAP GRID PROJECT FILE"
+                },
+                {
+                    "bbox": [
+                        74,
+                        236,
+                        569,
+                        248
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "NAVIGATING THE MAP GRID DISPLAY"
+                },
+                {
+                    "bbox": [
+                        74,
+                        250,
+                        569,
+                        262
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "LOAD THE NETWORK EXAMPLE FILE"
+                },
+                {
+                    "bbox": [
+                        74,
+                        264,
+                        569,
+                        277
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "CLEARANCE TESTING"
+                },
+                {
+                    "bbox": [
+                        74,
+                        278,
+                        569,
+                        290
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "merge_prev": false,
+                    "content": "ELEVATION VIEWS"
+                },
+                {
+                    "bbox": [
+                        74,
+                        293,
+                        569,
+                        304
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "ADDING AND MOVING SITES"
+                },
+                {
+                    "bbox": [
+                        74,
+                        307,
+                        569,
+                        319
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "CREATING A MAP GRID PROJECT"
+                },
+                {
+                    "bbox": [
+                        74,
+                        321,
+                        569,
+                        333
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "GEOTIF FILES"
+                },
+                {
+                    "bbox": [
+                        74,
+                        335,
+                        569,
+                        348
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "BACKDROP DATA SOURCES"
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        43,
+                        116,
+                        57
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                41,
+                                116,
+                                57
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        41,
+                                        116,
+                                        57
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        462,
+                        43,
+                        569,
+                        58
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                461,
+                                42,
+                                570,
+                                58
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        461,
+                                        42,
+                                        570,
+                                        58
+                                    ],
+                                    "type": "text",
+                                    "content": "Map Grid Example",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        512,
+                        757,
+                        569,
+                        770
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 22,
+                    "lines": [
+                        {
+                            "bbox": [
+                                511,
+                                755,
+                                571,
+                                772
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        511,
+                                        755,
+                                        571,
+                                        772
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 2 of 7",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 1,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        37,
+                        77,
+                        165,
+                        90
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "MAP GRID EXAMPLE"
+                },
+                {
+                    "bbox": [
+                        37,
+                        105,
+                        339,
+                        162
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "The files and directory structure for the map grid example are shown at the right. Copy these file to your hard drive and make note of the directory as this must be identified as part of the setup procedure."
+                },
+                {
+                    "bbox": [
+                        37,
+                        176,
+                        329,
+                        261
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "The directories are named heights and backdrop. The backdrop directory contains a scanned topographic map and ariel photo in the TIF file format. The heights directory contains a terrain database with the same extents as the scanned map. Each directory contains an index file and a projection file in the MSI Planet format. The index file identifies the file name and the edges of the file and this will be loaded into the program. The projection file states the required projection."
+                },
+                {
+                    "bbox": [
+                        37,
+                        262,
+                        559,
+                        289
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": true,
+                    "lines_deleted": true
+                },
+                {
+                    "type": "code",
+                    "bbox": [
+                        348,
+                        76,
+                        569,
+                        234
+                    ],
+                    "index": 6,
+                    "sub_type": "algorithm",
+                    "content": "map_grid\n    /))heights)))0) index\n    *\n    *) projectn\n    *\n    .) vancvr.bil\n    /))backdrop))0) index\n    *\n    *) projectn\n    *\n    *) vcr_map.tif\n    *\n    .) vcrphoto.tif\n    *\n    .) vancvr.bil\n    /))Geo_Tiff )))sp27gtif.tif\n    mg_examp.bkd\n    mg_examp.gr4"
+                },
+                {
+                    "bbox": [
+                        346,
+                        236,
+                        538,
+                        251
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "merge_prev": false,
+                    "content": "Map Grid example files and directories"
+                },
+                {
+                    "bbox": [
+                        37,
+                        304,
+                        351,
+                        344
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "The file mg_examp.bkd is a map grid project file which contains all of the required definitions for both the backdrop and the terrain database."
+                },
+                {
+                    "bbox": [
+                        37,
+                        346,
+                        352,
+                        374
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "The file mg_examp.gr4 is a Pathloss network data file which can be viewed in both the network and map grid modules."
+                },
+                {
+                    "bbox": [
+                        37,
+                        388,
+                        351,
+                        431
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "The first part of the example uses the map grid project file. The second part describes the steps to create the map grid project file and data sources and production issues."
+                },
+                {
+                    "bbox": [
+                        37,
+                        445,
+                        264,
+                        459
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 11,
+                    "content": "LOADING A MAP GRID PROJECT FILE"
+                },
+                {
+                    "bbox": [
+                        38,
+                        473,
+                        348,
+                        572
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 12,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                38,
+                                473,
+                                347,
+                                515
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 13,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        472,
+                                        350,
+                                        489
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                472,
+                                                350,
+                                                489
+                                            ],
+                                            "type": "text",
+                                            "content": "Select Module - Map Grid to enter the map grid module.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        74,
+                                        487,
+                                        335,
+                                        503
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                487,
+                                                335,
+                                                503
+                                            ],
+                                            "type": "text",
+                                            "content": "If there is an existing network file or a temporary file,",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        75,
+                                        502,
+                                        259,
+                                        517
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                75,
+                                                502,
+                                                259,
+                                                517
+                                            ],
+                                            "type": "text",
+                                            "content": "select Files - New to clear the display.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                38,
+                                517,
+                                345,
+                                572
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 14,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        514,
+                                        346,
+                                        532
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                514,
+                                                346,
+                                                532
+                                            ],
+                                            "type": "text",
+                                            "content": "Select Site data - Backdrop. Then select Files - Open on",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        75,
+                                        531,
+                                        340,
+                                        544
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                75,
+                                                531,
+                                                340,
+                                                544
+                                            ],
+                                            "type": "text",
+                                            "content": "the menu bar of the backdrop dialog box. Open the file",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        74,
+                                        545,
+                                        333,
+                                        559
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                545,
+                                                333,
+                                                559
+                                            ],
+                                            "type": "text",
+                                            "content": "mg_examp.bkd. This file contains all of the required",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        74,
+                                        558,
+                                        309,
+                                        574
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                558,
+                                                309,
+                                                574
+                                            ],
+                                            "type": "text",
+                                            "content": "information for the example; however, it will be",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        361,
+                        302,
+                        570,
+                        564
+                    ],
+                    "index": 15,
+                    "sub_type": "text_image",
+                    "image_path": "cc1210ba3bf522d1827a01b183c4ac9842208bd3c975aed4b12595c4e7a20b30.jpg"
+                },
+                {
+                    "bbox": [
+                        72,
+                        573,
+                        530,
+                        601
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 16,
+                    "merge_prev": false,
+                    "content": "necessary to identify the location of the backdrop and heights directories to correspond to your computers directory structure."
+                },
+                {
+                    "bbox": [
+                        37,
+                        601,
+                        566,
+                        628
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 17,
+                    "merge_prev": false,
+                    "content": "\" The back drop display is divided into two sections - backdrop and elevations. In the backdrop section, click the Set directory button and identify the backdrop directory."
+                },
+                {
+                    "bbox": [
+                        37,
+                        630,
+                        555,
+                        657
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "merge_prev": false,
+                    "content": "\" Click the Elevation tab to switch to this section. Then click the Set directory button and identify the heights directory."
+                },
+                {
+                    "bbox": [
+                        37,
+                        658,
+                        566,
+                        686
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 19,
+                    "merge_prev": false,
+                    "content": "\" Select Files - Save on the on the menu bar of the backdrop dialog box and save the modified map grid project file with the revised directory locations."
+                },
+                {
+                    "bbox": [
+                        37,
+                        686,
+                        467,
+                        700
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 20,
+                    "merge_prev": false,
+                    "content": "\" Click the OK button. The backdrop file vcr_map.tif will be loaded and displayed."
+                },
+                {
+                    "bbox": [
+                        37,
+                        700,
+                        568,
+                        728
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 21,
+                    "merge_prev": false,
+                    "content": "\" A second file (vcrphoto.tif) is in the index file. To activate this file, select Site data - Backdrop - Index and click the “show” option."
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        43,
+                        115,
+                        56
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                41,
+                                116,
+                                57
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        41,
+                                        116,
+                                        57
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        462,
+                        43,
+                        569,
+                        58
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                461,
+                                42,
+                                570,
+                                58
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        461,
+                                        42,
+                                        570,
+                                        58
+                                    ],
+                                    "type": "text",
+                                    "content": "Map Grid Example",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        512,
+                        757,
+                        569,
+                        770
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 20,
+                    "lines": [
+                        {
+                            "bbox": [
+                                511,
+                                756,
+                                571,
+                                771
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        511,
+                                        756,
+                                        571,
+                                        771
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 3 of 7",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 2,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        37,
+                        77,
+                        268,
+                        90
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "NAVIGATING THE MAP GRID DISPLAY"
+                },
+                {
+                    "bbox": [
+                        37,
+                        105,
+                        566,
+                        265
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 3,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                37,
+                                105,
+                                532,
+                                138
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 4,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        39,
+                                        105,
+                                        533,
+                                        124
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                39,
+                                                110,
+                                                49,
+                                                119
+                                            ],
+                                            "type": "text",
+                                            "content": "\"",
+                                            "score": 1.0
+                                        },
+                                        {
+                                            "bbox": [
+                                                72,
+                                                105,
+                                                533,
+                                                124
+                                            ],
+                                            "type": "text",
+                                            "content": "Initially the entire file will displayed on the screen. Click the button to set the zoom to one",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        75,
+                                        123,
+                                        446,
+                                        140
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                75,
+                                                123,
+                                                446,
+                                                140
+                                            ],
+                                            "type": "text",
+                                            "content": "drawing pixel equal to one screen pixel. This is the most readable resolution.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                37,
+                                140,
+                                561,
+                                171
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 5,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        39,
+                                        137,
+                                        564,
+                                        158
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                39,
+                                                142,
+                                                49,
+                                                152
+                                            ],
+                                            "type": "text",
+                                            "content": "\"",
+                                            "score": 1.0
+                                        },
+                                        {
+                                            "bbox": [
+                                                72,
+                                                137,
+                                                564,
+                                                158
+                                            ],
+                                            "type": "text",
+                                            "content": "Click the button to pan the display. Hold down the left mouse button and move the mouse to pan",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        152,
+                                        135,
+                                        175
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                152,
+                                                135,
+                                                175
+                                            ],
+                                            "type": "text",
+                                            "content": "the display.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                37,
+                                171,
+                                561,
+                                217
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 6,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        39,
+                                        171,
+                                        536,
+                                        190
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                39,
+                                                175,
+                                                49,
+                                                185
+                                            ],
+                                            "type": "text",
+                                            "content": "\"",
+                                            "score": 1.0
+                                        },
+                                        {
+                                            "bbox": [
+                                                72,
+                                                171,
+                                                536,
+                                                190
+                                            ],
+                                            "type": "text",
+                                            "content": "To zoom the display to a custom setting, click the button. A left mouse button click on the",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        74,
+                                        190,
+                                        563,
+                                        205
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                190,
+                                                563,
+                                                205
+                                            ],
+                                            "type": "text",
+                                            "content": "display, will magnify the display a preset amount and center the display on the selected point. A right",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        203,
+                                        282,
+                                        220
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                203,
+                                                282,
+                                                220
+                                            ],
+                                            "type": "text",
+                                            "content": "mouse button click will shrink the display.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                37,
+                                218,
+                                566,
+                                246
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 7,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        39,
+                                        217,
+                                        569,
+                                        234
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                39,
+                                                220,
+                                                49,
+                                                229
+                                            ],
+                                            "type": "text",
+                                            "content": "\"",
+                                            "score": 1.0
+                                        },
+                                        {
+                                            "bbox": [
+                                                74,
+                                                217,
+                                                569,
+                                                234
+                                            ],
+                                            "type": "text",
+                                            "content": "To zoom a specific area, move the mouse to one corner of the area, hold down the left button and drag",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        74,
+                                        232,
+                                        290,
+                                        248
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                232,
+                                                290,
+                                                248
+                                            ],
+                                            "type": "text",
+                                            "content": "the mouse to the diagonally opposite corner.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                37,
+                                247,
+                                320,
+                                265
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 8,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        247,
+                                        323,
+                                        264
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                247,
+                                                263,
+                                                263
+                                            ],
+                                            "type": "text",
+                                            "content": "To display the complete map, click the",
+                                            "score": 1.0
+                                        },
+                                        {
+                                            "bbox": [
+                                                264,
+                                                247,
+                                                323,
+                                                264
+                                            ],
+                                            "type": "text",
+                                            "content": "button.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        37,
+                        279,
+                        264,
+                        293
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 9,
+                    "content": "LOAD THE NETWORK EXAMPLE FILE"
+                },
+                {
+                    "bbox": [
+                        36,
+                        308,
+                        538,
+                        339
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "Select Files - Open and load the example network file mg_examp.gr4. Click the button to zoom the display to the extents of the sites."
+                },
+                {
+                    "bbox": [
+                        36,
+                        340,
+                        550,
+                        367
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "Note that the map grid module does not replace the network module. You can switch between the network and map grid modules. Functionally the two modules are identical."
+                },
+                {
+                    "bbox": [
+                        37,
+                        368,
+                        521,
+                        387
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "merge_prev": false,
+                    "content": "Click the button to set the link cursor mode. This mode is required for the following operations:"
+                },
+                {
+                    "bbox": [
+                        72,
+                        402,
+                        236,
+                        415
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 13,
+                    "merge_prev": false,
+                    "content": "creating a link between two sites."
+                },
+                {
+                    "bbox": [
+                        72,
+                        415,
+                        451,
+                        443
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 14,
+                    "merge_prev": false,
+                    "content": "selecting a design module by a left mouse click on the link between two sites editing the site legend, link and site name attributes and moving the site name."
+                },
+                {
+                    "bbox": [
+                        37,
+                        458,
+                        302,
+                        471
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 15,
+                    "merge_prev": false,
+                    "content": "In the network module, this is the default cursor mode."
+                },
+                {
+                    "bbox": [
+                        37,
+                        486,
+                        173,
+                        499
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 16,
+                    "content": "CLEARANCE TESTING"
+                },
+                {
+                    "bbox": [
+                        36,
+                        514,
+                        544,
+                        562
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 17,
+                    "merge_prev": false,
+                    "content": "Path profiles can be dynamically generated on screen. As an example, determine the feasability of a path between the BC Rail and Capitol Hill sites. Click the button. Position the mouse on the BC Rail site. Hold the left mouse button down and drag the mouse to the Capitol Hill site."
+                },
+                {
+                    "type": "chart",
+                    "bbox": [
+                        77,
+                        566,
+                        531,
+                        693
+                    ],
+                    "index": 18,
+                    "sub_type": "line",
+                    "image_path": "3050f69df24fc4b753c14b889a3b08b0bc6afd7d61852ee0756941cebea05059.jpg"
+                },
+                {
+                    "bbox": [
+                        36,
+                        703,
+                        556,
+                        732
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 19,
+                    "merge_prev": false,
+                    "content": "The profile will be dynamically displayed on screen along with the path length and a line between antennas. This display does not include earth curvature. If you click the right mouse button at any time during this"
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        42,
+                        43,
+                        115,
+                        56
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                41,
+                                116,
+                                57
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        41,
+                                        116,
+                                        57
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        462,
+                        43,
+                        569,
+                        58
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                461,
+                                42,
+                                570,
+                                58
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        461,
+                                        42,
+                                        570,
+                                        58
+                                    ],
+                                    "type": "text",
+                                    "content": "Map Grid Example",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        512,
+                        757,
+                        569,
+                        770
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 5,
+                    "lines": [
+                        {
+                            "bbox": [
+                                511,
+                                756,
+                                571,
+                                771
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        511,
+                                        756,
+                                        571,
+                                        771
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 4 of 7",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 3,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        37,
+                        77,
+                        545,
+                        106
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "operation, the profile will be reset. Release the mouse button at the Capitol Hill site and a detailed profile display will be created which allows a more rigorous clearance analysis."
+                },
+                {
+                    "type": "chart",
+                    "bbox": [
+                        69,
+                        118,
+                        541,
+                        462
+                    ],
+                    "index": 3,
+                    "sub_type": "line",
+                    "image_path": "52fe4c749a1a613d9b658790a9b01b7bd154c0ad56f4925c86236f60c1c1abc8.jpg"
+                },
+                {
+                    "bbox": [
+                        37,
+                        474,
+                        461,
+                        488
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "The link can be added to the display and a Pathloss data file can be created at this point."
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        43,
+                        116,
+                        57
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                41,
+                                116,
+                                57
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        41,
+                                        116,
+                                        57
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        462,
+                        43,
+                        569,
+                        58
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                461,
+                                42,
+                                570,
+                                58
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        461,
+                                        42,
+                                        570,
+                                        58
+                                    ],
+                                    "type": "text",
+                                    "content": "Map Grid Example",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        512,
+                        757,
+                        569,
+                        770
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 19,
+                    "lines": [
+                        {
+                            "bbox": [
+                                511,
+                                756,
+                                571,
+                                771
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        511,
+                                        756,
+                                        571,
+                                        771
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 5 of 7",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 4,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        37,
+                        77,
+                        157,
+                        90
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "ELEVATION VIEWS"
+                },
+                {
+                    "bbox": [
+                        37,
+                        106,
+                        263,
+                        119
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "An elevation view can be added to the display."
+                },
+                {
+                    "bbox": [
+                        37,
+                        120,
+                        348,
+                        148
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "Select Site data - Elevation view - Create. The display extents is always the current screen."
+                },
+                {
+                    "bbox": [
+                        37,
+                        161,
+                        299,
+                        182
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "The button toggles the elevation view on and off."
+                },
+                {
+                    "bbox": [
+                        37,
+                        195,
+                        370,
+                        280
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "The elevation view overlays the backdrop using raster operations. Several options for the raster operation codes are available. Select Site Data - Elevation view - Options. The SRCCOPY code shown at the right completely overwrites the backdrop. The DSPDxax code is a transparent display which is useful with 8 bit grey scale backdrop images."
+                },
+                {
+                    "bbox": [
+                        37,
+                        308,
+                        211,
+                        321
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 7,
+                    "content": "ADDING AND MOVING SITES"
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        373,
+                        76,
+                        569,
+                        335
+                    ],
+                    "index": 8,
+                    "sub_type": "text_image",
+                    "image_path": "fb1bff2f052c3b873bb3c83e189b48d1024bf09a06f10c90dea02ac05a78fb4f.jpg"
+                },
+                {
+                    "bbox": [
+                        37,
+                        337,
+                        346,
+                        350
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "Select Site data - Add site or Move site to access these features."
+                },
+                {
+                    "bbox": [
+                        37,
+                        365,
+                        257,
+                        437
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "The initial site locations and subsequent adjustments can be made with the add and move site operations. Moving a site requires two steps. First click on the site to be moved. Then move the site to its new position."
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        271,
+                        350,
+                        410,
+                        470
+                    ],
+                    "index": 11,
+                    "sub_type": "text_image",
+                    "image_path": "7db233d1437b63f6e63bf035964fa44a8a02a04363b210c1b4ae85edc4a7c9a9.jpg"
+                },
+                {
+                    "bbox": [
+                        44,
+                        485,
+                        396,
+                        513
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "merge_prev": false,
+                    "content": "Moving a site does not automatically regenerate the path profiles for any links connected to this site"
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        413,
+                        350,
+                        569,
+                        555
+                    ],
+                    "index": 13,
+                    "sub_type": "text_image",
+                    "image_path": "6b53e85c43db024af7df665c129c74120f5314b72293cf4aede0c288ca9ebf91.jpg"
+                },
+                {
+                    "bbox": [
+                        37,
+                        549,
+                        241,
+                        562
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 14,
+                    "content": "CREATING A MAP GRID PROJECT"
+                },
+                {
+                    "bbox": [
+                        36,
+                        578,
+                        416,
+                        592
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 15,
+                    "merge_prev": false,
+                    "content": "This section describes how to create the map grid project file for this example."
+                },
+                {
+                    "bbox": [
+                        36,
+                        592,
+                        426,
+                        605
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 16,
+                    "merge_prev": false,
+                    "content": "Select Site data - Backdrop and click the reset button to clear the current project."
+                },
+                {
+                    "bbox": [
+                        36,
+                        620,
+                        563,
+                        649
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 17,
+                    "merge_prev": false,
+                    "content": "In this release the same projection must be used for both the backdrop and the elevation data. Even if there is no backdrop you must set the projection for both. Starting with the backdrop proceed as follows."
+                },
+                {
+                    "bbox": [
+                        36,
+                        662,
+                        535,
+                        691
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "merge_prev": false,
+                    "content": "The file \\backdrop\\projectn.txt contains the line “NAD27 Clarke 1886 zone 10\". These are the required parameters for a UTM projection."
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        43,
+                        116,
+                        57
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                41,
+                                116,
+                                57
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        41,
+                                        116,
+                                        57
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        462,
+                        43,
+                        569,
+                        58
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                461,
+                                42,
+                                570,
+                                58
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        461,
+                                        42,
+                                        570,
+                                        58
+                                    ],
+                                    "type": "text",
+                                    "content": "Map Grid Example",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        512,
+                        757,
+                        569,
+                        770
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 24,
+                    "lines": [
+                        {
+                            "bbox": [
+                                511,
+                                755,
+                                571,
+                                772
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        511,
+                                        755,
+                                        571,
+                                        772
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 6 of 7",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 5,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        37,
+                        77,
+                        129,
+                        91
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "Backdrop Settings"
+                },
+                {
+                    "bbox": [
+                        37,
+                        105,
+                        563,
+                        176
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 3,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                37,
+                                105,
+                                552,
+                                133
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 4,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        39,
+                                        104,
+                                        553,
+                                        120
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                39,
+                                                107,
+                                                49,
+                                                116
+                                            ],
+                                            "type": "text",
+                                            "content": "\"",
+                                            "score": 1.0
+                                        },
+                                        {
+                                            "bbox": [
+                                                73,
+                                                104,
+                                                553,
+                                                120
+                                            ],
+                                            "type": "text",
+                                            "content": "Set the grid coordinate selection to Universal Transverse Mercator (UTM) and enter 10 in the zone",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        118,
+                                        105,
+                                        135
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                118,
+                                                105,
+                                                135
+                                            ],
+                                            "type": "text",
+                                            "content": "field.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                37,
+                                133,
+                                561,
+                                176
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 5,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        39,
+                                        133,
+                                        553,
+                                        148
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                39,
+                                                136,
+                                                49,
+                                                145
+                                            ],
+                                            "type": "text",
+                                            "content": "\"",
+                                            "score": 1.0
+                                        },
+                                        {
+                                            "bbox": [
+                                                74,
+                                                133,
+                                                553,
+                                                148
+                                            ],
+                                            "type": "text",
+                                            "content": "Set the datum to North American 27 (NAD27). Coordinate transformation between datums has not",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        74,
+                                        148,
+                                        562,
+                                        163
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                148,
+                                                562,
+                                                163
+                                            ],
+                                            "type": "text",
+                                            "content": "been implemented in the Map Grid module at present; however, it is necessary to specify a region for",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        74,
+                                        162,
+                                        476,
+                                        177
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                162,
+                                                476,
+                                                177
+                                            ],
+                                            "type": "text",
+                                            "content": "the datum. In this example set the region to “Canada (Alberta - British Columbia)”.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        37,
+                        177,
+                        341,
+                        205
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "C Click the set directory button and identify the directory containing the backdrop files."
+                },
+                {
+                    "bbox": [
+                        37,
+                        205,
+                        375,
+                        247
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "merge_prev": false,
+                    "content": "\" Click the index button to bring up the index form. Select Files - Import list on the menu bar. The index file contains the following lines in the Planet format:"
+                },
+                {
+                    "bbox": [
+                        37,
+                        259,
+                        350,
+                        273
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "vcr_map.tif 491000 500000 5456000 5468000"
+                },
+                {
+                    "bbox": [
+                        37,
+                        273,
+                        343,
+                        286
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "vcrphoto.tif 480711 509042 5448588 5461808"
+                },
+                {
+                    "bbox": [
+                        37,
+                        300,
+                        375,
+                        344
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "\" Click the Planet button to set these defaults. The edges are the UTM coordinates of the corners of the file. The cell size field is optional and should be blank for this example."
+                },
+                {
+                    "bbox": [
+                        37,
+                        344,
+                        323,
+                        359
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "Click OK, load the index file and verify the entries."
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        380,
+                        177,
+                        569,
+                        368
+                    ],
+                    "index": 12,
+                    "sub_type": "text_image",
+                    "image_path": "cc0be12e23f411844cdc951ef0a2c8f50f3ac23c8d5fc15ee7600986b2e1d5fb.jpg"
+                },
+                {
+                    "bbox": [
+                        37,
+                        372,
+                        129,
+                        386
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 13,
+                    "content": "Elevation Settings"
+                },
+                {
+                    "bbox": [
+                        37,
+                        400,
+                        536,
+                        427
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 14,
+                    "merge_prev": false,
+                    "content": "\" Switch to the elevation section and set the projection data to the same values as in the backdrop section."
+                },
+                {
+                    "bbox": [
+                        37,
+                        429,
+                        393,
+                        456
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 15,
+                    "merge_prev": false,
+                    "content": "\" Click the set directory button and identify the directory containing the elevation files."
+                },
+                {
+                    "bbox": [
+                        37,
+                        456,
+                        392,
+                        499
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 16,
+                    "merge_prev": false,
+                    "content": "\" Click the index button to bring up the index form. Select Files - Import list on the menu bar. The index file contains the following line in the Planet format:"
+                },
+                {
+                    "bbox": [
+                        37,
+                        512,
+                        350,
+                        525
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 17,
+                    "merge_prev": false,
+                    "content": "vancvr.bil 491000 500000 5456000 5468000 25"
+                },
+                {
+                    "bbox": [
+                        37,
+                        540,
+                        375,
+                        568
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "merge_prev": false,
+                    "content": "\" Click the Planet button to set these defaults. The edges are the UTM coordinates of the corners of the file."
+                },
+                {
+                    "bbox": [
+                        37,
+                        569,
+                        394,
+                        597
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 19,
+                    "merge_prev": false,
+                    "content": "\" The bottom up option determines if the file is to be read from the bottom or top. An error here will result in an upside down display."
+                },
+                {
+                    "bbox": [
+                        37,
+                        597,
+                        386,
+                        654
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 20,
+                    "merge_prev": false,
+                    "content": "\" The byte order option should be set to Intel for this example. If this is incorrectly set, the elevations will be very large and interpreted as no data values. However near sea level, some data may be produced which can lead to very confusing results."
+                },
+                {
+                    "bbox": [
+                        37,
+                        654,
+                        323,
+                        668
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 21,
+                    "merge_prev": false,
+                    "content": "Click OK, load the index file and verify the entries."
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        401,
+                        428,
+                        569,
+                        656
+                    ],
+                    "index": 22,
+                    "sub_type": "text_image",
+                    "image_path": "c0ad4d4aa690e179d0ad359b257dd579174af12ba9c64096867ed446777462ae.jpg"
+                },
+                {
+                    "bbox": [
+                        36,
+                        681,
+                        561,
+                        711
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 23,
+                    "merge_prev": false,
+                    "content": "Select Files - Save on the backdrop menu bar and save the project. The next time the Pathloss program starts the map grid project file will be automatically reloaded."
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        43,
+                        115,
+                        56
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                41,
+                                116,
+                                57
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        41,
+                                        116,
+                                        57
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        462,
+                        43,
+                        569,
+                        58
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                461,
+                                42,
+                                570,
+                                58
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        461,
+                                        42,
+                                        570,
+                                        58
+                                    ],
+                                    "type": "text",
+                                    "content": "Map Grid Example",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        512,
+                        757,
+                        569,
+                        770
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 13,
+                    "lines": [
+                        {
+                            "bbox": [
+                                511,
+                                756,
+                                571,
+                                771
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        511,
+                                        756,
+                                        571,
+                                        771
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 7 of 7",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 6,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        37,
+                        77,
+                        126,
+                        90
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "GEOTIF FILES"
+                },
+                {
+                    "bbox": [
+                        37,
+                        105,
+                        227,
+                        218
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "GeoTif files are TIF image files with extensions to geographically reference the file. The map grid module supports GeoTif files with UTM and US state plane coordinate projections. The directory map_grid\\Geo_Tiff contains an example of a GeoTif file using US state plane coordinates."
+                },
+                {
+                    "bbox": [
+                        37,
+                        232,
+                        236,
+                        289
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "Select Site data - Backdrop and click the reset button to create a new map grid project. In the backdrop section click the index button."
+                },
+                {
+                    "bbox": [
+                        37,
+                        304,
+                        233,
+                        373
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "Select Files - Geo Tiff file and load the file map_grid\\geo_tiff\\sp27gtif.tif. The information dialog at the right summarizes the geographic status of the file."
+                },
+                {
+                    "bbox": [
+                        37,
+                        388,
+                        220,
+                        430
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "Click the create index button. All aspects of the backdrop definition are filled in."
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        241,
+                        77,
+                        569,
+                        406
+                    ],
+                    "index": 7,
+                    "sub_type": "text_image",
+                    "image_path": "e3e9187e1059949f757a24cce86dbb6bb1c96c06111e9fbfe47c52c0ea2a2a37.jpg"
+                },
+                {
+                    "bbox": [
+                        37,
+                        445,
+                        323,
+                        459
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "Close the index and click the OK button to display the file."
+                },
+                {
+                    "bbox": [
+                        37,
+                        487,
+                        206,
+                        501
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 9,
+                    "content": "BACKDROP DATA SOURCES"
+                },
+                {
+                    "bbox": [
+                        36,
+                        516,
+                        553,
+                        586
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "The file vcr_map.tif was produced by scanning a topographic map in several sections and joining up the sections in a image editing program. A Hewlett Packard ScanJet 3200C was used. The edges must be geo- referenced. This means that the rectangular coordinates of the edges must be known. This is a relatively simple procedure if the map contains a UTM grid. The edges of the image can be cut to the grid lines and these values will be entered into the index."
+                },
+                {
+                    "bbox": [
+                        37,
+                        601,
+                        435,
+                        616
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "The file format can be either a tagged image file (TIF) or windows bitmap (BMP)."
+                },
+                {
+                    "bbox": [
+                        36,
+                        629,
+                        547,
+                        658
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "merge_prev": false,
+                    "content": "The color should be set to 8 bit palette for both color and grey scale images. The base file size will be one byte per pixel. If 24 bit color is used the base file size will be three times the size."
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": false,
+    "_vlm_ocr_enable": false,
+    "_version_name": "3.1.8"
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>PDF Replica Viewer</title>
+
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"/>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    background: #525659;
+    padding: 30px 0;
+    min-height: 100vh;
+}
+.pg {
+    overflow: hidden;
+    page-break-after: always;
+}
+
+.blk {
+    border: 2px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.dbg-label {
+    display: none;
+    position: absolute;
+    top: 0; left: 0;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 0 0 6px 0;
+    z-index: 10;
+    opacity: 0.95;
+    line-height: 1.2;
+    pointer-events: none;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+body.debug .blk {
+    border-style: dashed !important;
+    background-color: rgba(0,0,0,0.02);
+}
+body:not(.debug) .blk {
+    border-color: transparent !important;
+}
+body.debug .dbg-label {
+    display: block;
+}
+
+#debug-btn {
+    position: fixed;
+    top: 12px;
+    right: 16px;
+    z-index: 9999;
+    background: #333;
+    color: #aaa;
+    border: 1px solid #555;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Segoe UI', sans-serif;
+    transition: all 0.2s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+#debug-btn:hover { background: #444; color: #fff; }
+#debug-btn.active { background: #ff5722; color: #fff; border-color: #ff5722; }
+
+.fit {
+    display: block;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.code-block {
+    background-color: transparent;
+    border-radius: 0;
+    border: none !important;
+}
+
+.tw table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.tw td, .tw th {
+    border: 1px solid #bbb;
+    padding: 2px 4px;
+}
+
+.math .katex {
+    font-size: 1.05em !important;
+}
+</style>
+</head>
+<body>
+
+<button id="debug-btn" onclick="toggleDebug()">🔍 Debug OFF</button>
+
+<div class="pg" style="width:918px;height:1188px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:262.5px;top:108.0px;width:654.0px;height:67.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#1 title</span><span class="fit" style="font-size:36px; line-height:46px;">Pathloss Phiên bản 4.0 Liên kết Tệp</span></div>
+<div class="blk" style="position:absolute;left:100.5px;top:177.0px;width:816.0px;height:105.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#2 text</span><span class="fit" style="font-size:20px; line-height:26px;">Chương trình cài đặt pathloss đã không hoàn tất việc nhập registry Windows một cách chính xác trên các lô hàng trước tháng 8 năm 1999. Nhấp đúp vào tệp pathloss (pl4) sẽ khởi động chương trình nhưng không tải được tệp. Quy trình chỉnh sửa registry và khắc phục vấn đề này được đưa ra trong các bước dưới đây.</span></div>
+<div class="blk" style="position:absolute;left:102.0px;top:283.5px;width:814.5px;height:276.0px;overflow:hidden;box-sizing:border-box;border-color:#00BCD4;" data-t="list"><span class="dbg-label" style="background:#00BCD4;">#3 list</span><ul class="fit" style="font-size:26px; line-height:33px; margin:0;padding-left:16px;"><li style="margin-bottom:4px;">Nhấp Start - Run và nhập lệnh REGEDIT. Nhấp OK để khởi động chương trình trình chỉnh sửa registry của Windows.</li><li style="margin-bottom:4px;">Chọn Edit - Find.. trên thanh menu và nhập chuỗi tìm kiếm pl4file.</li></ul></div>
+<div class="blk" style="position:absolute;left:342.0px;top:345.0px;width:472.5px;height:214.5px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#4 image</span><img src="../images/ab795687ea2189f2a3ec38d59988454bff34feaa072cd225ba69ce5aa24659b8.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:102.0px;top:561.0px;width:396.0px;height:148.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#5 text</span><span class="fit" style="font-size:26px; line-height:33px;">Vị trí chính xác được hiển thị trong cấu trúc thư mục ở bên phải.</span></div>
+<div class="blk" style="position:absolute;left:499.5px;top:567.0px;width:300.0px;height:133.5px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#6 image</span><img src="../images/2e29a2fb142ab0d47113cc59d514a3c4e7b0d80a9a0446ad71355997ac76565d.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:103.5px;top:711.0px;width:258.0px;height:475.5px;overflow:hidden;box-sizing:border-box;border-color:#00BCD4;" data-t="list"><span class="dbg-label" style="background:#00BCD4;">#7 list</span><ul class="fit" style="font-size:26px; line-height:33px; margin:0;padding-left:16px;"><li style="margin-bottom:4px;">Nhấp đúp vào biểu tượng “ab” và chỉnh sửa mục nhập như được hiển thị. %1 là phần bị thiếu . Đường dẫn sẽ là thư mục mà chương trình pathloss đã được cài đặt vào.</li><li style="margin-bottom:4px;">Nhấp OK và đóng chương trình REGEDIT.</li></ul></div>
+<div class="blk" style="position:absolute;left:363.0px;top:711.0px;width:451.5px;height:192.0px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#8 image</span><img src="../images/f5570cfad4440b36e377a399afa3dc6566fb837d4a848931c97355bb7489ce2e.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+</div>
+
+<script>
+function toggleDebug() {
+    document.body.classList.toggle('debug');
+    var btn = document.getElementById('debug-btn');
+    btn.classList.toggle('active');
+    btn.textContent = document.body.classList.contains('debug')
+        ? '🔍 Debug ON'
+        : '🔍 Debug OFF';
+}
+
+window.addEventListener('load', function() {
+    // Render math
+    if (typeof katex === 'undefined') {
+        console.warn('KaTeX not loaded');
+    } else {
+        var mathEls = document.querySelectorAll('.math');
+        for (var i = 0; i < mathEls.length; i++) {
+            var el = mathEls[i];
+            var tex = el.textContent;
+            try {
+                katex.render(tex, el, {
+                    throwOnError: false,
+                    displayMode: false,
+                    output: 'html'
+                });
+            } catch (e) {
+                console.warn('KaTeX error:', tex, e);
+            }
+        }
+    }
+});
+</script>
+
+</body>
+</html>

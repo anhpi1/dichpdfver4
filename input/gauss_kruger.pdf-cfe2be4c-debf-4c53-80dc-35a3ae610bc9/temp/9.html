@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>PDF Replica Viewer</title>
+
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"/>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    background: #525659;
+    padding: 30px 0;
+    min-height: 100vh;
+}
+.pg {
+    overflow: hidden;
+    page-break-after: always;
+}
+
+.blk {
+    border: 2px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.dbg-label {
+    display: none;
+    position: absolute;
+    top: 0; left: 0;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 0 0 6px 0;
+    z-index: 10;
+    opacity: 0.95;
+    line-height: 1.2;
+    pointer-events: none;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+body.debug .blk {
+    border-style: dashed !important;
+    background-color: rgba(0,0,0,0.02);
+}
+body:not(.debug) .blk {
+    border-color: transparent !important;
+}
+body.debug .dbg-label {
+    display: block;
+}
+
+#debug-btn {
+    position: fixed;
+    top: 12px;
+    right: 16px;
+    z-index: 9999;
+    background: #333;
+    color: #aaa;
+    border: 1px solid #555;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Segoe UI', sans-serif;
+    transition: all 0.2s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+#debug-btn:hover { background: #444; color: #fff; }
+#debug-btn.active { background: #ff5722; color: #fff; border-color: #ff5722; }
+
+.fit {
+    display: block;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.code-block {
+    background-color: transparent;
+    border-radius: 0;
+    border: none !important;
+}
+
+.tw table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.tw td, .tw th {
+    border: 1px solid #bbb;
+    padding: 2px 4px;
+}
+
+.math .katex {
+    font-size: 1.05em !important;
+}
+</style>
+</head>
+<body>
+
+<button id="debug-btn" onclick="toggleDebug()">🔍 Debug OFF</button>
+
+<div class="pg" style="width:918px;height:1188px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:414.0px;top:75.0px;width:397.5px;height:177.0px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#1 image</span><img src="../images/561fbf26d618f5b36d21b7e3a703316f1ca66ad3e897063dda7ca45ad785e5c9.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:103.5px;top:76.5px;width:309.0px;height:48.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#2 title</span><span class="fit" style="font-size:33px; line-height:42px;">Phép chiếu</span></div>
+<div class="blk" style="position:absolute;left:102.0px;top:126.0px;width:310.5px;height:135.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#3 text</span><span class="fit" style="font-size:18px; line-height:23px;">Gauss Kruger</span></div>
+<div class="blk" style="position:absolute;left:102.0px;top:262.5px;width:814.5px;height:61.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#4 text</span><span class="fit" style="font-size:14px; line-height:18px;">Hệ tọa độ Gauss Kruger được triển khai như một phép chiếu Transverse Mercator tổng quát. Các tham số cụ thể được thiết lập trong hộp thoại Geographic Defaults. Chọn Configure - Geographic defaults. Đặt hệ tọa độ lưới [2] thành Gauss Kruger. Nút định nghĩa tham số Gauss Kruger sẽ hoạt động khi lựa chọn tọa độ lưới được thực hiện.</span></div>
+<div class="blk" style="position:absolute;left:165.0px;top:325.5px;width:639.0px;height:541.5px;overflow:hidden;box-sizing:border-box;border-color:#2196F3;" data-t="table"><span class="dbg-label" style="background:#2196F3;">#5 table</span><img src="../images/1f48898800b03675a489256bcb46f50a690b9de2b96315117a40c08b97973203.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:102.0px;top:891.0px;width:814.5px;height:66.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#6 text</span><span class="fit" style="font-size:18px; line-height:23px;">Kinh độ và vĩ độ gốc có thể được nhập dưới dạng độ thập phân hoặc độ phút giây với khoảng trắng phân cách các giá trị.</span></div>
+<div class="blk" style="position:absolute;left:102.0px;top:958.5px;width:814.5px;height:43.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#7 text</span><span class="fit" style="font-size:18px; line-height:23px;">Nút Swedish Grid thiết lập các tham số cho hệ tọa độ lưới Thụy Điển.</span></div>
+<div class="blk" style="position:absolute;left:100.5px;top:1003.5px;width:816.0px;height:183.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#8 text</span><span class="fit" style="font-size:18px; line-height:23px;">Khi các định nghĩa hoàn tất, đóng hộp thoại bằng nút OK. Các tham số sẽ được lưu trong tệp có tên gauskrug.bin trong thư mục chương trình pathloss. Tất cả các chuyển đổi giữa tọa độ địa lý và easting - northings sẽ sử dụng các định nghĩa này.</span></div>
+</div>
+<div class="pg" style="width:918px;height:1188px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:103.5px;top:76.5px;width:813.0px;height:43.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#9 title</span><span class="fit" style="font-size:33px; line-height:42px;">Ellipsoid - Datum</span></div>
+<div class="blk" style="position:absolute;left:100.5px;top:121.5px;width:816.0px;height:87.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#10 text</span><span class="fit" style="font-size:16px; line-height:20px;">Ngoài các tham số Transverse Mercator đã chỉ định, việc chuyển đổi giữa tọa độ địa lý và easting - northings dựa trên định nghĩa ellipsoid. Cả hai ellipsoid Bessel và Krassovsky đều được sử dụng. Do đó, bạn phải chọn một ellipsoid và đánh dấu nút Use Ellipsoid trong hộp thoại Geographic defaults.</span></div>
+<div class="blk" style="position:absolute;left:429.0px;top:210.0px;width:367.5px;height:69.0px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#11 image</span><img src="../images/6615a59357f23777afb1b7fff8ee2decca6db64fc472b042fd60e4048139132a.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:102.0px;top:211.5px;width:325.5px;height:66.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#12 text</span><span class="fit" style="font-size:18px; line-height:23px;">Lưu ý rằng không có datum nào tương ứng với hai ellipsoid này.</span></div>
+<div class="blk" style="position:absolute;left:103.5px;top:279.0px;width:813.0px;height:43.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#13 title</span><span class="fit" style="font-size:33px; line-height:42px;">Cơ sở dữ liệu địa hình</span></div>
+<div class="blk" style="position:absolute;left:100.5px;top:324.0px;width:816.0px;height:111.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#14 text</span><span class="fit" style="font-size:17px; line-height:22px;">Tùy chọn cơ sở dữ liệu địa hình Odyssey - Gauss Kruger đã được triển khai cho phép chiếu này. Tùy chọn này có thể được sử dụng với bất kỳ cơ sở dữ liệu địa hình nào có độ cao được sắp xếp theo hàng từ tây sang đông như MSI Planet. Các định nghĩa Gauss Kruger cũng có thể được thiết lập như một phần của cấu hình cơ sở dữ liệu. Điều này tương tự như việc thiết lập các tham số trong Geographic defaults.</span></div>
+<div class="blk" style="position:absolute;left:100.5px;top:436.5px;width:816.0px;height:133.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#15 text</span><span class="fit" style="font-size:18px; line-height:23px;">Một vấn đề có thể xảy ra khi tạo chỉ mục cho cơ sở dữ liệu Gauss Kruger từ tệp văn bản. Đặc tả cạnh đông và cạnh tây có thể bao gồm số vùng làm chữ số đầu tiên của giá trị. Quá trình chuyển đổi kiểm tra giá trị của cạnh đông và cạnh tây. Nếu giá trị lớn hơn 1000, chữ số đầu tiên sẽ bị loại bỏ. Trong hầu hết các trường hợp, kết quả sẽ chính xác; tuy nhiên, một giá trị lớn hơn 1000 cũng có thể là một easting thực tế.</span></div>
+<div class="blk" style="position:absolute;left:103.5px;top:571.5px;width:813.0px;height:43.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#16 title</span><span class="fit" style="font-size:33px; line-height:42px;">Tham số</span></div>
+<div class="blk" style="position:absolute;left:102.0px;top:616.5px;width:814.5px;height:42.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#17 text</span><span class="fit" style="font-size:18px; line-height:23px;">Các tham số được sử dụng cho Phép chiếu Gauss Kruger ở Baden-Wuerttemberg là:</span></div>
+<div class="blk" style="position:absolute;left:102.0px;top:660.0px;width:291.0px;height:133.5px;overflow:hidden;box-sizing:border-box;border-color:#2196F3;" data-t="table"><span class="dbg-label" style="background:#2196F3;">#18 table</span><img src="../images/1b3f625de208d4b967e83e3abe7b1f5f13c2994591eac2a0052d61759a621711.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:102.0px;top:819.0px;width:814.5px;height:18.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#19 text</span><span class="fit" style="font-size:14px; line-height:18px;">Ở Đức, có 5 vùng sử dụng phép chiếu Gauss-Kruger / Transverse Mercator.</span></div>
+<div class="blk" style="position:absolute;left:105.0px;top:838.5px;width:706.5px;height:264.0px;overflow:hidden;box-sizing:border-box;border-color:#2196F3;" data-t="table"><span class="dbg-label" style="background:#2196F3;">#20 table</span><img src="../images/31dd3a7fb61d331ffbc7cd2f1b84d7e412b6fd26dd3c9353befbb4d2eee7b254.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+</div>
+<div class="pg" style="width:918px;height:1188px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:103.5px;top:76.5px;width:813.0px;height:43.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#21 title</span><span class="fit" style="font-size:33px; line-height:42px;">Hệ thống lưới Thụy Điển</span></div>
+<div class="blk" style="position:absolute;left:103.5px;top:121.5px;width:813.0px;height:21.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#22 text</span><span class="fit" style="font-size:16px; line-height:20px;">Hệ thống lưới Thụy Điển sử dụng các tham số sau</span></div>
+<div class="blk" style="position:absolute;left:103.5px;top:144.0px;width:813.0px;height:21.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#23 text</span><span class="fit" style="font-size:16px; line-height:20px;">spheroid Bessel 1841</span></div>
+<div class="blk" style="position:absolute;left:105.0px;top:166.5px;width:811.5px;height:21.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#24 text</span><span class="fit" style="font-size:16px; line-height:20px;">vĩ độ gốc 0.0</span></div>
+<div class="blk" style="position:absolute;left:105.0px;top:189.0px;width:811.5px;height:21.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#25 text</span><span class="fit" style="font-size:16px; line-height:20px;">kinh độ gốc 15º 48&#x27; 29.8&quot; E (15.80827778 độ E)</span></div>
+<div class="blk" style="position:absolute;left:105.0px;top:211.5px;width:811.5px;height:21.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#26 text</span><span class="fit" style="font-size:16px; line-height:20px;">false easting (m) 1500000.00</span></div>
+<div class="blk" style="position:absolute;left:105.0px;top:234.0px;width:811.5px;height:21.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#27 text</span><span class="fit" style="font-size:16px; line-height:20px;">false northing 0.00</span></div>
+<div class="blk" style="position:absolute;left:105.0px;top:256.5px;width:811.5px;height:66.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#28 text</span><span class="fit" style="font-size:18px; line-height:23px;">hệ số tỷ lệ 1.00</span></div>
+<div class="blk" style="position:absolute;left:103.5px;top:324.0px;width:813.0px;height:43.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#29 title</span><span class="fit" style="font-size:33px; line-height:42px;">Slovakia</span></div>
+<div class="blk" style="position:absolute;left:103.5px;top:369.0px;width:813.0px;height:43.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#30 text</span><span class="fit" style="font-size:18px; line-height:23px;">Ở Slovakia, các phép chiếu sau được sử dụng:</span></div>
+<div class="blk" style="position:absolute;left:103.5px;top:414.0px;width:813.0px;height:21.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#31 text</span><span class="fit" style="font-size:16px; line-height:20px;">spheroid Krassovsky</span></div>
+<div class="blk" style="position:absolute;left:105.0px;top:436.5px;width:811.5px;height:21.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#32 text</span><span class="fit" style="font-size:16px; line-height:20px;">vĩ độ gốc 0.0</span></div>
+<div class="blk" style="position:absolute;left:105.0px;top:459.0px;width:811.5px;height:21.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#33 text</span><span class="fit" style="font-size:16px; line-height:20px;">kinh độ gốc 15 độ E</span></div>
+<div class="blk" style="position:absolute;left:105.0px;top:481.5px;width:811.5px;height:21.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#34 text</span><span class="fit" style="font-size:16px; line-height:20px;">false easting (m) 3500000</span></div>
+<div class="blk" style="position:absolute;left:105.0px;top:504.0px;width:811.5px;height:21.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#35 text</span><span class="fit" style="font-size:16px; line-height:20px;">false northing 0.0</span></div>
+<div class="blk" style="position:absolute;left:105.0px;top:526.5px;width:811.5px;height:43.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#36 text</span><span class="fit" style="font-size:18px; line-height:23px;">hệ số tỷ lệ 1.</span></div>
+<div class="blk" style="position:absolute;left:103.5px;top:571.5px;width:813.0px;height:21.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#37 text</span><span class="fit" style="font-size:16px; line-height:20px;">spheroid Krassovsky</span></div>
+<div class="blk" style="position:absolute;left:105.0px;top:594.0px;width:811.5px;height:21.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#38 text</span><span class="fit" style="font-size:16px; line-height:20px;">vĩ độ gốc 0.0</span></div>
+<div class="blk" style="position:absolute;left:105.0px;top:616.5px;width:811.5px;height:21.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#39 text</span><span class="fit" style="font-size:16px; line-height:20px;">kinh độ gốc 21 độ E</span></div>
+<div class="blk" style="position:absolute;left:105.0px;top:639.0px;width:811.5px;height:21.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#40 text</span><span class="fit" style="font-size:16px; line-height:20px;">false easting (m) 3500000</span></div>
+<div class="blk" style="position:absolute;left:105.0px;top:661.5px;width:811.5px;height:21.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#41 text</span><span class="fit" style="font-size:16px; line-height:20px;">false northing 0.0</span></div>
+<div class="blk" style="position:absolute;left:105.0px;top:684.0px;width:811.5px;height:502.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#42 text</span><span class="fit" style="font-size:18px; line-height:23px;">hệ số tỷ lệ 1.</span></div>
+</div>
+
+<script>
+function toggleDebug() {
+    document.body.classList.toggle('debug');
+    var btn = document.getElementById('debug-btn');
+    btn.classList.toggle('active');
+    btn.textContent = document.body.classList.contains('debug')
+        ? '🔍 Debug ON'
+        : '🔍 Debug OFF';
+}
+
+window.addEventListener('load', function() {
+    // Render math
+    if (typeof katex === 'undefined') {
+        console.warn('KaTeX not loaded');
+    } else {
+        var mathEls = document.querySelectorAll('.math');
+        for (var i = 0; i < mathEls.length; i++) {
+            var el = mathEls[i];
+            var tex = el.textContent;
+            try {
+                katex.render(tex, el, {
+                    throwOnError: false,
+                    displayMode: false,
+                    output: 'html'
+                });
+            } catch (e) {
+                console.warn('KaTeX error:', tex, e);
+            }
+        }
+    }
+});
+</script>
+
+</body>
+</html>

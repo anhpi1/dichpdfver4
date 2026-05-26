@@ -1,0 +1,1863 @@
+{
+    "pdf_info": [
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        59,
+                        31,
+                        133,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                30,
+                                134,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        30,
+                                        134,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        300,
+                        31,
+                        568,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                29,
+                                569,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        29,
+                                        569,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "MSI PLANET Terrain Database UTM Projection",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        502,
+                        741,
+                        569,
+                        756
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 20,
+                    "lines": [
+                        {
+                            "bbox": [
+                                501,
+                                738,
+                                571,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        501,
+                                        738,
+                                        571,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 1 of 6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        139,
+                        67,
+                        490,
+                        88
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "MSI PLANET Terrain Data UTM Projection"
+                },
+                {
+                    "bbox": [
+                        58,
+                        107,
+                        403,
+                        126
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 3,
+                    "content": "Universal Transverse Mercator (UTM) Projection"
+                },
+                {
+                    "bbox": [
+                        57,
+                        132,
+                        567,
+                        174
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "The UTM projection divides the world into 60 zones or segments. Each zone covers 6 degrees of longitude. The first zone starts at the international date line and the numbers increase eastwards. At the center of each zone is a central meridian, which is the measurement reference for that zone."
+                },
+                {
+                    "bbox": [
+                        57,
+                        184,
+                        567,
+                        227
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "East-west grid lines are attached to the central meridian at right angles and follow great circle paths away from it. These are lines of constant northing and do not follow parallels of latitude, since parallels of latitude are not great circles. Finally, north-south grid lines are draw as lines of constant easting."
+                },
+                {
+                    "bbox": [
+                        57,
+                        235,
+                        567,
+                        292
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "UTM coordinates are relative to a particular zone number and are expressed as an easting or X coordinate and a northing or Y coordinate. The easting is the distance from the central meridian along the east west grid lines using a positive east negative west sign convention. To avoid negative numbers, a false easting of 500,000 meters is assigned to the central meridian."
+                },
+                {
+                    "bbox": [
+                        57,
+                        302,
+                        569,
+                        358
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "merge_prev": false,
+                    "content": "The northing is the distance from the equator along the north-south grid lines using a positive north - neg- ative south sign convention. To avoid negative numbers in the southern hemisphere, a false northing of 10,000,000 meters is assigned to the equator. This false northing creates an ambiguity in this coordinate system. Consider the UTM coordinates:"
+                },
+                {
+                    "bbox": [
+                        103,
+                        367,
+                        419,
+                        382
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "zone = 12, easting = 575 kilometers, northing = 5600 kilometers."
+                },
+                {
+                    "bbox": [
+                        58,
+                        391,
+                        267,
+                        406
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "Using the WGS84 datum, this converts to:"
+                },
+                {
+                    "bbox": [
+                        103,
+                        416,
+                        496,
+                        442
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "latitude 50 32 49.64 N and longitude 109 56 29.12 W in the northern hemisphere or"
+                },
+                {
+                    "bbox": [
+                        103,
+                        444,
+                        494,
+                        458
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "latitude 39 44 47.78 S and longitude 110 07 28.56 W in the southern hemisphere"
+                },
+                {
+                    "bbox": [
+                        57,
+                        468,
+                        569,
+                        510
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "merge_prev": false,
+                    "content": "To resolve this ambiguity, the Pathloss program adds the suffix N or S to the UTM zone. e.g. 12N or 12S. This false northing introduces an additional complication when a terrain data base spans the equator. North- ings of 20 and 9980 kilometers represent points 20 kilometers north and south of the equator respectively."
+                },
+                {
+                    "bbox": [
+                        58,
+                        526,
+                        311,
+                        544
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 13,
+                    "content": "Planet Terrain Database Description"
+                },
+                {
+                    "bbox": [
+                        57,
+                        550,
+                        569,
+                        607
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 14,
+                    "merge_prev": false,
+                    "content": "The Planet terrain database format consists of regular array of elevations. Each elevation represents the av- erage elevation in a square cell. The file is arranged in rows running from west to east starting at either the SW or NW corner of the file. Normally the elevations are stored as 2 byte integers. The byte order could be INTEL (little endian) or SPARC (big endian)"
+                },
+                {
+                    "bbox": [
+                        57,
+                        616,
+                        546,
+                        631
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 15,
+                    "merge_prev": false,
+                    "content": "The geo-referencing information is contained in two external files: an index file and a projection file."
+                },
+                {
+                    "bbox": [
+                        57,
+                        639,
+                        569,
+                        668
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 16,
+                    "merge_prev": false,
+                    "content": "An example of a projection file is given below. The format will vary depending on the projection. This ex- ample denotes a UTM projection in zone 18 using the WGS84 datum."
+                },
+                {
+                    "bbox": [
+                        58,
+                        674,
+                        105,
+                        686
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 17,
+                    "merge_prev": false,
+                    "content": "WGS-84"
+                },
+                {
+                    "bbox": [
+                        59,
+                        690,
+                        75,
+                        700
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "merge_prev": false,
+                    "content": "18"
+                },
+                {
+                    "bbox": [
+                        59,
+                        703,
+                        83,
+                        714
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 19,
+                    "merge_prev": false,
+                    "content": "UTM"
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        31,
+                        308,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                29,
+                                310,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        29,
+                                        310,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "MSI PLANET Terrain Database UTM Projection",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        477,
+                        31,
+                        551,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                477,
+                                30,
+                                551,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        477,
+                                        30,
+                                        551,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        41,
+                        741,
+                        108,
+                        756
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 17,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                738,
+                                110,
+                                757
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        738,
+                                        110,
+                                        757
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 2 of 6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 1,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        39,
+                        68,
+                        549,
+                        97
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "The index file defines the edges of the terrain database and specifies the cell size. One entry is provided for each file. An example of a line in an index file is given below."
+                },
+                {
+                    "bbox": [
+                        40,
+                        106,
+                        361,
+                        120
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "toluca1.hgt 384000 484050 2080200 2180250 50"
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        41,
+                        153,
+                        265,
+                        287
+                    ],
+                    "index": 5,
+                    "image_path": "e460b4c1ae651c0318213bd7a98d3d9af5d36d4337e9bd01498adfa674549a8f.jpg"
+                },
+                {
+                    "bbox": [
+                        40,
+                        298,
+                        266,
+                        340
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "The east and west edges are the UTM eastings and the north and south edges are the UTM northings."
+                },
+                {
+                    "bbox": [
+                        40,
+                        356,
+                        185,
+                        374
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 7,
+                    "content": "Geographic Defaults"
+                },
+                {
+                    "bbox": [
+                        39,
+                        379,
+                        273,
+                        436
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "The first step is to set the datum or ellipsoid to correspond to the projection file. Select Config- ure - Geographic Defaults. Set the grid coordi- nate system (projection) to UTM."
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        277,
+                        138,
+                        544,
+                        450
+                    ],
+                    "index": 9,
+                    "sub_type": "text_image",
+                    "image_path": "78b79b6fce67ead0977fc55882499b69d62d3d0814125f53b90e6ea99fa4d000.jpg"
+                },
+                {
+                    "bbox": [
+                        40,
+                        452,
+                        141,
+                        469
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 10,
+                    "content": "Configuration"
+                },
+                {
+                    "bbox": [
+                        39,
+                        476,
+                        549,
+                        518
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "The Pathloss program uses a generic terrain database reader which was developed for the Logica Odyssey file format. The Planet height files can be read directly. No file conversions are necessary. The setup pro- cedure is described below:"
+                },
+                {
+                    "bbox": [
+                        39,
+                        528,
+                        237,
+                        556
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "merge_prev": false,
+                    "content": "Select Configure - Terrain Database and then select Odyssey UTM."
+                },
+                {
+                    "bbox": [
+                        39,
+                        566,
+                        252,
+                        594
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 13,
+                    "merge_prev": false,
+                    "content": "Click the Setup Primary button to configure the terrain database."
+                },
+                {
+                    "bbox": [
+                        40,
+                        608,
+                        121,
+                        624
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 14,
+                    "content": "Set directory"
+                },
+                {
+                    "bbox": [
+                        39,
+                        627,
+                        298,
+                        655
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 15,
+                    "merge_prev": false,
+                    "content": "Click the Set Directory button and point to the directory (folder) containing the Planet data files."
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        260,
+                        536,
+                        545,
+                        636
+                    ],
+                    "index": 16,
+                    "sub_type": "text_image",
+                    "image_path": "618dc15f3e81cdb4d515328376f2d5134cd96ed8a7e2364192a05b10bbf7feae.jpg"
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        59,
+                        31,
+                        133,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                30,
+                                134,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        30,
+                                        134,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        300,
+                        31,
+                        568,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                29,
+                                569,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        29,
+                                        569,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "MSI PLANET Terrain Database UTM Projection",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        502,
+                        741,
+                        569,
+                        756
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 14,
+                    "lines": [
+                        {
+                            "bbox": [
+                                501,
+                                739,
+                                571,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        501,
+                                        739,
+                                        571,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 3 of 6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 2,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        58,
+                        68,
+                        180,
+                        83
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "UTM zone methods"
+                },
+                {
+                    "bbox": [
+                        57,
+                        87,
+                        271,
+                        170
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "In many cases, terrain data is supplied in a single file. The east and west edges may ex- tend outside of the standard UTM zone bou- daries. In these cases, the UTM zone must be specified by either of the following two methods:"
+                },
+                {
+                    "bbox": [
+                        57,
+                        181,
+                        268,
+                        265
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "Check the \"Use specified index file\" option and then select the file from the dropdown list. The UTM zone associated with the se- lected file will be used and only the selected file will be used even if the index contains multiple files."
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        275,
+                        75,
+                        565,
+                        243
+                    ],
+                    "index": 5,
+                    "sub_type": "text_image",
+                    "image_path": "ee4bb8c73b48cfca3442d67e57edd2f3231972a0e00c0abfbffc921a6dc6a443.jpg"
+                },
+                {
+                    "bbox": [
+                        57,
+                        275,
+                        570,
+                        317
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "Check the “Use specified UTM zone” and enter the zone number suffixed by N or S. If N or S is not spec- ified the zone will default to the northern hemisphere. The S suffix must be specified for the southern hem- isphere"
+                },
+                {
+                    "bbox": [
+                        58,
+                        326,
+                        392,
+                        341
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "merge_prev": false,
+                    "content": "In all other cases use the “Use standard UTM zones in index” option."
+                },
+                {
+                    "bbox": [
+                        58,
+                        355,
+                        210,
+                        370
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 8,
+                    "content": "Embedded building data"
+                },
+                {
+                    "bbox": [
+                        57,
+                        374,
+                        570,
+                        416
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "Normally an elevation is interpolated from the nearest four elevations to the point of interest. If the terrain data contains embedded building or canopy data, check the “Embedded building data” option. The cell el- evations will be used in this case."
+                },
+                {
+                    "bbox": [
+                        58,
+                        432,
+                        101,
+                        447
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 10,
+                    "content": "Index"
+                },
+                {
+                    "bbox": [
+                        57,
+                        456,
+                        175,
+                        552
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "Click the Index button to access the digital map index. Data can be entered manually. Se- lect Edit- Add on the Index menu bar and en- ter the data as shown on the next page. This information is available from the Planet index files. When the data entry is complete Click OK"
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        179,
+                        439,
+                        565,
+                        548
+                    ],
+                    "index": 12,
+                    "sub_type": "text_image",
+                    "image_path": "b020fb6617c0546ef96a9781cebef8beaf64b8ef8a3fa54b3466eed0bf3d5d7d.jpg"
+                },
+                {
+                    "bbox": [
+                        57,
+                        553,
+                        562,
+                        580
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 13,
+                    "merge_prev": true,
+                    "lines_deleted": true
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        31,
+                        309,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                29,
+                                310,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        29,
+                                        310,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "MSI PLANET Terrain Database UTM Projection",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        477,
+                        31,
+                        551,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                477,
+                                30,
+                                551,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        477,
+                                        30,
+                                        551,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        41,
+                        741,
+                        108,
+                        756
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 14,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                738,
+                                110,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        738,
+                                        110,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 4 of 6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 3,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        40,
+                        68,
+                        350,
+                        95
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "Two additional fields must be set directly on the Grid data entry form. There are:"
+                },
+                {
+                    "bbox": [
+                        40,
+                        105,
+                        350,
+                        177
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "Bottom up This field determines if the file starts in the south west corner or the north west corner. Double click on this field to change the setting to true of false. If the network background or terrain view is up- side down, then change this field."
+                },
+                {
+                    "bbox": [
+                        40,
+                        185,
+                        349,
+                        229
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "Byte order The is equivalent to \"big and little endian\" Dou- ble click on this field to change the field to SPARC (big endian) or INTEL (little endian)"
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        357,
+                        71,
+                        546,
+                        222
+                    ],
+                    "index": 5,
+                    "image_path": "ef6c99cd0c16e2dfe8ccf599f42bc5d3451010d0803869c67d63d23ed4ee4703.jpg"
+                },
+                {
+                    "bbox": [
+                        40,
+                        242,
+                        124,
+                        257
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 6,
+                    "content": "Import Index"
+                },
+                {
+                    "bbox": [
+                        40,
+                        261,
+                        276,
+                        304
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "merge_prev": false,
+                    "content": "A generalized text import feature can be custom- ized to read Planet index files. Select Files - In- dex to bring up the field definition dialog box."
+                },
+                {
+                    "bbox": [
+                        40,
+                        313,
+                        274,
+                        340
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "Click the Planet button to obtain the default set- tings for Planet indexes."
+                },
+                {
+                    "bbox": [
+                        40,
+                        351,
+                        276,
+                        379
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "Note that the “Byte order” and “Bottom up” op- tions may have to be experimentally determined."
+                },
+                {
+                    "bbox": [
+                        40,
+                        389,
+                        274,
+                        474
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "Enter the UTM zone N or S suffix and check “Zone number”. A Planet index does not include the UTM zone number. If the UTM zone is in- cluded in the index file, enter the field number for the UTM zone and check the “Field number” option."
+                },
+                {
+                    "bbox": [
+                        40,
+                        483,
+                        272,
+                        511
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "The “Bytes per pixel setting is always 2 and the Edge units are always meters for Planet"
+                },
+                {
+                    "bbox": [
+                        40,
+                        521,
+                        236,
+                        535
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "merge_prev": false,
+                    "content": "Click OK and load the Planet index file."
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        281,
+                        250,
+                        546,
+                        496
+                    ],
+                    "index": 13,
+                    "sub_type": "text_image",
+                    "image_path": "77ed9dc9bd1d8d9f065023b868160672da4bc48959f02706d054aecc5f94a026.jpg"
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        59,
+                        31,
+                        133,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                30,
+                                134,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        30,
+                                        134,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        300,
+                        31,
+                        568,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                29,
+                                569,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        29,
+                                        569,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "MSI PLANET Terrain Database UTM Projection",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        502,
+                        741,
+                        569,
+                        756
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 18,
+                    "lines": [
+                        {
+                            "bbox": [
+                                501,
+                                739,
+                                571,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        501,
+                                        739,
+                                        571,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 5 of 6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 4,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        58,
+                        68,
+                        318,
+                        86
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "Testing the Terrain Database Settings"
+                },
+                {
+                    "bbox": [
+                        57,
+                        91,
+                        276,
+                        189
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "This is best carried out in the Network mod- ule. Create two sites at the south west and north east corners of the extents of the terrain database files. Refer to the index for the UTM coordinates. Select Files - New to clear the display. Select Site Data - Site List and then select Edit - Add."
+                },
+                {
+                    "bbox": [
+                        58,
+                        200,
+                        277,
+                        228
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "Enter the easting, northing and UTM zones. The latitude will be automatically determined"
+                },
+                {
+                    "bbox": [
+                        58,
+                        238,
+                        276,
+                        265
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "When both sites are on the display, select Site Data - Create background."
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        282,
+                        100,
+                        564,
+                        277
+                    ],
+                    "index": 6,
+                    "image_path": "429b81497815b17999a3af977817df570c6f55eb1d316cb30c64d151831e2b0a.jpg"
+                },
+                {
+                    "type": "chart",
+                    "bbox": [
+                        65,
+                        285,
+                        141,
+                        541
+                    ],
+                    "index": 7,
+                    "sub_type": "heatmap",
+                    "image_path": "59395c168e35ebc563a77d6dbaae75a2148aa70b12beb612b8da599f2e731014.jpg"
+                },
+                {
+                    "type": "chart",
+                    "bbox": [
+                        282,
+                        287,
+                        563,
+                        563
+                    ],
+                    "index": 9,
+                    "sub_type": "heatmap",
+                    "image_path": "72476647a461f21e3e121996b57629243051c73406288e63f20b8df99ba453dc.jpg"
+                },
+                {
+                    "bbox": [
+                        58,
+                        565,
+                        170,
+                        579
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 10,
+                    "content": "Possible Problems"
+                },
+                {
+                    "bbox": [
+                        58,
+                        584,
+                        231,
+                        599
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 11,
+                    "content": "The background is not generated"
+                },
+                {
+                    "bbox": [
+                        58,
+                        608,
+                        554,
+                        717
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 12,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                58,
+                                608,
+                                554,
+                                637
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 13,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        606,
+                                        556,
+                                        624
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                606,
+                                                556,
+                                                624
+                                            ],
+                                            "type": "text",
+                                            "content": "• The file names in the index file are not the same as the actual database files. The extensions may be",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        73,
+                                        623,
+                                        174,
+                                        636
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                73,
+                                                623,
+                                                174,
+                                                636
+                                            ],
+                                            "type": "text",
+                                            "content": "missing or different.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                642,
+                                441,
+                                657
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 14,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        639,
+                                        441,
+                                        658
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                57,
+                                                639,
+                                                441,
+                                                658
+                                            ],
+                                            "type": "text",
+                                            "content": "• The UTM zones in the index file are not correct or the N-S suffix is missing",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                662,
+                                505,
+                                677
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 15,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        658,
+                                        508,
+                                        679
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                57,
+                                                658,
+                                                508,
+                                                679
+                                            ],
+                                            "type": "text",
+                                            "content": "• The UTM method is wrong. The zone is incorrectly specified or the N-S suffix is missing",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                682,
+                                259,
+                                696
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 16,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        680,
+                                        260,
+                                        699
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                680,
+                                                260,
+                                                699
+                                            ],
+                                            "type": "text",
+                                            "content": "• The SPARC - INTEL setting is wrong",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                702,
+                                266,
+                                716
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 17,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        700,
+                                        268,
+                                        719
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                57,
+                                                700,
+                                                268,
+                                                719
+                                            ],
+                                            "type": "text",
+                                            "content": "• The map file directory is incorrectly set",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        31,
+                        308,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                29,
+                                310,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        29,
+                                        310,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "MSI PLANET Terrain Database UTM Projection",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        477,
+                        31,
+                        551,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                477,
+                                30,
+                                551,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        477,
+                                        30,
+                                        551,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        41,
+                        741,
+                        108,
+                        755
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 16,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                739,
+                                110,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        739,
+                                        110,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 6 of 6",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 5,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        40,
+                        68,
+                        526,
+                        95
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "• The file contains “no data” elevations. These values are usually 9999 and the program will ignore these."
+                },
+                {
+                    "bbox": [
+                        40,
+                        102,
+                        340,
+                        117
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 3,
+                    "content": "The elevations are not correct or the display is incomplete"
+                },
+                {
+                    "bbox": [
+                        40,
+                        126,
+                        240,
+                        140
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "• The SPARC - INTEL setting is wrong"
+                },
+                {
+                    "bbox": [
+                        40,
+                        145,
+                        524,
+                        161
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 5,
+                    "content": "The display is upside down. This will be very apparent if the database has several vertical tiles"
+                },
+                {
+                    "bbox": [
+                        40,
+                        170,
+                        274,
+                        185
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "• The bottom - up setting in the index is wrong"
+                },
+                {
+                    "bbox": [
+                        40,
+                        200,
+                        224,
+                        217
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 7,
+                    "content": "Equatorial Considerations"
+                },
+                {
+                    "bbox": [
+                        39,
+                        224,
+                        292,
+                        321
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "Terrain databases which span the equator require special consideration. Two index files are shown be- low. Both of these consists of four terrain data files covering an area of 20 kilometers by 20 kilometers. Two of these files extend 20 kilometers above the equator and the other two files extend 20 kilometers below the equator."
+                },
+                {
+                    "bbox": [
+                        39,
+                        332,
+                        290,
+                        401
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "The first index is referenced to the northern hemi- sphere. The map edge northings are +20,000 meters, 0 and -20,000 meters. In this case, a northern hemi- sphere UTM zone must be specified in both the in- dex and the UTM zone method"
+                },
+                {
+                    "type": "chart",
+                    "bbox": [
+                        298,
+                        206,
+                        546,
+                        391
+                    ],
+                    "index": 10,
+                    "sub_type": "scatter",
+                    "image_path": "cce50ac428406aecf5e48e553396df0a59087f6f744bb86ea6f2174914c34d45.jpg"
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        41,
+                        435,
+                        309,
+                        522
+                    ],
+                    "index": 12,
+                    "image_path": "5a87c72bc2168cc3d709650564b852861458c2794a3005dd04344aa3d88fc28c.jpg"
+                },
+                {
+                    "bbox": [
+                        39,
+                        532,
+                        549,
+                        575
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 13,
+                    "merge_prev": false,
+                    "content": "The second index is referenced to the southern hemisphere. The northing of the equator is 10,000,000 me- ters.The map edge northings are 9,980,000 meters, 10,000,000 meters and 10,020,000 meters. In this case, a southern hemisphere UTM zone must be specified in both the index and the UTM zone method"
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        41,
+                        607,
+                        374,
+                        693
+                    ],
+                    "index": 15,
+                    "image_path": "fec36aee238722bb33ac30cc83369f75003e04938ecb3a6c6f787b682554b74e.jpg"
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": false,
+    "_vlm_ocr_enable": false,
+    "_version_name": "3.1.8"
+}

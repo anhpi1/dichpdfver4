@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>PDF Replica Viewer</title>
+
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"/>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    background: #525659;
+    padding: 30px 0;
+    min-height: 100vh;
+}
+.pg {
+    overflow: hidden;
+    page-break-after: always;
+}
+
+.blk {
+    border: 2px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.dbg-label {
+    display: none;
+    position: absolute;
+    top: 0; left: 0;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 0 0 6px 0;
+    z-index: 10;
+    opacity: 0.95;
+    line-height: 1.2;
+    pointer-events: none;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+body.debug .blk {
+    border-style: dashed !important;
+    background-color: rgba(0,0,0,0.02);
+}
+body:not(.debug) .blk {
+    border-color: transparent !important;
+}
+body.debug .dbg-label {
+    display: block;
+}
+
+#debug-btn {
+    position: fixed;
+    top: 12px;
+    right: 16px;
+    z-index: 9999;
+    background: #333;
+    color: #aaa;
+    border: 1px solid #555;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Segoe UI', sans-serif;
+    transition: all 0.2s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+#debug-btn:hover { background: #444; color: #fff; }
+#debug-btn.active { background: #ff5722; color: #fff; border-color: #ff5722; }
+
+.fit {
+    display: block;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.code-block {
+    background-color: transparent;
+    border-radius: 0;
+    border: none !important;
+}
+
+.tw table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.tw td, .tw th {
+    border: 1px solid #bbb;
+    padding: 2px 4px;
+}
+
+.math .katex {
+    font-size: 1.05em !important;
+}
+</style>
+</head>
+<body>
+
+<button id="debug-btn" onclick="toggleDebug()">🔍 Debug OFF</button>
+
+<div class="pg" style="width:918px;height:1188px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:343.5px;top:180.0px;width:573.0px;height:148.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#1 title</span><span class="fit" style="font-size:34px; line-height:44px;">VÍ DỤ VỀ LƯỚI BẢN ĐỒ</span></div>
+<div class="blk" style="position:absolute;left:109.5px;top:330.0px;width:807.0px;height:22.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#2 text</span><span class="fit" style="font-size:17px; line-height:22px;">TẢI TỆP DỰ ÁN LƯỚI BẢN ĐỒ</span></div>
+<div class="blk" style="position:absolute;left:111.0px;top:354.0px;width:805.5px;height:19.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#3 text</span><span class="fit" style="font-size:15px; line-height:19px;">ĐIỀU HƯỚNG HIỂN THỊ LƯỚI BẢN ĐỒ</span></div>
+<div class="blk" style="position:absolute;left:111.0px;top:375.0px;width:805.5px;height:19.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#4 text</span><span class="fit" style="font-size:15px; line-height:19px;">TẢI TỆP VÍ DỤ MẠNG</span></div>
+<div class="blk" style="position:absolute;left:111.0px;top:396.0px;width:805.5px;height:19.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#5 text</span><span class="fit" style="font-size:15px; line-height:19px;">KIỂM TRA KHOẢNG HỞ</span></div>
+<div class="blk" style="position:absolute;left:111.0px;top:417.0px;width:805.5px;height:21.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#6 text</span><span class="fit" style="font-size:16px; line-height:20px;">CHẾ ĐỘ XEM CAO ĐỘ</span></div>
+<div class="blk" style="position:absolute;left:111.0px;top:439.5px;width:805.5px;height:19.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#7 text</span><span class="fit" style="font-size:15px; line-height:19px;">THÊM VÀ DI CHUYỂN CÁC TRẠM</span></div>
+<div class="blk" style="position:absolute;left:111.0px;top:460.5px;width:805.5px;height:19.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#8 text</span><span class="fit" style="font-size:15px; line-height:19px;">TẠO DỰ ÁN LƯỚI BẢN ĐỒ</span></div>
+<div class="blk" style="position:absolute;left:111.0px;top:481.5px;width:805.5px;height:19.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#9 text</span><span class="fit" style="font-size:15px; line-height:19px;">TỆP GEOTIF</span></div>
+<div class="blk" style="position:absolute;left:111.0px;top:502.5px;width:805.5px;height:684.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#10 text</span><span class="fit" style="font-size:18px; line-height:23px;">NGUỒN DỮ LIỆU NỀN</span></div>
+</div>
+<div class="pg" style="width:918px;height:1188px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk code-block" style="position:absolute;left:522.0px;top:114.0px;width:394.5px;height:238.5px;overflow:hidden;box-sizing:border-box;border-color:#795548;" data-t="code"><span class="dbg-label" style="background:#795548;">#11 code</span><pre class="fit" style="margin:0; width:100%; height:100%; overflow:hidden; font-family:Consolas, monospace; white-space:pre-wrap;"><code style="font-size:18px; line-height:23px; display:block; width:100%; height:100%;">map_grid     /))heights)))0) index     *     *) projectn     *     .) vancvr.bil     /))backdrop))0) index     *     *) projectn     *     *) vcr_map.tif     *     .) vcrphoto.tif     *     .) vancvr.bil     /))Geo_Tiff )))sp27gtif.tif     mg_examp.bkd     mg_examp.gr4</code></pre></div>
+<div class="blk" style="position:absolute;left:55.5px;top:115.5px;width:465.0px;height:40.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#12 title</span><span class="fit" style="font-size:31px; line-height:40px;">VÍ DỤ VỀ LƯỚI BẢN ĐỒ</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:157.5px;width:465.0px;height:105.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#13 text</span><span class="fit" style="font-size:18px; line-height:23px;">Các tệp và cấu trúc thư mục cho ví dụ về lưới bản đồ được hiển thị ở bên phải. Sao chép các tệp này vào ổ cứng của bạn và ghi chú lại thư mục vì thư mục này phải được xác định như một phần của quy trình thiết lập.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:264.0px;width:462.0px;height:127.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#14 text</span><span class="fit" style="font-size:14px; line-height:18px;">Các thư mục được đặt tên là heights và backdrop. Thư mục backdrop chứa một bản đồ địa hình đã được quét và ảnh hàng không ở định dạng tệp TIF. Thư mục heights chứa cơ sở dữ liệu địa hình có cùng phạm vi với bản đồ đã quét. Mỗi thư mục chứa một tệp chỉ mục và một tệp chiếu ở định dạng MSI Planet. Tệp chỉ mục xác định tên tệp và các cạnh của tệp và tệp này sẽ được tải vào chương trình. Tệp chiếu nêu rõ phép chiếu cần thiết.</span></div>
+<div class="blk" style="position:absolute;left:519.0px;top:354.0px;width:397.5px;height:37.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#15 text</span><span class="fit" style="font-size:18px; line-height:23px;">Các tệp và thư mục ví dụ về lưới bản đồ</span></div>
+<div class="blk" style="position:absolute;left:541.5px;top:453.0px;width:313.5px;height:393.0px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#17 image</span><img src="../images/cc1210ba3bf522d1827a01b183c4ac9842208bd3c975aed4b12595c4e7a20b30.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:55.5px;top:456.0px;width:484.5px;height:61.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#18 text</span><span class="fit" style="font-size:16px; line-height:20px;">Tệp mg_examp.bkd là một tệp dự án lưới bản đồ chứa tất cả các định nghĩa cần thiết cho cả nền và cơ sở dữ liệu địa hình.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:519.0px;width:484.5px;height:61.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#19 text</span><span class="fit" style="font-size:18px; line-height:23px;">Tệp mg_examp.gr4 là một tệp dữ liệu mạng Pathloss có thể được xem trong cả mô-đun mạng và lưới bản đồ.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:582.0px;width:484.5px;height:84.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#20 text</span><span class="fit" style="font-size:18px; line-height:23px;">Phần đầu tiên của ví dụ sử dụng tệp dự án lưới bản đồ. Phần thứ hai mô tả các bước để tạo tệp dự án lưới bản đồ và các nguồn dữ liệu cũng như các vấn đề về sản xuất.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:667.5px;width:484.5px;height:40.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#21 title</span><span class="fit" style="font-size:31px; line-height:40px;">TẢI TỆP DỰ ÁN LƯỚI BẢN ĐỒ</span></div>
+<div class="blk" style="position:absolute;left:57.0px;top:709.5px;width:483.0px;height:148.5px;overflow:hidden;box-sizing:border-box;border-color:#00BCD4;" data-t="list"><span class="dbg-label" style="background:#00BCD4;">#22 list</span><ul class="fit" style="font-size:16px; line-height:20px; margin:0;padding-left:16px;"><li style="margin-bottom:4px;">Chọn Module - Map Grid để vào mô-đun lưới bản đồ. Nếu có một tệp mạng hiện có hoặc một tệp tạm thời, chọn Files - New để xóa màn hình hiển thị.</li><li style="margin-bottom:4px;">Chọn Site data - Backdrop. Sau đó chọn Files - Open trên thanh menu của hộp thoại backdrop. Mở tệp mg_examp.bkd. Tệp này chứa tất cả thông tin cần thiết cho ví dụ; tuy nhiên, sẽ cần</li></ul></div>
+<div class="blk" style="position:absolute;left:108.0px;top:859.5px;width:808.5px;height:40.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#23 text</span><span class="fit" style="font-size:16px; line-height:20px;">xác định vị trí của các thư mục backdrop và heights để tương ứng với cấu trúc thư mục máy tính của bạn.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:901.5px;width:861.0px;height:42.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#24 text</span><span class="fit" style="font-size:16px; line-height:20px;">&quot; Màn hình hiển thị nền được chia thành hai phần - nền và cao độ. Trong phần nền, nhấp vào nút Set directory và xác định thư mục backdrop.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:945.0px;width:861.0px;height:40.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#25 text</span><span class="fit" style="font-size:16px; line-height:20px;">&quot; Nhấp vào tab Elevation để chuyển sang phần này. Sau đó nhấp vào nút Set directory và xác định thư mục heights.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:987.0px;width:861.0px;height:40.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#26 text</span><span class="fit" style="font-size:16px; line-height:20px;">&quot; Chọn Files - Save trên thanh menu của hộp thoại backdrop và lưu tệp dự án lưới bản đồ đã sửa đổi với các vị trí thư mục đã được cập nhật.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:1029.0px;width:861.0px;height:19.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#27 text</span><span class="fit" style="font-size:15px; line-height:19px;">&quot; Nhấp vào nút OK. Tệp nền vcr_map.tif sẽ được tải và hiển thị.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:1050.0px;width:861.0px;height:136.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#28 text</span><span class="fit" style="font-size:18px; line-height:23px;">&quot; Một tệp thứ hai (vcrphoto.tif) nằm trong tệp chỉ mục. Để kích hoạt tệp này, chọn Site data - Backdrop - Index và nhấp vào tùy chọn “show”.</span></div>
+</div>
+<div class="pg" style="width:918px;height:1188px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:55.5px;top:115.5px;width:861.0px;height:40.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#29 title</span><span class="fit" style="font-size:31px; line-height:40px;">ĐIỀU HƯỚNG HIỂN THỊ LƯỚI BẢN ĐỒ</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:157.5px;width:861.0px;height:259.5px;overflow:hidden;box-sizing:border-box;border-color:#00BCD4;" data-t="list"><span class="dbg-label" style="background:#00BCD4;">#30 list</span><ul class="fit" style="font-size:18px; line-height:23px; margin:0;padding-left:16px;"><li style="margin-bottom:4px;">&quot; Ban đầu, toàn bộ tệp sẽ được hiển thị trên màn hình. Nhấp vào nút để đặt tỷ lệ thu phóng thành một pixel vẽ bằng một pixel màn hình. Đây là độ phân giải dễ đọc nhất.</li><li style="margin-bottom:4px;">&quot; Nhấp vào nút để di chuyển màn hình hiển thị. Giữ nút chuột trái và di chuyển chuột để di chuyển màn hình hiển thị.</li><li style="margin-bottom:4px;">&quot; Để thu phóng màn hình hiển thị theo cài đặt tùy chỉnh, nhấp vào nút. Một cú nhấp chuột trái trên màn hình hiển thị sẽ phóng to màn hình hiển thị một lượng đã cài đặt trước và căn giữa màn hình hiển thị tại điểm đã chọn. Một cú nhấp chuột phải sẽ thu nhỏ màn hình hiển thị.</li><li style="margin-bottom:4px;">&quot; Để thu phóng một khu vực cụ thể, di chuyển chuột đến một góc của khu vực, giữ nút chuột trái và kéo chuột đến góc đối diện theo đường chéo.</li><li style="margin-bottom:4px;">Để hiển thị toàn bộ bản đồ, nhấp vào nút.</li></ul></div>
+<div class="blk" style="position:absolute;left:55.5px;top:418.5px;width:861.0px;height:42.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#31 title</span><span class="fit" style="font-size:33px; line-height:42px;">TẢI TỆP VÍ DỤ MẠNG</span></div>
+<div class="blk" style="position:absolute;left:54.0px;top:462.0px;width:862.5px;height:46.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#32 text</span><span class="fit" style="font-size:18px; line-height:23px;">Chọn Files - Open và tải tệp mạng ví dụ mg_examp.gr4. Nhấp vào nút để thu phóng màn hình hiển thị theo phạm vi của các trạm.</span></div>
+<div class="blk" style="position:absolute;left:54.0px;top:510.0px;width:862.5px;height:40.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#33 text</span><span class="fit" style="font-size:16px; line-height:20px;">Lưu ý rằng mô-đun lưới bản đồ không thay thế mô-đun mạng. Bạn có thể chuyển đổi giữa mô-đun mạng và lưới bản đồ. Về mặt chức năng, hai mô-đun này giống hệt nhau.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:552.0px;width:861.0px;height:49.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#34 text</span><span class="fit" style="font-size:18px; line-height:23px;">Nhấp vào nút để đặt chế độ con trỏ liên kết. Chế độ này được yêu cầu cho các thao tác sau:</span></div>
+<div class="blk" style="position:absolute;left:108.0px;top:603.0px;width:808.5px;height:18.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#35 text</span><span class="fit" style="font-size:14px; line-height:18px;">tạo một liên kết giữa hai trạm.</span></div>
+<div class="blk" style="position:absolute;left:108.0px;top:622.5px;width:808.5px;height:63.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#36 text</span><span class="fit" style="font-size:18px; line-height:23px;">chọn một mô-đun thiết kế bằng cách nhấp chuột trái vào liên kết giữa hai trạm, chỉnh sửa chú thích trạm, thuộc tính liên kết và tên trạm và di chuyển tên trạm.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:687.0px;width:861.0px;height:40.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#37 text</span><span class="fit" style="font-size:18px; line-height:23px;">Trong mô-đun mạng, đây là chế độ con trỏ mặc định.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:729.0px;width:861.0px;height:40.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#38 title</span><span class="fit" style="font-size:31px; line-height:40px;">KIỂM TRA KHOẢNG HỞ</span></div>
+<div class="blk" style="position:absolute;left:54.0px;top:771.0px;width:862.5px;height:76.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#39 text</span><span class="fit" style="font-size:18px; line-height:23px;">Các mặt cắt đường truyền có thể được tạo động trên màn hình. Ví dụ, xác định tính khả thi của một đường truyền giữa các trạm BC Rail và Capitol Hill. Nhấp vào nút. Đặt chuột vào trạm BC Rail. Giữ nút chuột trái và kéo chuột đến trạm Capitol Hill.</span></div>
+<div class="blk" style="position:absolute;left:115.5px;top:849.0px;width:681.0px;height:190.5px;overflow:hidden;box-sizing:border-box;border-color:#9E9E9E;" data-t="chart"><span class="dbg-label" style="background:#9E9E9E;">#40 chart</span><img src="../images/3050f69df24fc4b753c14b889a3b08b0bc6afd7d61852ee0756941cebea05059.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:54.0px;top:1054.5px;width:862.5px;height:132.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#41 text</span><span class="fit" style="font-size:18px; line-height:23px;">Mặt cắt sẽ được hiển thị động trên màn hình cùng với chiều dài đường truyền và một đường thẳng giữa các ăng-ten. Màn hình hiển thị này không bao gồm độ cong trái đất. Nếu bạn nhấp chuột phải bất kỳ lúc nào trong quá trình</span></div>
+</div>
+<div class="pg" style="width:918px;height:1188px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:55.5px;top:115.5px;width:861.0px;height:60.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#42 text</span><span class="fit" style="font-size:18px; line-height:23px;">thao tác này, mặt cắt sẽ được đặt lại. Thả nút chuột tại trạm Capitol Hill và một màn hình hiển thị mặt cắt chi tiết sẽ được tạo ra, cho phép phân tích khoảng hở chặt chẽ hơn.</span></div>
+<div class="blk" style="position:absolute;left:103.5px;top:177.0px;width:708.0px;height:516.0px;overflow:hidden;box-sizing:border-box;border-color:#9E9E9E;" data-t="chart"><span class="dbg-label" style="background:#9E9E9E;">#43 chart</span><img src="../images/52fe4c749a1a613d9b658790a9b01b7bd154c0ad56f4925c86236f60c1c1abc8.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:55.5px;top:711.0px;width:861.0px;height:475.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#44 text</span><span class="fit" style="font-size:18px; line-height:23px;">Liên kết có thể được thêm vào màn hình hiển thị và một tệp dữ liệu Pathloss có thể được tạo tại thời điểm này.</span></div>
+</div>
+<div class="pg" style="width:918px;height:1188px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:559.5px;top:114.0px;width:294.0px;height:388.5px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#45 image</span><img src="../images/fb1bff2f052c3b873bb3c83e189b48d1024bf09a06f10c90dea02ac05a78fb4f.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:55.5px;top:115.5px;width:502.5px;height:42.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#46 title</span><span class="fit" style="font-size:33px; line-height:42px;">CHẾ ĐỘ XEM CAO ĐỘ</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:159.0px;width:502.5px;height:19.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#47 text</span><span class="fit" style="font-size:15px; line-height:19px;">Một chế độ xem cao độ có thể được thêm vào màn hình hiển thị.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:180.0px;width:502.5px;height:60.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#48 text</span><span class="fit" style="font-size:18px; line-height:23px;">Chọn Site data - Elevation view - Create. Phạm vi hiển thị luôn là màn hình hiện tại.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:241.5px;width:502.5px;height:49.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#49 text</span><span class="fit" style="font-size:18px; line-height:23px;">Nút bật/tắt chế độ xem cao độ.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:292.5px;width:502.5px;height:168.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#50 text</span><span class="fit" style="font-size:18px; line-height:23px;">Chế độ xem cao độ phủ lên nền bằng cách sử dụng các thao tác raster. Một số tùy chọn cho mã thao tác raster có sẵn. Chọn Site Data - Elevation view - Options. Mã SRCCOPY hiển thị ở bên phải ghi đè hoàn toàn lên nền. Mã DSPDxax là một hiển thị trong suốt, hữu ích với hình ảnh nền thang độ xám 8 bit.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:462.0px;width:502.5px;height:42.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#51 title</span><span class="fit" style="font-size:30px; line-height:39px;">THÊM VÀ DI CHUYỂN CÁC TRẠM</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:505.5px;width:861.0px;height:18.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#52 text</span><span class="fit" style="font-size:14px; line-height:18px;">Chọn Site data - Add site hoặc Move site để truy cập các tính năng này.</span></div>
+<div class="blk" style="position:absolute;left:406.5px;top:525.0px;width:208.5px;height:180.0px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#53 image</span><img src="../images/7db233d1437b63f6e63bf035964fa44a8a02a04363b210c1b4ae85edc4a7c9a9.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:619.5px;top:525.0px;width:234.0px;height:307.5px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#54 image</span><img src="../images/6b53e85c43db024af7df665c129c74120f5314b72293cf4aede0c288ca9ebf91.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:55.5px;top:547.5px;width:349.5px;height:178.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#55 text</span><span class="fit" style="font-size:18px; line-height:23px;">Các vị trí trạm ban đầu và các điều chỉnh tiếp theo có thể được thực hiện bằng các thao tác thêm và di chuyển trạm. Di chuyển một trạm yêu cầu hai bước. Đầu tiên, nhấp vào trạm cần di chuyển. Sau đó, di chuyển trạm đến vị trí mới của nó.</span></div>
+<div class="blk" style="position:absolute;left:66.0px;top:727.5px;width:552.0px;height:94.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#56 text</span><span class="fit" style="font-size:18px; line-height:23px;">Di chuyển một trạm không tự động tạo lại các mặt cắt đường truyền cho bất kỳ liên kết nào được kết nối với trạm này.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:823.5px;width:562.5px;height:42.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#57 title</span><span class="fit" style="font-size:33px; line-height:42px;">TẠO DỰ ÁN LƯỚI BẢN ĐỒ</span></div>
+<div class="blk" style="position:absolute;left:54.0px;top:867.0px;width:862.5px;height:19.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#58 text</span><span class="fit" style="font-size:15px; line-height:19px;">Phần này mô tả cách tạo tệp dự án lưới bản đồ cho ví dụ này.</span></div>
+<div class="blk" style="position:absolute;left:54.0px;top:888.0px;width:862.5px;height:40.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#59 text</span><span class="fit" style="font-size:18px; line-height:23px;">Chọn Site data - Backdrop và nhấp vào nút reset để xóa dự án hiện tại.</span></div>
+<div class="blk" style="position:absolute;left:54.0px;top:930.0px;width:862.5px;height:61.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#60 text</span><span class="fit" style="font-size:18px; line-height:23px;">Trong bản phát hành này, cùng một phép chiếu phải được sử dụng cho cả dữ liệu nền và dữ liệu cao độ. Ngay cả khi không có nền, bạn vẫn phải đặt phép chiếu cho cả hai. Bắt đầu với nền, tiến hành như sau.</span></div>
+<div class="blk" style="position:absolute;left:54.0px;top:993.0px;width:862.5px;height:193.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#61 text</span><span class="fit" style="font-size:18px; line-height:23px;">Tệp <span class="math">\backdrop</span><span class="math">\projectn</span>.txt chứa dòng “NAD27 Clarke 1886 zone 10&quot;. Đây là các tham số cần thiết cho phép chiếu UTM.</span></div>
+</div>
+<div class="pg" style="width:918px;height:1188px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:55.5px;top:115.5px;width:861.0px;height:40.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#62 title</span><span class="fit" style="font-size:31px; line-height:40px;">Cài đặt Nền</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:157.5px;width:861.0px;height:106.5px;overflow:hidden;box-sizing:border-box;border-color:#00BCD4;" data-t="list"><span class="dbg-label" style="background:#00BCD4;">#63 list</span><ul class="fit" style="font-size:17px; line-height:22px; margin:0;padding-left:16px;"><li style="margin-bottom:4px;">&quot; Đặt lựa chọn tọa độ lưới thành Universal Transverse Mercator (UTM) và nhập 10 vào trường zone.</li><li style="margin-bottom:4px;">&quot; Đặt datum thành North American 27 (NAD27). Việc chuyển đổi tọa độ giữa các datum chưa được triển khai trong mô-đun Map Grid hiện tại; tuy nhiên, cần phải chỉ định một khu vực cho datum. Trong ví dụ này, đặt khu vực thành “Canada (Alberta - British Columbia)”.</li></ul></div>
+<div class="blk" style="position:absolute;left:55.5px;top:265.5px;width:513.0px;height:40.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#64 text</span><span class="fit" style="font-size:16px; line-height:20px;">C Nhấp vào nút set directory và xác định thư mục chứa các tệp nền.</span></div>
+<div class="blk" style="position:absolute;left:570.0px;top:265.5px;width:283.5px;height:286.5px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#65 image</span><img src="../images/cc0be12e23f411844cdc951ef0a2c8f50f3ac23c8d5fc15ee7600986b2e1d5fb.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:55.5px;top:307.5px;width:513.0px;height:79.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#66 text</span><span class="fit" style="font-size:18px; line-height:23px;">&quot; Nhấp vào nút index để mở biểu mẫu chỉ mục. Chọn Files - Import list trên thanh menu. Tệp chỉ mục chứa các dòng sau ở định dạng Planet:</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:388.5px;width:513.0px;height:19.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#67 text</span><span class="fit" style="font-size:15px; line-height:19px;">vcr_map.tif 491000 500000 5456000 5468000</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:409.5px;width:513.0px;height:39.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#68 text</span><span class="fit" style="font-size:18px; line-height:23px;">vcrphoto.tif 480711 509042 5448588 5461808</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:450.0px;width:513.0px;height:64.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#69 text</span><span class="fit" style="font-size:16px; line-height:20px;">&quot; Nhấp vào nút Planet để đặt các giá trị mặc định này. Các cạnh là tọa độ UTM của các góc của tệp. Trường cell size là tùy chọn và nên để trống cho ví dụ này.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:516.0px;width:513.0px;height:40.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#70 text</span><span class="fit" style="font-size:18px; line-height:23px;">Nhấp OK, tải tệp chỉ mục và xác minh các mục nhập.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:558.0px;width:861.0px;height:40.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#71 title</span><span class="fit" style="font-size:31px; line-height:40px;">Cài đặt Cao độ</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:600.0px;width:861.0px;height:40.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#72 text</span><span class="fit" style="font-size:18px; line-height:23px;">&quot; Chuyển sang phần cao độ và đặt dữ liệu chiếu thành các giá trị giống như trong phần nền.</span></div>
+<div class="blk" style="position:absolute;left:601.5px;top:642.0px;width:252.0px;height:342.0px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#73 image</span><img src="../images/c0ad4d4aa690e179d0ad359b257dd579174af12ba9c64096867ed446777462ae.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:55.5px;top:643.5px;width:544.5px;height:39.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#74 text</span><span class="fit" style="font-size:16px; line-height:20px;">&quot; Nhấp vào nút set directory và xác định thư mục chứa các tệp cao độ.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:684.0px;width:544.5px;height:82.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#75 text</span><span class="fit" style="font-size:18px; line-height:23px;">&quot; Nhấp vào nút index để mở biểu mẫu chỉ mục. Chọn Files - Import list trên thanh menu. Tệp chỉ mục chứa dòng sau ở định dạng Planet:</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:768.0px;width:544.5px;height:40.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#76 text</span><span class="fit" style="font-size:18px; line-height:23px;">vancvr.bil 491000 500000 5456000 5468000 25</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:810.0px;width:544.5px;height:42.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#77 text</span><span class="fit" style="font-size:16px; line-height:20px;">&quot; Nhấp vào nút Planet để đặt các giá trị mặc định này. Các cạnh là tọa độ UTM của các góc của tệp.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:853.5px;width:544.5px;height:40.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#78 text</span><span class="fit" style="font-size:16px; line-height:20px;">&quot; Tùy chọn bottom up xác định xem tệp sẽ được đọc từ dưới lên hay từ trên xuống. Một lỗi ở đây sẽ dẫn đến hiển thị bị lộn ngược.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:895.5px;width:544.5px;height:84.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#79 text</span><span class="fit" style="font-size:16px; line-height:20px;">&quot; Tùy chọn byte order nên được đặt thành Intel cho ví dụ này. Nếu cài đặt này không chính xác, các giá trị cao độ sẽ rất lớn và được hiểu là giá trị không có dữ liệu. Tuy nhiên, gần mực nước biển, một số dữ liệu có thể được tạo ra, dẫn đến kết quả rất khó hiểu.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:981.0px;width:544.5px;height:39.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#80 text</span><span class="fit" style="font-size:18px; line-height:23px;">Nhấp OK, tải tệp chỉ mục và xác minh các mục nhập.</span></div>
+<div class="blk" style="position:absolute;left:54.0px;top:1021.5px;width:862.5px;height:165.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#81 text</span><span class="fit" style="font-size:18px; line-height:23px;">Chọn Files - Save trên thanh menu nền và lưu dự án. Lần tiếp theo chương trình Pathloss khởi động, tệp dự án lưới bản đồ sẽ được tự động tải lại.</span></div>
+</div>
+<div class="pg" style="width:918px;height:1188px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:55.5px;top:115.5px;width:304.5px;height:40.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#82 title</span><span class="fit" style="font-size:31px; line-height:40px;">TỆP GEOTIF</span></div>
+<div class="blk" style="position:absolute;left:361.5px;top:115.5px;width:492.0px;height:493.5px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#83 image</span><img src="../images/e3e9187e1059949f757a24cce86dbb6bb1c96c06111e9fbfe47c52c0ea2a2a37.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:55.5px;top:157.5px;width:304.5px;height:189.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#84 text</span><span class="fit" style="font-size:18px; line-height:23px;">Tệp GeoTif là các tệp hình ảnh TIF có phần mở rộng để tham chiếu địa lý cho tệp. Mô-đun lưới bản đồ hỗ trợ các tệp GeoTif với phép chiếu tọa độ UTM và US state plane. Thư mục map_grid<span class="math">\Geo</span>_Tiff chứa một ví dụ về tệp GeoTif sử dụng tọa độ US state plane.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:348.0px;width:304.5px;height:106.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#85 text</span><span class="fit" style="font-size:18px; line-height:23px;">Chọn Site data - Backdrop và nhấp vào nút reset để tạo một dự án lưới bản đồ mới. Trong phần nền, nhấp vào nút index.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:456.0px;width:304.5px;height:124.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#86 text</span><span class="fit" style="font-size:18px; line-height:23px;">Chọn Files - Geo Tiff file và tải tệp map_grid<span class="math">\geo</span>_tiff<span class="math">\sp</span>27gtif.tif. Hộp thoại thông tin ở bên phải tóm tắt trạng thái địa lý của tệp.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:582.0px;width:304.5px;height:84.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#87 text</span><span class="fit" style="font-size:18px; line-height:23px;">Nhấp vào nút create index. Tất cả các khía cạnh của định nghĩa nền được điền đầy đủ.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:667.5px;width:861.0px;height:61.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#88 text</span><span class="fit" style="font-size:18px; line-height:23px;">Đóng chỉ mục và nhấp vào nút OK để hiển thị tệp.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:730.5px;width:861.0px;height:42.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#89 title</span><span class="fit" style="font-size:33px; line-height:42px;">NGUỒN DỮ LIỆU NỀN</span></div>
+<div class="blk" style="position:absolute;left:54.0px;top:774.0px;width:862.5px;height:126.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#90 text</span><span class="fit" style="font-size:18px; line-height:23px;">Tệp vcr_map.tif được tạo ra bằng cách quét một bản đồ địa hình thành nhiều phần và ghép các phần lại với nhau trong một chương trình chỉnh sửa hình ảnh. Một máy quét Hewlett Packard ScanJet 3200C đã được sử dụng. Các cạnh phải được tham chiếu địa lý. Điều này có nghĩa là tọa độ hình chữ nhật của các cạnh phải được biết. Đây là một quy trình tương đối đơn giản nếu bản đồ chứa lưới UTM. Các cạnh của hình ảnh có thể được cắt theo các đường lưới và các giá trị này sẽ được nhập vào chỉ mục.</span></div>
+<div class="blk" style="position:absolute;left:55.5px;top:901.5px;width:861.0px;height:40.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#91 text</span><span class="fit" style="font-size:18px; line-height:23px;">Định dạng tệp có thể là tệp hình ảnh được gắn thẻ (TIF) hoặc bitmap Windows (BMP).</span></div>
+<div class="blk" style="position:absolute;left:54.0px;top:943.5px;width:862.5px;height:243.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#92 text</span><span class="fit" style="font-size:18px; line-height:23px;">Màu sắc nên được đặt thành bảng màu 8 bit cho cả hình ảnh màu và thang độ xám. Kích thước tệp cơ bản sẽ là một byte trên mỗi pixel. Nếu sử dụng màu 24 bit, kích thước tệp cơ bản sẽ lớn gấp ba lần.</span></div>
+</div>
+
+<script>
+function toggleDebug() {
+    document.body.classList.toggle('debug');
+    var btn = document.getElementById('debug-btn');
+    btn.classList.toggle('active');
+    btn.textContent = document.body.classList.contains('debug')
+        ? '🔍 Debug ON'
+        : '🔍 Debug OFF';
+}
+
+window.addEventListener('load', function() {
+    // Render math
+    if (typeof katex === 'undefined') {
+        console.warn('KaTeX not loaded');
+    } else {
+        var mathEls = document.querySelectorAll('.math');
+        for (var i = 0; i < mathEls.length; i++) {
+            var el = mathEls[i];
+            var tex = el.textContent;
+            try {
+                katex.render(tex, el, {
+                    throwOnError: false,
+                    displayMode: false,
+                    output: 'html'
+                });
+            } catch (e) {
+                console.warn('KaTeX error:', tex, e);
+            }
+        }
+    }
+});
+</script>
+
+</body>
+</html>

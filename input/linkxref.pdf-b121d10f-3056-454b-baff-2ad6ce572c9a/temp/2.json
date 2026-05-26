@@ -1,0 +1,647 @@
+{
+    "pdf_info": [
+        {
+            "discarded_blocks": [],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        213,
+                        67,
+                        415,
+                        83
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 0,
+                    "content": "[1]"
+                },
+                {
+                    "bbox": [
+                        61,
+                        99,
+                        485,
+                        114
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 1,
+                    "content": "[2]"
+                },
+                {
+                    "bbox": [
+                        57,
+                        119,
+                        569,
+                        155
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "[3]"
+                },
+                {
+                    "bbox": [
+                        57,
+                        162,
+                        567,
+                        200
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "[4]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        207,
+                        431,
+                        219
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "[5]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        227,
+                        568,
+                        321
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 5,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                58,
+                                227,
+                                568,
+                                250
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 6,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        226,
+                                        570,
+                                        240
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                226,
+                                                570,
+                                                240
+                                            ],
+                                            "type": "text",
+                                            "content": "[6]",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        238,
+                                        501,
+                                        251
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                238,
+                                                501,
+                                                251
+                                            ],
+                                            "type": "text",
+                                            "content": "[7]",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                256,
+                                567,
+                                280
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 7,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        254,
+                                        567,
+                                        269
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                59,
+                                                254,
+                                                567,
+                                                269
+                                            ],
+                                            "type": "text",
+                                            "content": "[8]",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        268,
+                                        230,
+                                        281
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                268,
+                                                230,
+                                                281
+                                            ],
+                                            "type": "text",
+                                            "content": "[9]",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                285,
+                                567,
+                                321
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 8,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        67,
+                                        283,
+                                        568,
+                                        298
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                67,
+                                                283,
+                                                568,
+                                                298
+                                            ],
+                                            "type": "text",
+                                            "content": "[10]",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        73,
+                                        297,
+                                        568,
+                                        310
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                73,
+                                                297,
+                                                568,
+                                                310
+                                            ],
+                                            "type": "text",
+                                            "content": "[11]",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        73,
+                                        308,
+                                        493,
+                                        321
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                73,
+                                                308,
+                                                493,
+                                                321
+                                            ],
+                                            "type": "text",
+                                            "content": "[12]",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        58,
+                        326,
+                        372,
+                        338
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "[13]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        346,
+                        112,
+                        357
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "[14]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        366,
+                        206,
+                        478
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 11,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                58,
+                                366,
+                                192,
+                                378
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 12,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        365,
+                                        193,
+                                        378
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                59,
+                                                365,
+                                                193,
+                                                378
+                                            ],
+                                            "type": "text",
+                                            "content": "[15]",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                386,
+                                192,
+                                397
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 13,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        386,
+                                        193,
+                                        398
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                59,
+                                                386,
+                                                193,
+                                                398
+                                            ],
+                                            "type": "text",
+                                            "content": "[16]",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                405,
+                                191,
+                                417
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 14,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        405,
+                                        191,
+                                        418
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                59,
+                                                405,
+                                                191,
+                                                418
+                                            ],
+                                            "type": "text",
+                                            "content": "[17]",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                425,
+                                202,
+                                437
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 15,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        425,
+                                        202,
+                                        438
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                59,
+                                                425,
+                                                202,
+                                                438
+                                            ],
+                                            "type": "text",
+                                            "content": "[18]",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                446,
+                                202,
+                                457
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 16,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        446,
+                                        203,
+                                        458
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                59,
+                                                446,
+                                                203,
+                                                458
+                                            ],
+                                            "type": "text",
+                                            "content": "[19]",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                465,
+                                206,
+                                477
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 17,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        465,
+                                        207,
+                                        479
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                59,
+                                                465,
+                                                207,
+                                                479
+                                            ],
+                                            "type": "text",
+                                            "content": "[20]",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        58,
+                        506,
+                        112,
+                        518
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "merge_prev": false,
+                    "content": "[21]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        526,
+                        283,
+                        538
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 19,
+                    "merge_prev": false,
+                    "content": "[22]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        545,
+                        278,
+                        558
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 20,
+                    "merge_prev": false,
+                    "content": "[23]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        565,
+                        294,
+                        578
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 21,
+                    "merge_prev": false,
+                    "content": "[24]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        585,
+                        283,
+                        597
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 22,
+                    "merge_prev": false,
+                    "content": "[25]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        605,
+                        278,
+                        618
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 23,
+                    "merge_prev": false,
+                    "content": "[26]"
+                },
+                {
+                    "bbox": [
+                        58,
+                        625,
+                        294,
+                        638
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 24,
+                    "merge_prev": false,
+                    "content": "[27]"
+                },
+                {
+                    "bbox": [
+                        57,
+                        646,
+                        565,
+                        682
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 25,
+                    "merge_prev": false,
+                    "content": "[28]"
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 1,
+            "para_blocks": []
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": false,
+    "_vlm_ocr_enable": false,
+    "_version_name": "3.1.8"
+}

@@ -1,0 +1,1233 @@
+{
+    "pdf_info": [
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        59,
+                        31,
+                        133,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                30,
+                                134,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        30,
+                                        134,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        420,
+                        31,
+                        567,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                420,
+                                29,
+                                567,
+                                49
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        420,
+                                        29,
+                                        567,
+                                        49
+                                    ],
+                                    "type": "text",
+                                    "content": "Khóa và chia sẻ tệp",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        502,
+                        741,
+                        569,
+                        756
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 20,
+                    "lines": [
+                        {
+                            "bbox": [
+                                501,
+                                738,
+                                571,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        501,
+                                        738,
+                                        571,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Trang 1/3",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        194,
+                        68,
+                        434,
+                        86
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "Khóa và chia sẻ tệp Pathloss"
+                },
+                {
+                    "bbox": [
+                        57,
+                        91,
+                        568,
+                        147
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "Bản dựng chương trình Pathloss ngày 03 tháng 6 năm 2002 giới thiệu tính năng khóa tệp dữ liệu Pathloss (pl4) và chia sẻ tệp mạng (gr4) khi các tệp này nằm trên một ổ đĩa mạng dùng chung. Tính năng khóa và chia sẻ được kích hoạt nếu ổ đĩa gốc chứa tệp dữ liệu mạng hoặc Pathloss là một ổ đĩa từ xa. Lưu ý rằng điều này có thể thất bại trên mạng ngang hàng nếu một ổ đĩa được truy cập như một ổ đĩa cục bộ."
+                },
+                {
+                    "bbox": [
+                        58,
+                        162,
+                        243,
+                        178
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 4,
+                    "content": "Khóa tệp dữ liệu Pathloss (pl4)"
+                },
+                {
+                    "bbox": [
+                        57,
+                        181,
+                        259,
+                        321
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "Cơ chế khóa tạo một tệp mới có cùng tên với tệp dữ liệu Pathloss với phần mở rộng lck. Khi người dùng đóng tệp này, tệp khóa sẽ bị xóa. Nếu người dùng khác cố gắng mở tệp, một lời nhắc sẽ được đưa ra rằng tệp đang được sử dụng và sẽ được mở ở chế độ chỉ đọc. Không thể lưu tệp dưới một tên khác. Chương trình không kiểm tra xem tệp khóa đã bị xóa chưa."
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        263,
+                        189,
+                        564,
+                        295
+                    ],
+                    "index": 6,
+                    "sub_type": "text_image",
+                    "image_path": "d88980b4ababde82881da8c5815d88409c973cfa4536ab36546873f8ec609fa6.jpg"
+                },
+                {
+                    "bbox": [
+                        58,
+                        335,
+                        218,
+                        351
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 7,
+                    "content": "Chia sẻ tệp mạng (gr4)"
+                },
+                {
+                    "bbox": [
+                        57,
+                        354,
+                        568,
+                        410
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "Để kích hoạt chia sẻ tệp mạng (gr4), chọn Tệp - Hoạt động tệp dùng chung trên thanh menu mạng. Bước này phải được thực hiện trước khi tải một tệp mạng. Để kích hoạt chia sẻ tệp mạng sau khi tệp đã được tải, chọn Tệp - Mới và sau đó chọn Tệp - Hoạt động tệp dùng chung. Sau đó tải lại tệp. Cài đặt chia sẻ được lưu trong tệp tùy chọn chương trình."
+                },
+                {
+                    "bbox": [
+                        58,
+                        420,
+                        422,
+                        434
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "Ở chế độ này, một tệp không thể được lưu nếu các điều kiện sau không được đáp ứng."
+                },
+                {
+                    "bbox": [
+                        58,
+                        444,
+                        567,
+                        518
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 10,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                58,
+                                444,
+                                565,
+                                484
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 11,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        442,
+                                        567,
+                                        460
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                59,
+                                                442,
+                                                567,
+                                                460
+                                            ],
+                                            "type": "text",
+                                            "content": "• Mỗi trạm phải có một dấu hiệu gọi duy nhất. Đây là một mã định danh gồm 15 ký tự và không thể để trống. Cùng một",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        457,
+                                        539,
+                                        473
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                457,
+                                                539,
+                                                473
+                                            ],
+                                            "type": "text",
+                                            "content": "dấu hiệu gọi không thể được sử dụng tại các trạm khác nhau. Dấu hiệu gọi đóng vai trò như một mã định danh duy nhất để xác định",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        471,
+                                        219,
+                                        486
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                471,
+                                                219,
+                                                486
+                                            ],
+                                            "type": "text",
+                                            "content": "các thay đổi đối với các trạm và liên kết.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                492,
+                                568,
+                                518
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 12,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        490,
+                                        570,
+                                        507
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                57,
+                                                490,
+                                                570,
+                                                507
+                                            ],
+                                            "type": "text",
+                                            "content": "• Ngày sửa đổi của tệp trên đĩa phải giống với tệp trong bộ nhớ. Các thay đổi của người dùng khác không",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        73,
+                                        506,
+                                        167,
+                                        520
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                73,
+                                                506,
+                                                167,
+                                                520
+                                            ],
+                                            "type": "text",
+                                            "content": "thể bị ghi đè.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        57,
+                        526,
+                        567,
+                        554
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 13,
+                    "merge_prev": false,
+                    "content": "Cơ chế chia sẻ sử dụng một tệp có cùng tên với tệp mạng với phần mở rộng glk. Tệp này sẽ được gọi là tệp glk trong các mô tả sau và tệp chứa các thông tin sau:"
+                },
+                {
+                    "bbox": [
+                        58,
+                        564,
+                        563,
+                        630
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 14,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                58,
+                                564,
+                                252,
+                                577
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 15,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        563,
+                                        253,
+                                        579
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                563,
+                                                253,
+                                                579
+                                            ],
+                                            "type": "text",
+                                            "content": "• ngày sửa đổi và số thay đổi",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                584,
+                                320,
+                                597
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 16,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        583,
+                                        320,
+                                        597
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                59,
+                                                583,
+                                                320,
+                                                597
+                                            ],
+                                            "type": "text",
+                                            "content": "• danh sách tất cả người dùng đã mở tệp mạng",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                604,
+                                562,
+                                630
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 17,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        602,
+                                        564,
+                                        619
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                56,
+                                                602,
+                                                564,
+                                                619
+                                            ],
+                                            "type": "text",
+                                            "content": "• một loạt các bản ghi chứa các thay đổi được thực hiện đối với tệp. Các bản ghi này được sử dụng để cập nhật các tệp của từng",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        73,
+                                        617,
+                                        158,
+                                        632
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                73,
+                                                617,
+                                                158,
+                                                632
+                                            ],
+                                            "type": "text",
+                                            "content": "người dùng",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        57,
+                        638,
+                        568,
+                        680
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "merge_prev": false,
+                    "content": "Tệp glk được tạo khi người dùng đầu tiên mở tệp mạng. Tại thời điểm này, tệp chứa tên của người dùng và ngày sửa đổi. Số thay đổi được đặt thành không. Chương trình sau đó sẽ bắt đầu giám sát tệp glk trong khoảng thời gian 30 giây để xác định xem ngày sửa đổi có thay đổi hay không."
+                },
+                {
+                    "bbox": [
+                        58,
+                        689,
+                        369,
+                        703
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 19,
+                    "merge_prev": false,
+                    "content": "Tệp glk bị xóa khi người dùng cuối cùng đóng tệp mạng."
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        31,
+                        187,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                29,
+                                188,
+                                49
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        29,
+                                        188,
+                                        49
+                                    ],
+                                    "type": "text",
+                                    "content": "Khóa và chia sẻ tệp",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        475,
+                        31,
+                        549,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                474,
+                                30,
+                                550,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        474,
+                                        30,
+                                        550,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        41,
+                        741,
+                        108,
+                        755
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 21,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                739,
+                                110,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        739,
+                                        110,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Trang 2/3",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 1,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        39,
+                        68,
+                        286,
+                        151
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "Khi tệp mạng đã được mở bởi người dùng đầu tiên, tất cả người dùng khác mở tệp sẽ được hiển thị danh sách những người dùng đã mở tệp. Người dùng mới được thêm vào danh sách người dùng và nhận ngày sửa đổi tại thời điểm họ tải tệp."
+                },
+                {
+                    "bbox": [
+                        39,
+                        162,
+                        285,
+                        190
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "Giả sử một người dùng thực hiện một số thay đổi đối với tệp và lưu các thay đổi. Một thay đổi được định nghĩa như sau:"
+                },
+                {
+                    "bbox": [
+                        40,
+                        200,
+                        293,
+                        328
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 10,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                40,
+                                200,
+                                160,
+                                212
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 4,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        200,
+                                        160,
+                                        213
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                41,
+                                                200,
+                                                160,
+                                                213
+                                            ],
+                                            "type": "text",
+                                            "content": "• một trạm đã được thêm",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                40,
+                                220,
+                                164,
+                                233
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 5,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        220,
+                                        165,
+                                        233
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                41,
+                                                220,
+                                                165,
+                                                233
+                                            ],
+                                            "type": "text",
+                                            "content": "• một trạm đã bị xóa",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                40,
+                                240,
+                                163,
+                                253
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 6,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        240,
+                                        164,
+                                        253
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                41,
+                                                240,
+                                                164,
+                                                253
+                                            ],
+                                            "type": "text",
+                                            "content": "• một trạm đã được di chuyển",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                40,
+                                260,
+                                161,
+                                272
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 7,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        260,
+                                        161,
+                                        272
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                41,
+                                                260,
+                                                161,
+                                                272
+                                            ],
+                                            "type": "text",
+                                            "content": "• một liên kết đã được thêm",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                40,
+                                280,
+                                167,
+                                293
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 8,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        280,
+                                        167,
+                                        293
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                41,
+                                                280,
+                                                167,
+                                                293
+                                            ],
+                                            "type": "text",
+                                            "content": "• một liên kết đã bị xóa",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                40,
+                                299,
+                                293,
+                                328
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 9,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        298,
+                                        294,
+                                        314
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                40,
+                                                298,
+                                                294,
+                                                314
+                                            ],
+                                            "type": "text",
+                                            "content": "• tệp Pathloss liên kết với liên kết đã được",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        54,
+                                        314,
+                                        102,
+                                        329
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                54,
+                                                314,
+                                                102,
+                                                329
+                                            ],
+                                            "type": "text",
+                                            "content": "thay đổi.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        39,
+                        333,
+                        296,
+                        403
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "Khi tệp được lưu, một bản ghi các thay đổi trước tiên được tạo bằng cách so sánh tệp trong bộ nhớ với tệp trên đĩa. Tệp glk sẽ được cập nhật với ngày sửa đổi mới và bản ghi các thay đổi sẽ được thêm vào tệp."
+                },
+                {
+                    "bbox": [
+                        39,
+                        414,
+                        290,
+                        470
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "merge_prev": false,
+                    "content": "Trong môi trường chia sẻ này, chương trình kiểm tra tệp glk mỗi 30 giây và nếu có thay đổi xảy ra, người dùng sẽ được thông báo với danh sách các thay đổi. Mỗi thay đổi có thể được xem."
+                },
+                {
+                    "bbox": [
+                        40,
+                        482,
+                        117,
+                        495
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 13,
+                    "content": "Thực hiện thay đổi"
+                },
+                {
+                    "bbox": [
+                        39,
+                        498,
+                        416,
+                        526
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 14,
+                    "merge_prev": false,
+                    "content": "Các thay đổi được thực hiện trực tiếp từ tệp glk. Màn hình sẽ không được định dạng lại. Tất cả các thay đổi trong tệp glk sẽ được thực hiện."
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        292,
+                        75,
+                        545,
+                        181
+                    ],
+                    "index": 15,
+                    "sub_type": "text_image",
+                    "image_path": "74560d270ca6afc42ba8c728f1a2ae688b8923f36a7b9fa488106c2942f785e7.jpg"
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        301,
+                        208,
+                        545,
+                        503
+                    ],
+                    "index": 16,
+                    "sub_type": "text_image",
+                    "image_path": "23ba5375a6ac90ab093ddfc43e97e837c3e226d07409224fe4079840cf03e6f8.jpg"
+                },
+                {
+                    "bbox": [
+                        40,
+                        538,
+                        99,
+                        550
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 17,
+                    "content": "Tải lại tệp"
+                },
+                {
+                    "bbox": [
+                        39,
+                        553,
+                        550,
+                        582
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "merge_prev": false,
+                    "content": "Toàn bộ tệp sẽ được tải lại và màn hình sẽ được định dạng lại. Tùy chọn tải lại tệp chỉ khả dụng trong các mô-đun mạng và mapgrid."
+                },
+                {
+                    "bbox": [
+                        39,
+                        592,
+                        548,
+                        635
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 19,
+                    "merge_prev": false,
+                    "content": "Nếu nút hủy được nhấp, người dùng có thể cập nhật tệp bằng cách quay lại mô-đun mạng hoặc mapgrid và tải lại tệp bằng cách sử dụng Tệp - Mở hoặc chọn Tệp - Trạng thái tệp dùng chung. Tùy chọn sau tạo ra cùng một màn hình và tùy chọn như một thông báo thay đổi trong các mô-đun mạng hoặc mapgrid."
+                },
+                {
+                    "bbox": [
+                        39,
+                        643,
+                        549,
+                        673
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 20,
+                    "merge_prev": false,
+                    "content": "Chỉ một thông báo thay đổi được đưa ra ngay cả khi người dùng quyết định không tải lại tệp. Khi tệp đã được cập nhật, thông báo thay đổi sẽ bắt đầu lại."
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        59,
+                        31,
+                        133,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                30,
+                                134,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        30,
+                                        134,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        421,
+                        31,
+                        567,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                420,
+                                29,
+                                567,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        420,
+                                        29,
+                                        567,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "Khóa và chia sẻ tệp",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        502,
+                        741,
+                        569,
+                        755
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 7,
+                    "lines": [
+                        {
+                            "bbox": [
+                                501,
+                                739,
+                                571,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        501,
+                                        739,
+                                        571,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Trang 3/3",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 2,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        58,
+                        68,
+                        363,
+                        83
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "Tính toán nhiễu trên một tệp mạng dùng chung"
+                },
+                {
+                    "bbox": [
+                        58,
+                        87,
+                        266,
+                        170
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "Các lược đồ khóa bảng vốn có trong công cụ cơ sở dữ liệu Borland không cho phép người dùng thực hiện các tính toán nhiễu đồng thời. Một tính toán nhiễu tạo ra một tập hợp các bảng liên quan đến tệp gr4 mạng."
+                },
+                {
+                    "bbox": [
+                        58,
+                        181,
+                        267,
+                        236
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "Bản dựng chương trình ngày 02 tháng 6 năm 2002 cho phép người dùng chỉ định một thư mục riêng tư cho các tính toán nhiễu. Việc lựa chọn được thực hiện khi bắt đầu một tính toán nhiễu."
+                },
+                {
+                    "bbox": [
+                        58,
+                        247,
+                        268,
+                        303
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "Các thao tác như chỉ định tương quan fading sẽ thất bại nếu tệp mạng hiện tại không khớp với các bảng cơ sở dữ liệu trong thư mục riêng tư."
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        273,
+                        94,
+                        564,
+                        398
+                    ],
+                    "index": 6,
+                    "sub_type": "text_image",
+                    "image_path": "6241fddf026b6454ee1de892dea4a55988d9856b50d36abae4ec44092845c42a.jpg"
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": false,
+    "_vlm_ocr_enable": false,
+    "_version_name": "3.1.8"
+}

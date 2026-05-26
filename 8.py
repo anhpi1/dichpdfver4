@@ -14,16 +14,28 @@ spec.loader.exec_module(module6)
 # ==================== CONFIG ====================
 INPUT_JSON = "7.json"
 OUTPUT_JSON = "8.json"
-CONFIDENCE_LEVEL = 0.90  # Độ tin cậy (0.90 = giữ lại 90% từ bé nhất, loại bỏ 10% lớn nhất)
+TITLE_CONFIDENCE_LEVEL = 0.80 # Độ tin cậy cho tiêu đề (0.90 = giữ 90% từ lớn nhất, loại bỏ 10% bé nhất)
+BODY_CONFIDENCE_LEVEL = 0.90  # Độ tin cậy cho thân bài (0.90 = giữ 90% từ bé nhất, loại bỏ 10% lớn nhất)
 # ================================================
 
-def trimmed_mean(arr, confidence=0.90):
+def trimmed_mean_body(arr, confidence=0.90):
     if not arr:
         return 0
     arr.sort()
     # Tính từ 0 đến y (chỉ loại bỏ phần top lớn nhất)
     end = int(len(arr) * confidence)
     sliced = arr[:end]
+    if not sliced:
+        return sum(arr) / len(arr)
+    return sum(sliced) / len(sliced)
+
+def trimmed_mean_title(arr, confidence=0.90):
+    if not arr:
+        return 0
+    arr.sort()
+    # Tính từ x đến 100% (chỉ loại bỏ phần bottom bé nhất)
+    start = int(len(arr) * (1 - confidence))
+    sliced = arr[start:]
     if not sliced:
         return sum(arr) / len(arr)
     return sum(sliced) / len(sliced)
@@ -46,9 +58,11 @@ def normalize_sizes(pages):
                 else:
                     body_sizes.extend([block['size']] * words)
                     
-    # Tinh trung binh co trong so, cat bo ngoai le dua tren CONFIDENCE_LEVEL
-    avg_title = trimmed_mean(title_sizes, CONFIDENCE_LEVEL)
-    avg_body = trimmed_mean(body_sizes, CONFIDENCE_LEVEL)
+    # Tinh trung binh co trong so:
+    # - Title: cat bo ngoai le (chu qua nho) dua tren TITLE_CONFIDENCE_LEVEL
+    # - Body: cat bo ngoai le (chu qua to) dua tren BODY_CONFIDENCE_LEVEL
+    avg_title = trimmed_mean_title(title_sizes, TITLE_CONFIDENCE_LEVEL)
+    avg_body = trimmed_mean_body(body_sizes, BODY_CONFIDENCE_LEVEL)
     
     # Lam tron xuong de tranh tran khung
     avg_title = int(avg_title)

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>PDF Replica Viewer</title>
+
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"/>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    background: #525659;
+    padding: 30px 0;
+    min-height: 100vh;
+}
+.pg {
+    overflow: hidden;
+    page-break-after: always;
+}
+
+.blk {
+    border: 2px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.dbg-label {
+    display: none;
+    position: absolute;
+    top: 0; left: 0;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 0 0 6px 0;
+    z-index: 10;
+    opacity: 0.95;
+    line-height: 1.2;
+    pointer-events: none;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+body.debug .blk {
+    border-style: dashed !important;
+    background-color: rgba(0,0,0,0.02);
+}
+body:not(.debug) .blk {
+    border-color: transparent !important;
+}
+body.debug .dbg-label {
+    display: block;
+}
+
+#debug-btn {
+    position: fixed;
+    top: 12px;
+    right: 16px;
+    z-index: 9999;
+    background: #333;
+    color: #aaa;
+    border: 1px solid #555;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Segoe UI', sans-serif;
+    transition: all 0.2s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+#debug-btn:hover { background: #444; color: #fff; }
+#debug-btn.active { background: #ff5722; color: #fff; border-color: #ff5722; }
+
+.fit {
+    display: block;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.code-block {
+    background-color: transparent;
+    border-radius: 0;
+    border: none !important;
+}
+
+.tw table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.tw td, .tw th {
+    border: 1px solid #bbb;
+    padding: 2px 4px;
+}
+
+.math .katex {
+    font-size: 1.05em !important;
+}
+</style>
+</head>
+<body>
+
+<button id="debug-btn" onclick="toggleDebug()">🔍 Debug OFF</button>
+
+<div class="pg" style="width:916px;height:1186px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:319.5px;top:100.5px;width:595.5px;height:46.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#1 title</span><span class="fit" style="font-size:26px; line-height:33px;">NHẬP CÁC TỆP VĂN BẢN LIÊN KẾT</span></div>
+<div class="blk" style="position:absolute;left:91.5px;top:148.5px;width:823.5px;height:28.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#2 title</span><span class="fit" style="font-size:22px; line-height:28px;">THAM CHIẾU CHÉO CÁC TỆP DỮ LIỆU VÔ TUYẾN VÀ ĂNG-TEN</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:178.5px;width:829.5px;height:63.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#3 text</span><span class="fit" style="font-size:14px; line-height:18px;">Một tham chiếu chéo các tệp dữ liệu vô tuyến và ăng-ten đã được thêm vào thao tác Nhập các tệp văn bản liên kết. Tính năng này cho phép thực hiện tính toán nhiễu ngay sau khi nhập. Các tệp văn bản bên ngoài được sử dụng để tham chiếu chéo các mã nhận dạng vô tuyến và ăng-ten được sử dụng trong dữ liệu nhập vào các tệp mã vô tuyến và ăng-ten Pathloss.</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:243.0px;width:829.5px;height:66.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#4 text</span><span class="fit" style="font-size:17px; line-height:22px;">Các tệp mã Pathloss được sử dụng để điền vào bất kỳ thông tin nào bị thiếu trong dữ liệu nhập. Ví dụ: nếu dữ liệu nhập chỉ chứa công suất phát và mã nhận dạng vô tuyến, thông tin ngưỡng thu sẽ được đọc từ tệp mã vô tuyến Pathloss được tham chiếu chéo, nhưng công suất phát sẽ không bị thay đổi.</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:310.5px;width:828.0px;height:28.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#5 text</span><span class="fit" style="font-size:17px; line-height:22px;">Các tệp tham chiếu chéo là các tệp văn bản ASCII đáp ứng các yêu cầu sau:</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:340.5px;width:828.0px;height:147.0px;overflow:hidden;box-sizing:border-box;border-color:#00BCD4;" data-t="list"><span class="dbg-label" style="background:#00BCD4;">#6 list</span><ul class="fit" style="font-size:15px; line-height:19px; margin:0;padding-left:16px;"><li style="margin-bottom:4px;">Tên tệp phải là “ant_xref.txt” và “rad_xref.txt” tương ứng cho các tệp tham chiếu chéo ăng-ten và vô tuyến. Các tệp này phải được đặt trong cùng thư mục mà chương trình Pathloss được cài đặt.</li><li style="margin-bottom:4px;">Mỗi dòng trong tệp phải bao gồm bộ mô tả dữ liệu nhập trong dấu ngoặc kép, theo sau là tên tệp mã Pathloss được phân cách bằng dấu cách hoặc tab.</li><li style="margin-bottom:4px;">Việc so sánh trong tham chiếu chéo không phân biệt chữ hoa chữ thường; tuy nhiên cách viết trong tệp tham chiếu chéo phải giống với tệp dữ liệu. Nếu có một số biến thể trong tệp dữ liệu nhập, thì phải tạo một dòng tham chiếu chéo cho mỗi biến thể. Có thể sử dụng cùng một tên tệp mã Pathloss cho mỗi biến thể.</li></ul></div>
+<div class="blk" style="position:absolute;left:87.0px;top:489.0px;width:828.0px;height:28.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#7 text</span><span class="fit" style="font-size:17px; line-height:22px;">Một ví dụ về tệp tham chiếu chéo vô tuyến và ăng-ten được đưa ra dưới đây.</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:519.0px;width:828.0px;height:28.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#8 text</span><span class="fit" style="font-size:17px; line-height:22px;">ant_xref.txt</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:549.0px;width:828.0px;height:208.5px;overflow:hidden;box-sizing:border-box;border-color:#00BCD4;" data-t="list"><span class="dbg-label" style="background:#00BCD4;">#9 list</span><ul class="fit" style="font-size:17px; line-height:22px; margin:0;padding-left:16px;"><li style="margin-bottom:4px;">&quot;15_GHz/0.6m Andrew&quot; 6962</li><li style="margin-bottom:4px;">&quot;15_GHz/1.2m Andrew&quot; 6964</li><li style="margin-bottom:4px;">&quot;15_GHz/0.3m Andrew&quot; 6961</li><li style="margin-bottom:4px;">&quot;18_GHz/0.6m ANDREW&quot; 6967</li><li style="margin-bottom:4px;">&quot;18_GHz/0.3m ANDREW&quot; 7010</li><li style="margin-bottom:4px;">&quot;18_Ghz/1.2m ANDREW&quot; 4504a</li></ul></div>
+<div class="blk" style="position:absolute;left:87.0px;top:759.0px;width:828.0px;height:28.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#10 text</span><span class="fit" style="font-size:17px; line-height:22px;">rad_xref.txt</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:789.0px;width:828.0px;height:27.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#11 text</span><span class="fit" style="font-size:17px; line-height:22px;">&quot;Ajax radio AJ15, 8x2 guaranteed&quot; AJ15_16s_8E1</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:817.5px;width:828.0px;height:28.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#12 text</span><span class="fit" style="font-size:17px; line-height:22px;">&quot;Ajax radio AJ15, 4x2 guaranteed&quot; AJ15_4s_4E1</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:847.5px;width:828.0px;height:28.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#13 text</span><span class="fit" style="font-size:17px; line-height:22px;">&quot;Ajax radio AJ15, 16x2 guaranteed&quot; AJ15_16s_16E1</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:877.5px;width:828.0px;height:28.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#14 text</span><span class="fit" style="font-size:17px; line-height:22px;">&quot;Ajax radio AJ18, 8x2 guaranteed&quot; AJ18_16s_8E1</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:907.5px;width:828.0px;height:28.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#15 text</span><span class="fit" style="font-size:17px; line-height:22px;">&quot;Ajax radio AJ18, 4x2 guaranteed&quot; AJ18_4s_4E1</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:937.5px;width:828.0px;height:30.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#16 text</span><span class="fit" style="font-size:17px; line-height:22px;">&quot;Ajax radio AJ18, 16x2 guaranteed&quot; AJ18_16s_16E1</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:969.0px;width:829.5px;height:216.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#17 text</span><span class="fit" style="font-size:17px; line-height:22px;">Các tệp dữ liệu vô tuyến và ăng-ten phải có sẵn để quá trình chuyển đổi thành công. Vị trí của các tệp phải được xác định. Nhấp vào Cấu hình - Thư mục - Mã Ăng-ten Vi ba / Mã Vô tuyến Vi ba và trỏ đến thư mục cao nhất có chứa các tệp dữ liệu</span></div>
+</div>
+<div class="pg" style="width:916px;height:1186px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+
+</div>
+
+<script>
+function toggleDebug() {
+    document.body.classList.toggle('debug');
+    var btn = document.getElementById('debug-btn');
+    btn.classList.toggle('active');
+    btn.textContent = document.body.classList.contains('debug')
+        ? '🔍 Debug ON'
+        : '🔍 Debug OFF';
+}
+
+window.addEventListener('load', function() {
+    // Render math
+    if (typeof katex === 'undefined') {
+        console.warn('KaTeX not loaded');
+    } else {
+        var mathEls = document.querySelectorAll('.math');
+        for (var i = 0; i < mathEls.length; i++) {
+            var el = mathEls[i];
+            var tex = el.textContent;
+            try {
+                katex.render(tex, el, {
+                    throwOnError: false,
+                    displayMode: false,
+                    output: 'html'
+                });
+            } catch (e) {
+                console.warn('KaTeX error:', tex, e);
+            }
+        }
+    }
+});
+</script>
+
+</body>
+</html>

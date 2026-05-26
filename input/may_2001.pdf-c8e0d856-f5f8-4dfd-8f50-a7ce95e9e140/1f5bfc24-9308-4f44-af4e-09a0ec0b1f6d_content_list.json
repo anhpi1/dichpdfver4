@@ -1,0 +1,6040 @@
+[
+    {
+        "type": "text",
+        "text": "PATHLOSS VERSION 4.0 - MAY 2001 PROGRAM BUILD ",
+        "text_level": 1,
+        "bbox": [
+            181,
+            92,
+            816,
+            116
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The following new features are incorporated in the May 2001 program build: ",
+        "bbox": [
+            111,
+            135,
+            722,
+            154
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "MAP GRID ",
+        "text_level": 1,
+        "bbox": [
+            111,
+            172,
+            222,
+            189
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A new map grid module has been introduced. This operates in parallel with the existing network module and is functionally identical. The display supports backdrops in TIF or windows BMP format and dynamic on screen profile generation. The map grid module is available as part of the microwave interference option. ",
+        "bbox": [
+            109,
+            191,
+            880,
+            265
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "MULTIPATH AND RAIN FADE CORRELATION ",
+        "text_level": 1,
+        "bbox": [
+            111,
+            282,
+            542,
+            301
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The interference fade margin / threshold degradation has been split into two separate components for rain and multipath. Default correlation values can be assigned for cases where the main and interference paths are spatially correlated. A correlation editor is provided which graphically displays each interference case in the network module. This feature is available as part of the microwave interference option. ",
+        "bbox": [
+            109,
+            301,
+            880,
+            393
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ITU-T G.826 ",
+        "text_level": 1,
+        "bbox": [
+            111,
+            410,
+            246,
+            428
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "SESR, BBER and ESR performance calculations for SDH radio links is implemented. To accommodate the additional radio data required for G.826 calculations. The format of the following files has been changed. ",
+        "bbox": [
+            109,
+            430,
+            820,
+            484
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "Pathloss data files (pl4) ",
+            "Microwave radio data files (raf and mrs) ",
+            "• Microwave radio lookup tables (mrd) "
+        ],
+        "bbox": [
+            112,
+            484,
+            495,
+            537
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The May 2001 build program can read these data files and all previous versions. Pathloss programs prior to the May 2001 build will not be able to read the new files. ",
+        "bbox": [
+            109,
+            537,
+            816,
+            574
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ITU-R P.530-8 EQUIPMENT SIGNATURE - DIVERSITY IMPROVEMENT ",
+        "text_level": 1,
+        "bbox": [
+            111,
+            592,
+            815,
+            612
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Selective outage calculations using the equipment signature parameters and the space and frequency diversity improvement factors in strict accordance with P.530-8 have been implemented ",
+        "bbox": [
+            109,
+            613,
+            820,
+            667
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ITU-R P.530-8 COCHANNEL OPERATION",
+        "text_level": 1,
+        "bbox": [
+            111,
+            686,
+            511,
+            704
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Performance degradation due to cochannel operation for radios equipped with XPIC devices has been implemented. ",
+        "bbox": [
+            109,
+            705,
+            874,
+            742
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "MAP GRID ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            132,
+            931,
+            151
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "OVERVIEW ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            167,
+            929,
+            186
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "BACKDROP DEFINITION a ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            204,
+            929,
+            220
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Set Directory ",
+        "bbox": [
+            120,
+            223,
+            931,
+            239
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Image File Index ",
+        "bbox": [
+            120,
+            241,
+            929,
+            258
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Import List . 4 ",
+        "bbox": [
+            179,
+            258,
+            929,
+            275
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "GeoTIF File 5 ",
+        "bbox": [
+            179,
+            276,
+            929,
+            292
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "New List . . 5 ",
+        "bbox": [
+            179,
+            294,
+            929,
+            310
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "TIF to Bit Map Array ",
+        "bbox": [
+            120,
+            311,
+            929,
+            329
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Elevation File Index . . 6 ",
+        "bbox": [
+            120,
+            330,
+            929,
+            345
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Import List . 6 ",
+        "bbox": [
+            179,
+            348,
+            929,
+            364
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Elevation File Conversion ",
+        "bbox": [
+            120,
+            366,
+            929,
+            382
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Datum – Ellipsoid Selection ",
+        "bbox": [
+            120,
+            383,
+            929,
+            401
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Local Datums ",
+        "bbox": [
+            179,
+            402,
+            929,
+            417
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Global Datums ",
+        "bbox": [
+            179,
+            419,
+            929,
+            435
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Map Projection . . . 8 ",
+        "bbox": [
+            120,
+            438,
+            929,
+            455
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Other Considerations 8 ",
+        "bbox": [
+            120,
+            455,
+            929,
+            470
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "CURSOR MODES ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            489,
+            929,
+            507
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Pan and Zoom Controls . . ",
+        "bbox": [
+            120,
+            508,
+            929,
+            525
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Link Mode Cursor ",
+        "bbox": [
+            120,
+            527,
+            929,
+            542
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "VISIBILITY TESTS and PROFILE GENERATION 10 ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            561,
+            929,
+            579
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "ELEVATION DISPLAYS 10 ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            597,
+            929,
+            614
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "ADD SITE and MOVE SITE . ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            633,
+            929,
+            651
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "DEFINITIONS – GLOSSARY . 12 ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            669,
+            929,
+            686
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "REFERENCES 13 ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            705,
+            929,
+            723
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "INTERFERENCE AND DESIRED PATH FADE CORRELATION 14",
+        "text_level": 1,
+        "bbox": [
+            60,
+            739,
+            929,
+            758
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "OVERVIEW 14 ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            777,
+            929,
+            794
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "ADJACENT CHANNEL FADE CORRELATION 14 ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            811,
+            929,
+            830
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "ATPC CONSIDERATIONS 15 ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            848,
+            929,
+            864
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "DEFAULT PROGRAM SETTINGS 15 ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            883,
+            929,
+            901
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            187,
+            71
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "Page 1 of 27 ",
+        "bbox": [
+            826,
+            955,
+            929,
+            972
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "EDITING CORRELATION 16 ",
+        "bbox": [
+            60,
+            95,
+            931,
+            114
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "ITU-T G.826 ERROR PERFORMANCE OBJECTIVES ",
+        "bbox": [
+            60,
+            132,
+            929,
+            151
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "SESR BIT ERROR RATE ",
+        "bbox": [
+            60,
+            167,
+            929,
+            186
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "MULTIPATH . 18 ",
+        "bbox": [
+            60,
+            204,
+            929,
+            222
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "RAIN 18 ",
+        "bbox": [
+            60,
+            239,
+            929,
+            258
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "UNAVAILABILITY - SESR TRANSITION. 18",
+        "bbox": [
+            60,
+            276,
+            929,
+            294
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "PATHLOSS PROGRAM DATA REQUIREMENTS . 19 ",
+        "bbox": [
+            60,
+            311,
+            929,
+            329
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Radio Data File (RAF - MRS) Changes 19 ",
+        "bbox": [
+            120,
+            330,
+            929,
+            347
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Microwave Worksheet Radio Data Entry Forms . . . 21 ",
+        "bbox": [
+            120,
+            349,
+            929,
+            364
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Radio Lookup Tables . 21 ",
+        "bbox": [
+            120,
+            367,
+            929,
+            383
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "ITU P.530-8 SELECTIVE OUTAGE AND DIVERSITY IMPROVEMENT FACTORS . 21 ",
+        "bbox": [
+            60,
+            401,
+            929,
+            419
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "SELECTIVE FADING OUTAGE 22 ",
+        "bbox": [
+            60,
+            436,
+            929,
+            455
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "SPACE DIVERSITY IMPROVEMENT 23 ",
+        "bbox": [
+            60,
+            472,
+            929,
+            489
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "FREQUENCY DIVERSITY IMPROVEMENT 24 ",
+        "bbox": [
+            60,
+            508,
+            929,
+            526
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "QUAD DIVERSITY IMPROVEMENT 24 ",
+        "bbox": [
+            60,
+            544,
+            929,
+            561
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "COCHANNEL OPERATION 25",
+        "bbox": [
+            60,
+            580,
+            929,
+            598
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "XPD DEGRADATION DUE TO MULTIPATH 25 ",
+        "bbox": [
+            60,
+            614,
+            929,
+            633
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            189,
+            71
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "Page 2 of 27 ",
+        "bbox": [
+            826,
+            954,
+            929,
+            972
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "MAP GRID ",
+        "text_level": 1,
+        "bbox": [
+            442,
+            97,
+            550,
+            113
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "OVERVIEW ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            114,
+            178,
+            131
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "An new site network display module named “Map Grid” has been added in the May 2001 program build. This operates in parallel with the existing network module. The network module uses a Transverse Mercator projection to display the sites. The longitude origin of this projection is set to the mid point of the east - west extents of the sites. This produces a display with symmetrical latitude and longitude lines.. If a new site is added which changes the extents of the display, a new longitude origin is calculated. As such, this variable projection will not accommodate backdrops such as maps and ortho-photos. ",
+        "bbox": [
+            58,
+            151,
+            929,
+            258
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The map grid module uses fixed projections to display the network sites with both backdrops and elevations. The backdrops can be in either a TIF or window bit map (BMP) format. The elevations must be in the Odyssey - Planet BIL format. The map grid elevation database setup is independent of the terrain database setup under Configure - Terrain data base. At this time, the same projection must be used for the both the backdrop and the elevations. ",
+        "bbox": [
+            58,
+            276,
+            916,
+            364
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "BACKDROP DEFINITION ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            383,
+            303,
+            400
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/5b7e2350bc82b7027b759646a38354665bf9642bad2b779e839b87768a4b30c8.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Backdrop Definition - C:\\PLW40\\MAP_GRID\\milano.bkd\nFiles\nBackdrop\tElevations\nSet directory\t\\\\SERVER\\GeoData\\milan\\tiff\nIndex\nDatum\nRegion\tItaly (Sardinia)\nEllipsoid\tInternational 1924\nDatum\tEuropean 1950\nEllipsoid\nGrid coordinate system\nUniversal Transverse Mercator (UTM)\tUTM Zone Reference 32N\nOk\tCancel\tHelp\tReset",
+        "sub_type": "text_image",
+        "bbox": [
+            183,
+            417,
+            810,
+            890
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Select Site Data - Backdrop to access the backdrop definition dialog. A backdrop definition consists of the ",
+        "bbox": [
+            60,
+            901,
+            901,
+            921
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            187,
+            70
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "Page 3 of 27 ",
+        "bbox": [
+            826,
+            955,
+            929,
+            972
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "following steps for both the image and elevation files. The procedure is identical for each. ",
+        "bbox": [
+            60,
+            97,
+            771,
+            116
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "specify the directory containing the image /elevation files ",
+            "create an index for the image /elevation files ",
+            "specify the map projection used by the image /elevation files ",
+            "• specify the datum or reference ellipsoid for the image /elevation files "
+        ],
+        "bbox": [
+            60,
+            132,
+            665,
+            204
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Set Directory ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            223,
+            178,
+            239
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Click the set directory button and point to the directory containing the image files. All image files must be located in this directory. ",
+        "bbox": [
+            58,
+            258,
+            897,
+            292
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Image File Index ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            311,
+            207,
+            329
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Click the Index button to access the grid data entry form. The following fields are available: ",
+        "bbox": [
+            58,
+            347,
+            785,
+            364
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Image file name 95 characters maximum ",
+        "bbox": [
+            60,
+            366,
+            431,
+            382
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Show any image file can be temporarily switched off ",
+        "bbox": [
+            60,
+            383,
+            609,
+            400
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Type At this time only TIF and bitmap (bmp) image files are supported. ",
+        "bbox": [
+            60,
+            401,
+            759,
+            419
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "West, south east and north edges – These are expressed in kilometers and must correspond to the selected map projection. ",
+        "bbox": [
+            60,
+            420,
+            898,
+            454
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Cell size optional entry (not used) ",
+        "bbox": [
+            60,
+            455,
+            434,
+            472
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "The data can be manually entered using the procedures described in the General Program Operation or imported from a list or GeoTIF file. ",
+        "bbox": [
+            58,
+            489,
+            867,
+            526
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Import List ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            544,
+            153,
+            561
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Select Files – Import List. Specify the locations of the fields in the file to be imported. ",
+        "bbox": [
+            60,
+            580,
+            586,
+            614
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Two default options are provided for Planet and Odyssey image files. ",
+        "bbox": [
+            60,
+            633,
+            607,
+            652
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Specify the units of the edges, click Ok and open the file containing the index information. ",
+        "bbox": [
+            60,
+            669,
+            596,
+            704
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/350c7a5ed487b73d4b24fd65d64bc528b6f6b8deb5457bab6019fd27ff54f12c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Load Backdrop Index File\nField Name Number\nFile name 1\nWest edge 2\nEast edge 3\nSouth edge 4\nNorth edge 5\nCell Size 6\nEdge units\nmeters\nkilometers\nIntl feet\nUS survey feet\nDefaults\nOdyssey\nPlanet\nOK Cancel Help",
+        "sub_type": "text_image",
+        "bbox": [
+            620,
+            544,
+            931,
+            785
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            187,
+            70
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "Page 4 of 27 ",
+        "bbox": [
+            826,
+            955,
+            929,
+            972
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "GeoTIF File ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            97,
+            166,
+            113
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "GeoTIF files may contain the required information to create an index entry for the file. Select Files – GeoTIF File and open the file. ",
+        "bbox": [
+            60,
+            132,
+            374,
+            204
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "There must be sufficient information in the file to determine the edges, map projection and datum. ",
+        "bbox": [
+            60,
+            222,
+            375,
+            276
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "At present, only UTM projections and US State plane coordinates will automatically generate the index and set the datum. ",
+        "bbox": [
+            60,
+            292,
+            380,
+            363
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "New List ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            383,
+            137,
+            398
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "The Import List and GeoTIF file procedures simply append the new entry to the existing index. Select Files – New List to erase the existing list. ",
+        "bbox": [
+            60,
+            419,
+            383,
+            492
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/34edb1cc70255ded53ed0a47b6fe7c16c3634df133ac664889a74888a040998f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Geo Tiff Data\n\\\\Server\\geodata\\GeoTIFF\\dog geotiff\\dillon M\\\nGeoTiff version 1.0.2\nImage width 6200\nImage height 7618\nModel type Projection coordinate system\nRaster type Raster pixel is area\nProjection 26915\nNAD83 UTM zone 15N\nTie points\n0.0 0.0 0.0 609434.0 4206933.0 0.0\nPixel scale\n1.0 1.0 0.0\nUTM Zone 15 N with NAD83\nCreate Index Cancel Help",
+        "sub_type": "text_image",
+        "bbox": [
+            393,
+            97,
+            929,
+            512
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "TIF to Bit Map Array ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            526,
+            250,
+            545
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "TIF files are sometimes supplied in large sizes in the range from150 to 200 megabytes or larger. A TIF file must first be converted to a bitmap. This can be very time consuming and places a strain on system resources. A provision has been made to convert a large TIF file into an array of bitmaps. The bitmaps will be saved in the same directory as the TIF file. ",
+        "bbox": [
+            58,
+            561,
+            594,
+            669
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Select Files - Create bitmap array and enter the number of rows and columns. The index will be automatically updated with the bitmap data. Be sure to save the new backdrop file. ",
+        "bbox": [
+            60,
+            686,
+            563,
+            742
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/d65a2522edca2aaf9aa76e98239a1d7673ba0cf2e994febb48af473656abc7c6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Tiff to Array of Bitmaps\nManhtonDom.tif\nImage width (pixels) 9120\nImage height (pixels) 19890\nImage size (bytes) 181396800\nBitmap Image Array\nNumber of rows 8\nnumber of columns 4\nOK Cancel",
+        "sub_type": "text_image",
+        "bbox": [
+            602,
+            526,
+            929,
+            746
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Bitmaps are not loaded into memory. Instead the bit map files are opened as memory mapped files. Significant performance improvements can be realized by using a number of smaller bitmaps instead of a single large TIF file. ",
+        "bbox": [
+            58,
+            758,
+            893,
+            813
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            187,
+            70
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "Page 5 of 27 ",
+        "bbox": [
+            826,
+            955,
+            929,
+            972
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Elevation File Index ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            97,
+            236,
+            113
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Click the Index button to access the grid data entry form. The following fields are required for an elevation file entry: ",
+        "bbox": [
+            58,
+            132,
+            910,
+            170
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Map name 95 characters maximum ",
+        "bbox": [
+            58,
+            186,
+            369,
+            203
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Bytes / pixel Some file formats contain the elevation and additional information. The default is 2 bytes per pixel which corresponds to a 2 byte integer elevation. ",
+        "bbox": [
+            60,
+            205,
+            910,
+            239
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Bottom up This setting specifies if the rows of elevations start at the south west corner or the north west corner. If the elevation views are upside down, then change this setting ",
+        "bbox": [
+            60,
+            241,
+            906,
+            276
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Byte order The elevations are expressed as two byte integers. This setting determines if the most significant byte is first (SPARC) or the least significant byte is first (INTEL). If the wrong setting is used, the resulting elevations will be very large positive and negative numbers. The program will interpret these as no data values and nothing will be displayed. ",
+        "bbox": [
+            60,
+            277,
+            908,
+            347
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Cell size The horizontal resolution of the database expressed in meters. ",
+        "bbox": [
+            60,
+            348,
+            663,
+            364
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Edges West, south east and north edges. These are expressed in kilometers and must correspond to the selected map projection. ",
+        "bbox": [
+            60,
+            366,
+            928,
+            400
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Show any elevation file can be temporarily switched off ",
+        "bbox": [
+            60,
+            401,
+            570,
+            419
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "The data can be manually entered using the procedures described in the General Program Operation or imported from a list file. ",
+        "bbox": [
+            60,
+            436,
+            625,
+            472
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Import List ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            491,
+            155,
+            508
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Select Files – Import List. Specify the locations of the fields in the file to be imported. ",
+        "bbox": [
+            60,
+            526,
+            637,
+            561
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Two default options are provided for Planet and Odyssey image files. ",
+        "bbox": [
+            60,
+            580,
+            609,
+            598
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Specify the units of the edges, click Ok and open the file containing the index information. ",
+        "bbox": [
+            60,
+            614,
+            625,
+            650
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Elevation File Conversion ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            669,
+            284,
+            686
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "The elevation files must be in the Odyssey - Planet BIL format. Several file conversion utilities are available to convert other format to the BIL ",
+        "bbox": [
+            60,
+            705,
+            624,
+            739
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "format. Select Files - Convert in the Elevation index menu to access these conversions. ",
+        "bbox": [
+            60,
+            741,
+            746,
+            758
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/4aae58f5afcf1d2287e80a318be3ce92dcc39fc198b8ad80089e77eb7c4e44e5.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Load Index File\nField Name Number\nFile name 1\nWest edge 2\nEast edge 3\nSouth edge 4\nNorth edge 5\nCell size 6\nEdge units\nmeters\nkilometers\nByte order\nSPARC\nINTEL\nBottom up\nTrue\nFalse\nDefaults\nOdyssey\nPlanet\nBytes per pixel 2\nOK Cancel Help",
+        "sub_type": "text_image",
+        "bbox": [
+            655,
+            436,
+            931,
+            726
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Datum – Ellipsoid Selection ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            776,
+            299,
+            795
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "The shape of the earth is not spherical. Rather it is more nearly an oblate ellipsoid of revolution which is also called an oblate spheroid. This is an ellipse rotated about its minor axis. ",
+        "bbox": [
+            58,
+            811,
+            921,
+            848
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "The earth is not an exact ellipsoid. The geoid is the name given to the shape that the earth would assume if all measurements were reference to mean sea level. This is an undulating surface which is within ±100 meters of a well fitting ellipsoid. Note that elevations and contour lines are referenced to the geoid. Latitude and ",
+        "bbox": [
+            58,
+            866,
+            926,
+            920
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            189,
+            71
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "Page 6 of 27 ",
+        "bbox": [
+            826,
+            955,
+            929,
+            972
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "longitude and all grid coordinate systems are referenced to the ellipsoid. ",
+        "bbox": [
+            60,
+            97,
+            632,
+            116
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "The ellipsoid is defined by the semi major and semi minor axis. Alternately this can be expressed as the semimajor axis and the flattening or eccentricity as defined by the equation below: ",
+        "bbox": [
+            58,
+            132,
+            880,
+            169
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\nB ^ {\\prime} A @ \\frac {r e c f \\& 1}{r e c f}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            421,
+            170,
+            570,
+            209
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "where ",
+        "bbox": [
+            60,
+            223,
+            114,
+            238
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "A major axis ",
+        "bbox": [
+            60,
+            239,
+            207,
+            257
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "B minor axis ",
+        "bbox": [
+            63,
+            258,
+            209,
+            273
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "recf reciprocal flattening ",
+        "bbox": [
+            63,
+            276,
+            282,
+            294
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Local Datums ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            311,
+            178,
+            328
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Initially ellipsoids were fitted to the mean sea level surface over a particular region or country. These were related to an initial point on the surface of the earth to produce a local datum. This initial point is assigned a latitude, longitude, an elevation above the ellipsoid and an azimuth to some point. This initial point becomes the triangulation station Principio to which all ground control measurements will be referenced. The latitude and longitude and elevation of all control points in the area are computed relative to this initial point and the ellipsoid. ",
+        "bbox": [
+            58,
+            347,
+            919,
+            455
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "An example of a local datum is the North American Datum of 1927 (NAD27) with the following parameters: ",
+        "bbox": [
+            60,
+            472,
+            923,
+            492
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "reference ellipsoid Clark 1866 ",
+        "bbox": [
+            60,
+            508,
+            333,
+            525
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "semi major axis 6378206.4 km ",
+        "bbox": [
+            62,
+            527,
+            356,
+            542
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "inverse flattening 294.9786982 ",
+        "bbox": [
+            63,
+            545,
+            346,
+            560
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "origin Meades Ranch in Kansas ",
+        "bbox": [
+            63,
+            563,
+            439,
+            579
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Global Datums ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            598,
+            187,
+            614
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Global datums use ellipsoids determined from satellite based survey methods and define a coordinate system used for the entire earth.. The center of the reference ellipsoid is located at the mass center of the earth. An example of a global datum is the World Geodetic System of 1984 (WGS 84) ",
+        "bbox": [
+            58,
+            633,
+            919,
+            688
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "reference ellipsoid WGS 84 ",
+        "bbox": [
+            60,
+            705,
+            310,
+            722
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "semi major axis 6378137.0 km ",
+        "bbox": [
+            63,
+            724,
+            356,
+            739
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "inverse flattening 298.257223563 ",
+        "bbox": [
+            63,
+            742,
+            364,
+            757
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "origin mass center of the earth ",
+        "bbox": [
+            63,
+            760,
+            428,
+            776
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "In the Pathloss program, either a datum or ellipsoid can be selected. Selecting a datum indirectly defines the reference ellipsoid and since all conversions between geodetic and rectangular coordinates and the distance and azimuth calculations are based on the reference ellipsoid, the two choices may seem redundant. ",
+        "bbox": [
+            58,
+            794,
+            913,
+            849
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "A datum in the Pathloss program includes additional data to allow the transformation of geodetic coordinates between datums. In local datums, it is necessary to subdivide the area covered by the datum into smaller regions to improve the accuracy of the coordinate transformation. ",
+        "bbox": [
+            58,
+            864,
+            923,
+            920
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            189,
+            71
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            931,
+            73
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "Page 7 of 27 ",
+        "bbox": [
+            826,
+            955,
+            929,
+            972
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Some local map projections do not have a corresponding datum. Several examples are: ",
+        "bbox": [
+            58,
+            97,
+            746,
+            114
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Swiss National Grid - reference ellipsoid - Bessel 1841 ",
+        "bbox": [
+            60,
+            114,
+            496,
+            132
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Irish National grid - reference ellipsoid - modified airy. ",
+        "bbox": [
+            60,
+            133,
+            496,
+            150
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "In these cases, an ellipse must be specified and there will be no provision to transform coordinates. For example geodetic coordinates in the WGS84 coordinates cannot be transformed to Swiss National grid coordinates; however the WG84 coordinates could be transformed to the European Datum of 1950 Note that in the current program build, the map projection and the datum / ellipsoid must be specified for both the image files and the elevation files. This generality will allow additional flexibility in a future build by allowing coordinate transformation between datums. The errors in these transformation will certainly be greater that the imagery / elevation data resolution and it will be necessary to provide procedures to match the imagery and elevation data. ",
+        "bbox": [
+            58,
+            167,
+            929,
+            311
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "The datum or reference ellipsoid selection must be the same for the site data, image , and elevation files. ",
+        "bbox": [
+            76,
+            340,
+            908,
+            380
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "The same map projection must be used for the image and elevation files ",
+        "bbox": [
+            76,
+            383,
+            743,
+            404
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Map Projection ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            454,
+            197,
+            473
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Select one of the map projections in the drop down list. The following projections are currently supported: ",
+        "bbox": [
+            58,
+            489,
+            898,
+            508
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "UTM - Universal Transverse Mercator - The UTM zone must be specified. ",
+        "bbox": [
+            63,
+            508,
+            710,
+            525
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Swiss National grid 1 \\* ",
+        "bbox": [
+            63,
+            527,
+            310,
+            542
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "UK Ordnance grid \\* ",
+        "bbox": [
+            63,
+            545,
+            310,
+            561
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Irish National grid \\* ",
+        "bbox": [
+            63,
+            561,
+            310,
+            579
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "New Zealand grid \\* ",
+        "bbox": [
+            63,
+            580,
+            310,
+            597
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Gauss Kruger ",
+        "bbox": [
+            63,
+            598,
+            233,
+            614
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "US State Plane grid \\* ",
+        "bbox": [
+            63,
+            616,
+            310,
+            633
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "The selection of any of the projections marked with an \\*, will automatically select the correct datum or ellipsoid. ",
+        "bbox": [
+            58,
+            651,
+            874,
+            686
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "The default projection is the same as that used in the network module. This is a Transverse Mercator projection referenced to a central meridian located at the center of the east - west extents of the sites. This selection effectively inhibits all of the imagery and elevation procedures in the Map Grid module. ",
+        "bbox": [
+            58,
+            705,
+            893,
+            758
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Other Considerations ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            777,
+            248,
+            792
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "When the backdrop definition is complete, save the file using the file menu in this dialog box. ",
+        "bbox": [
+            58,
+            811,
+            803,
+            830
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Click OK to close the backdrop definition dialog. The image files are loaded into memory and displayed. If the file loading is cancelled, then it will be necessary to recall the backdrop definition dialog and close it with the OK button again. ",
+        "bbox": [
+            58,
+            830,
+            924,
+            883
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "The current backdrop definition file will be automatically loaded again when the program is started again and ",
+        "bbox": [
+            60,
+            902,
+            923,
+            920
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            187,
+            70
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "Page 8 of 27 ",
+        "bbox": [
+            826,
+            955,
+            929,
+            972
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "the map grid module is entered. ",
+        "bbox": [
+            60,
+            97,
+            313,
+            114
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "If a network file whose extents are separated by 10 degrees from the extents of the imagery data, is loaded, then the map projection is automatically set to the default and the imagery and elevation features are inhibited. ",
+        "bbox": [
+            58,
+            132,
+            900,
+            186
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "CURSOR MODES ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            204,
+            225,
+            220
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Pan and Zoom Controls ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            239,
+            267,
+            257
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Click the button to set the cursor to the pan mode. Hold the left mouse button down and drag the display to the new location. The display can also be moved with the cursor keys at any time. ",
+        "bbox": [
+            58,
+            276,
+            919,
+            318
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Click the button to set the cursor to the zoom mode. A left button click magnifies the display a preset amount and centers the display at the cursor location. A right button click reduces and centers the display. To zoom a specific area, hold down the left mouse button and drag the mouse to define the desired area. Three additional buttons affect the display as follows: ",
+        "bbox": [
+            58,
+            335,
+            921,
+            412
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/70c018a9e0c38eb66709b9e5fd9965775c28807b33ef71d1d3b990c00e00727f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            62,
+            429,
+            96,
+            525
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "the backdrop image is displayed from the upper left corner with the same resolution as the image file. ",
+        "bbox": [
+            98,
+            431,
+            893,
+            450
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "the extents of the site data is displayed ",
+        "bbox": [
+            98,
+            455,
+            403,
+            474
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "the extents of the image files is displayed. ",
+        "bbox": [
+            98,
+            479,
+            428,
+            498
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "the elevation view is switched off an on by clicking this button ",
+        "bbox": [
+            98,
+            503,
+            594,
+            522
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Link Mode Cursor ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            542,
+            223,
+            558
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Click the button to set the cursor to the link mode. This is the default cursor mode in the network module and is used to access the design modules, create links between two sites, and selectively set the link and site attributes. ",
+        "bbox": [
+            58,
+            578,
+            924,
+            637
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "VISIBILITY TESTS and PROFILE GENERATION ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            655,
+            508,
+            672
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Click the button to begin the visibility tests. Place the cursor at one location, hold down the left mouse button and drag the mouse to the second location. The progress of the profile is dynamically shown on the ",
+        "bbox": [
+            58,
+            691,
+            903,
+            733
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "chart",
+        "img_path": "images/a6784dc355df43df6297d23d522f39c535757f8e717d1301c7298f73805b4336.jpg",
+        "content": "Profile preview\n| Category | Value |\n|---|---|\n| 1 | 35 |\n| 2 | 0 |\n| 3 | 45 |\n| 4 | 45 |\n| 5 | 0 |\n| 6 | 15 |\n| 7 | 5 |\n| 8 | 0 |\n| 9 | 25 |\n| 10 | 0 |\n| 11 | 0 |\n| 12 | 0 |\n| 13 | 0 |\n| 14 | 0 |\n| 15 | 0 |\n| 16 | 0 |\n| 17 | 0 |\n| 18 | 0 |\n| 19 | 0 |\n| 20 | 0 |\n| 21 | 0 |\n| 22 | 0 |\n| 23 | 0 |\n| 24 | 0 |\n| 25 | 0 |\n| 26 | 0 |\n| 27 | 0 |\n| 28 | 0 |\n| 29 | 0 |\n| 30 | 0 |\n| 31 | 0 |\n| 32 | 0 |\n| 33 | 0 |\n| 34 | 0 |\n| 35 | 0 |\n| 36 | 0 |\n| 37 | 0 |\n| 38 | 0 |\n| 39 | 0 |\n| 40 | 0 |\n| 41 | 0 |\n| 42 | 0 |\n| 43 | 0 |\n| 44 | 0 |\n| 45 | 0 |\n| 46 | 0 |\n| 47 | 0 |\n| 48 | 0 |\n| 49 | 0 |\n| 50 | 0 |\n| 51 | 0 |\n| 52 | 0 |\n| 53 | 0 |\n| 54 | 0 |\n| 55 | 0 |\n| 56 | 0 |\n| 57 | 0 |\n| 58 | 0 |\n| 59 | 0 |\n| 60 | 0 |\n| 61 | 0 |\n| 62 | 0 |\n| 63 | 0 |\n| 64 | 0 |\n| 65 | 0 |\n| 66 | 0 |\n| 67 | 0 |\n| 68 | 0 |\n| 69 | 0 |\n| 70 | 0 |\n| 71 | 0 |\n| 72 | 0 |\n| 73 | 0 |\n| 74 | 0 |\n| 75 | 0 |\n| 76 | 0 |\n| 77 | 0 |\n| 78 | 0 |\n| 79 | 0 |\n| 80 | 0 |\n| 81 | 0 |\n| 82 | 0 |\n| 83 | 0 |\n| 84 | 0 |\n| 85 | 0 |\n| 86 | 0 |\n| 87 | 0 |\n| 88 | 0 |\n| 89 | 0 |\n| 90 | 0 |\n| 91 | 0 |\n| 92 | 0 |\n| 93 | 0 |\n| 94 | 0 |\n| 95 | 0 |\n| 96 | 0 |\n| 97 | 0 |\n| 98 | 0 |\n| 99 | 0 |\n| Note: The values in the 'Value' column are estimated based on the provided code. The 'Profile preview' label is not used in the chart.",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "sub_type": "bar",
+        "bbox": [
+            163,
+            743,
+            826,
+            853
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "screen. To reset this display during the profile generation, click the right mouse button. When the left mouse button is released, a profile analysis display will appear. This display allows you to change antenna heights, earth radius factor K and test the clearance using Fresnel zone references of the clearance display. ",
+        "bbox": [
+            58,
+            875,
+            913,
+            929
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            187,
+            70
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "Page 9 of 27 ",
+        "bbox": [
+            826,
+            955,
+            929,
+            972
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "chart",
+        "img_path": "images/7baddcba897f1a0d9fc9ff456afb07967124927fab42d06e69fefd89e4644d5a.jpg",
+        "content": "| x_value | y_value |\n| ------- | ------- |\n| 0.00    | 140     |\n| 0.05    | 115     |\n| 0.10    | 148     |\n| 0.15    | 115     |\n| 0.20    | 127     |\n| 0.25    | 115     |\n| 0.30    | 148     |\n| 0.35    | 148     |\n| 0.40    | 133     |\n| 0.45    | 152     |\n| 0.50    | 115     |\n| 0.55    | 115     |\n| 0.60    | 115     |\n| 0.669   | 115     |",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "sub_type": "bar",
+        "bbox": [
+            98,
+            97,
+            897,
+            393
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "You can add this link to the site data list and save the data as a Pathloss pl4 file. If the two end locations were not between existing sites, you should change the site names from the default Site 1 and Site 2 names. To exit the profile generation mode, close the profile preview display, click the button again or change the cursor mode to the pan, zoom or link modes. ",
+        "bbox": [
+            60,
+            401,
+            926,
+            479
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "ELEVATION DISPLAYS ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            496,
+            285,
+            512
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "An elevation display can be generated at any zoom level which will overlay the image backdrop. The extents of the display always corresponds to the current display extents. ",
+        "bbox": [
+            60,
+            532,
+            919,
+            569
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Select Site Data – Elevation view - Create ",
+        "bbox": [
+            60,
+            585,
+            395,
+            601
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "The display is useful to resolve small elevation differences which may not be apparent from the image display. ",
+        "bbox": [
+            60,
+            603,
+            578,
+            640
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "An elevation legend is available under the same menu. ",
+        "bbox": [
+            60,
+            657,
+            493,
+            674
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "The elevation display will remain until it is reset ",
+        "bbox": [
+            60,
+            693,
+            446,
+            709
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Several display options are available. Select Elevation - View - Options ",
+        "bbox": [
+            60,
+            729,
+            560,
+            763
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/ec77d6df9b1029f624373977e5808b12374c77cc60f9411b719feeaefabb8876.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Abstract pixelated pattern with green and yellow blocks, no text or symbols present",
+        "sub_type": "natural_image",
+        "bbox": [
+            588,
+            602,
+            929,
+            886
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            68,
+            54,
+            187,
+            70
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "Page 10 of 27 ",
+        "bbox": [
+            818,
+            955,
+            929,
+            972
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "The color can be either a graduated color ramp or a grey scale. The elevation display is overlaid on to the backdrop display. The raster operation code is SRCCOPY in the above drawing which hides the backdrop. The code “DSPDxax” is a transparent copy which allows the backdrop to show through. If any code other than SRCCOPY, the elevation legend colors will not be correct. ",
+        "bbox": [
+            60,
+            151,
+            508,
+            292
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "ADD SITE and MOVE SITE ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            347,
+            312,
+            364
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Two similar operations allow the user to visually add a new site or move an existing site. Select Site Data – Add Site or Move Site ",
+        "bbox": [
+            60,
+            383,
+            498,
+            436
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "In the add site case, use the mouse to position the marker at the desired location. ",
+        "bbox": [
+            60,
+            455,
+            426,
+            489
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Click the Add site button and enter a name for the site. ",
+        "bbox": [
+            60,
+            491,
+            429,
+            525
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "In the move site case, first identify the site to be move by clicking the left mouse button on the site legend. Then move the site to the new location and click the Ok button. ",
+        "bbox": [
+            60,
+            544,
+            441,
+            614
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Both of the displays show the elevation. ",
+        "bbox": [
+            60,
+            633,
+            380,
+            652
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/5382615958039ca16c2a533db07fa70c4c46d8664ef27445b5d627b2daee4ad0.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Elevation View Options\nColor\nGray scale - black high\nGray scale - black low\nColor ramp\nRaster operation\nDSon NOTSRCERASE\nDPSnaa\nSn NOTSRCCOPY\nSDna SRCERASE\nDSx SRCINVERT\nPDSana\nDSa SRCAND\nPDSxna\nDSno MERGEPAINT\nS SRCCOPY\nPSDnoa\nDSPDxax\nDSo SRCPAINT\nOK\nCancel",
+        "sub_type": "text_image",
+        "bbox": [
+            521,
+            97,
+            929,
+            412
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/d9b7b22d9ee6c5debb85661c239bbb8fcca14ce44f9d4f9b065918b85db3b64d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Move Site\nMove\nMI080D\nfrom\n45 27 26.55 N\n009 09 31.75 E\n121.0 m\nto\n45 27 26.82 N\n009 09 30.75 E\n141.0 m\nOK Cancel",
+        "sub_type": "text_image",
+        "bbox": [
+            447,
+            436,
+            696,
+            696
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/96cd6e7c1ccc6f556b09f8fd32496817b3434fc190cb2bad6267b76fe91833c4.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Add Site\nLatitude 45 27 23.62 N\nLongitude 009 08 10.16 E\nEasting (km) 510.646\nNorthing (km) 5033.774\nElevation (m) 118\nCancel Add Site",
+        "sub_type": "text_image",
+        "bbox": [
+            700,
+            436,
+            931,
+            588
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            68,
+            54,
+            187,
+            70
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "Page 11 of 27 ",
+        "bbox": [
+            818,
+            954,
+            929,
+            972
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "DEFINITIONS – GLOSSARY ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            97,
+            328,
+            113
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Datum – Any numerical or geometrical quantity or set of such quantities specifying the reference coordinate system used for geodetic control in the calculation of coordinates of points on the earth. Datums may be either global or local in extent. A local datum defines a coordinate system that is used only over a region of limited extent. A global datum specifies the center of the reference ellipsoid to be located at the earth’s center of mass and defines a coordinate system used for the entire earth. ",
+        "bbox": [
+            60,
+            133,
+            931,
+            223
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Ellipsoid – The surface generated by an ellipse rotating about one of its axes. ",
+        "bbox": [
+            60,
+            239,
+            666,
+            258
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Geocentric Coordinates – Cartesian coordinates (X, Y, Z) that define the position of a point with respect to the center of mass of the earth. ",
+        "bbox": [
+            60,
+            276,
+            903,
+            310
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Geodetic Coordinates – The quantities of latitude and longitude that define the position of a point on the surface of the earth with respect to the reference ellipsoid. Also, imprecisely called geographic coordinates. ",
+        "bbox": [
+            60,
+            329,
+            910,
+            364
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Geodetic Height – The height above the reference ellipsoid, measured along the ellipsoidal normal through the point in question. The geodetic height is positive if the point is outside the ellipsoid. Also known as ellipsoidal height, h. ",
+        "bbox": [
+            60,
+            383,
+            903,
+            436
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Geodetic Latitude – The angle between the plane of the equator and the normal to the ellipsoid through the computation point. Geodetic latitude is positive north of the equator and negative south of the equator. ",
+        "bbox": [
+            60,
+            454,
+            901,
+            492
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Geodetic Longitude – The angle between the plane of a meridian and the plane of the prime meridian. A longitude can be measured from the angle formed between the local and prime meridians at the pole of rotation of the reference ellipsoid, or by the arc along the equator intercepted by these meridians. ",
+        "bbox": [
+            60,
+            508,
+            888,
+            561
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Geoid – The equipotential surface of the earth’s gravity field approximated by undisturbed mean sea level fo the oceans. The direction of gravity passing through a given point on the geoid is perpendicular to this equipotential surface. ",
+        "bbox": [
+            60,
+            580,
+            916,
+            633
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Geoid Separation – The distance between the geoid and the mathematical reference ellipsoid as measured along the ellipsoidal normal. This distance is positive outside, or negative inside, the reference ellipsoid. Also called geoidal height; undulation of the geoid. ",
+        "bbox": [
+            60,
+            651,
+            893,
+            705
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Horizontal Datum – A horizontal datum specifies the coordinate system in which latitude and longitude of points are located. The latitude and longitude of an initial point, the azimuth of a line from that point, and the semi-major axis and flattening of the ellipsoid that approximates the surface of the earth in the region of interest define a horizontal datum. ",
+        "bbox": [
+            60,
+            722,
+            926,
+            792
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Reference Ellipsoid – An ellipsoid whose dimensions closely approach the dimensions of the geoid; the exact dimensions are determined by various considerations of the section of the earth’s surface concerned. Usually a bi-axial ellipsoid of revolution. ",
+        "bbox": [
+            60,
+            811,
+            897,
+            866
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Vertical Datum – A vertical datum is the surface to which elevations are referred. A local vertical datum is a continuous surface, usually mean sea level, at which elevations are assumed to be zero throughout the area of ",
+        "bbox": [
+            60,
+            883,
+            924,
+            920
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            187,
+            70
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            71
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "Page 12 of 27 ",
+        "bbox": [
+            818,
+            955,
+            929,
+            972
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "interest. ",
+        "bbox": [
+            60,
+            98,
+            129,
+            113
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "WGS 72 – World Geodetic System 1972. WGS 72 was the previous DoD standard earth-centered, earth-fixed world geodetic system. It was superceded by WGS 84 ",
+        "bbox": [
+            60,
+            132,
+            928,
+            169
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "WGS 84 – World Geodetic System 1984. A world geodetic system provides the basic reference frame, geometric figure and gravimetric model for the earth, and provides the means for relating positions on various local geodetic systems to an earth-centered, earth-fixed coordinate system. WGS 84 is the current DoD standard earth-centered, earth-fixed world geodetic system. ",
+        "bbox": [
+            60,
+            186,
+            929,
+            258
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "REFERENCES ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            276,
+            199,
+            292
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "(1) Topographic Engineering Center, TEC-SR-7, Handbook for transformation of DATUMS, PROJECTIONS, GRIDS, AND COMMON COORDINATE SYSTEMS, January 1996. ",
+            "(2) Department of Defense, MIL-HDBK-850, Military Handbook – Glossary of Mapping, Charting, and Geodetic Terms, 21 January 1994. "
+        ],
+        "bbox": [
+            60,
+            311,
+            890,
+            419
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            187,
+            71
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "page_number",
+        "text": "Page 13 of 27 ",
+        "bbox": [
+            818,
+            954,
+            929,
+            972
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "INTERFERENCE AND DESIRED PATH FADE CORRELATION",
+        "text_level": 1,
+        "bbox": [
+            207,
+            95,
+            784,
+            113
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "OVERVIEW ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            132,
+            178,
+            148
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "If an interfering signal follows the same path as the desired signal, the two signals can be considered to be correlated to some degree. The interfering signal will experience fading at the same time as the desired signal; thereby reducing the effect of the interference. ",
+        "bbox": [
+            58,
+            167,
+            656,
+            239
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "This is the case for both rain and multipath fades; however, the degree of correlation for these two conditions will be different. In the case of a multipath fade, it is realistically assumed that only one fade will exist at any instance in time in an area due to the characteristics of deep fading. Multipath fades are short in duration and highly localized in an area. Rain fades on the other hand are of longer duration, are relatively frequency independent in a given band and can extend over a wide area. ",
+        "bbox": [
+            58,
+            239,
+            683,
+            364
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "To handle this fade correlation, the May 2001 program build considers the Spatially Uncor interference fade margin and threshold degradation for both rain and multipath separately under the assumption that rain and multipath fading are mutually exclusive events. ",
+        "bbox": [
+            58,
+            364,
+            844,
+            401
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            60,
+            401,
+            635,
+            417
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Provision is made to edit the rain - multipath fade correlation and to assign default values for this correlation at the start of an interference calculation. ",
+        "bbox": [
+            60,
+            419,
+            651,
+            454
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "images/b4e8bc622617792a5eb90b2cb4170a9efb032fa47b3d8f640b88da4696c5cbf3.jpg",
+        "image_caption": [
+            "Spatially Correlated "
+        ],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph LR\n    A[\"Start\"] -->|Desired Path| B[\"Stage B\"]\n    B -->|Interfering Path| C[\"Stage C\"]\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            687,
+            165,
+            934,
+            242
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "images/929fd289eacf76484c77742aab51e9e9eab042c5dcf579084b74446e79b2d337.jpg",
+        "image_caption": [
+            "Spatially Uncorrelated "
+        ],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph LR\n    A[\"Node A\"] --> B[\"Node B\"]\n    B --> C[\"Node C\"]\n    style A fill:#fff,stroke:#000\n    style B fill:#fff,stroke:#000\n    style C fill:#fff,stroke:#000\n    note1[\"Interfering Path\"] -.-> B\n    note2[\"Desired Path\"] -.-> B\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            687,
+            276,
+            933,
+            351
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "The base interference calculation is always carried out and retained. The effect of rain and multipath correlation does not change the base calculation. ",
+        "bbox": [
+            78,
+            487,
+            624,
+            540
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "images/a1c9add3cfd310bc5bcbc33edd229543345300bc90d9cd34bfd5b198878d6b14.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    A[\"Basic Interference Calculation Threshold Degradation\"] --> B[\"Rain Correlation\"]\n    A --> C[\"Multipath Correlation\"]\n    B --> D[\"Rain Threshold Degradation\"]\n    C --> E[\"Multipath Threshold Degradation\"]\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            689,
+            416,
+            931,
+            592
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "An example of a correlated fade would a multi hop two frequency plan system with sites designated as A, B and C. The receiver at site A whose associated transmitter is located at site B, will be interfered by the transmitter also at site B transmitting to site C. The carrier to interference ratio is completely determined by the front to back ratio of the interfering transmit antenna. Since both the desired and interfering signals follow the path from B to A, the following considerations can be made. ",
+        "bbox": [
+            58,
+            580,
+            679,
+            597
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            58,
+            598,
+            903,
+            667
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "Rain will attenuate the desired and interfering signal equally if the polarizations are the same for both signals. The polarization of the interfering signal is indeterminate off boresight and can be considered to be circular at discrimination angles greater than 90 degrees. Therefore, the fading could be considered as completely correlated and the case could be ignored. ",
+            "The degree of correlation between the desired and interfering signal fades due to multipath will depend on the antenna heights of the desired and interfering transmitters at site B Polarization will affect the correlation to a lesser degree. For equal antenna heights, the fading can be considered to be correlated; otherwise a partial correlation situation exists. "
+        ],
+        "bbox": [
+            60,
+            669,
+            923,
+            811
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "ADJACENT CHANNEL FADE CORRELATION ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            830,
+            486,
+            847
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "A one for N systems is a specialized case of correlation. From a multipath standpoint, the frequency difference between the desired signal and the adjacent channel interferer, is small enough to offer some multipath fading correlation. This correlation combined with the filter improvement is usually sufficient to clear the case. At frequency separations of two or more adjacent channels, the filter improvement is sufficient to ignore the interference. ",
+        "bbox": [
+            58,
+            866,
+            903,
+            921
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            187,
+            70
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "page_number",
+        "text": "Page 14 of 27 ",
+        "bbox": [
+            818,
+            955,
+            929,
+            972
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            58,
+            97,
+            924,
+            131
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "From a rain fade standpoint, the interfering and desired paths are completely correlated and the interference can be ignored. ",
+        "bbox": [
+            58,
+            133,
+            906,
+            169
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "ATPC CONSIDERATIONS ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            186,
+            303,
+            203
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "An interference detail report shows the carrier to interference ratio. Prior to the May 2001 build, the C/I was always calculated with the receive signal at the maximum power and the interfering signal at the minimum power when ATPC was specified. The C to I calculation now depends on the spacial correlation as follows Uncorrelated minimum receive signal - minimum interfering signal ",
+        "bbox": [
+            58,
+            222,
+            911,
+            292
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Correlated minimum receive signal - maximum interfering signal ",
+        "bbox": [
+            60,
+            294,
+            604,
+            311
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "DEFAULT PROGRAM SETTINGS ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            329,
+            370,
+            345
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "At the start of an interference calculation, default correlation values can be assigned to the calculation. In the Network module select - Interference - Calculate Intra to bring up the interference dialog box. ",
+        "bbox": [
+            58,
+            364,
+            916,
+            402
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "image",
+        "img_path": "images/15263b13c96106736df51f9b131aeb870f74d2dca962e0b733293fe6c28a58ff.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Multipath and Rain Interference Path Correlation Options\nMultipath\tRain\nIgnore\tCorrelation (dB)\tIgnore\tCorrelation (dB)\nUncorrelated\nPartially Correlated (unequal antenna heights)\nCorrelated (equal antenna heights)\nCorrelated (adjacent channels)\nOK\tCancel\tHelp",
+        "sub_type": "text_image",
+        "bbox": [
+            163,
+            417,
+            831,
+            625
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Click the Correlation Options button to set the defaults. Four categories of correlation available including uncorrelated for both multipath and rain. The user can choose to ignore the interference or to specify a value for the correlation. Remember that any setting here do not affect the base calculation. ",
+        "bbox": [
+            58,
+            651,
+            913,
+            705
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            187,
+            70
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "page_number",
+        "text": "Page 15 of 27 ",
+        "bbox": [
+            818,
+            954,
+            929,
+            972
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "EDITING CORRELATION ",
+        "text_level": 1,
+        "bbox": [
+            66,
+            97,
+            308,
+            113
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "The correlation can be edited on a case by case basis in the Modify Interference Parameters dialog. This can be accessed from the case detail report under the Modify menu selection. The antenna heights are shown under the designations: itx interfering transmitter atx victim receiver adjacent site transmitter ",
+        "bbox": [
+            60,
+            133,
+            542,
+            241
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "The correlation can also be edited directly in the Network display. Select Interference - Edit Correlation. The organization is the same as that used in the case detail report. Each receiver is a case. Each interferer into that receiver is a sub case. The interference path is shown on the network display which helps to assign values to the correlation. The arrows on the left changes the receiver (case) and the arrows on the right change the interfering transmitter (sub case) ",
+        "bbox": [
+            60,
+            258,
+            545,
+            402
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/a72d5e1b56d92d9251eb4ee4603c47074784f675343f2d41051b8b32b0240044.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Modify Interference Parameters\nVictim RX Woking\nInterfering TX Fairview\nFilter Improvement (dB) 0.00\nOther loss (dB)\nLong term OHLOSS (dB)\nShort term OHLOSS (dB)\nIgnore this case\nReset ignored cases\nCorrelation\nPartially correlated, itx 79.2, atx 55.2 m\nMultipath Rain\nIgnore Ignore\n5.00 Correlation (dB) Correlation (dB)\nOK Cancel Help",
+        "sub_type": "text_image",
+        "bbox": [
+            558,
+            97,
+            931,
+            452
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "The frequencies and polarization are shown along with the antenna heights using the same nomenclature as described above. In addition the following parameters are given: ",
+        "bbox": [
+            60,
+            455,
+            426,
+            526
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "v-i victim to interferer path length ang the discrimination angle at the victim receiver ",
+        "bbox": [
+            60,
+            527,
+            395,
+            578
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "ifl interfering signal level ",
+        "bbox": [
+            60,
+            580,
+            284,
+            598
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "td threshold degradation ",
+        "bbox": [
+            60,
+            599,
+            272,
+            616
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "The $\\left\\lfloor 5 ^ { \\circ } \\right\\rfloor$ button allows the user to go to a specific case number. The cross reference report can be used as an overall index ",
+        "bbox": [
+            60,
+            616,
+            398,
+            678
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/2292fc8c3a5fa1bdb5b8182b927223f1fbf438f36d3fdbb3c16db28b015430cd.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Rain - Multipath Correlation\nCase 1 of 24 Sub Case 1 of 2\nRX 5912.3750H TX 5912.3750V\nWoking Fairview\nfrom to\nFairview Brownvale\nPartially correlated, itx 79.2, atx 55.2 m\nv-i = 40.9 km ang = 0.0°, ifl = -107.4 dBm, td = 2.9 dB\nMultipath Rain\nIgnore Ignore\n5.0 Correlation (dB) Correlation (dB)\nClose Help\nFairview\nWoking",
+        "sub_type": "text_image",
+        "bbox": [
+            437,
+            455,
+            931,
+            724
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            68,
+            54,
+            187,
+            70
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "page_number",
+        "text": "Page 16 of 27 ",
+        "bbox": [
+            818,
+            955,
+            929,
+            972
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "ITU-T G.826 ERROR PERFORMANCE OBJECTIVES ",
+        "text_level": 1,
+        "bbox": [
+            254,
+            95,
+            736,
+            114
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "ITU-T G.826 defines performance of SDH radio systems in terms of the following parameters. ",
+        "bbox": [
+            58,
+            132,
+            807,
+            151
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Severely Errored Seconds Radio (SESR) ",
+        "bbox": [
+            58,
+            167,
+            385,
+            186
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Background Block Error Rate (BBER) ",
+        "bbox": [
+            62,
+            186,
+            369,
+            203
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Errored Seconds Ratio (ESR) ",
+        "bbox": [
+            62,
+            205,
+            297,
+            220
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "This section describes the Pathloss implementation of this recommendation. ",
+        "bbox": [
+            60,
+            223,
+            661,
+            239
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "SESR BIT ERROR RATE ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            258,
+            290,
+            273
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "A modified bit error rate is first determined as follows: ",
+        "bbox": [
+            60,
+            294,
+            496,
+            310
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\nB E R _ {S E S} ^ {\\prime} \\frac {0 . 4 5 8 @ a _ {1}}{\\text {bits per block}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            388,
+            313,
+            602,
+            354
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "table",
+        "img_path": "images/6214f2fab590227f587b254bffc2a70215450d435235de47899c11355c308148.jpg",
+        "table_caption": [
+            "BERses for various SDH paths and MS sections "
+        ],
+        "table_footnote": [
+            "NOTE 1 a = 1 indicates a Poisson distribution of errors. ",
+            "NOTE 2 The blocks/s are defined in ITU-T G.826 for SDH path, in ITU-T G.829 for SDH sections. ",
+            "Some STM-1 equipment might be designed with 8000 blocks/s (19 940 bits/block), but ITU-T G.829 defines the block rate and size to be 192 000 blocks/s and 801 bits/block, respectively. "
+        ],
+        "table_body": "<table><tr><td>Path type</td><td>Bit rate</td><td>BERses(Notes 1 and 2)</td><td>Block per second(Note 2)</td><td>Bits per Block(Note 2)</td></tr><tr><td>VC-11</td><td>1.5</td><td> $5.4 \\times 10^{-4}$  a</td><td>2000</td><td>832</td></tr><tr><td>VC-12</td><td>2</td><td> $4.0 \\times 10^{-4}$  a</td><td>2000</td><td>1120</td></tr><tr><td>VC-2</td><td>6</td><td> $1.3 \\times 10^{-4}$  a</td><td>2000</td><td>3424</td></tr><tr><td>VC-3</td><td>34</td><td> $6.5 \\times 10^{-5}$  a</td><td>8000</td><td>6120</td></tr><tr><td>VC-4</td><td>140</td><td> $2.1 \\times 10^{-5}$  a</td><td>8000</td><td>18792</td></tr><tr><td>STM-1</td><td>155</td><td> $2.3 \\times 10^{-5}$  a $1.3 \\times 10^{-5}$  a + 2.2</td><td>8000192000</td><td>19940801</td></tr></table>",
+        "bbox": [
+            63,
+            382,
+            931,
+            628
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "The value of the $\\mathrm { B E R } _ { \\mathrm { S E S } }$ will lie between the ${ { 1 0 } ^ { - 3 } }$ and ${ { 1 0 } ^ { - 6 } }$ BER. Determine the RX threshold level at the $\\mathrm { B E R } _ { \\mathrm { S E S } }$ as follows: ",
+        "bbox": [
+            58,
+            752,
+            897,
+            792
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\nm ^ {\\prime} \\frac {R X t h r e s h o l d _ {B E R 1 0 ^ {3}} \\& R X t h r e s h o l d _ {B E R 1 0 ^ {6}}}{3}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            232,
+            797,
+            604,
+            837
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\nR X t h r e s h o l d _ {B E R S E S} ^ {\\prime} R X t h r e s h o l d _ {B E R 1 0 ^ {6}} \\% m @ \\left(\\log_ {1 0} \\left(B E R _ {S E S}\\right) \\% 6\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            233,
+            848,
+            756,
+            875
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            187,
+            70
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "page_number",
+        "text": "Page 17 of 27 ",
+        "bbox": [
+            818,
+            955,
+            929,
+            972
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "MULTIPATH ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            97,
+            187,
+            113
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "The severely errored seconds ratio is the worst month multipath fade probability at the $\\mathrm { B E R } _ { \\mathrm { S E S } }$ receiver threshold. ",
+        "bbox": [
+            58,
+            132,
+            879,
+            167
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm{SESR} = \\mathrm{P} _ {\\mathrm{tSES}} = \\mathrm{P} _ {\\mathrm{t}} (\\mathrm{BER} _ {\\mathrm{SES}})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            60,
+            186,
+            284,
+            205
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Determine the fade probability in the worst month at the residual bit error rate receive threshold level. The residual BER (RBER) is in the range from 1 × 10-10 to 1 × 10-13 . $1 \\times 1 0 ^ { - 1 0 } \\mathrm { t o } 1 \\times 1 0 ^ { - 1 3 }$ ",
+        "bbox": [
+            58,
+            222,
+            898,
+            258
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm{P} _ {\\mathrm{tR}} = \\mathrm{P} _ {\\mathrm{t}} (\\mathrm{RBER})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            60,
+            258,
+            191,
+            277
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Calculate the slope of the BER distribution curve on a log - log scale for BER in the range $\\mathrm { B E R } _ { \\mathrm { S E S } }$ to RBER ",
+        "bbox": [
+            58,
+            294,
+            916,
+            314
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "text": "$$\nm ^ {\\prime} \\left\\langle \\frac {\\log_ {1 0} (R B E R) \\& \\log_ {1 0} (B E R _ {S E S})}{\\log_ {1 0} (P _ {t R}) \\& \\log_ {1 0} (P _ {t S E S})} \\right\\rangle\n$$",
+        "text_format": "latex",
+        "bbox": [
+            343,
+            316,
+            651,
+            367
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "The background bock error rate (BBER) is then given by: ",
+        "bbox": [
+            60,
+            383,
+            517,
+            402
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "text": "$$\nB B E R ^ {\\prime} S E S R @ \\frac {a _ {1}}{2 . 8 @ a _ {2} @ (m \\& 1)} \\% \\frac {N _ {B} @ R B E R}{a _ {3}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            313,
+            404,
+            679,
+            448
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "where ",
+        "bbox": [
+            60,
+            455,
+            114,
+            470
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "${ \\bf a } _ { 1 }$ 10 to 30, number of errors per burst for the BER in the range from $1 \\times { 1 0 } ^ { - 3 }$ to $\\mathrm { B E R } _ { \\mathrm { S E S } }$ ",
+        "bbox": [
+            60,
+            474,
+            805,
+            494
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "${ \\bf a } _ { 2 }$ 1 to 10, number of errors per burst for the BER in the range from $\\mathrm { B E R } _ { \\mathrm { S E S } }$ to RBER ",
+        "bbox": [
+            60,
+            498,
+            777,
+            517
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "${ \\bf { a } } _ { 3 }$ 1, number of errors per burst for the BER lower than RBER ",
+        "bbox": [
+            60,
+            518,
+            594,
+            537
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "$\\mathrm { N _ { B } }$ number of bits per block from the above table ",
+        "bbox": [
+            60,
+            539,
+            483,
+            556
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "The errored second ratio (ESR) is given by: ",
+        "bbox": [
+            60,
+            573,
+            406,
+            590
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "text": "$$\nESR^{\\prime} SESR^{\\circledast \\sqrt[m]{n}}\\% \\frac{n@N_{B}\\circ RBER}{a_{3}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            354,
+            593,
+            635,
+            637
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "where ",
+        "bbox": [
+            60,
+            646,
+            114,
+            660
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "n number of blocks per second from the above table ",
+        "bbox": [
+            60,
+            662,
+            517,
+            680
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "RAIN ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            699,
+            116,
+            714
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Calculate the unavailability due to rain, $\\mathrm { P _ { a R } }$ in the worst month at the $\\mathrm { B E R } _ { \\mathrm { S E S } }$ receiver threshold level. The BBER and ESR values for rain are obtained by substituting $\\mathrm { P _ { a R } }$ for SESR in the multipath calculation. ",
+        "bbox": [
+            58,
+            734,
+            903,
+            771
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "UNAVAILABILITY - SESR TRANSITION. ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            787,
+            441,
+            805
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "ITU-T G.826 considers unavailable time as the accumulation of all SES states lasting longer than 10 consecutive seconds. SESR time is the accumulation of all SES states lasting less than 10 consecutive seconds. It is assumed that rain fades will always last longer than 10 consecutive seconds and therefore rain fades are classed as unavailability. ITU-R P.530-8 states that multipath fades will always be less than 10 consecutive seconds and therefore will be classed as severely errored seconds. Under this definition rain fades are assigned to unavailability and multipath fades are assigned to SESR. ",
+        "bbox": [
+            58,
+            823,
+            929,
+            931
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            187,
+            70
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "page_number",
+        "text": "Page 18 of 27 ",
+        "bbox": [
+            816,
+            955,
+            929,
+            972
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "In the case of multipath fading, this is only true for large fade margins. In the Pathloss implementation of ITU G.821, the multipath fade duration statistics were considered and multipath fades lasting longer than 10 consecutive seconds were assigned to unavailability; the balance were assigned to severely errored seconds. This convention is used in the current implementation of G.826 ",
+        "bbox": [
+            58,
+            97,
+            926,
+            169
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "PATHLOSS PROGRAM DATA REQUIREMENTS ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            186,
+            504,
+            204
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "The following additional radio data is required to calculate G.826 error performance: ",
+        "bbox": [
+            60,
+            222,
+            730,
+            239
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "residual bit error rate ",
+        "bbox": [
+            60,
+            258,
+            232,
+            273
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "RX threshold at the residual bit error rate ",
+        "bbox": [
+            60,
+            276,
+            388,
+            292
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "RX threshold at the ${ { 1 0 } ^ { - 3 } }$ bit error rate ",
+        "bbox": [
+            60,
+            292,
+            357,
+            309
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "SES bit error rate (optional - can be program calculated) ",
+        "bbox": [
+            60,
+            311,
+            506,
+            329
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "RX threshold at the SES bit error rate (optional - can be program calculated) ",
+        "bbox": [
+            60,
+            330,
+            663,
+            347
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "${ \\bf a } _ { 1 }$ - number of errors per burst for the BER in the range from $1 \\times { 1 0 } ^ { - 3 }$ to ${ \\mathrm { B E R } } _ { \\mathrm { S E S } } .$ ",
+        "bbox": [
+            60,
+            349,
+            712,
+            369
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "${ \\bf a } _ { 2 }$ - number of errors per burst for the BER in the range from $\\mathrm { B E R } _ { \\mathrm { S E S } }$ to RBER ",
+        "bbox": [
+            60,
+            371,
+            687,
+            390
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "${ \\bf { a } } _ { 3 }$ - number of errors per burst for the BER lower than RBER ",
+        "bbox": [
+            60,
+            393,
+            553,
+            410
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "number of bits per block ",
+        "bbox": [
+            60,
+            412,
+            259,
+            428
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "number of blocks per second ",
+        "bbox": [
+            60,
+            430,
+            292,
+            446
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "The following additional radio data is required to calculate the selective fade probability using the equipment signature instead of the dispersive fade margin. ",
+        "bbox": [
+            58,
+            465,
+            921,
+            501
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "signature delay (nanoseconds) ",
+        "bbox": [
+            60,
+            518,
+            302,
+            536
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "signature width (MHz) ",
+        "bbox": [
+            60,
+            537,
+            245,
+            554
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "signature depth - minimum phase (dB) ",
+        "bbox": [
+            60,
+            555,
+            369,
+            571
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "signature depth - non minimum phase (dB) ",
+        "bbox": [
+            60,
+            573,
+            401,
+            590
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "The following parameters have been added to handle the P.530-8 performance calculations for cochannel operation using XPIC devices and IF combining on space diversity systems: ",
+        "bbox": [
+            58,
+            608,
+            888,
+            643
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "IF combiner gain (dB) ",
+        "bbox": [
+            60,
+            662,
+            241,
+            679
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "IF combiner selective fading improvement factor ",
+        "bbox": [
+            60,
+            680,
+            450,
+            696
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "XPIF - cross polarized improvement factor ",
+        "bbox": [
+            60,
+            698,
+            401,
+            715
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "$\\mathrm { X P D } _ { \\mathrm { X P I C } }$ - cross polarized discrimination of the XPIC device. ",
+        "bbox": [
+            60,
+            715,
+            549,
+            734
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Radio Data File (RAF - MRS) Changes ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            751,
+            393,
+            768
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "To accommodate these new data requirements, the radio data file formats have been expanded with the following new entries and several equipment /calculation options. ",
+        "bbox": [
+            58,
+            787,
+            874,
+            823
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "DIGRADIO\\_TYPE SDH // PDH, SDH or NB\\_DIGITAL narrow band digital ",
+        "bbox": [
+            60,
+            838,
+            761,
+            852
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "SD\\_OPERATION IFC // BBS or IFC baseband switch or IF combiner",
+        "bbox": [
+            60,
+            853,
+            761,
+            866
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "COCHANNEL\\_OPERATION YES // YES or NO",
+        "bbox": [
+            60,
+            867,
+            694,
+            878
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "USE\\_SIGNATURE YES // YES or NO use equipment signature ",
+        "bbox": [
+            60,
+            880,
+            694,
+            893
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "XPIF 17 // Cochannel XPD improvement factor ",
+        "bbox": [
+            60,
+            906,
+            663,
+            921
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            187,
+            70
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "page_number",
+        "text": "Page 19 of 27 ",
+        "bbox": [
+            816,
+            955,
+            929,
+            972
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "code",
+        "sub_type": "code",
+        "code_caption": [],
+        "code_body": "```cmake\nXPD_XPI 42 // XPD of the XPIC device\nIF_COMB_GAIN 3 // IF combiner gain\nLCOMB_FACTOR 10 // IF combiner selective fading improvement factor\nBITS_BLOCK 19940 // bits per block (SDH only)\nBLOCKS_SEC 8000 // blocks per second (SDH only)\nALPHA1 20 // (SDH only)\nALPHA2 5 // (SDH only)\nALPHA3 1 // (SDH only)\nSIGNATURE_DELAY_10-3 6.3 // signature delay (ns) at BER 10-3\nSIGNATURE_WIDTH_10-3 28 // signature width (MHz) at BER 10-3\nSIGNATURE_MINPH_10-3 23.4 // signature depth - minimum phase (dB) at BER 10-3\nSIGNATURE_NONMINPH_10-3 23.4 // signature depth - non minimum phase (dB) at BER 10-3\nSIGNATURE_DELAY_10-6 6.3 // signature delay (ns) at BER 10-6\nSIGNATURE_WIDTH_10-6 21.7 // signature width (MHz) at BER 10-6\nSIGNATURE_MINPH_10-6 21.7 // signature depth - minimum phase (dB) at BER 10-6\nSIGNATURE_NONMINPH_10-6 28.3 // signature depth - non minimum phase (dB) at BER 10-6\nSIGNATURE_DELAY_SES // signature delay (ns) at BER SES\nSIGNATURE_WIDTH_SES // signature width (MHz) at BER SES\nSIGNATURE_MINPH_SES // signature depth - minimum phase (dB) at BER SES\nSIGNATURE_NONMINPH_SES // signature depth - non minimum phase (dB) at BER SES\nRESIDUAL_BER 1.E-10 // residual bit error rate - scientific notation\nRXTHRESH_RBER -66 // RX threshold at RBER (dBm)\nSES_BER // SES bit error rate - scientific notation\nRXTHRESH_SES_BER // RX threshold at BERses (dBm) \n```",
+        "bbox": [
+            60,
+            93,
+            890,
+            502
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "The new mnemonics can be placed any where in the file following the header and before the curve data. Blank lines are allowed and comments starting with a double forward slash // can be used. ",
+        "bbox": [
+            58,
+            520,
+            879,
+            555
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Several equipment / calculation options have been included: ",
+        "bbox": [
+            60,
+            573,
+            539,
+            590
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "DIGRADIO\\_TYPE SDH ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            590,
+            266,
+            607
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Permissible values are PDH, SDH or NB\\_DIGITAL( narrow band digital). These options only affect the formatting of the data entry forms in the microwave worksheet. For example, signature data or the dispersive fade margin cannot be accessed with the NB\\_DIGITAL radio type set. ",
+        "bbox": [
+            58,
+            609,
+            919,
+            662
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "SD\\_OPERATION",
+        "text_level": 1,
+        "bbox": [
+            60,
+            680,
+            212,
+            696
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Permissible values are IFC for IF combining and BBS for baseband switching. This option automatically set the space diversity improvement calculation to IF combining or baseband switching. The default value is baseband switching. ",
+        "bbox": [
+            58,
+            698,
+            913,
+            752
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "COCHANNEL\\_OPERATION",
+        "text_level": 1,
+        "bbox": [
+            60,
+            770,
+            307,
+            787
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Permissible values are YES or NO. This sets the Cochannel operation option in the Reliability Options dialog box. The default value is NO. ",
+        "bbox": [
+            58,
+            787,
+            924,
+            821
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "USE\\_SIGNATURE ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            840,
+            223,
+            858
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Permissible options are YES for selective fading calculations using the equipment signature or NO to use the dispersive fade margin and dispersive fade occurrence factor. Note that this options has the effect of calculating diversity improvement is strict accordance with P.530-8. ",
+        "bbox": [
+            58,
+            859,
+            919,
+            912
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            189,
+            71
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "page_number",
+        "text": "Page 20 of 27 ",
+        "bbox": [
+            818,
+            955,
+            929,
+            972
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Microwave Worksheet Radio Data Entry Forms ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            97,
+            470,
+            114
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "All of the new radio data can be accessed in the radio data entry forms in the microwave worksheet. The format of these forms have been modified to include all of the new data. ",
+        "bbox": [
+            60,
+            132,
+            883,
+            167
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Radio Lookup Tables ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            186,
+            248,
+            205
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "All of the radio data is included in a lookup entry; however, the following data items cannot be edited: ",
+        "bbox": [
+            60,
+            222,
+            867,
+            239
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "residual bit error rate ",
+        "bbox": [
+            60,
+            258,
+            232,
+            273
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "RX threshold at the residual bit error rate ",
+        "bbox": [
+            60,
+            276,
+            388,
+            291
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "RX threshold at the ${ { 1 0 } ^ { - 3 } }$ bit error rate ",
+        "bbox": [
+            60,
+            292,
+            357,
+            309
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "SES bit error rate (optional - can be program calculated) ",
+        "bbox": [
+            60,
+            311,
+            506,
+            329
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "RX threshold at the SES bit error rate (optional - can be program calculated) ",
+        "bbox": [
+            60,
+            330,
+            663,
+            347
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "${ \\bf a } _ { 1 }$ - number of errors per burst for the BER in the range from $1 \\times { 1 0 } ^ { - 3 }$ to $\\operatorname { B E R } _ { \\operatorname { S E S } } .$ ",
+        "bbox": [
+            60,
+            349,
+            712,
+            369
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "${ \\bf a } _ { 2 }$ - number of errors per burst for the BER in the range from $\\mathrm { B E R } _ { \\mathrm { S E S } }$ to RBER ",
+        "bbox": [
+            60,
+            371,
+            687,
+            390
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "${ \\bf { a } } _ { 3 }$ - number of errors per burst for the BER lower than RBER ",
+        "bbox": [
+            60,
+            393,
+            553,
+            410
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "number of bits per block ",
+        "bbox": [
+            60,
+            412,
+            259,
+            428
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "number of blocks per second ",
+        "bbox": [
+            60,
+            430,
+            292,
+            446
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "IF combiner gain (dB) ",
+        "bbox": [
+            60,
+            448,
+            241,
+            464
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "IF combiner selective fading improvement factor ",
+        "bbox": [
+            60,
+            465,
+            450,
+            482
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "XPIF - cross polarized improvement factor ",
+        "bbox": [
+            60,
+            484,
+            403,
+            500
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "$\\mathrm { X P D } _ { \\mathrm { X P I C } }$ - cross polarized discrimination of the XPIC device ",
+        "bbox": [
+            60,
+            501,
+            544,
+            520
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "If a lookup table is to be used for G.826 operation, then the data must be imported from a radio data file. To create a new radio entry similar to an existing one, click the left on the similar entry on the left column. The item number will turn red. Then select Edit - Add and make the required changes to the visible portion of the data. The new entry will contain the same hidden data values. ",
+        "bbox": [
+            60,
+            536,
+            460,
+            679
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "image",
+        "img_path": "images/e732b60a4fecb31ac3e34721820dbc017b86d2d3836924c59febd51bf6b507ea.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Reliability Options\nReliability Method\nVigants - Barnett\nRec. ITU-R P.530-6\nRec. ITU-R P.530-7/8\nKQ factor\nKQ * S^(-1.3)\nKQ Frequency Exponent 1.20\nKQ Distance Exponent 3.50\nTime percentages\n99.9999 %\n0.0001 %\nOK\nCancel\nHelp\nCalculation Method\nTotal Annual Time Below Level\nITU-T G.821 (PDH) SES - Unavailability\nITU-T G.826 (SDH) SESR, BBER, ESR, unavailability\nDispersive outage calculation\nDispersive fade margin\nEquipment signature\nType\nNarrow band digital or analog\nWideband digital PDH\nWideband digital SDH\nCochannel operation",
+        "sub_type": "text_image",
+        "bbox": [
+            480,
+            530,
+            931,
+            934
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            187,
+            70
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "page_number",
+        "text": "Page 21 of 27 ",
+        "bbox": [
+            818,
+            954,
+            929,
+            972
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "ITU P.530-8 SELECTIVE OUTAGE AND DIVERSITY IMPROVEMENT FACTORS ",
+        "text_level": 1,
+        "bbox": [
+            127,
+            95,
+            862,
+            113
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "The Reliability options includes a selection to use the dispersive fade margin or the equipment signature for dispersive outage calculations. ",
+        "bbox": [
+            58,
+            132,
+            910,
+            169
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "If the equipment signature option is selected, all diversity improvement (space, frequency and quad) will be carried out in accordance with P.530-8. ",
+        "bbox": [
+            58,
+            186,
+            908,
+            220
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "This specifics of each calculation are given in the following sections. ",
+        "bbox": [
+            60,
+            239,
+            604,
+            258
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "SELECTIVE FADING OUTAGE ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            276,
+            349,
+            292
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "The outage probability is defined as the probability that the BER exceeds a given threshold as defined by the BER of the signature data. ",
+        "bbox": [
+            58,
+            311,
+            916,
+            345
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l} P _ {s} ^ {\\prime} \\frac {\\mathrm{n}}{2} @ \\frac {W @ \\left(b _ {N} \\& b _ {M}\\right)}{\\mathrm{t} _ {\\mathrm{r}} @ 1 0 ^ {3}} @ \\left(\\mathrm{u} ^ {2} \\% \\mathrm{v} ^ {2}\\right) \\\\ n ^ {\\prime} 1 \\& e ^ {\\& 0. 2 @ P _ {0} ^ {0. 7 5}} \\\\ b _ {N} ^ {\\prime} \\frac {1}{1 \\& 1 0 ^ {\\& \\frac {B _ {N}}{2 0}}} \\\\ b _ {M} ^ {\\prime} 1 \\& 1 0 ^ {\\& \\frac {B _ {M}}{2 0}} \\\\ u ^ {\\prime} 0. 7 @ \\frac {D}{5 0} \\\\ \\mathrm{v} ^ {2} \\text { ’ } 0. 4 9 @ \\frac {D}{5 0} \\\\ \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            359,
+            347,
+            625,
+            590
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "where ",
+        "bbox": [
+            63,
+            599,
+            112,
+            613
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "$\\mathrm { \\Delta B _ { N } }$ non minimum phase signature depth ",
+        "bbox": [
+            63,
+            616,
+            410,
+            633
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "${ \\tt B } _ { \\mathrm { M } }$ minimum phase signature depth ",
+        "bbox": [
+            63,
+            635,
+            375,
+            652
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "$\\mathbf { W }$ signature width (MHz) ",
+        "bbox": [
+            63,
+            652,
+            303,
+            667
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "$\\mathbf { n }$ multipath activity factor ",
+        "bbox": [
+            63,
+            670,
+            313,
+            686
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "$\\mathfrak { t } _ { \\mathrm { r } }$ reference delay (ns) ",
+        "bbox": [
+            63,
+            689,
+            279,
+            705
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "$\\mathbf { u }$ mean echo delay time (ns) ",
+        "bbox": [
+            63,
+            707,
+            330,
+            722
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "$\\mathrm { v } ^ { 2 }$ standard deviation of the delay time ",
+        "bbox": [
+            63,
+            722,
+            405,
+            739
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "$\\mathrm { D }$ path length (km) ",
+        "bbox": [
+            63,
+            742,
+            254,
+            758
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "$\\mathrm { P _ { 0 } }$ fade occurrence factor ",
+        "bbox": [
+            63,
+            760,
+            299,
+            777
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            187,
+            70
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "page_number",
+        "text": "Page 22 of 27 ",
+        "bbox": [
+            818,
+            954,
+            929,
+            972
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "SPACE DIVERSITY IMPROVEMENT ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            95,
+            403,
+            113
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "The non selective space diversity improvement factor is given by: ",
+        "bbox": [
+            60,
+            132,
+            580,
+            151
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\nI _ {s d n s} ^ {\\prime} \\left[ 1 \\& \\exp \\left(\\& 3. 3 4 @ 1 0 ^ {\\& 4} @ S ^ {0. 8 7} @ f ^ {\\& 0. 1 2} @ d ^ {0. 4 8} @ P _ {0} ^ {\\& 1. 0 4}\\right) \\right] @ 1 0 ^ {\\frac {A \\& d G \\% I _ {c o m b}}{1 0}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            220,
+            170,
+            769,
+            213
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "where ",
+        "bbox": [
+            60,
+            223,
+            114,
+            238
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "$\\mathrm { P _ { 0 } }$ fade occurrence factor ",
+        "bbox": [
+            60,
+            239,
+            302,
+            258
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "$^ { d \\mathrm { G } }$ absolute value of the difference of the main and diversity antenna gains ",
+        "bbox": [
+            60,
+            258,
+            684,
+            276
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "$\\mathbf { A }$ flat fade margin ",
+        "bbox": [
+            60,
+            277,
+            250,
+            292
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "$\\mathbf { S }$ vertical separation between main and diversity antennas (m center to center) ",
+        "bbox": [
+            60,
+            294,
+            720,
+            311
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "d path length (km) ",
+        "bbox": [
+            60,
+            311,
+            254,
+            329
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "$\\mathrm { I } _ { \\mathrm { c o m b } }$ IF combiner gain dB (0 for baseband switching applications) ",
+        "bbox": [
+            60,
+            329,
+            599,
+            349
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "The corresponding Vigants space diversity improvement factor is given by: ",
+        "bbox": [
+            60,
+            364,
+            656,
+            383
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\nI _ {s d n s} ^ {\\prime} 1. 2 @ 1 0 ^ {\\& 3} @ \\frac {f}{d} @ S ^ {2} @ v ^ {2} @ 1 0 ^ {\\frac {A}{1 0}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            362,
+            383,
+            627,
+            426
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "It is always interesting to compare different methods: ",
+        "bbox": [
+            60,
+            436,
+            483,
+            454
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Assuming equal main and diversity antenna gains dG = 0, v = 1 and $\\mathrm { I } _ { \\mathrm { c o m b } } = 0$ , a system with the following parameters: ",
+        "bbox": [
+            60,
+            454,
+            898,
+            489
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "$\\mathrm { P _ { 0 } }$ 1.62524 ",
+        "bbox": [
+            60,
+            491,
+            250,
+            508
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "path length 51.925 kilometers ",
+        "bbox": [
+            60,
+            508,
+            326,
+            525
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "frequency 5.8825 GHz ",
+        "bbox": [
+            60,
+            526,
+            279,
+            542
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "S 18 meters ",
+        "bbox": [
+            60,
+            544,
+            261,
+            560
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "A 34.5 dB ",
+        "bbox": [
+            60,
+            561,
+            245,
+            578
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "would produce a non selective space diversity improvement factor of 37 using the ITU method versus 124 for the Vigants method. Here the same value for $\\mathrm { P _ { 0 } }$ is used for both methods. The ITU fade occurrence factor tends to be much smaller than Vigants and this tends to offset the differences. ",
+        "bbox": [
+            58,
+            597,
+            923,
+            652
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "The selective outage probability is calculated as follows: ",
+        "bbox": [
+            60,
+            669,
+            511,
+            686
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Calculate the square of the non selective correlation coefficient, $\\mathbf { k } _ { \\mathrm { n s } }$ ",
+        "bbox": [
+            60,
+            705,
+            594,
+            724
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\nk _ {n s} ^ {2} \\text {,} 1 \\& \\frac {I _ {n s} @ P _ {n s}}{\\mathrm{n}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            418,
+            724,
+            571,
+            763
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "where ",
+        "bbox": [
+            60,
+            777,
+            114,
+            791
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "$\\mathrm { { I _ { n s } } }$ non selective space diversity improvement factor ",
+        "bbox": [
+            60,
+            794,
+            509,
+            813
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "$\\mathrm { { \\cal P } _ { n s } }$ probability of a non selective outage ",
+        "bbox": [
+            60,
+            813,
+            410,
+            830
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "n multipath activity factor ",
+        "bbox": [
+            60,
+            830,
+            315,
+            848
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Calculate the square of the selective correlation coefficient, ${ \\bf k } _ { \\mathrm { s } }$ ",
+        "bbox": [
+            60,
+            864,
+            552,
+            885
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            187,
+            70
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "page_number",
+        "text": "Page 23 of 27 ",
+        "bbox": [
+            816,
+            954,
+            929,
+            972
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\nk _ {s} ^ {2} \\text {   '   } 0. 8 2 3 8 \\quad f o r r _ {w} \\# 0. 5\n$$",
+        "text_format": "latex",
+        "bbox": [
+            222,
+            104,
+            460,
+            128
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nk _ {s} ^ {2} \\text {,} 1 \\& 0. 1 9 5 @ (1 \\& r _ {w}) ^ {0. 1 0 9 \\& 0. 1 3 @ \\log_ {1 0} (1 \\& r _ {w})} \\quad f o r 0. 5 <   r _ {w} \\# 0. 9 6 2 8\n$$",
+        "text_format": "latex",
+        "bbox": [
+            222,
+            141,
+            767,
+            170
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nk _ {s} ^ {2} \\text { ’ } 1 \\& 0. 3 9 5 7 @ (1 \\& r _ {w}) ^ {0. 5 1 3 6} \\quad f o r r _ {w} > 0. 9 6 2 8\n$$",
+        "text_format": "latex",
+        "bbox": [
+            223,
+            181,
+            625,
+            208
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr _ {w} ^ {\\prime} 1 \\& 0. 9 7 4 6 @ \\left(1 \\& k _ {n s} ^ {2}\\right) ^ {2. 1 7 0} \\quad f o r k _ {n s} ^ {2} \\# 0. 2 6\n$$",
+        "text_format": "latex",
+        "bbox": [
+            223,
+            217,
+            609,
+            247
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr _ {w} ^ {\\prime} 1 \\& 0. 6 9 2 1 @ \\left(1 \\& k _ {n s} ^ {2}\\right) ^ {1. 0 3 4} \\quad f o r k _ {n s} ^ {2} > 0. 2 6\n$$",
+        "text_format": "latex",
+        "bbox": [
+            223,
+            257,
+            607,
+            286
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "The non selective outage probability is given by $P _ { s d n s } ^ { \\phantom { \\dagger } } \\cdot \\frac { P _ { n s } } { I _ { s d n s } }$ Isdns P ",
+        "bbox": [
+            60,
+            311,
+            550,
+            357
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "The selective outage probability is given by ",
+        "bbox": [
+            60,
+            377,
+            410,
+            395
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nP _ {s d s} \\cdot \\frac {\\left(\\frac {P _ {s}}{L _ {c o m b}}\\right) ^ {2}}{\\mathrm{n} @ \\left(1 \\& k _ {s} ^ {2}\\right)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            419,
+            395,
+            573,
+            479
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "where $\\mathrm { L } _ { \\mathrm { c o m b } }$ is the selective improvement factor due to the combiner. ",
+        "bbox": [
+            60,
+            484,
+            606,
+            503
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "The total outage probability is then given by $P s d ~ ^ { \\cdot } ~ \\left( P _ { s d n s } ^ { 0 . 7 5 } ~ \\% ~ P _ { s d s } ^ { 0 . 7 5 } \\right) ^ { 1 . 3 3 }$ ",
+        "bbox": [
+            60,
+            518,
+            617,
+            547
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "FREQUENCY DIVERSITY IMPROVEMENT ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            566,
+            464,
+            584
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "The non selective frequency diversity improvement is essentially the same as the Vigants formula: ",
+        "bbox": [
+            60,
+            602,
+            836,
+            619
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nI _ {f d n s} \\cdot \\frac {8 0}{f @ d} @ \\frac {d f}{f} @ 1 0 ^ {\\frac {A}{1 0}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            406,
+            623,
+            583,
+            667
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "The Vigants method assumes that this improvement factor is valid for non selective and selective fades. The ITU method calculates the selective outage exactly as in the case of space diversity above using $\\mathrm { I } _ { \\mathrm { c o m b } } = 0$ and $\\mathrm { L } _ { \\mathrm { c o m b } } = 1$ . ",
+        "bbox": [
+            58,
+            672,
+            921,
+            729
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "QUAD DIVERSITY IMPROVEMENT ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            744,
+            397,
+            762
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "The non selective quad diversity improvement factor is the sum of the space and frequency diversity factors ",
+        "bbox": [
+            58,
+            781,
+            910,
+            799
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm{I} _ {\\mathrm{qdns}} = \\mathrm{I} _ {\\mathrm{sdns}} + \\mathrm{I} _ {\\mathrm{fdns}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            60,
+            816,
+            214,
+            838
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "The square of the non selective correlation coefficient is given by ",
+        "bbox": [
+            60,
+            852,
+            580,
+            869
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm{k} _ {\\mathrm{ns}} = \\mathrm{k} _ {\\mathrm{ns} \\mathrm{sd}} \\times \\mathrm{k} _ {\\mathrm{ns} \\mathrm{fd}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            60,
+            872,
+            207,
+            890
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "The selective outage is calculated exactly as in the case of space diversity using $\\mathrm { I _ { c o m b } = 0 \\ a n d L _ { c o m b } = 1 }$ for baseband switching applications. ",
+        "bbox": [
+            58,
+            888,
+            905,
+            925
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            187,
+            70
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "page_number",
+        "text": "Page 24 of 27 ",
+        "bbox": [
+            816,
+            955,
+            929,
+            972
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "COCHANNEL OPERATION",
+        "text_level": 1,
+        "bbox": [
+            367,
+            97,
+            622,
+            113
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "This paragraph describes the procedure to calculate the threshold degradation due to the cross polarized discrimination on radio links operating in a cochannel mode. The XPD will degrade under multipath fading and high intensity rain conditions. Cochannel operation is set by selecting Operations - Reliability and then checking the cochannel operation option. The data is accessed by selecting Operations - Cochannel XPD Interference. ",
+        "bbox": [
+            58,
+            133,
+            326,
+            400
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "table",
+        "img_path": "images/9e9b6e705d973116c1a9c2ca139650de41c736cb74894ad7c9c2a8b056338feb.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td colspan=\"3\">Cochannel XPD Interference</td></tr><tr><td colspan=\"3\">OK Cancel Help</td></tr><tr><td></td><td>Site 1</td><td>Site 2</td></tr><tr><td>Antenna XPD (dB)</td><td>35.00</td><td>35.00</td></tr><tr><td>TX antenna spacing (m)</td><td></td><td></td></tr><tr><td>XPIF (dB)</td><td>17.00</td><td>17.00</td></tr><tr><td>XPIC device XPD (dB)</td><td>42.00</td><td>42.00</td></tr><tr><td>XPD fade margin - multipath (dB)</td><td>17.36</td><td>17.36</td></tr><tr><td>XPD threshold degradation - multipath (dB)</td><td>38.15</td><td>38.15</td></tr><tr><td>XPD fade margin - rain (dB)</td><td>18.64</td><td>18.64</td></tr><tr><td>XPD threshold degradation - rain (dB)</td><td>36.87</td><td>36.87</td></tr><tr><td colspan=\"3\">Site 1 Antenna XPD (dB):</td></tr></table>",
+        "bbox": [
+            334,
+            132,
+            929,
+            377
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "XPD DEGRADATION DUE TO MULTIPATH ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            417,
+            465,
+            435
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "1. Calculate ",
+        "text_level": 1,
+        "bbox": [
+            62,
+            454,
+            161,
+            470
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "text": "$$\nX P D _ {0} ^ {\\prime} X P D _ {g} \\% 5 \\quad \\text { for } X P D _ {g} \\# 3 5\n$$",
+        "text_format": "latex",
+        "bbox": [
+            336,
+            473,
+            653,
+            497
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "text": "$$\nX P D _ {0} ^ {\\prime} 4 0 \\quad f o r X P D _ {g} > 3 5\n$$",
+        "text_format": "latex",
+        "bbox": [
+            338,
+            507,
+            589,
+            530
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "where $X P D _ { \\mathrm { g } }$ is the minimum value of the transmit and receive antenna XPD’s measured on the boresight. ",
+        "bbox": [
+            60,
+            544,
+            890,
+            564
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "2 Calculate the multipath activity parameter ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            580,
+            413,
+            598
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm{n} ^ {\\prime} 1 \\& \\mathrm{e} ^ {\\& 0. 2 @ \\mathrm{P} _ {0} ^ {0. 7 5}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            418,
+            599,
+            571,
+            625
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "where $P _ { 0 }$ is the multipath occurrence factor corresponding to the percentage of time that a fade greater than 0 dB occurs in the average worst month. ",
+        "bbox": [
+            58,
+            633,
+            919,
+            669
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "3 Calculate ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            686,
+            155,
+            703
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "text": "$$\nQ ^ {\\prime} \\& 1 0 @ \\log_ {1 0} \\left(\\frac {K _ {x p} @ n}{P _ {0}}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            395,
+            704,
+            591,
+            758
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            189,
+            71
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "page_number",
+        "text": "Page 25 of 27 ",
+        "bbox": [
+            818,
+            955,
+            929,
+            972
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "where ",
+        "bbox": [
+            60,
+            98,
+            114,
+            112
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "$K _ { _ { X P } } \\ ^ { , } \\quad 0 . 7$ for one transmit antenna ",
+        "bbox": [
+            228,
+            114,
+            550,
+            137
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "$K _ { \\scriptscriptstyle { X P } } ^ { \\mathrm { ~ ~ , ~ } } \\mathrm { ~ 1 ~ \\& ~ 0 . 3 \\ @ e x p } \\left[ \\& 4 \\ @ \\mathrm { l } 0 ^ { 8 6 } d \\left( \\frac { S _ { t } } { \\ddot { \\mathrm { e } } } \\right) ^ { 2 } \\right] \\quad \\mathrm { f o r ~ t w o ~ t r a n s m i t ~ a n t e n n a s }$ ",
+        "bbox": [
+            228,
+            147,
+            759,
+            204
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Calculate ",
+        "bbox": [
+            60,
+            222,
+            142,
+            238
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nC ^ {\\prime} X P D _ {0} \\% Q\n$$",
+        "text_format": "latex",
+        "bbox": [
+            426,
+            239,
+            565,
+            262
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "The carrier to cochannel interference ratio is then given by: ",
+        "bbox": [
+            60,
+            276,
+            529,
+            292
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {C _ {0}}{I _ {c o c h}} \\cdot \\& 1 0 @ \\log_ {1 0} \\left(1 0 ^ {\\& \\frac {X P D _ {G T X}}{1 0}} \\% 1 0 ^ {\\& \\frac {X P D _ {G R X}}{1 0}} \\% 1 0 ^ {\\& \\frac {(C \\& A)}{1 0}}\\right) \\% 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            250,
+            294,
+            743,
+            351
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "for radios not equipped with an XPIC device and by the following equation for XPIC equipped radios.. ",
+        "bbox": [
+            58,
+            383,
+            870,
+            402
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {C _ {0}}{I _ {\\text { coch   mpth }}} \\cdot \\& 1 0 @ \\log_ {1 0} \\left(1 0 ^ {\\& \\frac {X P D _ {\\text { xpic}}}{1 0}} \\% 1 0 ^ {\\& \\frac {X P D _ {\\text { GTX }} \\% X P I F}{1 0}} \\% 1 0 ^ {\\& \\frac {X P D _ {\\text { GRX }} \\% X P I F}{1 0}} \\% 1 0 ^ {\\& \\frac {(C \\% X P I F \\& A)}{1 0}}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            140,
+            406,
+            848,
+            465
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "where ",
+        "bbox": [
+            60,
+            491,
+            114,
+            505
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "XPIF is the improvement due to the XPIC device ",
+        "bbox": [
+            60,
+            508,
+            478,
+            525
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "$\\mathrm { X P D } _ { \\mathrm { G } }$ is the coss polarized discrimination of the antennas ",
+        "bbox": [
+            60,
+            527,
+            540,
+            542
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "$\\mathrm { { X P D } _ { \\mathrm { { x p i c } } } }$ is the XPD of the XPIC device ",
+        "bbox": [
+            60,
+            545,
+            380,
+            561
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "A is the fade margin including the effects of interference due to other transmitters ",
+        "bbox": [
+            60,
+            563,
+            759,
+            579
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "The 2 dB improvement in the non XPIC case is due to the Gaussian properties of the interfering crosspolar signal. This figure is included in the XPIF for XPIC equipped radios. ",
+        "bbox": [
+            58,
+            598,
+            903,
+            635
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "XPD Degradation due to Rain ",
+        "bbox": [
+            60,
+            669,
+            303,
+            686
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "The XPD reduction factor due to high intensity rain is given by the equation ",
+        "bbox": [
+            60,
+            705,
+            663,
+            722
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nX P D _ {R A I N} ^ {\\prime} 15 \\% 30 @ \\log_ {1 0} (f _ {G H z}) \\& 12.8 @ f _ {G H z} ^ {0. 1 9} @ \\log_ {1 0} (A) \\quad \\text { for } f _ {G H z} \\# 20 G H z\n$$",
+        "text_format": "latex",
+        "bbox": [
+            184,
+            724,
+            803,
+            751
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nX P D _ {R A I N} ^ {\\prime} 15 \\% 30 @ \\log_ {1 0} (f _ {G H z}) \\& 22. 6 @ \\log_ {1 0} (A) \\quad f o r f _ {G H z} > 20 G H z\n$$",
+        "text_format": "latex",
+        "bbox": [
+            187,
+            758,
+            759,
+            785
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "The corresponding carrier to cochannel interference ratio is then given by: ",
+        "bbox": [
+            60,
+            795,
+            645,
+            811
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {C _ {0}}{I _ {\\text {coch rain}}} \\cdot \\& 1 0 @ \\log_ {1 0} \\left(1 0 ^ {\\& \\frac {X P D _ {G T X}}{1 0}} \\% 1 0 ^ {\\& \\frac {X P D _ {G R X}}{1 0}} \\% 1 0 ^ {\\& \\frac {X P D _ {R A I N}}{1 0}}\\right) \\% 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            230,
+            813,
+            761,
+            869
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            187,
+            70
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            73
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "page_number",
+        "text": "Page 26 of 27 ",
+        "bbox": [
+            818,
+            955,
+            929,
+            972
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {C _ {0}}{I _ {\\text { coch   rain }}} \\cdot \\& 1 0 @ \\log_ {1 0} \\left(1 0 ^ {\\& \\frac {X P D _ {\\text { xpic}}}{1 0}} \\% 1 0 ^ {\\& \\frac {X P D _ {\\text { GTX }} \\% X P I F}{1 0}} \\% 1 0 ^ {\\& \\frac {X P D _ {\\text { GRX }} \\% X P I F}{1 0}} \\% 1 0 ^ {\\& \\frac {X P D _ {\\text { RAIN }} \\% X P I F}{1 0}}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            138,
+            95,
+            851,
+            154
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "where the parameters are the same as defined above. ",
+        "bbox": [
+            60,
+            169,
+            478,
+            186
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "header",
+        "text": "Pathloss 4.0 ",
+        "bbox": [
+            66,
+            54,
+            187,
+            70
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "header",
+        "text": "May 2001 Program Build ",
+        "bbox": [
+            697,
+            54,
+            929,
+            71
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "page_number",
+        "text": "Page 27 of 27 ",
+        "bbox": [
+            818,
+            955,
+            929,
+            972
+        ],
+        "page_idx": 27
+    }
+]

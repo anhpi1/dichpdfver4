@@ -1,0 +1,859 @@
+{
+    "pdf_info": [
+        {
+            "discarded_blocks": [],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "type": "image",
+                    "bbox": [
+                        276,
+                        50,
+                        541,
+                        168
+                    ],
+                    "index": 2,
+                    "sub_type": "text_image",
+                    "image_path": "561fbf26d618f5b36d21b7e3a703316f1ca66ad3e897063dda7ca45ad785e5c9.jpg",
+                    "original_bbox": [
+                        276,
+                        50,
+                        541,
+                        168
+                    ]
+                },
+                {
+                    "bbox": [
+                        69,
+                        51,
+                        275,
+                        83
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 0,
+                    "content": "Phép chiếu",
+                    "original_bbox": [
+                        69,
+                        51,
+                        229,
+                        68
+                    ],
+                    "size": 33
+                },
+                {
+                    "bbox": [
+                        68,
+                        84,
+                        275,
+                        174
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 1,
+                    "merge_prev": false,
+                    "content": "Gauss Kruger",
+                    "original_bbox": [
+                        68,
+                        84,
+                        272,
+                        173
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        68,
+                        175,
+                        611,
+                        216
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "Hệ tọa độ Gauss Kruger được triển khai như một phép chiếu Transverse Mercator tổng quát. Các tham số cụ thể được thiết lập trong hộp thoại Geographic Defaults. Chọn Configure - Geographic defaults. Đặt hệ tọa độ lưới [2] thành Gauss Kruger. Nút định nghĩa tham số Gauss Kruger sẽ hoạt động khi lựa chọn tọa độ lưới được thực hiện.",
+                    "original_bbox": [
+                        68,
+                        175,
+                        530,
+                        202
+                    ],
+                    "size": 14
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        110,
+                        217,
+                        536,
+                        578
+                    ],
+                    "index": 4,
+                    "image_path": "1f48898800b03675a489256bcb46f50a690b9de2b96315117a40c08b97973203.jpg",
+                    "original_bbox": [
+                        110,
+                        217,
+                        536,
+                        578
+                    ]
+                },
+                {
+                    "bbox": [
+                        68,
+                        594,
+                        611,
+                        638
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "Kinh độ và vĩ độ gốc có thể được nhập dưới dạng độ thập phân hoặc độ phút giây với khoảng trắng phân cách các giá trị.",
+                    "original_bbox": [
+                        68,
+                        594,
+                        540,
+                        624
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        68,
+                        639,
+                        611,
+                        668
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "Nút Swedish Grid thiết lập các tham số cho hệ tọa độ lưới Thụy Điển.",
+                    "original_bbox": [
+                        68,
+                        639,
+                        453,
+                        653
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        67,
+                        669,
+                        611,
+                        791
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "merge_prev": false,
+                    "content": "Khi các định nghĩa hoàn tất, đóng hộp thoại bằng nút OK. Các tham số sẽ được lưu trong tệp có tên gauskrug.bin trong thư mục chương trình pathloss. Tất cả các chuyển đổi giữa tọa độ địa lý và easting - northings sẽ sử dụng các định nghĩa này.",
+                    "original_bbox": [
+                        67,
+                        669,
+                        537,
+                        715
+                    ],
+                    "size": 18
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 1,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        69,
+                        51,
+                        611,
+                        80
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 0,
+                    "content": "Ellipsoid - Datum",
+                    "original_bbox": [
+                        69,
+                        51,
+                        159,
+                        65
+                    ],
+                    "size": 33
+                },
+                {
+                    "bbox": [
+                        67,
+                        81,
+                        611,
+                        139
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 1,
+                    "merge_prev": false,
+                    "content": "Ngoài các tham số Transverse Mercator đã chỉ định, việc chuyển đổi giữa tọa độ địa lý và easting - northings dựa trên định nghĩa ellipsoid. Cả hai ellipsoid Bessel và Krassovsky đều được sử dụng. Do đó, bạn phải chọn một ellipsoid và đánh dấu nút Use Ellipsoid trong hộp thoại Geographic defaults.",
+                    "original_bbox": [
+                        67,
+                        81,
+                        518,
+                        140
+                    ],
+                    "size": 16
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        286,
+                        140,
+                        531,
+                        186
+                    ],
+                    "index": 3,
+                    "sub_type": "text_image",
+                    "image_path": "6615a59357f23777afb1b7fff8ee2decca6db64fc472b042fd60e4048139132a.jpg",
+                    "original_bbox": [
+                        286,
+                        140,
+                        531,
+                        186
+                    ]
+                },
+                {
+                    "bbox": [
+                        68,
+                        141,
+                        285,
+                        185
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "Lưu ý rằng không có datum nào tương ứng với hai ellipsoid này.",
+                    "original_bbox": [
+                        68,
+                        141,
+                        265,
+                        171
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        69,
+                        186,
+                        611,
+                        215
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 4,
+                    "content": "Cơ sở dữ liệu địa hình",
+                    "original_bbox": [
+                        69,
+                        186,
+                        162,
+                        199
+                    ],
+                    "size": 33
+                },
+                {
+                    "bbox": [
+                        67,
+                        216,
+                        611,
+                        290
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "Tùy chọn cơ sở dữ liệu địa hình Odyssey - Gauss Kruger đã được triển khai cho phép chiếu này. Tùy chọn này có thể được sử dụng với bất kỳ cơ sở dữ liệu địa hình nào có độ cao được sắp xếp theo hàng từ tây sang đông như MSI Planet. Các định nghĩa Gauss Kruger cũng có thể được thiết lập như một phần của cấu hình cơ sở dữ liệu. Điều này tương tự như việc thiết lập các tham số trong Geographic defaults.",
+                    "original_bbox": [
+                        67,
+                        216,
+                        535,
+                        276
+                    ],
+                    "size": 17
+                },
+                {
+                    "bbox": [
+                        67,
+                        291,
+                        611,
+                        380
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "Một vấn đề có thể xảy ra khi tạo chỉ mục cho cơ sở dữ liệu Gauss Kruger từ tệp văn bản. Đặc tả cạnh đông và cạnh tây có thể bao gồm số vùng làm chữ số đầu tiên của giá trị. Quá trình chuyển đổi kiểm tra giá trị của cạnh đông và cạnh tây. Nếu giá trị lớn hơn 1000, chữ số đầu tiên sẽ bị loại bỏ. Trong hầu hết các trường hợp, kết quả sẽ chính xác; tuy nhiên, một giá trị lớn hơn 1000 cũng có thể là một easting thực tế.",
+                    "original_bbox": [
+                        67,
+                        291,
+                        536,
+                        365
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        69,
+                        381,
+                        611,
+                        410
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 7,
+                    "content": "Tham số",
+                    "original_bbox": [
+                        69,
+                        381,
+                        129,
+                        395
+                    ],
+                    "size": 33
+                },
+                {
+                    "bbox": [
+                        68,
+                        411,
+                        611,
+                        439
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "Các tham số được sử dụng cho Phép chiếu Gauss Kruger ở Baden-Wuerttemberg là:",
+                    "original_bbox": [
+                        68,
+                        411,
+                        448,
+                        426
+                    ],
+                    "size": 18
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        68,
+                        440,
+                        262,
+                        529
+                    ],
+                    "index": 9,
+                    "image_path": "1b3f625de208d4b967e83e3abe7b1f5f13c2994591eac2a0052d61759a621711.jpg",
+                    "original_bbox": [
+                        68,
+                        440,
+                        262,
+                        529
+                    ]
+                },
+                {
+                    "bbox": [
+                        68,
+                        546,
+                        611,
+                        558
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "Ở Đức, có 5 vùng sử dụng phép chiếu Gauss-Kruger / Transverse Mercator.",
+                    "original_bbox": [
+                        68,
+                        546,
+                        473,
+                        559
+                    ],
+                    "size": 14
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        70,
+                        559,
+                        541,
+                        735
+                    ],
+                    "index": 11,
+                    "image_path": "31dd3a7fb61d331ffbc7cd2f1b84d7e412b6fd26dd3c9353befbb4d2eee7b254.jpg",
+                    "original_bbox": [
+                        70,
+                        559,
+                        541,
+                        735
+                    ]
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 2,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        69,
+                        51,
+                        611,
+                        80
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 0,
+                    "content": "Hệ thống lưới Thụy Điển",
+                    "original_bbox": [
+                        69,
+                        51,
+                        180,
+                        65
+                    ],
+                    "size": 33
+                },
+                {
+                    "bbox": [
+                        69,
+                        81,
+                        611,
+                        95
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 1,
+                    "merge_prev": false,
+                    "content": "Hệ thống lưới Thụy Điển sử dụng các tham số sau",
+                    "original_bbox": [
+                        69,
+                        81,
+                        321,
+                        95
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        69,
+                        96,
+                        611,
+                        110
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "spheroid Bessel 1841",
+                    "original_bbox": [
+                        69,
+                        96,
+                        222,
+                        110
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        70,
+                        111,
+                        611,
+                        125
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "vĩ độ gốc 0.0",
+                    "original_bbox": [
+                        70,
+                        111,
+                        182,
+                        125
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        70,
+                        126,
+                        611,
+                        140
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "kinh độ gốc 15º 48' 29.8\" E (15.80827778 độ E)",
+                    "original_bbox": [
+                        70,
+                        126,
+                        359,
+                        140
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        70,
+                        141,
+                        611,
+                        155
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "false easting (m) 1500000.00",
+                    "original_bbox": [
+                        70,
+                        141,
+                        227,
+                        155
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        70,
+                        156,
+                        611,
+                        170
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 6,
+                    "merge_prev": false,
+                    "content": "false northing 0.00",
+                    "original_bbox": [
+                        70,
+                        156,
+                        190,
+                        169
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        70,
+                        171,
+                        611,
+                        215
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "merge_prev": false,
+                    "content": "hệ số tỷ lệ 1.00",
+                    "original_bbox": [
+                        70,
+                        171,
+                        187,
+                        183
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        69,
+                        216,
+                        611,
+                        245
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 8,
+                    "content": "Slovakia",
+                    "original_bbox": [
+                        69,
+                        216,
+                        116,
+                        228
+                    ],
+                    "size": 33
+                },
+                {
+                    "bbox": [
+                        69,
+                        246,
+                        611,
+                        275
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "Ở Slovakia, các phép chiếu sau được sử dụng:",
+                    "original_bbox": [
+                        69,
+                        246,
+                        281,
+                        261
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        69,
+                        276,
+                        611,
+                        290
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "spheroid Krassovsky",
+                    "original_bbox": [
+                        69,
+                        276,
+                        225,
+                        289
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        70,
+                        291,
+                        611,
+                        305
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "vĩ độ gốc 0.0",
+                    "original_bbox": [
+                        70,
+                        291,
+                        182,
+                        304
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        70,
+                        306,
+                        611,
+                        320
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "merge_prev": false,
+                    "content": "kinh độ gốc 15 độ E",
+                    "original_bbox": [
+                        70,
+                        306,
+                        227,
+                        319
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        70,
+                        321,
+                        611,
+                        335
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 13,
+                    "merge_prev": false,
+                    "content": "false easting (m) 3500000",
+                    "original_bbox": [
+                        70,
+                        321,
+                        211,
+                        335
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        70,
+                        336,
+                        611,
+                        350
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 14,
+                    "merge_prev": false,
+                    "content": "false northing 0.0",
+                    "original_bbox": [
+                        70,
+                        336,
+                        184,
+                        350
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        70,
+                        351,
+                        611,
+                        380
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 15,
+                    "merge_prev": false,
+                    "content": "hệ số tỷ lệ 1.",
+                    "original_bbox": [
+                        70,
+                        351,
+                        175,
+                        363
+                    ],
+                    "size": 18
+                },
+                {
+                    "bbox": [
+                        69,
+                        381,
+                        611,
+                        395
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 16,
+                    "merge_prev": false,
+                    "content": "spheroid Krassovsky",
+                    "original_bbox": [
+                        69,
+                        381,
+                        225,
+                        395
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        70,
+                        396,
+                        611,
+                        410
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 17,
+                    "merge_prev": false,
+                    "content": "vĩ độ gốc 0.0",
+                    "original_bbox": [
+                        70,
+                        396,
+                        182,
+                        409
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        70,
+                        411,
+                        611,
+                        425
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "merge_prev": false,
+                    "content": "kinh độ gốc 21 độ E",
+                    "original_bbox": [
+                        70,
+                        411,
+                        227,
+                        425
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        70,
+                        426,
+                        611,
+                        440
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 19,
+                    "merge_prev": false,
+                    "content": "false easting (m) 3500000",
+                    "original_bbox": [
+                        70,
+                        426,
+                        211,
+                        440
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        70,
+                        441,
+                        611,
+                        455
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 20,
+                    "merge_prev": false,
+                    "content": "false northing 0.0",
+                    "original_bbox": [
+                        70,
+                        441,
+                        184,
+                        454
+                    ],
+                    "size": 16
+                },
+                {
+                    "bbox": [
+                        70,
+                        456,
+                        611,
+                        791
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 21,
+                    "merge_prev": false,
+                    "content": "hệ số tỷ lệ 1.",
+                    "original_bbox": [
+                        70,
+                        456,
+                        175,
+                        468
+                    ],
+                    "size": 18
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": false,
+    "_vlm_ocr_enable": false,
+    "_version_name": "3.1.8"
+}

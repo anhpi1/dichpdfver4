@@ -1,0 +1,1221 @@
+{
+    "pdf_info": [
+        {
+            "discarded_blocks": [],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        91,
+                        72,
+                        520,
+                        89
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 0,
+                    "content": "NADCON COORDINATE TRANSFORMATION (NAD27 - NAD83)"
+                },
+                {
+                    "bbox": [
+                        68,
+                        105,
+                        534,
+                        163
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 1,
+                    "merge_prev": false,
+                    "content": "The March 2001 build of the Pathloss program now uses NADCON data to transform latitudes and longitudes between the North American Datum of 1927 (NAD27) and the North American Datum of 1983 (NAD83). The transformation is only valid in the United States territorial limits. NADCON is the United States Federal standard for NAD27 to NAD83 datum transformations."
+                },
+                {
+                    "bbox": [
+                        69,
+                        180,
+                        242,
+                        193
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "The following operations are affected:"
+                },
+                {
+                    "bbox": [
+                        69,
+                        194,
+                        512,
+                        223
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "• Coordinate transformation between the NAD27 and NAD83 datums in the Coordinates - Transform procedure in the Terrain Data module."
+                },
+                {
+                    "bbox": [
+                        69,
+                        224,
+                        502,
+                        239
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "• All terrain database operations using the USGS 7.5 minute - 30 meter DEMS including:"
+                },
+                {
+                    "bbox": [
+                        104,
+                        255,
+                        338,
+                        312
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 5,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                105,
+                                255,
+                                223,
+                                268
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 6,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        254,
+                                        223,
+                                        270
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                105,
+                                                254,
+                                                223,
+                                                270
+                                            ],
+                                            "type": "text",
+                                            "content": "- single profile generation",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                105,
+                                270,
+                                338,
+                                283
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 7,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        268,
+                                        339,
+                                        285
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                105,
+                                                268,
+                                                339,
+                                                285
+                                            ],
+                                            "type": "text",
+                                            "content": "- radial profiles generation in the Coverage Module",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                106,
+                                285,
+                                215,
+                                298
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 8,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        285,
+                                        215,
+                                        299
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                105,
+                                                285,
+                                                215,
+                                                299
+                                            ],
+                                            "type": "text",
+                                            "content": "- network backgrounds",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                106,
+                                300,
+                                168,
+                                312
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 9,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        299,
+                                        170,
+                                        313
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                105,
+                                                299,
+                                                170,
+                                                313
+                                            ],
+                                            "type": "text",
+                                            "content": "- terrain view",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        104,
+                        329,
+                        493,
+                        359
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "If the NAD83 datum has been specified, then a copy of the user’s coordinates will be automatically transformed to the NAD27 datum to read the database."
+                },
+                {
+                    "bbox": [
+                        69,
+                        375,
+                        202,
+                        388
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 11,
+                    "content": "Transformation Procedure"
+                },
+                {
+                    "bbox": [
+                        68,
+                        405,
+                        517,
+                        434
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "merge_prev": false,
+                    "content": "To transform coordinates between the NAD27 and NAD83 datums, the following settings must be made in the Geographic Defaults dialog box:"
+                },
+                {
+                    "bbox": [
+                        69,
+                        449,
+                        399,
+                        464
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 13,
+                    "merge_prev": false,
+                    "content": "“Use Datum” must be checked in the Use Datum or Ellipsoid dialog box."
+                },
+                {
+                    "bbox": [
+                        69,
+                        482,
+                        320,
+                        495
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 14,
+                    "merge_prev": false,
+                    "content": "Either the NAD27 or NAD83 datum must be selected."
+                },
+                {
+                    "bbox": [
+                        69,
+                        517,
+                        204,
+                        531
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 15,
+                    "merge_prev": false,
+                    "content": "Select the NADCON region."
+                },
+                {
+                    "bbox": [
+                        351,
+                        483,
+                        378,
+                        494
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 16,
+                    "merge_prev": false,
+                    "content": "Datum"
+                },
+                {
+                    "bbox": [
+                        385,
+                        483,
+                        465,
+                        494
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 17,
+                    "merge_prev": false,
+                    "content": "North American 1927"
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        493,
+                        447,
+                        502,
+                        459
+                    ],
+                    "index": 18,
+                    "image_path": "e7e6f44a963c04a5b03ca4c9646ad4b2fc068a4f6f0b6447b09b3bb44a22a5b9.jpg"
+                },
+                {
+                    "bbox": [
+                        506,
+                        449,
+                        533,
+                        459
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 19,
+                    "merge_prev": false,
+                    "content": "Datum"
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        492,
+                        463,
+                        504,
+                        475
+                    ],
+                    "index": 20,
+                    "image_path": "078fbb2872835fba82c8c3a34bcdd33a5598767a7d564bfcfe0001f68dabcb71.jpg"
+                },
+                {
+                    "bbox": [
+                        506,
+                        464,
+                        538,
+                        475
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 21,
+                    "merge_prev": false,
+                    "content": "Ellipsoid"
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        292,
+                        514,
+                        336,
+                        533
+                    ],
+                    "index": 22,
+                    "image_path": "47751b56908c435765c3ce0b0f54fbb861126d043c8dbe1f1498ad87805afa8d.jpg"
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        341,
+                        502,
+                        539,
+                        547
+                    ],
+                    "index": 23,
+                    "sub_type": "text_image",
+                    "image_path": "21b9f28f4b6cdaa7105878fa612d515cdadde12271181dda13fd8c1a074f0a33.jpg"
+                },
+                {
+                    "bbox": [
+                        68,
+                        549,
+                        526,
+                        578
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 24,
+                    "merge_prev": false,
+                    "content": "In the case of the NAD27 datum, the NADCON region is an all encompassing term and includes the following specific datums and regions."
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        68,
+                        594,
+                        396,
+                        696
+                    ],
+                    "index": 25,
+                    "image_path": "cb0936f936c3cdab8736216768d987cdf9f75fbd8aeb31bbffb71804d5a9bcb4.jpg"
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 1,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        68,
+                        72,
+                        537,
+                        102
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 0,
+                    "merge_prev": false,
+                    "content": "The transformation data is contained in seven files. The program will automatically select the correct file based on the coordinates."
+                },
+                {
+                    "bbox": [
+                        69,
+                        118,
+                        196,
+                        132
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 1,
+                    "content": "Coordinate Transformation"
+                },
+                {
+                    "bbox": [
+                        68,
+                        148,
+                        284,
+                        221
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "Coordinate Transformation is carried out in the Terrain Data module. Select Coordinates - Transform. To access this procedure, a datum must be selected and coordinates for at least one site must be entered."
+                },
+                {
+                    "bbox": [
+                        68,
+                        238,
+                        284,
+                        268
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "Set the “To Datum” to either NAD27 or NAD83 and then select the NADCON region."
+                },
+                {
+                    "bbox": [
+                        68,
+                        283,
+                        267,
+                        312
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "Click the Transform button to carry out the coordinate transformation."
+                },
+                {
+                    "bbox": [
+                        68,
+                        328,
+                        287,
+                        357
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "The Accept button changes the site coordinates to the transformed coordinates."
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        292,
+                        118,
+                        541,
+                        353
+                    ],
+                    "index": 6,
+                    "sub_type": "text_image",
+                    "image_path": "14fc66a837e133b8c74d640112042c04e671af7eeeae2035b0a156063a58502b.jpg"
+                },
+                {
+                    "bbox": [
+                        68,
+                        388,
+                        403,
+                        402
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 7,
+                    "content": "NADCON and the USGS 7.5 minute (30 meter) Terrain Database."
+                },
+                {
+                    "bbox": [
+                        67,
+                        418,
+                        530,
+                        477
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "When the USGS 7.5 minute quad (30 meter) terrain database has been selected, and the input coordinates are in the NAD83, datum, the coordinates will be transformed to NAD27 for the specific database operation. This transformation will always be carried out for any of the region selections available under the NAD83 datum."
+                },
+                {
+                    "bbox": [
+                        68,
+                        493,
+                        310,
+                        507
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "Primary and Secondary Terrain Database Operation"
+                },
+                {
+                    "bbox": [
+                        68,
+                        523,
+                        189,
+                        536
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "Given the situation below:"
+                },
+                {
+                    "bbox": [
+                        68,
+                        537,
+                        536,
+                        627
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 11,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                69,
+                                538,
+                                254,
+                                551
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 12,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        538,
+                                        254,
+                                        551
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                70,
+                                                539,
+                                                77,
+                                                545
+                                            ],
+                                            "type": "text",
+                                            "content": "o",
+                                            "score": 0.991
+                                        },
+                                        {
+                                            "bbox": [
+                                                107,
+                                                538,
+                                                254,
+                                                551
+                                            ],
+                                            "type": "text",
+                                            "content": "User coordinates are in NAD83",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                552,
+                                411,
+                                567
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 13,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        552,
+                                        411,
+                                        568
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                70,
+                                                554,
+                                                76,
+                                                559
+                                            ],
+                                            "type": "text",
+                                            "content": "o",
+                                            "score": 0.987
+                                        },
+                                        {
+                                            "bbox": [
+                                                106,
+                                                552,
+                                                411,
+                                                568
+                                            ],
+                                            "type": "text",
+                                            "content": "The primary terrain database is set to USGS 7.5 minute (30 meter)",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                68,
+                                567,
+                                529,
+                                596
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 14,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        564,
+                                        529,
+                                        586
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                70,
+                                                569,
+                                                77,
+                                                575
+                                            ],
+                                            "type": "text",
+                                            "content": "o",
+                                            "score": 0.987
+                                        },
+                                        {
+                                            "bbox": [
+                                                104,
+                                                564,
+                                                529,
+                                                586
+                                            ],
+                                            "type": "text",
+                                            "content": "The secondary terrain database is set to the USGS 3 second compressed, GTOPO30 or any",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        105,
+                                        582,
+                                        431,
+                                        597
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                105,
+                                                582,
+                                                431,
+                                                597
+                                            ],
+                                            "type": "text",
+                                            "content": "of the DTED selections. These are all referenced to the WGS84 datum.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                68,
+                                597,
+                                535,
+                                627
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 15,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        597,
+                                        537,
+                                        613
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                70,
+                                                598,
+                                                77,
+                                                605
+                                            ],
+                                            "type": "text",
+                                            "content": "o",
+                                            "score": 0.986
+                                        },
+                                        {
+                                            "bbox": [
+                                                105,
+                                                597,
+                                                537,
+                                                613
+                                            ],
+                                            "type": "text",
+                                            "content": "Due to incomplete coverage of the USGS 7.5 minute database, the secondary database will be",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        105,
+                                        613,
+                                        230,
+                                        628
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                105,
+                                                613,
+                                                230,
+                                                628
+                                            ],
+                                            "type": "text",
+                                            "content": "used for part of the profile.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        68,
+                        628,
+                        323,
+                        642
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 16,
+                    "merge_prev": false,
+                    "content": "What region should be selected for the NAD83 datum?"
+                },
+                {
+                    "bbox": [
+                        67,
+                        658,
+                        526,
+                        718
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 17,
+                    "merge_prev": false,
+                    "content": "The NADCON region should not be selected. Instead use the specific region (i.e. CONUS, Hawaii, Alaska excluding Aleutian Is or the Aleutian Islands). When the program reads the USGS 7.5 minute database, the coordinates will be automatically transformed to NAD27 using NADCON. When the program reads the secondary database, the transformation to WGS 84 will be carried out for the"
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 2,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        71,
+                        73,
+                        145,
+                        87
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 0,
+                    "merge_prev": false,
+                    "content": "specified region."
+                },
+                {
+                    "bbox": [
+                        71,
+                        102,
+                        169,
+                        118
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 1,
+                    "content": "NADCON Upgrade"
+                },
+                {
+                    "bbox": [
+                        71,
+                        133,
+                        530,
+                        191
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "The NADCON data sets used in the Pathloss program, consists of the seven files shown in the table below. The original NADCON data uses separate files for latitudes and longitudes for each region. In the Pathloss program, these have been combined into a single file. These files must be located in a sub directory named NADCON in the Pathloss program directory."
+                },
+                {
+                    "bbox": [
+                        71,
+                        207,
+                        506,
+                        266
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "The NADCON data files for use with the Pathloss program are available from the CTE web site (www.pathloss.com) and are packaged in a self-extracting WinZip file named PLnadcon.exe. Download this file and execute it. The destination directory must be set to the Pathloss program directory. The required subdirectory will be automatically created."
+                },
+                {
+                    "bbox": [
+                        71,
+                        282,
+                        186,
+                        297
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 4,
+                    "content": "NADCON Description"
+                },
+                {
+                    "bbox": [
+                        70,
+                        312,
+                        539,
+                        386
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "In addition to the Conterminous United States, the NADCON data is also used to transform data originally expressed in old island datums that exist in Alaska, Hawaii, Puerto Rico and the Virgin Islands into data referenced to NAD 83. However all datums, including these, are referred to as NAD 27. The procedure automatically chooses the proper transformation; the user does not need to know the specific name of the original datums."
+                },
+                {
+                    "bbox": [
+                        71,
+                        403,
+                        188,
+                        416
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 6,
+                    "content": "Transformation Accuracy"
+                },
+                {
+                    "bbox": [
+                        70,
+                        433,
+                        485,
+                        446
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 7,
+                    "merge_prev": false,
+                    "content": "At the 67 percent confidence level, the transformation introduces the following uncertainties:"
+                },
+                {
+                    "bbox": [
+                        70,
+                        448,
+                        449,
+                        507
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 12,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                70,
+                                448,
+                                449,
+                                462
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 8,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        72,
+                                        448,
+                                        451,
+                                        462
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                449,
+                                                78,
+                                                454
+                                            ],
+                                            "type": "text",
+                                            "content": "",
+                                            "score": 0.0
+                                        },
+                                        {
+                                            "bbox": [
+                                                106,
+                                                448,
+                                                451,
+                                                462
+                                            ],
+                                            "type": "text",
+                                            "content": "approximately 0.15 meter uncertainty within the conterminous United States",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                71,
+                                463,
+                                274,
+                                476
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 9,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        106,
+                                        463,
+                                        274,
+                                        477
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                106,
+                                                463,
+                                                274,
+                                                477
+                                            ],
+                                            "type": "text",
+                                            "content": "0.50 meter uncertainty within Alaska",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                71,
+                                477,
+                                274,
+                                491
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 10,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        478,
+                                        274,
+                                        491
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                74,
+                                                479,
+                                                76,
+                                                483
+                                            ],
+                                            "type": "text",
+                                            "content": "I",
+                                            "score": 0.841
+                                        },
+                                        {
+                                            "bbox": [
+                                                106,
+                                                478,
+                                                274,
+                                                491
+                                            ],
+                                            "type": "text",
+                                            "content": "0.20 meter uncertainty within Hawaii",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                492,
+                                399,
+                                507
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 11,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        72,
+                                        492,
+                                        400,
+                                        507
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                494,
+                                                78,
+                                                498
+                                            ],
+                                            "type": "text",
+                                            "content": "n",
+                                            "score": 0.514
+                                        },
+                                        {
+                                            "bbox": [
+                                                105,
+                                                492,
+                                                400,
+                                                507
+                                            ],
+                                            "type": "text",
+                                            "content": "0.05 meter uncertainty within Puerto Rico and the Virgin Islands.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        71,
+                        522,
+                        520,
+                        550
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 13,
+                    "merge_prev": false,
+                    "content": "In areas of sparse geodetic data coverage NADCON may yield less accurate results, but seldom in excess of 1.0 meter."
+                },
+                {
+                    "bbox": [
+                        71,
+                        553,
+                        507,
+                        580
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 14,
+                    "merge_prev": false,
+                    "content": "In near offshore regions, results will be less accurate but seldom in excess of 5.0 meters. Farther offshore NAD 27 was undefined."
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [],
+            "page_size": [
+                612,
+                792
+            ],
+            "page_idx": 3,
+            "para_blocks": [
+                {
+                    "type": "table",
+                    "bbox": [
+                        70,
+                        70,
+                        541,
+                        323
+                    ],
+                    "index": 0,
+                    "image_path": "5efe5578ee1149fd128b205b32542c96c136ea09b0caf9f575ebde2e11d3e87b.jpg"
+                },
+                {
+                    "bbox": [
+                        70,
+                        338,
+                        526,
+                        411
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 1,
+                    "merge_prev": false,
+                    "content": "St. George Island and St. Paul Island are part of a region known as the Pribilof Islands. There were two separate datums, one for each island, before NAD 83. The old island datums differ significantly from NAD 27. Data input into NADCON must be consistent with the identified transformation data sets. The transformation of misidentified data can result in very large errors (as much as hundreds of meters)."
+                },
+                {
+                    "bbox": [
+                        70,
+                        427,
+                        539,
+                        546
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "The CONUS file covers an area from 20 to 50 degrees north latitude and from 63 to 131 degrees west longitude. The Alaskan file covers an area from 46 to 77 degrees north latitude and from 128 to 194 degrees west longitude. The CONUS and Alaskan files overlap between 46 to 50 degrees north latitude and 128 to 131 degrees west longitude. In this area, the CONUS and Alaskan files agree within 2 centimeters. For those cases requiring precision greater than this, the CONUS file is considered correct. In this overlapping region the CONUS file will always be used in the Pathloss program. Transformations based on NADCON data should be used only within the U.S. territorial limits."
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": false,
+    "_vlm_ocr_enable": false,
+    "_version_name": "3.1.8"
+}

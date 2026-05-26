@@ -1,0 +1,3862 @@
+[
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.069,
+                0.055,
+                0.188,
+                0.071
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.755,
+                0.055,
+                0.93,
+                0.074
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.375,
+                0.152,
+                0.618,
+                0.17
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.12,
+                0.279,
+                0.932,
+                0.296
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.122,
+                0.298,
+                0.931,
+                0.314
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.122,
+                0.316,
+                0.93,
+                0.332
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.122,
+                0.334,
+                0.93,
+                0.35
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.122,
+                0.352,
+                0.93,
+                0.367
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.122,
+                0.37,
+                0.93,
+                0.385
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.122,
+                0.388,
+                0.93,
+                0.403
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.122,
+                0.406,
+                0.93,
+                0.421
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.122,
+                0.424,
+                0.93,
+                0.44
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.838,
+                0.956,
+                0.93,
+                0.973
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.068,
+                0.053,
+                0.191,
+                0.073
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.836,
+                0.955,
+                0.934,
+                0.974
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.754,
+                0.054,
+                0.933,
+                0.074
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.376,
+                0.153,
+                0.618,
+                0.17
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.119,
+                0.279,
+                0.471,
+                0.297
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.296,
+                0.484,
+                0.315
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.119,
+                0.315,
+                0.472,
+                0.333
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.332,
+                0.334,
+                0.351
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.119,
+                0.35,
+                0.307,
+                0.369
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.368,
+                0.396,
+                0.387
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.385,
+                0.437,
+                0.405
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.404,
+                0.254,
+                0.421
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.421,
+                0.389,
+                0.44
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.068,
+                0.055,
+                0.191,
+                0.072
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.755,
+                0.055,
+                0.931,
+                0.074
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.062,
+                0.098,
+                0.271,
+                0.114
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.133,
+                0.554,
+                0.205
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.223,
+                0.538,
+                0.33
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.331,
+                0.915,
+                0.366
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": true
+        },
+        {
+            "type": "algorithm",
+            "bbox": [
+                0.569,
+                0.097,
+                0.93,
+                0.296
+            ],
+            "angle": 0,
+            "content": "map_grid\n    /))heights)))0) index\n    *\n    *) projectn\n    *\n    .) vancvr.bil\n    /))backdrop))0) index\n    *\n    *) projectn\n    *\n    *) vcr_map.tif\n    *\n    .) vcrphoto.tif\n    *\n    .) vancvr.bil\n    /))Geo_Tiff )))sp27gtif.tif\n    mg_examp.bkd\n    mg_examp.gr4"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.566,
+                0.299,
+                0.88,
+                0.318
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.384,
+                0.575,
+                0.435
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.438,
+                0.576,
+                0.473
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.491,
+                0.574,
+                0.545
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.061,
+                0.563,
+                0.433,
+                0.58
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.063,
+                0.598,
+                0.569,
+                0.723
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.063,
+                0.598,
+                0.568,
+                0.651
+            ],
+            "angle": 0,
+            "content": "○ Select Module - Map Grid to enter the map grid module. If there is an existing network file or a temporary file, select Files - New to clear the display.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.063,
+                0.653,
+                0.565,
+                0.723
+            ],
+            "angle": 0,
+            "content": "○ Select Site data - Backdrop. Then select Files - Open on the menu bar of the backdrop dialog box. Open the file mg_examp.bkd. This file contains all of the required information for the example; however, it will be",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.591,
+                0.382,
+                0.932,
+                0.713
+            ],
+            "angle": 0,
+            "content": "200 Granville\nHarbour Center\n700 Hamilton",
+            "sub_type": "text_image"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.119,
+                0.724,
+                0.867,
+                0.759
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.759,
+                0.925,
+                0.794
+            ],
+            "angle": 0,
+            "content": "The back drop display is divided into two sections - backdrop and elevations. In the backdrop section, click the Set directory button and identify the backdrop directory.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.796,
+                0.907,
+                0.83
+            ],
+            "angle": 0,
+            "content": "- Click the Elevation tab to switch to this section. Then click the Set directory button and identify the heights directory.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.831,
+                0.925,
+                0.867
+            ],
+            "angle": 0,
+            "content": "- Select Files - Save on the menu bar of the backdrop dialog box and save the modified map grid project file with the revised directory locations.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.867,
+                0.764,
+                0.884
+            ],
+            "angle": 0,
+            "content": "- Click the OK button. The backdrop file vcr_map.tif will be loaded and displayed.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.885,
+                0.929,
+                0.92
+            ],
+            "angle": 0,
+            "content": "A second file (vcrphoto.tif) is in the index file. To activate this file, select Site data - Backdrop - Index and click the “show” option.",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.838,
+                0.956,
+                0.93,
+                0.973
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.068,
+                0.053,
+                0.191,
+                0.073
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.835,
+                0.954,
+                0.934,
+                0.975
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.754,
+                0.054,
+                0.933,
+                0.074
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.798,
+                0.081,
+                0.81
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.12,
+                0.792,
+                0.909,
+                0.815
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.119,
+                0.81,
+                0.265,
+                0.835
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.099,
+                0.269,
+                0.115
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.132,
+                0.551,
+                0.153
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.152,
+                0.517,
+                0.17
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.17,
+                0.554,
+                0.188
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.188,
+                0.226,
+                0.205
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.222,
+                0.484,
+                0.242
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.241,
+                0.539,
+                0.261
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.259,
+                0.501,
+                0.279
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.278,
+                0.499,
+                0.294
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.296,
+                0.514,
+                0.312
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.314,
+                0.499,
+                0.33
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.329,
+                0.914,
+                0.348
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.348,
+                0.301,
+                0.367
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.065,
+                0.762,
+                0.081,
+                0.773
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.758,
+                0.925,
+                0.779
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.775,
+                0.639,
+                0.797
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.065,
+                0.834,
+                0.081,
+                0.845
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.119,
+                0.828,
+                0.926,
+                0.851
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.849,
+                0.498,
+                0.869
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.065,
+                0.887,
+                0.081,
+                0.899
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.883,
+                0.929,
+                0.902
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.901,
+                0.352,
+                0.922
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.566,
+                0.298,
+                0.881,
+                0.317
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.385,
+                0.576,
+                0.402
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.403,
+                0.532,
+                0.42
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.42,
+                0.198,
+                0.437
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.491,
+                0.565,
+                0.51
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.51,
+                0.575,
+                0.528
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.529,
+                0.378,
+                0.545
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.438,
+                0.576,
+                0.455
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.455,
+                0.491,
+                0.474
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.565,
+                0.433,
+                0.582
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.597,
+                0.572,
+                0.618
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.615,
+                0.549,
+                0.636
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.123,
+                0.634,
+                0.424,
+                0.654
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.65,
+                0.566,
+                0.672
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.123,
+                0.671,
+                0.557,
+                0.688
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.689,
+                0.545,
+                0.707
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.705,
+                0.505,
+                0.725
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.722,
+                0.869,
+                0.745
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.743,
+                0.362,
+                0.762
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.065,
+                0.869,
+                0.082,
+                0.882
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.865,
+                0.765,
+                0.886
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.068,
+                0.055,
+                0.188,
+                0.071
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.755,
+                0.055,
+                0.93,
+                0.074
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.061,
+                0.098,
+                0.439,
+                0.114
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.061,
+                0.133,
+                0.926,
+                0.335
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.133,
+                0.87,
+                0.175
+            ],
+            "angle": 0,
+            "content": "Initially the entire file will displayed on the screen. Click the 📄 button to set the zoom to one drawing pixel equal to one screen pixel. This is the most readable resolution.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.177,
+                0.918,
+                0.216
+            ],
+            "angle": 0,
+            "content": "- Click the 📊 button to pan the display. Hold down the left mouse button and move the mouse to pan the display.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.216,
+                0.918,
+                0.275
+            ],
+            "angle": 0,
+            "content": "To zoom the display to a custom setting, click the 🔒 button. A left mouse button click on the display, will magnify the display a preset amount and center the display on the selected point. A right mouse button click will shrink the display.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.276,
+                0.926,
+                0.311
+            ],
+            "angle": 0,
+            "content": "To zoom a specific area, move the mouse to one corner of the area, hold down the left button and drag the mouse to the diagonally opposite corner.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.313,
+                0.523,
+                0.335
+            ],
+            "angle": 0,
+            "content": "To display the complete map, click the button.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.061,
+                0.353,
+                0.433,
+                0.37
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.06,
+                0.389,
+                0.88,
+                0.429
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.06,
+                0.43,
+                0.899,
+                0.464
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.465,
+                0.852,
+                0.489
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.119,
+                0.508,
+                0.386,
+                0.524
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.119,
+                0.525,
+                0.738,
+                0.56
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.579,
+                0.495,
+                0.595
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.061,
+                0.614,
+                0.283,
+                0.631
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.06,
+                0.65,
+                0.89,
+                0.71
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "chart",
+            "bbox": [
+                0.127,
+                0.715,
+                0.868,
+                0.876
+            ],
+            "angle": 0,
+            "content": "| Position | Value |\n| -------- | ----- |\n| Start    | 3.62  |",
+            "sub_type": "line"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.06,
+                0.888,
+                0.91,
+                0.925
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.838,
+                0.956,
+                0.93,
+                0.973
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.068,
+                0.053,
+                0.191,
+                0.073
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.836,
+                0.955,
+                0.934,
+                0.974
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.754,
+                0.054,
+                0.933,
+                0.074
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.508,
+                0.388,
+                0.526
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.39,
+                0.882,
+                0.412
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.411,
+                0.329,
+                0.43
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.43,
+                0.903,
+                0.448
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.449,
+                0.591,
+                0.466
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.066,
+                0.616,
+                0.283,
+                0.632
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.065,
+                0.18,
+                0.081,
+                0.192
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.118,
+                0.173,
+                0.922,
+                0.2
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.118,
+                0.193,
+                0.222,
+                0.222
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.065,
+                0.279,
+                0.081,
+                0.29
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.274,
+                0.931,
+                0.296
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.293,
+                0.475,
+                0.314
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.889,
+                0.913,
+                0.908
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.907,
+                0.882,
+                0.926
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.1,
+                0.439,
+                0.116
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.355,
+                0.434,
+                0.372
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.065,
+                0.139,
+                0.081,
+                0.151
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.119,
+                0.133,
+                0.872,
+                0.157
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.123,
+                0.156,
+                0.73,
+                0.177
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.65,
+                0.887,
+                0.67
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.671,
+                0.894,
+                0.691
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.692,
+                0.669,
+                0.712
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.065,
+                0.221,
+                0.081,
+                0.234
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.119,
+                0.217,
+                0.876,
+                0.24
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.24,
+                0.921,
+                0.26
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.119,
+                0.257,
+                0.462,
+                0.278
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.313,
+                0.431,
+                0.333
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.432,
+                0.312,
+                0.528,
+                0.334
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.579,
+                0.497,
+                0.597
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.465,
+                0.855,
+                0.49
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.525,
+                0.731,
+                0.544
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.541,
+                0.742,
+                0.565
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.069,
+                0.055,
+                0.188,
+                0.071
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.755,
+                0.055,
+                0.93,
+                0.074
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.098,
+                0.892,
+                0.134
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "chart",
+            "bbox": [
+                0.113,
+                0.149,
+                0.885,
+                0.584
+            ],
+            "angle": 0,
+            "content": "| Metric | Value |\n| --- | --- |\n| Distance (mi) | 1.01 |\n| Elevation (ft) | 157.48 |\n| Frequency (MHz) | 5882.00 |\n| Earth Radius Factor K | 1.33 |\n| Earth Bulge (ft) | 1.31 |\n| Clearance (ft) | 45.85 |\n| First Fresnel Zone (F1) (ft) | 25.35 |\n| Clearance /F1 (%) | 180.88 |\n| Left Side Angles (°) | 0.218 -0.229 |\n| Right Side Angles (°) | 0.913 -0.941 |",
+            "sub_type": "line"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.599,
+                0.754,
+                0.617
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.838,
+                0.956,
+                0.93,
+                0.973
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.068,
+                0.053,
+                0.191,
+                0.073
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.836,
+                0.955,
+                0.934,
+                0.974
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.754,
+                0.054,
+                0.933,
+                0.074
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.098,
+                0.895,
+                0.117
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.116,
+                0.632,
+                0.135
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.595,
+                0.755,
+                0.619
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.068,
+                0.055,
+                0.191,
+                0.072
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.755,
+                0.055,
+                0.931,
+                0.074
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.062,
+                0.098,
+                0.258,
+                0.114
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.134,
+                0.431,
+                0.151
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.152,
+                0.57,
+                0.187
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.204,
+                0.489,
+                0.23
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.247,
+                0.605,
+                0.354
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.062,
+                0.39,
+                0.345,
+                0.406
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.61,
+                0.097,
+                0.93,
+                0.423
+            ],
+            "angle": 0,
+            "content": "Lynn Creek\nSeymour Heights\nBC Rail\n200 Granville\nHarbour Center\n700 Hamilton\nCapitol Hill",
+            "sub_type": "text_image"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.426,
+                0.566,
+                0.442
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.462,
+                0.421,
+                0.552
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.443,
+                0.443,
+                0.671,
+                0.594
+            ],
+            "angle": 0,
+            "content": "Add Site\nLatitude 49 17 03.17 N\nLongitude 123 06 36.01 W\nEasting (km) 492.000\nNorthing (km) 5458.838\nElevation (ft) 62\nCancel Add Site",
+            "sub_type": "text_image"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.073,
+                0.613,
+                0.648,
+                0.648
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.676,
+                0.443,
+                0.931,
+                0.702
+            ],
+            "angle": 0,
+            "content": "Move Site\n700 Hamilton\nfrom\n49 16 45.00 N\n123 06 49.00 W\n68.9 ft\nto\n49 16 46.97 N\n123 06 51.28 W\n78.7 ft\nOK Cancel",
+            "sub_type": "text_image"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.061,
+                0.694,
+                0.394,
+                0.71
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.06,
+                0.73,
+                0.681,
+                0.748
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.06,
+                0.748,
+                0.697,
+                0.765
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.06,
+                0.783,
+                0.921,
+                0.82
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.06,
+                0.836,
+                0.875,
+                0.873
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.838,
+                0.956,
+                0.93,
+                0.973
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.068,
+                0.053,
+                0.191,
+                0.073
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.836,
+                0.955,
+                0.934,
+                0.974
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.754,
+                0.054,
+                0.933,
+                0.074
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.065,
+                0.1,
+                0.255,
+                0.115
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.836,
+                0.876,
+                0.855
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.855,
+                0.334,
+                0.874
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.783,
+                0.924,
+                0.802
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.8,
+                0.825,
+                0.821
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.391,
+                0.345,
+                0.407
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.149,
+                0.573,
+                0.172
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.17,
+                0.272,
+                0.188
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.132,
+                0.434,
+                0.154
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.205,
+                0.132,
+                0.228
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.133,
+                0.208,
+                0.489,
+                0.226
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.246,
+                0.582,
+                0.266
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.265,
+                0.585,
+                0.282
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.283,
+                0.606,
+                0.301
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.3,
+                0.604,
+                0.319
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.319,
+                0.594,
+                0.338
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.335,
+                0.132,
+                0.358
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.425,
+                0.567,
+                0.444
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.46,
+                0.383,
+                0.48
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.48,
+                0.4,
+                0.496
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.5,
+                0.415,
+                0.515
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.516,
+                0.421,
+                0.532
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.532,
+                0.372,
+                0.551
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.073,
+                0.611,
+                0.648,
+                0.635
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.075,
+                0.631,
+                0.288,
+                0.648
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.065,
+                0.695,
+                0.394,
+                0.712
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.728,
+                0.682,
+                0.749
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.745,
+                0.7,
+                0.767
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.068,
+                0.055,
+                0.191,
+                0.072
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.755,
+                0.055,
+                0.931,
+                0.074
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.062,
+                0.098,
+                0.212,
+                0.116
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.061,
+                0.133,
+                0.92,
+                0.223
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.133,
+                0.902,
+                0.168
+            ],
+            "angle": 0,
+            "content": "Set the grid coordinate selection to Universal Transverse Mercator (UTM) and enter 10 in the zone field.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.169,
+                0.918,
+                0.223
+            ],
+            "angle": 0,
+            "content": "Set the datum to North American 27 (NAD27). Coordinate transformation between datums has not been implemented in the Map Grid module at present; however, it is necessary to specify a region for the datum. In this example set the region to “Canada (Alberta - British Columbia)”.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.224,
+                0.558,
+                0.259
+            ],
+            "angle": 0,
+            "content": "- Click the set directory button and identify the directory containing the backdrop files.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.259,
+                0.613,
+                0.313
+            ],
+            "angle": 0,
+            "content": "- Click the index button to bring up the index form. Select Files - Import list on the menu bar. The index file contains the following lines in the Planet format:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.328,
+                0.573,
+                0.345
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.345,
+                0.562,
+                0.362
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.38,
+                0.613,
+                0.435
+            ],
+            "angle": 0,
+            "content": "- Click the Planet button to set these defaults. The edges are the UTM coordinates of the corners of the file. The cell size field is optional and should be blank for this example.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.435,
+                0.529,
+                0.454
+            ],
+            "angle": 0,
+            "content": "- Click OK, load the index file and verify the entries.",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.622,
+                0.224,
+                0.93,
+                0.465
+            ],
+            "angle": 0,
+            "content": "Load Backdrop Index File\nField Name Number\nFile name 1\nWest edge 2\nEast edge 3\nSouth edge 4\nNorth edge 5\nCell Size\nEdge units\nmeters\nkilometers\nIntl feet\nUS survey feet\nDefaults\nOdyssey\nPlanet\nOK Cancel Help",
+            "sub_type": "text_image"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.062,
+                0.47,
+                0.212,
+                0.488
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.506,
+                0.877,
+                0.54
+            ],
+            "angle": 0,
+            "content": "○ Switch to the elevation section and set the projection data to the same values as in the backdrop section.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.542,
+                0.643,
+                0.576
+            ],
+            "angle": 0,
+            "content": "- Click the set directory button and identify the directory containing the elevation files.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.577,
+                0.641,
+                0.631
+            ],
+            "angle": 0,
+            "content": "- Click the index button to bring up the index form. Select Files - Import list on the menu bar. The index file contains the following line in the Planet format:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.647,
+                0.573,
+                0.664
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.683,
+                0.613,
+                0.718
+            ],
+            "angle": 0,
+            "content": "- Click the Planet button to set these defaults. The edges are the UTM coordinates of the corners of the file.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.719,
+                0.644,
+                0.755
+            ],
+            "angle": 0,
+            "content": "The bottom up option determines if the file is to be read from the bottom or top. An error here will result in an upside down display.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.755,
+                0.631,
+                0.826
+            ],
+            "angle": 0,
+            "content": "The byte order option should be set to Intel for this example. If this is incorrectly set, the elevations will be very large and interpreted as no data values. However near sea level, some data may be produced which can lead to very confusing results.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.062,
+                0.826,
+                0.529,
+                0.844
+            ],
+            "angle": 0,
+            "content": "- Click OK, load the index file and verify the entries.",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.656,
+                0.541,
+                0.93,
+                0.829
+            ],
+            "angle": 0,
+            "content": "Load Index File\nField Name Number\nFile name 1\nWest edge 2\nEast edge 3\nSouth edge 4\nNorth edge 5\nCell size 6\nEdge units\nmeters\nkilometers\nByte order\nSPARC\nINTEL\nBottom up\nTrue\nFalse\nDefaults\nOdyssey\nPlanet\nBytes per pixel 2\nOK Cancel Help",
+            "sub_type": "text_image"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.06,
+                0.861,
+                0.918,
+                0.898
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.838,
+                0.956,
+                0.93,
+                0.973
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.068,
+                0.053,
+                0.191,
+                0.073
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.836,
+                0.954,
+                0.934,
+                0.975
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.754,
+                0.054,
+                0.933,
+                0.074
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.065,
+                0.136,
+                0.081,
+                0.147
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.12,
+                0.132,
+                0.904,
+                0.152
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.118,
+                0.15,
+                0.172,
+                0.171
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.065,
+                0.509,
+                0.081,
+                0.52
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.12,
+                0.503,
+                0.876,
+                0.526
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.119,
+                0.521,
+                0.19,
+                0.542
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.86,
+                0.92,
+                0.881
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.88,
+                0.505,
+                0.899
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.33,
+                0.199,
+                0.346
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.228,
+                0.329,
+                0.574,
+                0.345
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.647,
+                0.574,
+                0.665
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.065,
+                0.172,
+                0.081,
+                0.184
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.169,
+                0.904,
+                0.188
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.187,
+                0.919,
+                0.206
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.205,
+                0.779,
+                0.224
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.434,
+                0.529,
+                0.454
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.824,
+                0.53,
+                0.845
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.065,
+                0.721,
+                0.081,
+                0.733
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.123,
+                0.718,
+                0.636,
+                0.737
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.735,
+                0.646,
+                0.758
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.069,
+                0.228,
+                0.076,
+                0.234
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.221,
+                0.558,
+                0.244
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.241,
+                0.36,
+                0.26
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.345,
+                0.562,
+                0.362
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.066,
+                0.545,
+                0.079,
+                0.555
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.539,
+                0.646,
+                0.563
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.559,
+                0.271,
+                0.578
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.066,
+                0.686,
+                0.079,
+                0.697
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.683,
+                0.612,
+                0.702
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.123,
+                0.701,
+                0.464,
+                0.718
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.096,
+                0.213,
+                0.117
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.469,
+                0.212,
+                0.489
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.066,
+                0.262,
+                0.079,
+                0.273
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.259,
+                0.614,
+                0.277
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.277,
+                0.572,
+                0.295
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.123,
+                0.295,
+                0.411,
+                0.312
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.066,
+                0.384,
+                0.081,
+                0.395
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.38,
+                0.613,
+                0.4
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.398,
+                0.609,
+                0.416
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.416,
+                0.509,
+                0.436
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.066,
+                0.58,
+                0.079,
+                0.591
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.577,
+                0.625,
+                0.595
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.594,
+                0.642,
+                0.615
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.613,
+                0.322,
+                0.63
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.066,
+                0.758,
+                0.079,
+                0.769
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.123,
+                0.755,
+                0.621,
+                0.773
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.122,
+                0.773,
+                0.583,
+                0.79
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.123,
+                0.792,
+                0.631,
+                0.808
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.808,
+                0.586,
+                0.827
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.068,
+                0.055,
+                0.188,
+                0.071
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.755,
+                0.055,
+                0.93,
+                0.074
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.062,
+                0.098,
+                0.206,
+                0.114
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.133,
+                0.372,
+                0.276
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.294,
+                0.387,
+                0.365
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.384,
+                0.381,
+                0.471
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.491,
+                0.361,
+                0.543
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.394,
+                0.098,
+                0.93,
+                0.513
+            ],
+            "angle": 0,
+            "content": "Geo Tiff Data\nH:\\GeoTIFF\\SPOT\\chicago\\Sp27otif.tif\nGeoTiff version 1.0.2\nImage width 699\nImage height 929\nModel type Projection coordinate system\nRaster type Raster pixel is area\nProjection 26771\nNAD27 Illinois East\nTie points\n0.0 0.0 0.0 681480.0 1913050.0 0.0\nPixel scale\n32.8 32.8 0.0\nState Plane NAD27, Feet\nNAD27 in Feet default\"\nCreate Index Cancel Help",
+            "sub_type": "text_image"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.563,
+                0.529,
+                0.58
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.061,
+                0.616,
+                0.338,
+                0.633
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.06,
+                0.652,
+                0.905,
+                0.74
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.759,
+                0.711,
+                0.779
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.06,
+                0.795,
+                0.895,
+                0.832
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.838,
+                0.956,
+                0.93,
+                0.973
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.068,
+                0.053,
+                0.191,
+                0.073
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.836,
+                0.955,
+                0.934,
+                0.974
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.754,
+                0.054,
+                0.933,
+                0.074
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.617,
+                0.338,
+                0.636
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.794,
+                0.896,
+                0.815
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.813,
+                0.707,
+                0.832
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.561,
+                0.53,
+                0.582
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.759,
+                0.712,
+                0.78
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.099,
+                0.206,
+                0.116
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.133,
+                0.356,
+                0.152
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.153,
+                0.368,
+                0.17
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.169,
+                0.373,
+                0.189
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.188,
+                0.355,
+                0.204
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.207,
+                0.331,
+                0.224
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.224,
+                0.366,
+                0.241
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.242,
+                0.362,
+                0.26
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.065,
+                0.261,
+                0.251,
+                0.277
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.293,
+                0.386,
+                0.313
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.314,
+                0.359,
+                0.331
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.332,
+                0.388,
+                0.348
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.348,
+                0.172,
+                0.365
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.384,
+                0.375,
+                0.401
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.401,
+                0.373,
+                0.421
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.42,
+                0.304,
+                0.438
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.439,
+                0.381,
+                0.455
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.455,
+                0.102,
+                0.473
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.065,
+                0.492,
+                0.329,
+                0.508
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.51,
+                0.362,
+                0.527
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.526,
+                0.136,
+                0.545
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.65,
+                0.882,
+                0.671
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.671,
+                0.905,
+                0.69
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.686,
+                0.881,
+                0.709
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.706,
+                0.894,
+                0.725
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.723,
+                0.402,
+                0.743
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

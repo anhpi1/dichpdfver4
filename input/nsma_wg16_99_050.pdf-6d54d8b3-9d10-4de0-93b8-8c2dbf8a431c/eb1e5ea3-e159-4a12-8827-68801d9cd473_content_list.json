@@ -1,0 +1,5254 @@
+[
+    {
+        "type": "text",
+        "text": "NSMA --- Antenna Systems --- Standard Format for Digitized Antenna Patterns ",
+        "text_level": 1,
+        "bbox": [
+            161,
+            348,
+            836,
+            435
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "RECOMMENDATION WG16.99.050 5/20/99 ",
+        "bbox": [
+            232,
+            494,
+            764,
+            550
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            142,
+            45,
+            215,
+            63
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            537,
+            45,
+            854,
+            64
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Table of Contents ",
+        "text_level": 1,
+        "bbox": [
+            142,
+            88,
+            313,
+            104
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "FOREWORD.. ",
+        "text_level": 1,
+        "bbox": [
+            143,
+            138,
+            852,
+            154
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "INTRODUCTION.. iii ",
+        "text_level": 1,
+        "bbox": [
+            143,
+            156,
+            852,
+            171
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "1.0 Scope .... ",
+            "2.0 References .... ",
+            "3.0 Requirements...... "
+        ],
+        "bbox": [
+            143,
+            172,
+            851,
+            224
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "3.1 Overall Format . ",
+            "3.2 Fields.... "
+        ],
+        "bbox": [
+            160,
+            226,
+            849,
+            258
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "3.2.1 Field Characteristics . ",
+            "3.2.2 Field parameters described.. .3 "
+        ],
+        "bbox": [
+            174,
+            261,
+            849,
+            294
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4.0 Bibliography .......... .. 14 ",
+        "bbox": [
+            143,
+            296,
+            852,
+            311
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Annex A (Normative)..... ... 15 ",
+        "text_level": 1,
+        "bbox": [
+            143,
+            313,
+            852,
+            329
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "A.1 General Definitions and Practices . .. 15 ",
+            "A.2 Horizontal/Vertical Pattern Geometry.. ..16 ",
+            "A.3 Azimuth/Elevation Pattern Geometry ... .. 17 ",
+            "A.4 Spherical Pattern Geometry....... .. 18 ",
+            "A.5 Pattern Cut Designators (XXX).. .. 18 "
+        ],
+        "bbox": [
+            160,
+            330,
+            851,
+            417
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Annex B (Normative)......... ... 19 ",
+        "text_level": 1,
+        "bbox": [
+            143,
+            417,
+            852,
+            434
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Annex C (Informative) .......... ..20 ",
+        "text_level": 1,
+        "bbox": [
+            143,
+            435,
+            852,
+            452
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            143,
+            45,
+            215,
+            61
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            537,
+            45,
+            852,
+            61
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "i ",
+        "bbox": [
+            844,
+            939,
+            854,
+            952
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "FOREWORD ",
+        "text_level": 1,
+        "bbox": [
+            437,
+            118,
+            558,
+            136
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(This foreword is not part of this Recommendation) ",
+        "bbox": [
+            276,
+            157,
+            717,
+            176
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "This Recommendation was prepared by Working Group 16 (Antenna Systems) of the NSMA. Members of TIA Task Group TG-8.11.3 have contributed to the preparation of this document. Many of the requirements contained in this document are compatible with those of the TIA Antenna Pattern Standard Data Format generated by TIA Subcommittee TR 8.11. However, caution is advised because differences may exist between the two documents. ",
+        "bbox": [
+            140,
+            210,
+            848,
+            316
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Note: This format is Y2K compatible. ",
+        "bbox": [
+            140,
+            333,
+            468,
+            351
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Annexes A and B are normative. Annex C is for information only. ",
+        "bbox": [
+            140,
+            368,
+            702,
+            386
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            143,
+            45,
+            215,
+            61
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            537,
+            45,
+            852,
+            61
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "ii ",
+        "bbox": [
+            841,
+            939,
+            854,
+            952
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "INTRODUCTION ",
+        "text_level": 1,
+        "bbox": [
+            421,
+            118,
+            576,
+            136
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "This purpose of this Recommendation is to provide an extended NSMA pattern data format for manufacturers of commercial antennas to adhere to. It was motivated by the observation by propagation software providers (i.e. users of such patterns) that every manufacturer of base station antennas has its own proprietary format and that a single standardized format would make software development simpler, assure consistent usage of antenna pattern data, and facilitate data accuracy though a robust, common data format. ",
+        "bbox": [
+            140,
+            176,
+            820,
+            299
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The intent of this new NSMA Standard Format for Digitized Antenna Patterns is: ",
+        "bbox": [
+            140,
+            315,
+            830,
+            333
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "1. To be consistent with the current NSMA format but be flexible enough to able to be applied to a variety of commercial antenna types, including L I il ",
+            "terrestrial microwave antennas, base station antennas, and earth station antennas. ",
+            "2. To be broad in scope so as to be able to handle a variety of pattern cut geometries and polarization cases. ",
+            "3. To have the basic pattern data format consistent with antenna test range pattern formats and conventions. ",
+            "4. To incorporate descriptive fields along with the antenna pattern data that would contain information and specifications pertinent to system design and coordination. ",
+            "5. To include all the data required by existing propagation prediction software file formats. ",
+            "6. To be able to be loaded into a simple spreadsheet program. "
+        ],
+        "bbox": [
+            200,
+            349,
+            856,
+            595
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            143,
+            45,
+            215,
+            61
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            537,
+            45,
+            854,
+            61
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            836,
+            939,
+            852,
+            950
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "NSMA--- Antenna Systems --- Standard Format for Digitized Antenna Patterns ",
+        "text_level": 1,
+        "bbox": [
+            279,
+            106,
+            723,
+            159
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1.0 Scope ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            209,
+            243,
+            229
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "This document is intended to standardize the presentation of digitized antenna patterns for commercial antenna systems. ",
+        "bbox": [
+            109,
+            248,
+            859,
+            282
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2.0 References ",
+        "text_level": 1,
+        "bbox": [
+            111,
+            316,
+            300,
+            333
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "The following documents should be consulted when applying this Standard: ",
+        "bbox": [
+            111,
+            354,
+            756,
+            371
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "[1] ANSI/IEEE Std 149, IEEE Standard Test Procedures for Antennas ",
+            "[2] EIA/TIA-329-B, Minimum Standards for Communication Antennas, Part 1: Base Station Antennas "
+        ],
+        "bbox": [
+            140,
+            387,
+            874,
+            439
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.0 Requirements ",
+        "text_level": 1,
+        "bbox": [
+            111,
+            470,
+            328,
+            489
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.1 Overall Format ",
+        "text_level": 1,
+        "bbox": [
+            111,
+            508,
+            316,
+            523
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Each file consists of data for one antenna at one or more frequencies. Each frequency consists of one or more pattern cuts. Each pattern cut consists of a number of data points. Only those fields marked with an “x” are required to be compliant to this standard; however, manufacturers are strongly encouraged to include all fields in their data files. Data shall be entered into the file in the order given in this standard. It is not necessary, however, to include “empty fields” including only the field name. ",
+        "bbox": [
+            109,
+            547,
+            870,
+            654
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.2 Fields ",
+        "text_level": 1,
+        "bbox": [
+            111,
+            681,
+            235,
+            698
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.2.1 Field Characteristics ",
+        "text_level": 1,
+        "bbox": [
+            111,
+            718,
+            366,
+            734
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "The fields to be used in digitized antenna patterns are defined in Table 1. They are described in detail in subclause 3.2.2. ",
+        "bbox": [
+            109,
+            753,
+            828,
+            789
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Per-line comments may be added to any record. In any record, all data after a “!” character will be ignored. ",
+        "bbox": [
+            109,
+            806,
+            823,
+            842
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            112,
+            45,
+            184,
+            61
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            508,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "1 ",
+        "bbox": [
+            879,
+            940,
+            888,
+            950
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/d6124ca88ca3038aab6dc3bdab543aa86a2d3b934644767095e30da9c7da37d8.jpg",
+        "table_caption": [
+            "Table 1 Field Characteristics "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Req'd?</td><td>Field Name</td><td>Length (Char)</td><td>Abbreviated Name</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>x</td><td>Revision Number</td><td>42</td><td>REVNUM</td></tr><tr><td>x</td><td>Revision Date</td><td>16</td><td>REVDAT</td></tr><tr><td></td><td>Comment1</td><td>80</td><td>COMNT1</td></tr><tr><td></td><td>Comment2</td><td>80</td><td>COMNT2</td></tr><tr><td>x</td><td>Antenna Manufacturer</td><td>42</td><td>ANTMAN</td></tr><tr><td>x</td><td>Model Number</td><td>42</td><td>MODNUM</td></tr><tr><td></td><td>Pattern ID Number</td><td>42</td><td>PATNUM</td></tr><tr><td></td><td>Pattern File Number</td><td>13</td><td>FILNUM</td></tr><tr><td></td><td>Feed Orientation</td><td>13</td><td>FEDORN</td></tr><tr><td></td><td>Description1</td><td>80</td><td>DESCR1</td></tr><tr><td></td><td>Description2</td><td>80</td><td>DESCR2</td></tr><tr><td></td><td>Description3</td><td>80</td><td>DESCR3</td></tr><tr><td></td><td>Description4</td><td>80</td><td>DESCR4</td></tr><tr><td></td><td>Description5</td><td>80</td><td>DESCR5</td></tr><tr><td></td><td>Date of data</td><td>16</td><td>DTDATA</td></tr><tr><td>x</td><td>Low Frequency (MHz)</td><td>21</td><td>LOWFRQ</td></tr><tr><td>x</td><td>High Frequency (MHz)</td><td>21</td><td>HGHFRQ</td></tr><tr><td>x</td><td>Gain Units</td><td>15</td><td>GUNITS</td></tr><tr><td></td><td>Low-band gain</td><td>12</td><td>LWGAIN</td></tr><tr><td>x</td><td>Mid-band gain</td><td>16</td><td>MDGAIN</td></tr><tr><td></td><td>High-band gain</td><td>12</td><td>HGGAIN</td></tr><tr><td></td><td>Mid-band Az Bmwdth</td><td>16</td><td>AZWIDT</td></tr><tr><td></td><td>Mid-band El Bmwdth</td><td>16</td><td>ELWIDT</td></tr><tr><td></td><td>Connector Type</td><td>80</td><td>CONTYP</td></tr><tr><td></td><td>VSWR</td><td>13</td><td>ATVSWR</td></tr><tr><td></td><td>Front-to-back Ratio(dB)</td><td>10</td><td>FRTOBA</td></tr><tr><td>x</td><td>Electrical Downtilt (deg)</td><td>16</td><td>ELTILT</td></tr><tr><td></td><td>Radiation Center (m)</td><td>13</td><td>RADCTR</td></tr><tr><td></td><td>Port-to-Port Iso (dB)</td><td>12</td><td>POTOPO</td></tr><tr><td></td><td>Max Input Power (W)</td><td>17</td><td>MAXPOW</td></tr><tr><td></td><td>Antenna Length (m)</td><td>14</td><td>ANTLEN</td></tr><tr><td></td><td>Antenna Width (m)</td><td>14</td><td>ANTWID</td></tr><tr><td></td><td>Antenna Depth (m)</td><td>14</td><td>ANTDEP</td></tr><tr><td></td><td>Antenna Weight (kg)</td><td>16</td><td>ANTWGT</td></tr><tr><td></td><td>Future Field</td><td>80</td><td>FIELD1</td></tr><tr><td></td><td>Future Field</td><td>80</td><td>FIELD2</td></tr><tr><td></td><td>Future Field</td><td>80</td><td>FIELD3</td></tr><tr><td></td><td>Future Field</td><td>80</td><td>FIELD4</td></tr><tr><td></td><td>Future Field</td><td>80</td><td>FIELD5</td></tr><tr><td>Req’d?</td><td>Field Name</td><td>Length (Char)</td><td>Abbreviated Name</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>x</td><td>Pattern Type</td><td>16</td><td>PATTYP</td></tr><tr><td>x</td><td># Freq this file</td><td>10</td><td>NOFREQ</td></tr><tr><td>x</td><td>Pattern Freq (Mhz)</td><td>21</td><td>PATFRE</td></tr><tr><td>x</td><td># Pattern cuts</td><td>11</td><td>NUMCUT</td></tr><tr><td>x</td><td>Pattern Cut</td><td>11</td><td>PATCUT</td></tr><tr><td>x</td><td>Polarization</td><td>15</td><td>POLARI</td></tr><tr><td>x</td><td># Data Points</td><td>13</td><td>NUPOIN</td></tr><tr><td>x</td><td>First &amp; Last Angle</td><td>25</td><td>FSTLST</td></tr><tr><td></td><td>X-axis Orientation</td><td>53</td><td>XORIEN</td></tr><tr><td></td><td>Y-axis Orientation</td><td>53</td><td>YORIEN</td></tr><tr><td></td><td>Z-axis Orientation</td><td>53</td><td>ZORIEN</td></tr><tr><td>x</td><td>Pattern cut data</td><td>28/point</td><td></td></tr><tr><td>x</td><td>End of file</td><td>11</td><td>ENDFIL</td></tr></table>",
+        "bbox": [
+            153,
+            152,
+            697,
+            917
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            114,
+            45,
+            186,
+            61
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            509,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            879,
+            940,
+            888,
+            952
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "bbox": [
+            151,
+            137,
+            697,
+            431
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.2.2 Field parameters described ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            460,
+            429,
+            479
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "The following are detailed explanations of each of the data lines. The amount of data specified includes all characters except CRLF. ",
+        "bbox": [
+            111,
+            497,
+            846,
+            532
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.1 Revision Number ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            564,
+            364,
+            580
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "This is the version of this standard to which the pattern conforms. It should include the complete standard number. e.g. “NSMA WG16.99.050”. ",
+        "bbox": [
+            111,
+            604,
+            859,
+            638
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(data) ",
+        "bbox": [
+            112,
+            656,
+            169,
+            674
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "REVNUM:,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXCRLF ",
+        "bbox": [
+            112,
+            674,
+            694,
+            690
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.2 Revision Date ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            722,
+            333,
+            739
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "This is the date of the current revision of the standard. ",
+        "bbox": [
+            112,
+            762,
+            578,
+            779
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(16 data) ",
+        "bbox": [
+            112,
+            797,
+            196,
+            814
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "REVDAT:,YYYYMMDDCRLF ",
+        "bbox": [
+            112,
+            814,
+            372,
+            832
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.3 Comments1 ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            864,
+            313,
+            880
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "This is a field for comments on the current revision. ",
+        "bbox": [
+            112,
+            902,
+            550,
+            920
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            114,
+            45,
+            186,
+            61
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            508,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            879,
+            940,
+            888,
+            952
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(80 data) ",
+        "bbox": [
+            112,
+            104,
+            196,
+            122
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "COMNT1:,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXCRLF ",
+        "bbox": [
+            112,
+            123,
+            861,
+            156
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.4 Comments2 ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            188,
+            316,
+            205
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "This is a field for comments on the current revision. ",
+        "bbox": [
+            112,
+            228,
+            552,
+            244
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(80 data) ",
+        "bbox": [
+            112,
+            263,
+            196,
+            280
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "COMNT2:,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXCRLF ",
+        "bbox": [
+            112,
+            281,
+            861,
+            314
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.5 Antenna Manufacturer ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            347,
+            413,
+            364
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(42 data) ",
+        "bbox": [
+            112,
+            386,
+            196,
+            402
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "ANTMAN:,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXCRLF ",
+        "bbox": [
+            112,
+            404,
+            692,
+            420
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "This is the name of the antenna manufacturer. There will be no abbreviations. ",
+        "bbox": [
+            112,
+            439,
+            777,
+            455
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.6 Full model number ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            488,
+            377,
+            505
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(42 data) ",
+        "bbox": [
+            112,
+            527,
+            196,
+            544
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "MODNUM:,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXCRLF ",
+        "bbox": [
+            112,
+            545,
+            712,
+            561
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "This is the full model number as used when the data was taken. Modifiers to the model number such as dashes or exceptions are to be included. ",
+        "bbox": [
+            111,
+            579,
+            859,
+            614
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.7 Pattern File Number ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            646,
+            390,
+            662
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(13 data) ",
+        "bbox": [
+            112,
+            684,
+            196,
+            700
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "FILNUM:,XX/XXCRLF ",
+        "bbox": [
+            112,
+            700,
+            305,
+            717
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "For cases where more than one file is associated with a specific antenna model number this field will contain the particular file number and the total number of files associated with that model number. An example of such a case would be a dual band antenna with two pattern files associated with it. In that case the field for the first file would be “01/02” and the second “02/02”. ",
+        "bbox": [
+            111,
+            736,
+            885,
+            821
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.8 Pattern ID Number ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            837,
+            375,
+            854
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(42 data) ",
+        "bbox": [
+            112,
+            875,
+            196,
+            891
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "PATNUM:,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXCRLF ",
+        "bbox": [
+            112,
+            891,
+            705,
+            907
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            112,
+            45,
+            187,
+            61
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            508,
+            45,
+            825,
+            61
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "4 ",
+        "bbox": [
+            877,
+            940,
+            890,
+            950
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "This is the manufacturer assigned pattern ID number that may optionally be assigned to the pattern data. For terrestrial microwave this is the NSMA ID number. ",
+        "bbox": [
+            109,
+            104,
+            870,
+            141
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.9 Feed Orientation ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            171,
+            362,
+            188
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(13 data) ",
+        "bbox": [
+            112,
+            208,
+            197,
+            224
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "FEDORN:,XXXXXCRLF ",
+        "bbox": [
+            112,
+            224,
+            323,
+            242
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "For a terrestrial microwave antenna this is the orientation of the feed hook when looking from the back of the antenna in the direction of the mechanical boresite. The standard orientations are “right” and “left”. ",
+        "bbox": [
+            109,
+            261,
+            870,
+            313
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.10 Description1 ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            344,
+            321,
+            362
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(80 data) ",
+        "bbox": [
+            112,
+            380,
+            197,
+            397
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "DESCR1:,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXCRLF ",
+        "bbox": [
+            112,
+            397,
+            870,
+            431
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "This is used to describe the antenna and its characteristics. ",
+        "bbox": [
+            112,
+            450,
+            625,
+            467
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.11 Description2 ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            497,
+            323,
+            515
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(80 data) ",
+        "bbox": [
+            112,
+            532,
+            197,
+            551
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "DESCR2:,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXCRLF ",
+        "bbox": [
+            112,
+            551,
+            870,
+            584
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "This is used to describe the antenna and its characteristics ",
+        "bbox": [
+            112,
+            603,
+            620,
+            619
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.12 Description3 ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            635,
+            323,
+            652
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(80 data) ",
+        "bbox": [
+            112,
+            671,
+            197,
+            689
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "DESCR3:,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXCRLF ",
+        "bbox": [
+            112,
+            689,
+            870,
+            723
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "This is used to describe the antenna and its characteristics ",
+        "bbox": [
+            112,
+            741,
+            620,
+            758
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.13 Description4 ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            772,
+            323,
+            790
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(80 data) ",
+        "bbox": [
+            112,
+            809,
+            197,
+            827
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "DESCR4:,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXCRLF ",
+        "bbox": [
+            112,
+            827,
+            870,
+            859
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "This is used to describe the antenna and its characteristics ",
+        "bbox": [
+            112,
+            878,
+            620,
+            896
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            112,
+            45,
+            187,
+            61
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            508,
+            45,
+            825,
+            61
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "5 ",
+        "bbox": [
+            877,
+            940,
+            890,
+            952
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.14 Description 5 ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            104,
+            330,
+            122
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(80 data) ",
+        "bbox": [
+            112,
+            143,
+            196,
+            160
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "DESCR5:,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ",
+        "bbox": [
+            112,
+            161,
+            869,
+            176
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "XXXXXXXXXXXXXXXXXXXXCRLF ",
+        "bbox": [
+            112,
+            178,
+            421,
+            194
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "This is used to describe the antenna and its characteristics. ",
+        "bbox": [
+            111,
+            213,
+            624,
+            229
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.15 Date of data ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            244,
+            318,
+            262
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(16 data) ",
+        "bbox": [
+            112,
+            284,
+            196,
+            301
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "DTDATA:,YYYYMMDDCRLF ",
+        "bbox": [
+            112,
+            301,
+            370,
+            318
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "This is the date the pattern data was taken. ",
+        "bbox": [
+            111,
+            335,
+            488,
+            353
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.16 Low frequency ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            386,
+            343,
+            404
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(21 data) ",
+        "bbox": [
+            112,
+            425,
+            196,
+            441
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "LOWFRQ:,999999.999999CRLF ",
+        "bbox": [
+            112,
+            443,
+            401,
+            459
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "This is to identify the lower frequency of the operating bandwidth of the antenna. The frequency is in Megahertz. If the antenna can be operated in two distinct frequency bands, then the performance of the antenna in each band shall be described in separate files. ",
+        "bbox": [
+            109,
+            477,
+            870,
+            546
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.17 High frequency ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            595,
+            346,
+            614
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(21 data) ",
+        "bbox": [
+            112,
+            636,
+            196,
+            652
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "HGHFRQ:,999999.999999CRLF ",
+        "bbox": [
+            112,
+            652,
+            395,
+            669
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "This is to identify the upper frequency of the operating bandwidth of the antenna. The frequency is in Megahertz. If the antenna can be operated in two distinct frequency bands, then the performance of the antenna in each band shall be described in separate files. ",
+        "bbox": [
+            109,
+            688,
+            869,
+            756
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.18 Gain Units ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            789,
+            303,
+            806
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(15 data) ",
+        "bbox": [
+            112,
+            827,
+            196,
+            844
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "GUNITS:,XXX/YYYCRLF ",
+        "bbox": [
+            112,
+            844,
+            336,
+            859
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "The units that gain figures are to be expressed in. The characters before the slash represent the units for the “Low-Band Gain”, “Mid-Band Gain”, and “High-Band Gain”. The characters after the slash represent the units used in the pattern data. The characters used shall be the following: ",
+        "bbox": [
+            109,
+            861,
+            846,
+            931
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            112,
+            45,
+            184,
+            61
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            508,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "6 ",
+        "bbox": [
+            879,
+            940,
+            890,
+            952
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Table 2 ",
+        "text_level": 1,
+        "bbox": [
+            465,
+            128,
+            539,
+            145
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Gain Units ",
+        "text_level": 1,
+        "bbox": [
+            450,
+            154,
+            552,
+            170
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "images/0e9162baddc8ebec79baa2437377ced2d53841e964fb3f78594b243271d53850.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Characters</td><td>Explanation</td><td>MaxG</td><td>Pattern</td></tr><tr><td>DBI</td><td>Decibels relative to an isotropic radiator</td><td>x</td><td>x</td></tr><tr><td>DBD</td><td>Decibels relative to a half-wave dipole</td><td>x</td><td>x</td></tr><tr><td>DBR</td><td>Decibels relative to maximum gain (dB Off-Peak)</td><td></td><td>x</td></tr><tr><td>LIN</td><td>Ratio relative to maximum gain (Relative Field)</td><td></td><td>x</td></tr></table>",
+        "bbox": [
+            171,
+            188,
+            834,
+            318
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.19 Low-Band gain ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            364,
+            344,
+            383
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "(12 data) ",
+        "bbox": [
+            112,
+            404,
+            196,
+            421
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "LWGAIN:,99.9CRLF ",
+        "bbox": [
+            112,
+            421,
+            294,
+            438
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "This is the gain of the antenna at the low frequency of the frequency band. The gain is in units described in GUNITS. ",
+        "bbox": [
+            111,
+            455,
+            874,
+            492
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.20 Mid-Band gain ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            522,
+            339,
+            541
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "(16 data) ",
+        "bbox": [
+            112,
+            561,
+            196,
+            579
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "MDGAIN:,99.9,9.9CRLF ",
+        "bbox": [
+            112,
+            579,
+            328,
+            595
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "This is the gain of the antenna at the mid frequency of the frequency band and may include a full bandwidth tolerance. The gain is in units described in GUNITS. ",
+        "bbox": [
+            111,
+            614,
+            830,
+            650
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.21 High-Band gain ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            681,
+            349,
+            700
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "(12 data) ",
+        "bbox": [
+            112,
+            720,
+            196,
+            738
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "HGGAIN:,99.9CRLF ",
+        "bbox": [
+            112,
+            738,
+            294,
+            755
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "This is the gain of the antenna at high frequency of the frequency band. The gain is in units described in GUNITS. ",
+        "bbox": [
+            111,
+            772,
+            844,
+            808
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.22 Azimuth beamwidth ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            839,
+            387,
+            857
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "(16 data) ",
+        "bbox": [
+            112,
+            878,
+            196,
+            897
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "AZWIDT:,99.9,9.9CRLF ",
+        "bbox": [
+            112,
+            897,
+            325,
+            912
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            114,
+            45,
+            186,
+            61
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            508,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            879,
+            939,
+            890,
+            950
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "This is the nominal total width of the main beam at the -3 dB points in the azimuth plane. This is a mid-band measurement expressed in degrees and may include a full bandwidth tolerance. ",
+        "bbox": [
+            109,
+            104,
+            870,
+            157
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.23 Elevation beamwidth ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            188,
+            398,
+            205
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "(16 data) ELWIDT:,99.9,9.9CRLF ",
+        "bbox": [
+            112,
+            228,
+            326,
+            263
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "This is the nominal total width of the main beam at the -3 dB points in the elevation plane. This is a mid-band measurement expressed in degrees and may include a full bandwidth tolerance. ",
+        "bbox": [
+            109,
+            280,
+            836,
+            333
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.24 Connector type ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            364,
+            349,
+            383
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "(80 data) CONTYP:,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXCRLF ",
+        "bbox": [
+            111,
+            404,
+            859,
+            455
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "This is a description of the antenna connector type. ",
+        "bbox": [
+            112,
+            474,
+            553,
+            492
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.25 VSWR ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            522,
+            264,
+            539
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "(13 data) ATVSWR:,99.99CRLF ",
+        "bbox": [
+            112,
+            561,
+            310,
+            597
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "This is the worst case limit of the antennas VSWR over the operating bandwidth. ",
+        "bbox": [
+            111,
+            614,
+            805,
+            633
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.26 Front to back ratio ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            662,
+            379,
+            680
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "(10 data) FRTOBA:,99CRLF ",
+        "bbox": [
+            112,
+            703,
+            279,
+            737
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Over the antennas operating bandwidth, this is the worst case power level in dB between the main lobe peak and the peak of the antenna’s back lobe. The back lobe peak does not necessarily point 180 degrees behind the main lobe. ",
+        "bbox": [
+            109,
+            755,
+            880,
+            809
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.27 Electrical downtilt ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            839,
+            370,
+            857
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "(16 data) ELTILT:,99.9,9.9CRLF ",
+        "bbox": [
+            112,
+            878,
+            315,
+            912
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            112,
+            45,
+            187,
+            61
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            508,
+            45,
+            825,
+            61
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "8 ",
+        "bbox": [
+            877,
+            940,
+            890,
+            952
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "This is the amount that the main beam peak of the antenna (electrical boresite) is dowtilted below the mechanical boresite of the antenna. This is a midband measurement and may include a tolerance. This measurement is expressed in degrees. ",
+        "bbox": [
+            109,
+            104,
+            872,
+            157
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.28 Radiation center ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            188,
+            357,
+            205
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "(13 data) ",
+        "bbox": [
+            112,
+            228,
+            196,
+            244
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "RADCTR:,999.9CRLF ",
+        "bbox": [
+            112,
+            244,
+            307,
+            262
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "This is the height of the center of the radiating aperture above the mechanical bottom of the antenna. It is not necessarily the phase center of the antenna. It is expressed in meters. ",
+        "bbox": [
+            109,
+            280,
+            870,
+            333
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.29 Port to port isolation ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            364,
+            398,
+            382
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "(12 data) ",
+        "bbox": [
+            112,
+            404,
+            196,
+            421
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "POTOPO:,99.9CRLF ",
+        "bbox": [
+            112,
+            421,
+            300,
+            438
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "This is a measurement made on dual polarization antennas. It is the maximum amount of power over the antennas operating bandwidth that is coupled between ports. It is the power ratio expressed in dB’s between a reference signal injected into one port and the amount of coupled power returned back out of the other port. ",
+        "bbox": [
+            109,
+            455,
+            874,
+            526
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.30 Maximum input power ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            556,
+            410,
+            575
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "(17 data) ",
+        "bbox": [
+            112,
+            597,
+            196,
+            614
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "MAXPOW:,9999999.9CRLF ",
+        "bbox": [
+            112,
+            614,
+            359,
+            631
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "This is the maximum amount of average RF input power which can be applied to each of the antennas input ports in the antennas operating frequency range. The power is to be expressed in watts. ",
+        "bbox": [
+            109,
+            648,
+            874,
+            702
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.31 Antenna length ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            733,
+            346,
+            752
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "(14 data) ",
+        "bbox": [
+            112,
+            773,
+            196,
+            790
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "ANTLEN:,999.99CRLF ",
+        "bbox": [
+            112,
+            790,
+            313,
+            806
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "This is the mechanical length of the antenna in meters. This does not include the antenna mount. For a circularly symmetric parabolic antenna this would be the diameter. ",
+        "bbox": [
+            109,
+            825,
+            872,
+            861
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.32 Antenna width ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            891,
+            339,
+            907
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            112,
+            45,
+            184,
+            61
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            508,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "9 ",
+        "bbox": [
+            877,
+            940,
+            890,
+            952
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "(14 data) ",
+        "bbox": [
+            112,
+            104,
+            196,
+            122
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "ANTWID:,999.99CRLF ",
+        "bbox": [
+            112,
+            123,
+            315,
+            138
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "This is the mechanical width of the antenna in meters. This does not include the antenna mount. For a circularly symmetric parabolic antenna this would be the diameter. ",
+        "bbox": [
+            109,
+            157,
+            870,
+            193
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.33 Antenna depth ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            224,
+            344,
+            242
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "(14 data) ",
+        "bbox": [
+            112,
+            263,
+            196,
+            280
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "ANTDEP:,999.99CRLF ",
+        "bbox": [
+            112,
+            281,
+            316,
+            297
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "This is the mechanical depth antenna in meters. This does not include the antenna mount. ",
+        "bbox": [
+            109,
+            315,
+            823,
+            349
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.34 Antenna weight ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            382,
+            349,
+            400
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "(16 data) ",
+        "bbox": [
+            112,
+            421,
+            196,
+            439
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "ANTWGT:,999999.9CRLF ",
+        "bbox": [
+            112,
+            439,
+            344,
+            455
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "This is the weight of the antenna in kg. This includes the antenna mount. ",
+        "bbox": [
+            111,
+            473,
+            733,
+            492
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.35 Future field ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            522,
+            313,
+            539
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "(80 data) ",
+        "bbox": [
+            112,
+            561,
+            196,
+            580
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "FIELD1:,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXCRLF ",
+        "bbox": [
+            112,
+            580,
+            874,
+            614
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.36 Future field ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            646,
+            313,
+            662
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "(80 data) ",
+        "bbox": [
+            112,
+            686,
+            196,
+            703
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "FIELD2:,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXCRLF ",
+        "bbox": [
+            112,
+            704,
+            872,
+            737
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.37 Future field ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            770,
+            313,
+            787
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "(80 data) ",
+        "bbox": [
+            112,
+            809,
+            196,
+            827
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "FIELD3:,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXCRLF ",
+        "bbox": [
+            112,
+            827,
+            872,
+            859
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.38 Future field ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            893,
+            313,
+            910
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            112,
+            45,
+            187,
+            63
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            508,
+            45,
+            825,
+            64
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "page_number",
+        "text": "10 ",
+        "bbox": [
+            872,
+            939,
+            892,
+            952
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "(80 data) FIELD4:,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXCRLF ",
+        "bbox": [
+            111,
+            104,
+            872,
+            157
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.39 Future field ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            188,
+            312,
+            205
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "(80 data) FIELD5:,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXCRLF ",
+        "bbox": [
+            111,
+            228,
+            872,
+            280
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.40 Pattern Type ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            311,
+            326,
+            330
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "(16 data) PATTYP:,XXXXXXXXCRLF ",
+        "bbox": [
+            112,
+            349,
+            357,
+            383
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "This is the pattern type, either “typical” or “envelope”. ",
+        "bbox": [
+            112,
+            402,
+            571,
+            420
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "A “typical” pattern being defined as an actual measured radiation pattern representing a typical pattern for an antenna model. A “typical” pattern will normally have a frequency associated with it. ",
+        "bbox": [
+            111,
+            436,
+            874,
+            488
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "A pattern “envelope” being defined as a composite representation of an antenna model’s full frequency band radiation pattern. The envelope is a linear piecewise representation of the worst–case maximum sidelobe level as a function of angle for all frequencies of specified operation. ",
+        "bbox": [
+            111,
+            506,
+            854,
+            575
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.41 Number of Frequencies this File ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            607,
+            501,
+            625
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "(10 data) NOFREQ:,99CRLF ",
+        "bbox": [
+            112,
+            643,
+            282,
+            679
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "The number of pattern frequencies which comprise the full data set. All data below this subclause (3.2.2.44 through 3.2.2.51, however not 3.2.2.52– “end of file”) will be repeated for each frequency. Thus if there were three radiation patterns of different frequencies in a file, NOCUT would have a value of 3, and the information below would be repeated 3 times, once for each frequency. ",
+        "bbox": [
+            111,
+            696,
+            859,
+            784
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.42 Pattern frequency ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            815,
+            372,
+            834
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "(21 data) PATFRE:,999999.999999CRLF ",
+        "bbox": [
+            112,
+            854,
+            390,
+            888
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "The frequency of the pattern data for a typical pattern. The frequency is in MHz. ",
+        "bbox": [
+            111,
+            906,
+            807,
+            925
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            112,
+            45,
+            184,
+            61
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            508,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "page_number",
+        "text": "11 ",
+        "bbox": [
+            870,
+            939,
+            888,
+            952
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.43 Number of pattern cuts ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            136,
+            421,
+            155
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "(11 data) ",
+        "bbox": [
+            112,
+            176,
+            196,
+            193
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "NUMCUT:,999CRLF ",
+        "bbox": [
+            112,
+            193,
+            292,
+            210
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "The number of pattern cuts which comprise the full data set. All data below this subclause (3.2.2.44 through 3.2.2.51, however not 3.2.2.52– “end of file”) will be repeated for each pattern cut. Thus if there is a horizontal and vertical antenna cuts, NUMCUT would have a value of 2, and the information below would be repeated for each cut ",
+        "bbox": [
+            109,
+            228,
+            836,
+            315
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.44 Pattern cut ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            347,
+            308,
+            364
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "(11 data) ",
+        "bbox": [
+            112,
+            386,
+            196,
+            402
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "PATCUT:,XXXCRLF ",
+        "bbox": [
+            112,
+            402,
+            294,
+            420
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "The geometry of a particular pattern cut. Each pattern cut is preceded by an indication of the type pattern cut. Pattern cut geometries and designators are defined in Annex A. ",
+        "bbox": [
+            109,
+            438,
+            880,
+            474
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.45 Polarization ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            505,
+            315,
+            522
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "(15 data) ",
+        "bbox": [
+            112,
+            545,
+            196,
+            561
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "POLARI:,XXX/XXXCRLF ",
+        "bbox": [
+            112,
+            561,
+            333,
+            579
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "The particular polarization of a pattern cut. The first polarization is the polarization of the antenna-under-test and the second the polarization of the illuminating source. The two polarizations are separated by a /. ",
+        "bbox": [
+            109,
+            597,
+            874,
+            650
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Each pattern cut is preceded by an indication of the polarization of the data. Polarization designators are defined in Annex A. ",
+        "bbox": [
+            109,
+            666,
+            874,
+            702
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.46 Number of data points ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            734,
+            413,
+            752
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "(13 data) ",
+        "bbox": [
+            112,
+            773,
+            196,
+            790
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "NUPOIN:,99999CRLF ",
+        "bbox": [
+            112,
+            790,
+            305,
+            806
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "The number of data points in a particular pattern cut data set. ",
+        "bbox": [
+            112,
+            825,
+            643,
+            843
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.47 First and Last Angle of Pattern Data ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            875,
+            539,
+            893
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "(25 data) ",
+        "bbox": [
+            112,
+            911,
+            196,
+            929
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            112,
+            45,
+            184,
+            61
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            508,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "page_number",
+        "text": "12 ",
+        "bbox": [
+            870,
+            939,
+            890,
+            952
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "FSTLST:,S999.999,S999.999CRLF ",
+        "bbox": [
+            112,
+            122,
+            424,
+            140
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "The first and last angle (in degrees) of the antenna pattern data. NOTE: Pattern data shall be expressed monotonically, with respect to angle. Azimuths shall be stated as either –180 to +180 or 0 to 360 degrees. ",
+        "bbox": [
+            109,
+            156,
+            859,
+            210
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.48 X- Axis Orientation ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            241,
+            382,
+            258
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "A verbal description of the physical orientation of the x-axis on the antenna. ",
+        "bbox": [
+            111,
+            277,
+            759,
+            297
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "(53 data) ",
+        "bbox": [
+            112,
+            313,
+            197,
+            330
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "XORIEN:,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXCRLF ",
+        "bbox": [
+            111,
+            347,
+            828,
+            364
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.49 Y- Axis Orientation ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            397,
+            382,
+            414
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "A verbal description of the physical orientation of the y-axis on the antenna. ",
+        "bbox": [
+            111,
+            434,
+            759,
+            452
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "(53 data) ",
+        "bbox": [
+            112,
+            468,
+            197,
+            486
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "YORIEN:,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXCRLF ",
+        "bbox": [
+            111,
+            503,
+            828,
+            521
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.50 Z- Axis Orientation ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            551,
+            380,
+            569
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "A verbal description of the physical orientation of the z-axis on the antenna. ",
+        "bbox": [
+            111,
+            589,
+            759,
+            606
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "(53 data) ",
+        "bbox": [
+            112,
+            625,
+            197,
+            642
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "ZORIEN:,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXCRLF ",
+        "bbox": [
+            111,
+            657,
+            826,
+            676
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.51 Pattern Cut Data",
+        "text_level": 1,
+        "bbox": [
+            112,
+            708,
+            362,
+            724
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Angle(8 data/space),Magnitude(8data/space),Phase(8data/space) ",
+        "bbox": [
+            111,
+            747,
+            689,
+            766
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "S999.999,S999.999,S999.999CRLF ",
+        "bbox": [
+            112,
+            781,
+            431,
+            799
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "The data is presented in three columns. The angle of observation is listed first followed by the antenna magnitude response and phase response. In most cases the phase response will not be included in the data set. “S” designates the sign of the number. ",
+        "bbox": [
+            109,
+            816,
+            861,
+            869
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "The antenna power magnitude is listed in the units specified in the antenna units field (GUNITS). ",
+        "bbox": [
+            111,
+            886,
+            841,
+            922
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            112,
+            45,
+            187,
+            63
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            508,
+            45,
+            825,
+            64
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "page_number",
+        "text": "13 ",
+        "bbox": [
+            870,
+            939,
+            890,
+            952
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "The angle and phase data are expressed in units of degrees. ",
+        "bbox": [
+            111,
+            122,
+            640,
+            140
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Although pattern data is allowed values that have up to three digits to the right of the decimal point this does not imply that the pattern data is to or can be measured to that accuracy. Typical accuracy for an antenna pattern measurement is 0.1 dB and 0.1 degree. ",
+        "bbox": [
+            109,
+            157,
+            859,
+            227
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "For all patterns, azimuths values should not be repeated. For example, values should not be provided for both a \"0.0\" degree azimuth and a \"360.0\" azimuth, nor should 2 different discrimination values be provided for a \"20.0\" degree azimuth twice. ",
+        "bbox": [
+            109,
+            244,
+            880,
+            297
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "3.2.2.52 End of File",
+        "text_level": 1,
+        "bbox": [
+            111,
+            328,
+            305,
+            345
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "(11 data) ",
+        "bbox": [
+            112,
+            368,
+            196,
+            385
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "ENDFIL:,EOFCRLF ",
+        "bbox": [
+            112,
+            385,
+            287,
+            401
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "This field designates the end of the file with the characters EOF. ",
+        "bbox": [
+            111,
+            419,
+            666,
+            436
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "4.0 Bibliography ",
+        "text_level": 1,
+        "bbox": [
+            111,
+            488,
+            294,
+            508
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "[1] ANSI/IEEE Std 149, IEEE Standard Test Procedures for Antennas ",
+            "[2] J.S. Hollis, T.J. Lyon, L. Clayton, Microwave Antenna Measurements, Scientific-Atlanta Georgia, 1985. "
+        ],
+        "bbox": [
+            111,
+            526,
+            843,
+            580
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            112,
+            45,
+            184,
+            61
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            508,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "page_number",
+        "text": "14 ",
+        "bbox": [
+            870,
+            939,
+            890,
+            952
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Annex A (Normative) ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            136,
+            307,
+            154
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Definition of Pattern Cut Geometries ",
+        "text_level": 1,
+        "bbox": [
+            326,
+            209,
+            669,
+            226
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "A.1 General Definitions and Practices ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            277,
+            470,
+            292
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "The mechanical boresite of the antenna shall determine the 0 degree reference for all pattern cuts (except cuts defined by a spherical coordinate system). For most antennas, the mechanical boresite is the direction perpendicular to the plane or line defined by the radiating aperture. If the mechanical boresite is ambiguous, as in the case of an omni-directional antenna, the mechanical boresite needs to be defined on the antenna structure. ",
+        "bbox": [
+            111,
+            299,
+            846,
+            402
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "The electrical boresite of the antenna is the direction of maximum gain and consequently will be the direction of maximum received signal level when measuring a radiation pattern. This maximum level is to be assigned the reference value of 0dB(1 linear), or a value equivalent to the antenna maximum gain relative to an isotropic radiator or a half-wave dipole. See section 3.2.2.18 for allowable radiation pattern units. For a non-steerable antenna, unless a mechanical tilt is specified it is assumed that in an operational situation an antenna’s mechanical boresite is pointed in a direction parallel to the earths horizon. In this case horizontal and vertical pattern cuts can be defined, which are referenced to the earth’s horizon. The vertical cut being perpendicular to the horizon. ",
+        "bbox": [
+            111,
+            421,
+            877,
+            595
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "For an electrically or mechanically steerable antenna or an antenna which has a fixed electrical or mechanical tilt, azimuth and elevation pattern cuts are defined. These are pattern cuts which are orthogonal through the peak of the antennas main beam (electrical boresite). The azimuth cut is the cut which would be closest to the horizon in an operational situation. If the direction that the antenna is pointing is known, a horizontal cut can still be defined. ",
+        "bbox": [
+            111,
+            613,
+            864,
+            717
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "General pattern cuts can be defined by a spherical coordinate system with the electrical boresite of the antenna oriented in the direction of the Z-axis. At different values of phi, pattern cuts can be taken with theta as the dependent variable. These will be greatcircle cuts through the main-beam peak. An additional measurement relating the mechanical and electrical boresite must be made to fully characterize the antenna. Also the orientation of the antenna to the spherical coordinate system must be defined.(example: top of the antenna oriented in the +x direction). ",
+        "bbox": [
+            111,
+            734,
+            870,
+            858
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            114,
+            45,
+            184,
+            61
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            508,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "page_number",
+        "text": "15 ",
+        "bbox": [
+            864,
+            939,
+            883,
+            952
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "A.2 Horizontal/Vertical Pattern Geometry ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            136,
+            500,
+            155
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "image",
+        "img_path": "images/b5951b2fc2edddd3b25b1b359fa84329e7346676de7eccd99f2ce155d9174f6b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "P (Horizontal, Vertical)\nZ (0,90)\nVertical\nAngle\nY\nHorizontal\nAngle\nX (0,0)\nMechanical\nBoresite",
+        "sub_type": "text_image",
+        "bbox": [
+            240,
+            232,
+            643,
+            520
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "image",
+        "img_path": "images/34f42615ae5459c21402041fa2b98ad346248031d988ca3639fe963df168bd2d.jpg",
+        "image_caption": [
+            "Example: Sector antenna (no electrical downtilt) "
+        ],
+        "image_footnote": [],
+        "content": "Z\nVertical Cut\nY\nHorizontal Cut\nV\nH\nElectrical And\nMechanical Boresite",
+        "sub_type": "text_image",
+        "bbox": [
+            124,
+            588,
+            619,
+            904
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            114,
+            45,
+            186,
+            61
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            508,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "page_number",
+        "text": "16 ",
+        "bbox": [
+            864,
+            939,
+            883,
+            952
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "A.3 Azimuth/Elevation Pattern Geometry ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            136,
+            496,
+            155
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/0f7dfb910a9fc46065dfc9e32ffb36e9d37e9df76e927627fc37b4dc080a16eb.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "P (AZ, EL)\nZ (0,90)\nElevation\nAngle\nY\n(90,0)\nAzimuth\nAngle\nX (0,0)\nMechanical\nBoresite",
+        "sub_type": "text_image",
+        "bbox": [
+            300,
+            191,
+            651,
+            445
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Example: Sector antenna (electrically downtilted, with conical azimuth pattern cut) ",
+        "bbox": [
+            112,
+            551,
+            821,
+            571
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/1565ab2a2ad7893326f276d1c0d46cb6557b915dd0f6f484b352c536eea8b690.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Elevation Cut\nY\nHorizontal Cut\nAzimuth Cut\nElectrical Downtilt\nMechanical Boresite\nElectrical Boresite\nV\nH\nZ",
+        "sub_type": "text_image",
+        "bbox": [
+            133,
+            599,
+            660,
+            901
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            114,
+            45,
+            186,
+            61
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            508,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "page_number",
+        "text": "17 ",
+        "bbox": [
+            864,
+            939,
+            883,
+            952
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "A.4 Spherical Pattern Geometry ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            188,
+            416,
+            208
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "image",
+        "img_path": "images/67f12a8b0f7a4ce4c079f189c3e81279364bd73bdeba0ff6b24e699c6c271515.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Electrical\nBoresite\nθ=0°\nZ\nΦ=270°\nθ=90°\nEquator\nX\nΦ=0°\nθ=90°\nY Φ=90°\nθ=90°\nΦ=180°",
+        "sub_type": "text_image",
+        "bbox": [
+            349,
+            330,
+            800,
+            621
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "A.5 Pattern Cut Designators (XXX) ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            787,
+            439,
+            806
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Horizontal Cut H ",
+        "bbox": [
+            112,
+            827,
+            310,
+            843
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Vertical Cut V ",
+        "bbox": [
+            112,
+            844,
+            308,
+            859
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Azimuth Cut AZ ",
+        "bbox": [
+            114,
+            861,
+            318,
+            877
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Elevation Cut EL ",
+        "bbox": [
+            114,
+            878,
+            318,
+            895
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Phi Cut XXX Phi angle Example: 180 ",
+        "bbox": [
+            114,
+            897,
+            545,
+            915
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            114,
+            45,
+            186,
+            61
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            508,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "page_number",
+        "text": "18 ",
+        "bbox": [
+            864,
+            939,
+            883,
+            952
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "4.0 Annex B (Normative) ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            135,
+            344,
+            154
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Definition of Polarization Designators ",
+        "text_level": 1,
+        "bbox": [
+            323,
+            191,
+            673,
+            210
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "The polarization designators for horizontal and vertical polarization cases are: ",
+        "bbox": [
+            112,
+            210,
+            777,
+            229
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Horizontal: H ",
+        "bbox": [
+            112,
+            244,
+            250,
+            262
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Vertical: V ",
+        "bbox": [
+            112,
+            263,
+            250,
+            279
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "The possible polarization cases for these designators are: ",
+        "bbox": [
+            112,
+            297,
+            614,
+            316
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "H/H Horizontal polarized port response to a horizontally polarized signal. ",
+        "bbox": [
+            112,
+            332,
+            609,
+            367
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "(Co-polarized pattern) ",
+        "bbox": [
+            174,
+            368,
+            364,
+            386
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "H/V Horizontal polarized port response to a vertically polarized signal. ",
+        "bbox": [
+            112,
+            402,
+            589,
+            436
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "(Cross-polarized pattern) ",
+        "bbox": [
+            174,
+            438,
+            390,
+            455
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "V/V Vertical polarized port response to a vertically polarized signal. ",
+        "bbox": [
+            112,
+            472,
+            570,
+            507
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "(Co-polarized pattern) ",
+        "bbox": [
+            174,
+            508,
+            364,
+            525
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "V/H Vertical polarized port response to a horizontally polarized signal. ",
+        "bbox": [
+            112,
+            541,
+            589,
+            577
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "(Cross-polarized pattern) ",
+        "bbox": [
+            174,
+            578,
+            390,
+            595
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Polarization designators for other orthogonal polarization cases are: ",
+        "bbox": [
+            112,
+            611,
+            696,
+            630
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Linear Slant 45 ",
+        "bbox": [
+            112,
+            646,
+            246,
+            662
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Slant right: SLR1 ",
+        "bbox": [
+            112,
+            664,
+            338,
+            681
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Slant left: SLL1 ",
+        "bbox": [
+            112,
+            681,
+            334,
+            698
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Circular ",
+        "bbox": [
+            112,
+            715,
+            184,
+            733
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "right hand: RCP1 ",
+        "bbox": [
+            112,
+            734,
+            339,
+            751
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "left hand: LCP1 ",
+        "bbox": [
+            112,
+            751,
+            338,
+            767
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Spherical geometry ",
+        "bbox": [
+            112,
+            786,
+            285,
+            803
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "E theta ETH ",
+        "bbox": [
+            112,
+            804,
+            333,
+            819
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "E phi EPH ",
+        "bbox": [
+            112,
+            821,
+            333,
+            838
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            114,
+            45,
+            186,
+            61
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            508,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "page_footnote",
+        "text": "1 Polarization is defined as viewed from behind the antenna under test, looking in the direction of the electrical boresight (i.e. main beam axis). ",
+        "bbox": [
+            112,
+            902,
+            834,
+            939
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "page_number",
+        "text": "19 ",
+        "bbox": [
+            864,
+            939,
+            883,
+            952
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "5.0 Annex C (Informative) ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            135,
+            354,
+            155
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Example File ",
+        "text_level": 1,
+        "bbox": [
+            437,
+            209,
+            558,
+            228
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "REVNUM:, NSMA WG16.99.050 ",
+        "bbox": [
+            112,
+            279,
+            406,
+            297
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "REVDAT:,19990520 ",
+        "bbox": [
+            114,
+            297,
+            292,
+            314
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "COMNT1:,This is a sample file for 1 frequency and 2 cuts ",
+        "bbox": [
+            114,
+            316,
+            611,
+            333
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "ANTMAN:,ABC Antenna Company ",
+        "bbox": [
+            114,
+            334,
+            410,
+            349
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "MODNUM:,800A-065-25-4N ",
+        "bbox": [
+            114,
+            351,
+            362,
+            366
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "DESCR1:,800 Mhz 65 deg AZ BW 2.5meter 4 deg E-tilt base station antenna ",
+        "bbox": [
+            114,
+            368,
+            779,
+            385
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "DTDATA:,19971216 ",
+        "bbox": [
+            114,
+            386,
+            292,
+            401
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "LOWFRQ:,806 ",
+        "bbox": [
+            114,
+            402,
+            246,
+            417
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "HGHFRQ:,896 ",
+        "bbox": [
+            114,
+            420,
+            243,
+            436
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "GUNITS:,DBI/DBR ",
+        "bbox": [
+            114,
+            438,
+            279,
+            453
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "MDGAIN:,16.8,0.5 ",
+        "bbox": [
+            114,
+            455,
+            279,
+            470
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "AZWIDT:,65.0 ",
+        "bbox": [
+            114,
+            473,
+            243,
+            488
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "ELWIDT:,7.1 ",
+        "bbox": [
+            114,
+            489,
+            228,
+            506
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "CONTYP:,n connector ",
+        "bbox": [
+            114,
+            508,
+            310,
+            523
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "ATVSWR:,1.40 ",
+        "bbox": [
+            114,
+            525,
+            250,
+            541
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "FRTOBA:,30 ",
+        "bbox": [
+            114,
+            542,
+            228,
+            558
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "ELTILT:,4.0,0.5 ",
+        "bbox": [
+            114,
+            560,
+            254,
+            575
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "MAXPOW:,500 ",
+        "bbox": [
+            114,
+            578,
+            250,
+            593
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "ANTLEN:,2.367 ",
+        "bbox": [
+            114,
+            595,
+            251,
+            609
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "ANTWID:,0.366 ",
+        "bbox": [
+            114,
+            612,
+            254,
+            628
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "ANTDEP:,0.178 ",
+        "bbox": [
+            114,
+            630,
+            254,
+            645
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "ANTWGT:,19.0 ",
+        "bbox": [
+            114,
+            647,
+            251,
+            662
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "PATTYP:,typical ",
+        "bbox": [
+            114,
+            665,
+            259,
+            681
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "NOFREQ:,1 ",
+        "bbox": [
+            114,
+            683,
+            220,
+            698
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "PATFRE:,851 ",
+        "bbox": [
+            114,
+            700,
+            235,
+            715
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "NUMCUT:,2 ",
+        "bbox": [
+            114,
+            717,
+            222,
+            732
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "PATCUT:,EL ",
+        "bbox": [
+            114,
+            734,
+            227,
+            750
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "POLARI:,V/V ",
+        "bbox": [
+            114,
+            751,
+            233,
+            767
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "NUPOIN:,180 ",
+        "bbox": [
+            114,
+            768,
+            233,
+            784
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "FSTLST:,-180.000,+178.000 ",
+        "bbox": [
+            114,
+            786,
+            366,
+            801
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "-180.000,-29.799, ",
+        "bbox": [
+            114,
+            804,
+            272,
+            820
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "-178.000,-28.912, ",
+        "bbox": [
+            114,
+            821,
+            272,
+            837
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "-176.000,-28.777, ",
+        "bbox": [
+            114,
+            839,
+            272,
+            854
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "-174.000,-29.738, ",
+        "bbox": [
+            114,
+            857,
+            272,
+            872
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "-172.000,-32.718, ",
+        "bbox": [
+            114,
+            875,
+            272,
+            888
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "-170.000,-38.453, ",
+        "bbox": [
+            114,
+            891,
+            272,
+            907
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "-168.000,-39.742, ",
+        "bbox": [
+            114,
+            909,
+            272,
+            925
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            114,
+            45,
+            186,
+            61
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            508,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "page_number",
+        "text": "20 ",
+        "bbox": [
+            862,
+            939,
+            883,
+            952
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "-166.000,-39.746, ",
+            "-164.000,-38.157, ",
+            "-162.000,-37.854, ",
+            "-160.000,-39.097, ",
+            "-158.000,-39.794, ",
+            "-156.000,-39.778, ",
+            "-154.000,-39.720, ",
+            "-152.000,-39.712, ",
+            "-150.000,-39.683, ",
+            "-148.000,-39.720, ",
+            "-146.000,-39.716, ",
+            "-144.000,-39.720, ",
+            "-142.000,-39.732, ",
+            "-140.000,-39.736, ",
+            "-138.000,-39.777, ",
+            "-136.000,-39.745, ",
+            "-134.000,-39.786, ",
+            "-132.000,-39.794, ",
+            "-130.000,-39.794, ",
+            "-128.000,-39.808, ",
+            "-126.000,-39.769, ",
+            "-124.000,-39.798, ",
+            "-122.000,-39.781, ",
+            "-120.000,-39.757, ",
+            "-118.000,-39.732, ",
+            "-116.000,-39.484, ",
+            "-114.000,-38.421, ",
+            "-112.000,-38.458, ",
+            "-110.000,-39.550, ",
+            "-108.000,-39.670, ",
+            "-106.000,-39.637, ",
+            "-104.000,-39.641, ",
+            "-102.000,-39.604, ",
+            "-100.000,-39.637, ",
+            "-98.000,-39.653, ",
+            "-96.000,-39.719, ",
+            "-94.000,-39.748, ",
+            "-92.000,-39.596, ",
+            "-90.000,-36.250, ",
+            "-88.000,-34.111, ",
+            "-86.000,-30.864, ",
+            "-84.000,-29.719, ",
+            "-82.000,-29.280, ",
+            "-80.000,-28.923, ",
+            "-78.000,-28.566, ",
+            "-76.000,-28.151, ",
+            "-74.000,-27.786, "
+        ],
+        "bbox": [
+            112,
+            104,
+            274,
+            924
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            114,
+            45,
+            186,
+            61
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            509,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            862,
+            939,
+            880,
+            952
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "list",
+        "sub_type": "ref_text",
+        "list_items": [
+            "-72.000,-27.654, ",
+            "-70.000,-27.962, ",
+            "-68.000,-29.030, ",
+            "-66.000,-31.136, ",
+            "-64.000,-33.898, ",
+            "-62.000,-36.678, ",
+            "-60.000,-33.073, ",
+            "-58.000,-28.595, ",
+            "-56.000,-25.405, ",
+            "-54.000,-23.258, ",
+            "-52.000,-22.684, ",
+            "-50.000,-23.090, ",
+            "-48.000,-25.459, ",
+            "-46.000,-28.862, ",
+            "-44.000,-29.059, ",
+            "-42.000,-25.200, ",
+            "-40.000,-23.435, ",
+            "-38.000,-22.606, ",
+            "-36.000,-22.487, ",
+            "-34.000,-21.313, ",
+            "-32.000,-18.558, ",
+            "-30.000,-16.095, ",
+            "-28.000,-15.701, ",
+            "-26.000,-17.688, ",
+            "-24.000,-21.046, ",
+            "-22.000,-20.410, ",
+            "-20.000,-14.294, ",
+            "-18.000,-11.276, ",
+            "-16.000,-11.063, ",
+            "-14.000,-12.249, ",
+            "-12.000,-10.057, ",
+            "-10.000,-5.378, ",
+            "-8.000,-2.463, ",
+            "-6.000,-0.649, ",
+            "-4.000,0.000, ",
+            "-2.000,-0.653, ",
+            "0.000,-2.800, ",
+            "2.000,-7.582, ",
+            "4.000,-13.588, ",
+            "6.000,-20.760, ",
+            "8.000,-18.822, ",
+            "10.000,-17.915, ",
+            "12.000,-20.669, ",
+            "14.000,-21.618, ",
+            "16.000,-19.775, ",
+            "18.000,-18.913, ",
+            "20.000,-20.953, "
+        ],
+        "bbox": [
+            125,
+            104,
+            274,
+            924
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            114,
+            45,
+            186,
+            61
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            509,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            862,
+            939,
+            882,
+            950
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "22.000,-24.471, 24.000,-24.914, 26.000,-22.230, 28.000,-21.171, 30.000,-22.985, 32.000,-31.475, 34.000,-38.166, 36.000,-31.154, 38.000,-26.430, 40.000,-26.023, 42.000,-27.756, 44.000,-30.280, 46.000,-29.004, 48.000,-25.748, 50.000,-23.983, 52.000,-23.154, 54.000,-23.478, 56.000,-24.817, 58.000,-26.840, 60.000,-28.926, 62.000,-29.792, 64.000,-28.339, 66.000,-26.878, 68.000,-26.011, 70.000,-25.507, 72.000,-25.277, 74.000,-25.511, 76.000,-25.880, 78.000,-26.430, 80.000,-27.018, 82.000,-27.670, 84.000,-28.397, 86.000,-29.206, 88.000,-30.043, 90.000,-30.733, 92.000,-31.427, 94.000,-32.166, 96.000,-32.999, 98.000,-33.586, 100.000,-34.112, 102.000,-34.629, 104.000,-34.826, 106.000,-34.859, 108.000,-34.900, 110.000,-35.171, 112.000,-35.742, 114.000,-36.780, ",
+        "bbox": [
+            129,
+            104,
+            274,
+            924
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            114,
+            45,
+            186,
+            61
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            509,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "page_number",
+        "text": "23 ",
+        "bbox": [
+            862,
+            939,
+            882,
+            952
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "116.000,-38.168, ",
+            "118.000,-39.346, ",
+            "120.000,-39.190, ",
+            "122.000,-38.229, ",
+            "124.000,-37.700, ",
+            "126.000,-37.725, ",
+            "128.000,-38.505, ",
+            "130.000,-39.720, ",
+            "132.000,-39.769, ",
+            "134.000,-39.802, ",
+            "136.000,-39.796, ",
+            "138.000,-39.792, ",
+            "140.000,-39.810, ",
+            "142.000,-39.810, ",
+            "144.000,-39.796, ",
+            "146.000,-39.810, ",
+            "148.000,-39.796, ",
+            "150.000,-39.819, ",
+            "152.000,-39.800, ",
+            "154.000,-39.807, ",
+            "156.000,-39.775, ",
+            "158.000,-39.819, ",
+            "160.000,-39.779, ",
+            "162.000,-39.742, ",
+            "164.000,-39.771, ",
+            "166.000,-39.786, ",
+            "168.000,-39.626, ",
+            "170.000,-39.741, ",
+            "172.000,-39.245, ",
+            "174.000,-37.262, ",
+            "176.000,-34.614, ",
+            "178.000,-31.966, ",
+            "PATCUT:,AZ ",
+            "POLARI:,V/V ",
+            "NUPOIN:,180 ",
+            "FSTLST:,-180.000,+178.000 ",
+            "-180.000,-32.219, ",
+            "-178.000,-32.353, ",
+            "-176.000,-32.688, ",
+            "-174.000,-33.081, ",
+            "-172.000,-33.683, ",
+            "-170.000,-34.343, ",
+            "-168.000,-35.249, ",
+            "-166.000,-36.196, ",
+            "-164.000,-37.069, ",
+            "-162.000,-37.646, ",
+            "-160.000,-37.940, "
+        ],
+        "bbox": [
+            114,
+            103,
+            367,
+            924
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            114,
+            45,
+            186,
+            61
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            509,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "page_number",
+        "text": "24 ",
+        "bbox": [
+            862,
+            939,
+            882,
+            952
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "-158.000,-37.089, ",
+            "-156.000,-35.350, ",
+            "-154.000,-34.174, ",
+            "-152.000,-33.093, ",
+            "-150.000,-32.188, ",
+            "-148.000,-31.772, ",
+            "-146.000,-31.163, ",
+            "-144.000,-30.697, ",
+            "-142.000,-30.318, ",
+            "-140.000,-30.004, ",
+            "-138.000,-29.654, ",
+            "-136.000,-29.217, ",
+            "-134.000,-28.604, ",
+            "-132.000,-28.117, ",
+            "-130.000,-27.270, ",
+            "-128.000,-26.447, ",
+            "-126.000,-25.711, ",
+            "-124.000,-24.863, ",
+            "-122.000,-24.102, ",
+            "-120.000,-23.436, ",
+            "-118.000,-22.830, ",
+            "-116.000,-22.155, ",
+            "-114.000,-21.427, ",
+            "-112.000,-20.785, ",
+            "-110.000,-20.159, ",
+            "-108.000,-19.542, ",
+            "-106.000,-18.826, ",
+            "-104.000,-18.315, ",
+            "-102.000,-17.739, ",
+            "-100.000,-17.265, ",
+            "-98.000,-16.734, ",
+            "-96.000,-16.285, ",
+            "-94.000,-15.790, ",
+            "-92.000,-15.345, ",
+            "-90.000,-14.851, ",
+            "-88.000,-14.439, ",
+            "-86.000,-14.010, ",
+            "-84.000,-13.561, ",
+            "-82.000,-13.190, ",
+            "-80.000,-12.745, ",
+            "-78.000,-12.218, ",
+            "-76.000,-11.827, ",
+            "-74.000,-11.250, ",
+            "-72.000,-10.809, ",
+            "-70.000,-10.368, ",
+            "-68.000,-9.891, ",
+            "-66.000,-9.400, "
+        ],
+        "bbox": [
+            112,
+            104,
+            274,
+            925
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            114,
+            45,
+            186,
+            61
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            509,
+            45,
+            825,
+            61
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "page_number",
+        "text": "25 ",
+        "bbox": [
+            862,
+            939,
+            882,
+            952
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "list",
+        "sub_type": "ref_text",
+        "list_items": [
+            "-64.000,-8.898, ",
+            "-62.000,-8.465, ",
+            "-60.000,-7.987, ",
+            "-58.000,-7.547,",
+            "-56.000,-7.011, ",
+            "-54.000,-6.620, ",
+            "-52.000,-6.166, ",
+            "-50.000,-5.759, ",
+            "-48.000,-5.330, ",
+            "-46.000,-4.951, ",
+            "-44.000,-4.477, ",
+            "-42.000,-4.065, ",
+            "-40.000,-3.763, ",
+            "-38.000,-3.454, ",
+            "-36.000,-3.157, ",
+            "-34.000,-2.819, ",
+            "-32.000,-2.526 ",
+            "-30.000,-2.245, ",
+            "-28.000,-1.948, ",
+            "-26.000,-1.679, ",
+            "-24.000,-1.382, ",
+            "-22.000,-1.216, ",
+            "-20.000,-0.977, ",
+            "-18.000,-0.762, ",
+            "-16.000,-0.526, ",
+            "-14.000,-0.434, ",
+            "-12.000,-0.338, ",
+            "-10.000,-0.246, ",
+            "-8.000,-0.134, ",
+            "-5.000,-0.132, ",
+            "-2.000,-0.006, ",
+            "0.000,-0.029, ",
+            "2.000,-0.020, ",
+            "4.000,-0.059, ",
+            "6.000,-0.210, ",
+            "8.000,-0.274, ",
+            "10.000,-0.350, ",
+            "12.000,-0.534, ",
+            "14.000,-0.684, ",
+            "16.000,-0.830, ",
+            "18.000,-1.022, ",
+            "20.000,-1.275, ",
+            "22.000,-1.499, ",
+            "24.000,-1.740, ",
+            "26.000,-1.965, ",
+            "28.000,-2.296, ",
+            "30.000,-2.573, "
+        ],
+        "bbox": [
+            125,
+            104,
+            263,
+            924
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            114,
+            45,
+            186,
+            61
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            509,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "page_number",
+        "text": "26 ",
+        "bbox": [
+            862,
+            940,
+            883,
+            952
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "list",
+        "sub_type": "ref_text",
+        "list_items": [
+            "32.000,-2.855, ",
+            "34.000,-3.162, ",
+            "36.000,-3.493, ",
+            "38.000,-3.935, ",
+            "40.000,-4.278, ",
+            "42.000,-4.634, ",
+            "44.000,-5.027, ",
+            "46.000,-5.432, ",
+            "48.000,-5.837, ",
+            "50.000,-6.266, ",
+            "52.000,-6.749, ",
+            "54.000,-7.220, ",
+            "56.000,-7.703, ",
+            "58.000,-8.166, ",
+            "60.000,-8.571, ",
+            "62.000,-9.000, ",
+            "64.000,-9.430, ",
+            "66.000,-9.786, ",
+            "68.000,-10.281, ",
+            "70.000,-10.912, ",
+            "72.000,-11.387, ",
+            "74.000,-11.747, ",
+            "76.000,-12.106, ",
+            "78.000,-12.561, ",
+            "80.000,-12.953, ",
+            "82.000,-13.387, ",
+            "84.000,-13.841, ",
+            "86.000,-14.341, ",
+            "88.000,-14.795, ",
+            "90.000,-15.213, ",
+            "92.000,-15.704, ",
+            "94.000,-16.203, ",
+            "96.000,-16.736, ",
+            "98.000,-17.256, ",
+            "100.000,-17.730, ",
+            "102.000,-18.172, ",
+            "104.000,-18.738, ",
+            "106.000,-19.426, ",
+            "108.000,-19.995, ",
+            "110.000,-20.528, ",
+            "112.000,-21.167, ",
+            "114.000,-21.917, ",
+            "116.000,-22.519, ",
+            "118.000,-23.035, ",
+            "120.000,-23.604, ",
+            "122.000,-24.148, ",
+            "124.000,-24.755, "
+        ],
+        "bbox": [
+            129,
+            104,
+            277,
+            924
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            114,
+            45,
+            186,
+            61
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            509,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "page_number",
+        "text": "27 ",
+        "bbox": [
+            862,
+            939,
+            882,
+            952
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "126.000,-25.418, ",
+            "128.000,-25.947, ",
+            "130.000,-26.545, ",
+            "132.000,-27.134, ",
+            "134.000,-27.761, ",
+            "136.000,-28.372, ",
+            "138.000,-29.122, ",
+            "140.000,-29.769, ",
+            "142.000,-30.277, ",
+            "144.000,-30.862, ",
+            "146.000,-31.485, ",
+            "148.000,-32.428, ",
+            "150.000,-33.137, ",
+            "152.000,-34.219, ",
+            "154.000,-35.450, ",
+            "156.000,-36.914, ",
+            "158.000,-38.083, ",
+            "160.000,-38.751, ",
+            "162.000,-38.564, ",
+            "164.000,-37.430, ",
+            "166.000,-36.389, ",
+            "168.000,-35.221, ",
+            "170.000,-34.021, ",
+            "172.000,-33.227, ",
+            "174.000,-32.618, ",
+            "176.000,-32.275, ",
+            "178.000,-31.982, ",
+            "ENDFIL:,EOF "
+        ],
+        "bbox": [
+            109,
+            104,
+            279,
+            592
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "header",
+        "text": "NSMA ",
+        "bbox": [
+            114,
+            45,
+            186,
+            61
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "header",
+        "text": "Recommendation WG16.99.050 ",
+        "bbox": [
+            509,
+            45,
+            823,
+            61
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            862,
+            939,
+            882,
+            950
+        ],
+        "page_idx": 31
+    }
+]

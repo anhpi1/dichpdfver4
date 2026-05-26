@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>PDF Replica Viewer</title>
+
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"/>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    background: #525659;
+    padding: 30px 0;
+    min-height: 100vh;
+}
+.pg {
+    overflow: hidden;
+    page-break-after: always;
+}
+
+.blk {
+    border: 2px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.dbg-label {
+    display: none;
+    position: absolute;
+    top: 0; left: 0;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 0 0 6px 0;
+    z-index: 10;
+    opacity: 0.95;
+    line-height: 1.2;
+    pointer-events: none;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+body.debug .blk {
+    border-style: dashed !important;
+    background-color: rgba(0,0,0,0.02);
+}
+body:not(.debug) .blk {
+    border-color: transparent !important;
+}
+body.debug .dbg-label {
+    display: block;
+}
+
+#debug-btn {
+    position: fixed;
+    top: 12px;
+    right: 16px;
+    z-index: 9999;
+    background: #333;
+    color: #aaa;
+    border: 1px solid #555;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Segoe UI', sans-serif;
+    transition: all 0.2s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+#debug-btn:hover { background: #444; color: #fff; }
+#debug-btn.active { background: #ff5722; color: #fff; border-color: #ff5722; }
+
+.fit {
+    display: block;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.code-block {
+    background-color: transparent;
+    border-radius: 0;
+    border: none !important;
+}
+
+.tw table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.tw td, .tw th {
+    border: 1px solid #bbb;
+    padding: 2px 4px;
+}
+
+.math .katex {
+    font-size: 1.05em !important;
+}
+</style>
+</head>
+<body>
+
+<button id="debug-btn" onclick="toggleDebug()">🔍 Debug OFF</button>
+
+<div class="pg" style="width:916px;height:1186px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:208.5px;top:100.5px;width:706.5px;height:58.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#1 title</span><span class="fit" style="font-size:18px; line-height:23px;">Dữ liệu địa hình MSI PLANET Phép chiếu UTM</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:160.5px;width:828.0px;height:36.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#2 title</span><span class="fit" style="font-size:18px; line-height:23px;">Phép chiếu Universal Transverse Mercator (UTM)</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:198.0px;width:829.5px;height:76.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#3 text</span><span class="fit" style="font-size:18px; line-height:23px;">Phép chiếu UTM chia thế giới thành 60 khu vực hoặc đoạn. Mỗi khu vực bao phủ 6 độ kinh độ. Khu vực đầu tiên bắt đầu tại đường đổi ngày quốc tế và các số tăng dần về phía đông. Tại trung tâm của mỗi khu vực là một kinh tuyến trung tâm, là tham chiếu đo lường cho khu vực đó.</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:276.0px;width:829.5px;height:75.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#4 text</span><span class="fit" style="font-size:17px; line-height:22px;">Các đường lưới đông-tây được gắn vào kinh tuyến trung tâm ở góc vuông và đi theo các đường tròn lớn ra xa khỏi nó. Đây là các đường có hằng số northing và không đi theo các vĩ tuyến, vì các vĩ tuyến không phải là đường tròn lớn. Cuối cùng, các đường lưới bắc-nam được vẽ như các đường có hằng số easting.</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:352.5px;width:829.5px;height:99.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#5 text</span><span class="fit" style="font-size:18px; line-height:23px;">Tọa độ UTM tương đối với một số khu vực cụ thể và được biểu thị dưới dạng tọa độ easting hoặc X và tọa độ northing hoặc Y. Easting là khoảng cách từ kinh tuyến trung tâm dọc theo các đường lưới đông-tây sử dụng quy ước dấu dương đông âm tây. Để tránh số âm, một easting giả 500.000 mét được gán cho kinh tuyến trung tâm.</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:453.0px;width:829.5px;height:96.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#6 text</span><span class="fit" style="font-size:18px; line-height:23px;">Northing là khoảng cách từ xích đạo dọc theo các đường lưới bắc-nam sử dụng quy ước dấu dương bắc - âm nam. Để tránh số âm ở bán cầu nam, một northing giả 10.000.000 mét được gán cho xích đạo. Northing giả này tạo ra sự mơ hồ trong hệ tọa độ này. Xem xét tọa độ UTM:</span></div>
+<div class="blk" style="position:absolute;left:154.5px;top:550.5px;width:760.5px;height:34.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#7 text</span><span class="fit" style="font-size:18px; line-height:23px;">khu vực = 12, easting = 575 km, northing = 5600 km.</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:586.5px;width:828.0px;height:36.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#8 text</span><span class="fit" style="font-size:18px; line-height:23px;">Sử dụng mốc WGS84, điều này chuyển đổi thành:</span></div>
+<div class="blk" style="position:absolute;left:154.5px;top:624.0px;width:760.5px;height:40.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#9 text</span><span class="fit" style="font-size:18px; line-height:23px;">vĩ độ 50 32 49.64 N và kinh độ 109 56 29.12 W ở bắc bán cầu hoặc</span></div>
+<div class="blk" style="position:absolute;left:154.5px;top:666.0px;width:760.5px;height:34.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#10 text</span><span class="fit" style="font-size:18px; line-height:23px;">vĩ độ 39 44 47.78 S và kinh độ 110 07 28.56 W ở nam bán cầu</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:702.0px;width:829.5px;height:85.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#11 text</span><span class="fit" style="font-size:16px; line-height:20px;">Để giải quyết sự mơ hồ này, chương trình Pathloss thêm hậu tố N hoặc S vào khu vực UTM. Ví dụ: 12N hoặc 12S. Northing giả này gây ra một phức tạp bổ sung khi cơ sở dữ liệu địa hình trải dài qua xích đạo. Northing 20 và 9980 km đại diện cho các điểm cách xích đạo 20 km về phía bắc và phía nam tương ứng.</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:789.0px;width:828.0px;height:34.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#12 title</span><span class="fit" style="font-size:18px; line-height:23px;">Mô tả Cơ sở dữ liệu địa hình Planet</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:825.0px;width:829.5px;height:97.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#13 text</span><span class="fit" style="font-size:18px; line-height:23px;">Định dạng cơ sở dữ liệu địa hình Planet bao gồm một mảng độ cao đều đặn. Mỗi độ cao đại diện cho độ cao trung bình trong một ô vuông. Tệp được sắp xếp theo các hàng chạy từ tây sang đông bắt đầu từ góc Tây Nam hoặc Tây Bắc của tệp. Thông thường, các độ cao được lưu trữ dưới dạng số nguyên 2 byte. Thứ tự byte có thể là INTEL (little endian) hoặc SPARC (big endian)</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:924.0px;width:829.5px;height:33.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#14 text</span><span class="fit" style="font-size:18px; line-height:23px;">Thông tin tham chiếu địa lý được chứa trong hai tệp bên ngoài: một tệp chỉ mục và một tệp chiếu.</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:958.5px;width:829.5px;height:51.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#15 text</span><span class="fit" style="font-size:18px; line-height:23px;">Một ví dụ về tệp chiếu được đưa ra dưới đây. Định dạng sẽ thay đổi tùy thuộc vào phép chiếu. Ví dụ này biểu thị phép chiếu UTM trong khu vực 18 sử dụng mốc WGS84.</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:1011.0px;width:828.0px;height:22.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#16 text</span><span class="fit" style="font-size:17px; line-height:22px;">WGS-84</span></div>
+<div class="blk" style="position:absolute;left:88.5px;top:1035.0px;width:826.5px;height:18.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#17 text</span><span class="fit" style="font-size:14px; line-height:18px;">18</span></div>
+<div class="blk" style="position:absolute;left:88.5px;top:1054.5px;width:826.5px;height:130.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#18 text</span><span class="fit" style="font-size:18px; line-height:23px;">UTM</span></div>
+</div>
+<div class="pg" style="width:916px;height:1186px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:58.5px;top:102.0px;width:856.5px;height:55.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#19 text</span><span class="fit" style="font-size:18px; line-height:23px;">Tệp chỉ mục xác định các cạnh của cơ sở dữ liệu địa hình và chỉ định kích thước ô. Một mục nhập được cung cấp cho mỗi tệp. Một ví dụ về một dòng trong tệp chỉ mục được đưa ra dưới đây.</span></div>
+<div class="blk" style="position:absolute;left:60.0px;top:159.0px;width:855.0px;height:46.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#20 text</span><span class="fit" style="font-size:18px; line-height:23px;">toluca1.hgt 384000 484050 2080200 2180250 50</span></div>
+<div class="blk" style="position:absolute;left:415.5px;top:207.0px;width:400.5px;height:468.0px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#21 image</span><img src="../images/78b79b6fce67ead0977fc55882499b69d62d3d0814125f53b90e6ea99fa4d000.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:61.5px;top:229.5px;width:336.0px;height:201.0px;overflow:hidden;box-sizing:border-box;border-color:#2196F3;" data-t="table"><span class="dbg-label" style="background:#2196F3;">#22 table</span><img src="../images/e460b4c1ae651c0318213bd7a98d3d9af5d36d4337e9bd01498adfa674549a8f.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:60.0px;top:447.0px;width:354.0px;height:85.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#23 text</span><span class="fit" style="font-size:18px; line-height:23px;">Các cạnh đông và tây là các easting UTM và các cạnh bắc và nam là các northing UTM.</span></div>
+<div class="blk" style="position:absolute;left:60.0px;top:534.0px;width:354.0px;height:33.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#24 title</span><span class="fit" style="font-size:18px; line-height:23px;">Mặc định Địa lý</span></div>
+<div class="blk" style="position:absolute;left:58.5px;top:568.5px;width:355.5px;height:108.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#25 text</span><span class="fit" style="font-size:18px; line-height:23px;">Bước đầu tiên là đặt mốc hoặc ellipsoid tương ứng với tệp chiếu. Chọn Configure - Geographic Defaults. Đặt hệ tọa độ lưới (phép chiếu) thành UTM.</span></div>
+<div class="blk" style="position:absolute;left:60.0px;top:678.0px;width:855.0px;height:34.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#26 title</span><span class="fit" style="font-size:18px; line-height:23px;">Cấu hình</span></div>
+<div class="blk" style="position:absolute;left:58.5px;top:714.0px;width:856.5px;height:76.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#27 text</span><span class="fit" style="font-size:18px; line-height:23px;">Chương trình Pathloss sử dụng một trình đọc cơ sở dữ liệu địa hình chung được phát triển cho định dạng tệp Logica Odyssey. Các tệp độ cao Planet có thể được đọc trực tiếp. Không cần chuyển đổi tệp. Quy trình thiết lập được mô tả dưới đây:</span></div>
+<div class="blk" style="position:absolute;left:58.5px;top:792.0px;width:330.0px;height:55.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#28 text</span><span class="fit" style="font-size:18px; line-height:23px;">Chọn Configure - Terrain Database và sau đó chọn Odyssey UTM.</span></div>
+<div class="blk" style="position:absolute;left:390.0px;top:804.0px;width:427.5px;height:150.0px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#29 image</span><img src="../images/618dc15f3e81cdb4d515328376f2d5134cd96ed8a7e2364192a05b10bbf7feae.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:58.5px;top:849.0px;width:330.0px;height:61.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#30 text</span><span class="fit" style="font-size:18px; line-height:23px;">Nhấp vào nút Setup Primary để cấu hình cơ sở dữ liệu địa hình.</span></div>
+<div class="blk" style="position:absolute;left:60.0px;top:912.0px;width:328.5px;height:27.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#31 title</span><span class="fit" style="font-size:18px; line-height:23px;">Đặt thư mục</span></div>
+<div class="blk" style="position:absolute;left:58.5px;top:940.5px;width:856.5px;height:244.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#32 text</span><span class="fit" style="font-size:18px; line-height:23px;">Nhấp vào nút Set Directory và trỏ đến thư mục (folder) chứa các tệp dữ liệu Planet.</span></div>
+</div>
+<div class="pg" style="width:916px;height:1186px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:87.0px;top:102.0px;width:324.0px;height:27.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#33 title</span><span class="fit" style="font-size:18px; line-height:23px;">Các phương pháp khu vực UTM</span></div>
+<div class="blk" style="position:absolute;left:412.5px;top:112.5px;width:435.0px;height:252.0px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#34 image</span><img src="../images/ee4bb8c73b48cfca3442d67e57edd2f3231972a0e00c0abfbffc921a6dc6a443.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:85.5px;top:130.5px;width:325.5px;height:139.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#35 text</span><span class="fit" style="font-size:15px; line-height:19px;">Trong nhiều trường hợp, dữ liệu địa hình được cung cấp trong một tệp duy nhất. Các cạnh đông và tây có thể mở rộng ra ngoài ranh giới khu vực UTM tiêu chuẩn. Trong những trường hợp này, khu vực UTM phải được chỉ định bằng một trong hai phương pháp sau:</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:271.5px;width:325.5px;height:139.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#36 text</span><span class="fit" style="font-size:18px; line-height:23px;">Chọn tùy chọn &quot;Use specified index file&quot; và sau đó chọn tệp từ danh sách thả xuống. Khu vực UTM liên quan đến tệp đã chọn sẽ được sử dụng và chỉ tệp đã chọn sẽ được sử dụng ngay cả khi chỉ mục chứa nhiều tệp.</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:412.5px;width:829.5px;height:75.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#37 text</span><span class="fit" style="font-size:18px; line-height:23px;">Chọn tùy chọn &quot;Use specified UTM zone&quot; và nhập số khu vực có hậu tố N hoặc S. Nếu N hoặc S không được chỉ định, khu vực sẽ mặc định là bắc bán cầu. Hậu tố S phải được chỉ định cho nam bán cầu.</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:489.0px;width:828.0px;height:42.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#38 text</span><span class="fit" style="font-size:18px; line-height:23px;">Trong tất cả các trường hợp khác, sử dụng tùy chọn &quot;Use standard UTM zones in index&quot;.</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:532.5px;width:828.0px;height:27.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#39 title</span><span class="fit" style="font-size:18px; line-height:23px;">Dữ liệu tòa nhà nhúng</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:561.0px;width:829.5px;height:85.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#40 text</span><span class="fit" style="font-size:18px; line-height:23px;">Thông thường, độ cao được nội suy từ bốn độ cao gần nhất đến điểm quan tâm. Nếu dữ liệu địa hình chứa dữ liệu tòa nhà hoặc tán cây nhúng, hãy chọn tùy chọn &quot;Embedded building data&quot;. Độ cao ô sẽ được sử dụng trong trường hợp này.</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:648.0px;width:180.0px;height:34.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#41 title</span><span class="fit" style="font-size:18px; line-height:23px;">Chỉ mục</span></div>
+<div class="blk" style="position:absolute;left:268.5px;top:658.5px;width:579.0px;height:163.5px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#42 image</span><img src="../images/b020fb6617c0546ef96a9781cebef8beaf64b8ef8a3fa54b3466eed0bf3d5d7d.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:85.5px;top:684.0px;width:181.5px;height:144.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#43 text</span><span class="fit" style="font-size:12px; line-height:15px;">Nhấp vào nút Index để truy cập chỉ mục bản đồ kỹ thuật số. Dữ liệu có thể được nhập thủ công. Chọn Edit- Add trên thanh menu Index và nhập dữ liệu như được hiển thị trên trang tiếp theo. Thông tin này có sẵn từ các tệp chỉ mục Planet. Khi nhập dữ liệu hoàn tất, nhấp OK.</span></div>
+</div>
+<div class="pg" style="width:916px;height:1186px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:60.0px;top:102.0px;width:474.0px;height:54.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#45 text</span><span class="fit" style="font-size:18px; line-height:23px;">Hai trường bổ sung phải được đặt trực tiếp trên biểu mẫu nhập dữ liệu Grid. Đó là:</span></div>
+<div class="blk" style="position:absolute;left:535.5px;top:106.5px;width:283.5px;height:226.5px;overflow:hidden;box-sizing:border-box;border-color:#2196F3;" data-t="table"><span class="dbg-label" style="background:#2196F3;">#46 table</span><img src="../images/ef6c99cd0c16e2dfe8ccf599f42bc5d3451010d0803869c67d63d23ed4ee4703.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:60.0px;top:157.5px;width:474.0px;height:118.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#47 text</span><span class="fit" style="font-size:18px; line-height:23px;">Bottom up Trường này xác định xem tệp bắt đầu ở góc tây nam hay góc tây bắc. Nhấp đúp vào trường này để thay đổi cài đặt thành true hoặc false. Nếu nền mạng hoặc chế độ xem địa hình bị lộn ngược, hãy thay đổi trường này.</span></div>
+<div class="blk" style="position:absolute;left:60.0px;top:277.5px;width:474.0px;height:84.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#48 text</span><span class="fit" style="font-size:17px; line-height:22px;">Byte order Điều này tương đương với &quot;big and little endian&quot;. Nhấp đúp vào trường này để thay đổi trường thành SPARC (big endian) hoặc INTEL (little endian).</span></div>
+<div class="blk" style="position:absolute;left:60.0px;top:363.0px;width:360.0px;height:27.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#49 title</span><span class="fit" style="font-size:18px; line-height:23px;">Nhập chỉ mục</span></div>
+<div class="blk" style="position:absolute;left:421.5px;top:375.0px;width:397.5px;height:369.0px;overflow:hidden;box-sizing:border-box;border-color:#E91E63;" data-t="image"><span class="dbg-label" style="background:#E91E63;">#50 image</span><img src="../images/77ed9dc9bd1d8d9f065023b868160672da4bc48959f02706d054aecc5f94a026.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:60.0px;top:391.5px;width:360.0px;height:76.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#51 text</span><span class="fit" style="font-size:15px; line-height:19px;">Một tính năng nhập văn bản tổng quát có thể được tùy chỉnh để đọc các tệp chỉ mục Planet. Chọn Files - Index để mở hộp thoại định nghĩa trường.</span></div>
+<div class="blk" style="position:absolute;left:60.0px;top:469.5px;width:360.0px;height:55.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#52 text</span><span class="fit" style="font-size:18px; line-height:23px;">Nhấp vào nút Planet để có được các cài đặt mặc định cho các chỉ mục Planet.</span></div>
+<div class="blk" style="position:absolute;left:60.0px;top:526.5px;width:360.0px;height:55.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#53 text</span><span class="fit" style="font-size:15px; line-height:19px;">Lưu ý rằng các tùy chọn &quot;Byte order&quot; và &quot;Bottom up&quot; có thể phải được xác định bằng thực nghiệm.</span></div>
+<div class="blk" style="position:absolute;left:60.0px;top:583.5px;width:360.0px;height:139.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#54 text</span><span class="fit" style="font-size:18px; line-height:23px;">Nhập hậu tố N hoặc S của khu vực UTM và chọn &quot;Zone number&quot;. Một chỉ mục Planet không bao gồm số khu vực UTM. Nếu khu vực UTM được bao gồm trong tệp chỉ mục, hãy nhập số trường cho khu vực UTM và chọn tùy chọn &quot;Field number&quot;.</span></div>
+<div class="blk" style="position:absolute;left:60.0px;top:724.5px;width:360.0px;height:55.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#55 text</span><span class="fit" style="font-size:18px; line-height:23px;">Cài đặt &quot;Bytes per pixel&quot; luôn là 2 và &quot;Edge units&quot; luôn là mét đối với Planet.</span></div>
+<div class="blk" style="position:absolute;left:60.0px;top:781.5px;width:855.0px;height:403.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#56 text</span><span class="fit" style="font-size:18px; line-height:23px;">Nhấp OK và tải tệp chỉ mục Planet.</span></div>
+</div>
+<div class="pg" style="width:916px;height:1186px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:87.0px;top:102.0px;width:828.0px;height:33.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#57 title</span><span class="fit" style="font-size:18px; line-height:23px;">Kiểm tra Cài đặt Cơ sở dữ liệu Địa hình</span></div>
+<div class="blk" style="position:absolute;left:85.5px;top:136.5px;width:336.0px;height:162.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#58 text</span><span class="fit" style="font-size:17px; line-height:22px;">Điều này được thực hiện tốt nhất trong mô-đun Network. Tạo hai địa điểm tại các góc tây nam và đông bắc của phạm vi các tệp cơ sở dữ liệu địa hình. Tham khảo chỉ mục để biết tọa độ UTM. Chọn Files - New để xóa màn hình. Chọn Site Data - Site List và sau đó chọn Edit - Add.</span></div>
+<div class="blk" style="position:absolute;left:423.0px;top:150.0px;width:423.0px;height:265.5px;overflow:hidden;box-sizing:border-box;border-color:#2196F3;" data-t="table"><span class="dbg-label" style="background:#2196F3;">#59 table</span><img src="../images/429b81497815b17999a3af977817df570c6f55eb1d316cb30c64d151831e2b0a.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:87.0px;top:300.0px;width:334.5px;height:55.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#60 text</span><span class="fit" style="font-size:18px; line-height:23px;">Nhập easting, northing và các khu vực UTM. Vĩ độ sẽ được xác định tự động.</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:357.0px;width:334.5px;height:69.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#61 text</span><span class="fit" style="font-size:18px; line-height:23px;">Khi cả hai địa điểm đều có trên màn hình, chọn Site Data - Create background.</span></div>
+<div class="blk" style="position:absolute;left:97.5px;top:427.5px;width:114.0px;height:384.0px;overflow:hidden;box-sizing:border-box;border-color:#9E9E9E;" data-t="chart"><span class="dbg-label" style="background:#9E9E9E;">#62 chart</span><img src="../images/59395c168e35ebc563a77d6dbaae75a2148aa70b12beb612b8da599f2e731014.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:423.0px;top:430.5px;width:421.5px;height:414.0px;overflow:hidden;box-sizing:border-box;border-color:#9E9E9E;" data-t="chart"><span class="dbg-label" style="background:#9E9E9E;">#63 chart</span><img src="../images/72476647a461f21e3e121996b57629243051c73406288e63f20b8df99ba453dc.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:87.0px;top:847.5px;width:828.0px;height:27.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#64 title</span><span class="fit" style="font-size:18px; line-height:23px;">Các vấn đề có thể xảy ra</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:876.0px;width:828.0px;height:34.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#65 title</span><span class="fit" style="font-size:18px; line-height:23px;">Nền không được tạo</span></div>
+<div class="blk" style="position:absolute;left:87.0px;top:912.0px;width:828.0px;height:273.0px;overflow:hidden;box-sizing:border-box;border-color:#00BCD4;" data-t="list"><span class="dbg-label" style="background:#00BCD4;">#66 list</span><ul class="fit" style="font-size:18px; line-height:23px; margin:0;padding-left:16px;"><li style="margin-bottom:4px;">Tên tệp trong tệp chỉ mục không giống với các tệp cơ sở dữ liệu thực tế. Các phần mở rộng có thể bị thiếu hoặc khác. • Các khu vực UTM trong tệp chỉ mục không đúng hoặc thiếu hậu tố N-S.</li><li style="margin-bottom:4px;">Phương pháp UTM sai. Khu vực được chỉ định không chính xác hoặc thiếu hậu tố N-S.</li><li style="margin-bottom:4px;">Cài đặt SPARC - INTEL sai.</li><li style="margin-bottom:4px;">Thư mục tệp bản đồ được đặt không chính xác.</li><li style="margin-bottom:4px;">MSI PLANET Cơ sở dữ liệu địa hình Phép chiếu UTM</li></ul></div>
+</div>
+<div class="pg" style="width:916px;height:1186px;position:relative;background:#fff;margin:30px auto;box-shadow:0 4px 24px rgba(0,0,0,0.3);">
+<div class="blk" style="position:absolute;left:60.0px;top:102.0px;width:855.0px;height:49.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#67 text</span><span class="fit" style="font-size:18px; line-height:23px;">Độ cao không đúng hoặc màn hình hiển thị không đầy đủ</span></div>
+<div class="blk" style="position:absolute;left:60.0px;top:153.0px;width:855.0px;height:34.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#68 title</span><span class="fit" style="font-size:18px; line-height:23px;">• Cài đặt SPARC - INTEL sai.</span></div>
+<div class="blk" style="position:absolute;left:60.0px;top:189.0px;width:855.0px;height:27.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#69 text</span><span class="fit" style="font-size:18px; line-height:23px;">Màn hình hiển thị bị lộn ngược. Điều này sẽ rất rõ ràng nếu cơ sở dữ liệu có nhiều ô dọc.</span></div>
+<div class="blk" style="position:absolute;left:60.0px;top:217.5px;width:855.0px;height:36.0px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#70 title</span><span class="fit" style="font-size:18px; line-height:23px;">• Cài đặt bottom - up trong chỉ mục sai.</span></div>
+<div class="blk" style="position:absolute;left:60.0px;top:255.0px;width:855.0px;height:43.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#71 text</span><span class="fit" style="font-size:18px; line-height:23px;">Cân nhắc về Xích đạo</span></div>
+<div class="blk" style="position:absolute;left:60.0px;top:300.0px;width:385.5px;height:34.5px;overflow:hidden;box-sizing:border-box;border-color:#FF9800;" data-t="title"><span class="dbg-label" style="background:#FF9800;">#72 title</span><span class="fit" style="font-size:8px; line-height:10px;">Các cơ sở dữ liệu địa hình trải dài qua xích đạo yêu cầu cân nhắc đặc biệt. Hai tệp chỉ mục được hiển thị bên dưới. Cả hai đều bao gồm bốn tệp dữ liệu địa hình bao phủ một khu vực 20 km x 20 km. Hai trong số các tệp này mở rộng 20 km phía trên xích đạo và hai tệp còn lại mở rộng 20 km phía dưới xích đạo.</span></div>
+<div class="blk" style="position:absolute;left:447.0px;top:309.0px;width:372.0px;height:277.5px;overflow:hidden;box-sizing:border-box;border-color:#9E9E9E;" data-t="chart"><span class="dbg-label" style="background:#9E9E9E;">#73 chart</span><img src="../images/cce50ac428406aecf5e48e553396df0a59087f6f744bb86ea6f2174914c34d45.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:58.5px;top:336.0px;width:387.0px;height:160.5px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#74 text</span><span class="fit" style="font-size:18px; line-height:23px;">Chỉ mục đầu tiên được tham chiếu đến bắc bán cầu. Các northing cạnh bản đồ là +20.000 mét, 0 và -20.000 mét. Trong trường hợp này, một khu vực UTM bắc bán cầu phải được chỉ định trong cả chỉ mục và phương pháp khu vực UTM.</span></div>
+<div class="blk" style="position:absolute;left:58.5px;top:498.0px;width:387.0px;height:153.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#75 text</span><span class="fit" style="font-size:18px; line-height:23px;">Chỉ mục thứ hai được tham chiếu đến nam bán cầu. Northing của xích đạo là 10.000.000 mét. Các northing cạnh bản đồ là 9.980.000 mét, 10.000.000 mét</span></div>
+<div class="blk" style="position:absolute;left:61.5px;top:652.5px;width:402.0px;height:130.5px;overflow:hidden;box-sizing:border-box;border-color:#2196F3;" data-t="table"><span class="dbg-label" style="background:#2196F3;">#76 table</span><img src="../images/5a87c72bc2168cc3d709650564b852861458c2794a3005dd04344aa3d88fc28c.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+<div class="blk" style="position:absolute;left:58.5px;top:798.0px;width:856.5px;height:111.0px;overflow:hidden;box-sizing:border-box;border-color:#4CAF50;" data-t="text"><span class="dbg-label" style="background:#4CAF50;">#77 text</span><span class="fit" style="font-size:18px; line-height:23px;">và 10.020.000 mét. Trong trường hợp này, một khu vực UTM nam bán cầu phải được chỉ định trong cả chỉ mục và phương pháp khu vực UTM.</span></div>
+<div class="blk" style="position:absolute;left:61.5px;top:910.5px;width:499.5px;height:129.0px;overflow:hidden;box-sizing:border-box;border-color:#2196F3;" data-t="table"><span class="dbg-label" style="background:#2196F3;">#78 table</span><img src="../images/fec36aee238722bb33ac30cc83369f75003e04938ecb3a6c6f787b682554b74e.jpg" style="width:100%;height:100%;object-fit:contain;display:block;"/></div>
+</div>
+
+<script>
+function toggleDebug() {
+    document.body.classList.toggle('debug');
+    var btn = document.getElementById('debug-btn');
+    btn.classList.toggle('active');
+    btn.textContent = document.body.classList.contains('debug')
+        ? '🔍 Debug ON'
+        : '🔍 Debug OFF';
+}
+
+window.addEventListener('load', function() {
+    // Render math
+    if (typeof katex === 'undefined') {
+        console.warn('KaTeX not loaded');
+    } else {
+        var mathEls = document.querySelectorAll('.math');
+        for (var i = 0; i < mathEls.length; i++) {
+            var el = mathEls[i];
+            var tex = el.textContent;
+            try {
+                katex.render(tex, el, {
+                    throwOnError: false,
+                    displayMode: false,
+                    output: 'html'
+                });
+            } catch (e) {
+                console.warn('KaTeX error:', tex, e);
+            }
+        }
+    }
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,371 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "IMPORT LINK TEXT FILES "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                348,
+                84,
+                679,
+                104
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "PATHLOSS RADIO AND ANTENNA FILES CROSS REFERENCE "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                99,
+                125,
+                793,
+                144
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A radio and antenna data files cross reference has been added to the Import link text files operation. This feature allows an interference calculation to be carried out immediately following the import. External text files are used to cross reference the radio and antenna identifiers used in the import data to the Pathloss radio and antenna code files. "
+                    }
+                ]
+            },
+            "bbox": [
+                93,
+                150,
+                931,
+                195
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The Pathloss code files are used to fill in any missing information in the import data. For example if the import data contains only the transmit power and the radio identifier, the receiver threshold information would be read from the cross referenced Pathloss radio code file, but the transmit power would not be changed. "
+                    }
+                ]
+            },
+            "bbox": [
+                93,
+                204,
+                927,
+                252
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The cross reference files are ASCII text files which meet the following requirements: "
+                    }
+                ]
+            },
+            "bbox": [
+                94,
+                261,
+                705,
+                276
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• The file names must be “ant_xref.txt” and “rad_xref.txt” for the antennas and radios cross reference files respectively. These files must be located in the same directory that the Pathloss program is installed in. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Each line in the file must consist of the import data descriptor in double quotes followed by the Pathloss code file name separated by a space or tab. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "The comparison in the cross reference is not case sensitive; however the spelling in the cross reference file must be the same as the data file. If there are several variants in the import data file, then a cross reference line must be created for each variant. The same Pathloss code file name could be used for each variant. "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                94,
+                286,
+                929,
+                405
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "An example of a radio and antenna cross reference file is given below. "
+                    }
+                ]
+            },
+            "bbox": [
+                94,
+                412,
+                608,
+                427
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ant_xref.txt "
+                    }
+                ]
+            },
+            "bbox": [
+                94,
+                437,
+                183,
+                451
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "\"15_GHz/0.6m Andrew\" 6962 "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "\"15_GHz/1.2m Andrew\" 6964 "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "\"15_GHz/0.3m Andrew\" 6961 "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "\"18_GHz/0.6m ANDREW\" 6967 "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "\"18_GHz/0.3m ANDREW\" 7010 "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "\"18_Ghz/1.2m ANDREW\" 4504a "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                94,
+                462,
+                337,
+                604
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "rad_xref.txt "
+                    }
+                ]
+            },
+            "bbox": [
+                94,
+                639,
+                183,
+                654
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "\"Ajax radio AJ15, 8x2 guaranteed\" AJ15_16s_8E1 "
+                    }
+                ]
+            },
+            "bbox": [
+                94,
+                664,
+                463,
+                680
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "\"Ajax radio AJ15, 4x2 guaranteed\" AJ15_4s_4E1 "
+                    }
+                ]
+            },
+            "bbox": [
+                94,
+                689,
+                454,
+                705
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "\"Ajax radio AJ15, 16x2 guaranteed\" AJ15_16s_16E1 "
+                    }
+                ]
+            },
+            "bbox": [
+                94,
+                714,
+                481,
+                730
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "\"Ajax radio AJ18, 8x2 guaranteed\" AJ18_16s_8E1 "
+                    }
+                ]
+            },
+            "bbox": [
+                94,
+                739,
+                463,
+                754
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "\"Ajax radio AJ18, 4x2 guaranteed\" AJ18_4s_4E1 "
+                    }
+                ]
+            },
+            "bbox": [
+                94,
+                764,
+                454,
+                781
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "\"Ajax radio AJ18, 16x2 guaranteed\" AJ18_16s_16E1 "
+                    }
+                ]
+            },
+            "bbox": [
+                94,
+                790,
+                481,
+                806
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The radio and antenna data files must be available for the conversion to succeed. The location of the files must be identified. Click Configure - Directories - Microwave Antenna Codes / Microwave Radio Codes and point to the top most directory which contains the data files "
+                    }
+                ]
+            },
+            "bbox": [
+                93,
+                816,
+                924,
+                862
+            ]
+        }
+    ],
+    []
+]

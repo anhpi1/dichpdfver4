@@ -1,0 +1,1233 @@
+{
+    "pdf_info": [
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        59,
+                        31,
+                        133,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                30,
+                                134,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        30,
+                                        134,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        420,
+                        31,
+                        567,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                420,
+                                29,
+                                567,
+                                49
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        420,
+                                        29,
+                                        567,
+                                        49
+                                    ],
+                                    "type": "text",
+                                    "content": "File Locking and Sharing",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        502,
+                        741,
+                        569,
+                        756
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 20,
+                    "lines": [
+                        {
+                            "bbox": [
+                                501,
+                                738,
+                                571,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        501,
+                                        738,
+                                        571,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 1 of 3",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        194,
+                        68,
+                        434,
+                        86
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "Pathloss File Locking and Sharing"
+                },
+                {
+                    "bbox": [
+                        57,
+                        91,
+                        568,
+                        147
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "The June 03, 2002 Pathloss program build introduces pathloss data (pl4) file locking and network (gr4) file sharing when these files are located on a shared network drive. The locking and sharing is activated if the root drive containing the network or pathloss data file is a remote drive. Note that this can fail on a peer to peer network, if a drive is accessed as a local drive."
+                },
+                {
+                    "bbox": [
+                        58,
+                        162,
+                        243,
+                        178
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 4,
+                    "content": "Pathloss data (pl4) file locking"
+                },
+                {
+                    "bbox": [
+                        57,
+                        181,
+                        259,
+                        321
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "The locking mechanism, creates a new file with the same name as the Pathloss data files with the extension lck. When the user closes this file, the lock file is erased. If another user attempts to open the file, a prompt is issued that the file is in use and will be opened in read only mode. It is not possible to save the file un- der another name. The program does not check if the lock file has been (deleted)"
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        263,
+                        189,
+                        564,
+                        295
+                    ],
+                    "index": 6,
+                    "sub_type": "text_image",
+                    "image_path": "d88980b4ababde82881da8c5815d88409c973cfa4536ab36546873f8ec609fa6.jpg"
+                },
+                {
+                    "bbox": [
+                        58,
+                        335,
+                        218,
+                        351
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 7,
+                    "content": "Network (gr4) file sharing"
+                },
+                {
+                    "bbox": [
+                        57,
+                        354,
+                        568,
+                        410
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 8,
+                    "merge_prev": false,
+                    "content": "To enable network (gr4) file sharing, select Files - Shared file operation on the network menu bar. This step must be carried out before loading a network file. To enable network file sharing after a file has been load- ed, select Files - New and then select Files - Shared file operation. Then reload the file. The shared setting is saved in the program option file."
+                },
+                {
+                    "bbox": [
+                        58,
+                        420,
+                        422,
+                        434
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "In this mode, a file cannot be saved if the following conditions are not met."
+                },
+                {
+                    "bbox": [
+                        58,
+                        444,
+                        567,
+                        518
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 10,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                58,
+                                444,
+                                565,
+                                484
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 11,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        442,
+                                        567,
+                                        460
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                59,
+                                                442,
+                                                567,
+                                                460
+                                            ],
+                                            "type": "text",
+                                            "content": "• Each site must have a unique call sign. This is a 15 character identifier and cannot be blank. The same",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        457,
+                                        539,
+                                        473
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                457,
+                                                539,
+                                                473
+                                            ],
+                                            "type": "text",
+                                            "content": "call sign cannot be used at different sites. The call sign serves as a unique identifier to determine",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        471,
+                                        219,
+                                        486
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                471,
+                                                219,
+                                                486
+                                            ],
+                                            "type": "text",
+                                            "content": "changes to the sites and links.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                492,
+                                568,
+                                518
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 12,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        490,
+                                        570,
+                                        507
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                57,
+                                                490,
+                                                570,
+                                                507
+                                            ],
+                                            "type": "text",
+                                            "content": "• The revision date of the file on disk must be the same as the file in memory. Another users changes can-",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        73,
+                                        506,
+                                        167,
+                                        520
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                73,
+                                                506,
+                                                167,
+                                                520
+                                            ],
+                                            "type": "text",
+                                            "content": "not be overwritten.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        57,
+                        526,
+                        567,
+                        554
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 13,
+                    "merge_prev": false,
+                    "content": "The sharing mechanism uses a file with the same name as the network file with the extension glk. This file will be referred to a glk file in the following descriptions and the file contains the following information:"
+                },
+                {
+                    "bbox": [
+                        58,
+                        564,
+                        563,
+                        630
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 14,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                58,
+                                564,
+                                252,
+                                577
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 15,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        563,
+                                        253,
+                                        579
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                563,
+                                                253,
+                                                579
+                                            ],
+                                            "type": "text",
+                                            "content": "• the revision date and change number",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                584,
+                                320,
+                                597
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 16,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        583,
+                                        320,
+                                        597
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                59,
+                                                583,
+                                                320,
+                                                597
+                                            ],
+                                            "type": "text",
+                                            "content": "• a list of all users who have opened the network file",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                604,
+                                562,
+                                630
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 17,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        602,
+                                        564,
+                                        619
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                56,
+                                                602,
+                                                564,
+                                                619
+                                            ],
+                                            "type": "text",
+                                            "content": "• a series of records containing the changes made to the file . These records are used to update the indi-",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        73,
+                                        617,
+                                        158,
+                                        632
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                73,
+                                                617,
+                                                158,
+                                                632
+                                            ],
+                                            "type": "text",
+                                            "content": "vidual users files",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        57,
+                        638,
+                        568,
+                        680
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "merge_prev": false,
+                    "content": "The glk file is created when the first user opens the network file. At this point the file contains the name of the user and the revision date. The change number is set to zero. The program will then begin to monitor the glk file at 30 second intervals to determine if the revsion date has changed."
+                },
+                {
+                    "bbox": [
+                        58,
+                        689,
+                        369,
+                        703
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 19,
+                    "merge_prev": false,
+                    "content": "The glk file is deleted when the last user closes the network file."
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        41,
+                        31,
+                        187,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                29,
+                                188,
+                                49
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        29,
+                                        188,
+                                        49
+                                    ],
+                                    "type": "text",
+                                    "content": "File Locking and Sharing",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        475,
+                        31,
+                        549,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                474,
+                                30,
+                                550,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        474,
+                                        30,
+                                        550,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        41,
+                        741,
+                        108,
+                        755
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 21,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                739,
+                                110,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        739,
+                                        110,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 2 of 3",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 1,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        39,
+                        68,
+                        286,
+                        151
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "Once the network file has been opened by the first user all other users opening the file will be present- ed with a list of users who have opened the file open. The new users are added to the user list and receive revision revision date at the time that they loaded the file."
+                },
+                {
+                    "bbox": [
+                        39,
+                        162,
+                        285,
+                        190
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "Suppose a user makes some changes to the file and saves the changes. A change is defined as follows:"
+                },
+                {
+                    "bbox": [
+                        40,
+                        200,
+                        293,
+                        328
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 10,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                40,
+                                200,
+                                160,
+                                212
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 4,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        200,
+                                        160,
+                                        213
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                41,
+                                                200,
+                                                160,
+                                                213
+                                            ],
+                                            "type": "text",
+                                            "content": "• a site has been added",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                40,
+                                220,
+                                164,
+                                233
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 5,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        220,
+                                        165,
+                                        233
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                41,
+                                                220,
+                                                165,
+                                                233
+                                            ],
+                                            "type": "text",
+                                            "content": "• a site has been deleted",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                40,
+                                240,
+                                163,
+                                253
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 6,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        240,
+                                        164,
+                                        253
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                41,
+                                                240,
+                                                164,
+                                                253
+                                            ],
+                                            "type": "text",
+                                            "content": "• a site has been moved",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                40,
+                                260,
+                                161,
+                                272
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 7,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        260,
+                                        161,
+                                        272
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                41,
+                                                260,
+                                                161,
+                                                272
+                                            ],
+                                            "type": "text",
+                                            "content": "• a link has been added",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                40,
+                                280,
+                                167,
+                                293
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 8,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        280,
+                                        167,
+                                        293
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                41,
+                                                280,
+                                                167,
+                                                293
+                                            ],
+                                            "type": "text",
+                                            "content": "• a link has been deleted",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                40,
+                                299,
+                                293,
+                                328
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 9,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        298,
+                                        294,
+                                        314
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                40,
+                                                298,
+                                                294,
+                                                314
+                                            ],
+                                            "type": "text",
+                                            "content": "• the Pathloss file associated with the link has been",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        54,
+                                        314,
+                                        102,
+                                        329
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                54,
+                                                314,
+                                                102,
+                                                329
+                                            ],
+                                            "type": "text",
+                                            "content": "changed.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        39,
+                        333,
+                        296,
+                        403
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 11,
+                    "merge_prev": false,
+                    "content": "When the file is saved, a record of the changes is first created by comparing the file in memory with the file on disk. The glk file will be updated with the new re- vision date, and the record of changes will be append- ed to the file."
+                },
+                {
+                    "bbox": [
+                        39,
+                        414,
+                        290,
+                        470
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 12,
+                    "merge_prev": false,
+                    "content": "In this shared environment, the program checks the glk file every 30 seconds and if a change has oc- curred, the user is notified with the list of changes. Each change can be viewed."
+                },
+                {
+                    "bbox": [
+                        40,
+                        482,
+                        117,
+                        495
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 13,
+                    "content": "Make changes"
+                },
+                {
+                    "bbox": [
+                        39,
+                        498,
+                        416,
+                        526
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 14,
+                    "merge_prev": false,
+                    "content": "The changes are made directly from the glk file. The display will not be reformated. All of the changes in the glk file will be made."
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        292,
+                        75,
+                        545,
+                        181
+                    ],
+                    "index": 15,
+                    "sub_type": "text_image",
+                    "image_path": "74560d270ca6afc42ba8c728f1a2ae688b8923f36a7b9fa488106c2942f785e7.jpg"
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        301,
+                        208,
+                        545,
+                        503
+                    ],
+                    "index": 16,
+                    "sub_type": "text_image",
+                    "image_path": "23ba5375a6ac90ab093ddfc43e97e837c3e226d07409224fe4079840cf03e6f8.jpg"
+                },
+                {
+                    "bbox": [
+                        40,
+                        538,
+                        99,
+                        550
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 17,
+                    "content": "Reload file"
+                },
+                {
+                    "bbox": [
+                        39,
+                        553,
+                        550,
+                        582
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "merge_prev": false,
+                    "content": "The complete file will be reloaded and the display will be reformatted. The reload file option is only avail- able in the network and mapgrid modules"
+                },
+                {
+                    "bbox": [
+                        39,
+                        592,
+                        548,
+                        635
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 19,
+                    "merge_prev": false,
+                    "content": "If the cancel button is clicked, the user can update the file by returning to the network or mapgrid module and reloading the file using Files - Open or selecting Files - Shared File Status. The latter produces the same display and options as a change notification in the network or mapgrid modules"
+                },
+                {
+                    "bbox": [
+                        39,
+                        643,
+                        549,
+                        673
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 20,
+                    "merge_prev": false,
+                    "content": "Only one change notification is issued even if the user decides to not re-load the file. Once the file has been updated, the change notification will begin again."
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        59,
+                        31,
+                        133,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                30,
+                                134,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        30,
+                                        134,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Pathloss 4.0",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        421,
+                        31,
+                        567,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                420,
+                                29,
+                                567,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        420,
+                                        29,
+                                        567,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "File Locking and Sharing",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "bbox": [
+                        502,
+                        741,
+                        569,
+                        755
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "index": 7,
+                    "lines": [
+                        {
+                            "bbox": [
+                                501,
+                                739,
+                                571,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        501,
+                                        739,
+                                        571,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 3 of 3",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 2,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        58,
+                        68,
+                        363,
+                        83
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 2,
+                    "content": "Interference Calculations on a shared Network file"
+                },
+                {
+                    "bbox": [
+                        58,
+                        87,
+                        266,
+                        170
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "The inherent table locking schemes used in the Borland database engine does not allow users to carry out simultaneous interference calculations. An interference calculation creates a set of tables which relate to the network gr4 file."
+                },
+                {
+                    "bbox": [
+                        58,
+                        181,
+                        267,
+                        236
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "The June 02, 2002 program build allows the user to specify a private directory for inter- ference calculations. The selection is made at the start of an interference calculation."
+                },
+                {
+                    "bbox": [
+                        58,
+                        247,
+                        268,
+                        303
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "merge_prev": false,
+                    "content": "Operations such as specifying fade correla- tion will fail if the current network file does not match the database tables in the private directory."
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        273,
+                        94,
+                        564,
+                        398
+                    ],
+                    "index": 6,
+                    "sub_type": "text_image",
+                    "image_path": "6241fddf026b6454ee1de892dea4a55988d9856b50d36abae4ec44092845c42a.jpg"
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": false,
+    "_vlm_ocr_enable": false,
+    "_version_name": "3.1.8"
+}

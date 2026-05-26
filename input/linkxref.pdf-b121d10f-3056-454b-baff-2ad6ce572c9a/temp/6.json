@@ -1,0 +1,766 @@
+{
+    "pdf_info": [
+        {
+            "discarded_blocks": [],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        213,
+                        67,
+                        610,
+                        98
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 0,
+                    "content": "NHẬP CÁC TỆP VĂN BẢN LIÊN KẾT",
+                    "original_bbox": [
+                        213,
+                        67,
+                        415,
+                        83
+                    ],
+                    "size": 32
+                },
+                {
+                    "bbox": [
+                        61,
+                        99,
+                        610,
+                        118
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 1,
+                    "content": "THAM CHIẾU CHÉO CÁC TỆP DỮ LIỆU VÔ TUYẾN VÀ ĂNG-TEN",
+                    "original_bbox": [
+                        61,
+                        99,
+                        485,
+                        114
+                    ],
+                    "size": 22
+                },
+                {
+                    "bbox": [
+                        57,
+                        119,
+                        610,
+                        161
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 2,
+                    "merge_prev": false,
+                    "content": "Một tham chiếu chéo các tệp dữ liệu vô tuyến và ăng-ten đã được thêm vào thao tác Nhập các tệp văn bản liên kết. Tính năng này cho phép thực hiện tính toán nhiễu ngay sau khi nhập. Các tệp văn bản bên ngoài được sử dụng để tham chiếu chéo các mã nhận dạng vô tuyến và ăng-ten được sử dụng trong dữ liệu nhập vào các tệp mã vô tuyến và ăng-ten Pathloss.",
+                    "original_bbox": [
+                        57,
+                        119,
+                        569,
+                        155
+                    ],
+                    "size": 14
+                },
+                {
+                    "bbox": [
+                        57,
+                        162,
+                        610,
+                        206
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 3,
+                    "merge_prev": false,
+                    "content": "Các tệp mã Pathloss được sử dụng để điền vào bất kỳ thông tin nào bị thiếu trong dữ liệu nhập. Ví dụ: nếu dữ liệu nhập chỉ chứa công suất phát và mã nhận dạng vô tuyến, thông tin ngưỡng thu sẽ được đọc từ tệp mã vô tuyến Pathloss được tham chiếu chéo, nhưng công suất phát sẽ không bị thay đổi.",
+                    "original_bbox": [
+                        57,
+                        162,
+                        567,
+                        200
+                    ],
+                    "size": 17
+                },
+                {
+                    "bbox": [
+                        58,
+                        207,
+                        610,
+                        226
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 4,
+                    "merge_prev": false,
+                    "content": "Các tệp tham chiếu chéo là các tệp văn bản ASCII đáp ứng các yêu cầu sau:",
+                    "original_bbox": [
+                        58,
+                        207,
+                        431,
+                        219
+                    ],
+                    "size": 22
+                },
+                {
+                    "bbox": [
+                        58,
+                        227,
+                        610,
+                        325
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 5,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                58,
+                                227,
+                                568,
+                                250
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 6,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        226,
+                                        570,
+                                        240
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                226,
+                                                570,
+                                                240
+                                            ],
+                                            "type": "text",
+                                            "content": "• Tên tệp phải là “ant_xref.txt” và “rad_xref.txt” tương ứng cho các tệp tham chiếu chéo ăng-ten và vô tuyến.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        238,
+                                        501,
+                                        251
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                238,
+                                                501,
+                                                251
+                                            ],
+                                            "type": "text",
+                                            "content": "Các tệp này phải được đặt trong cùng thư mục mà chương trình Pathloss được cài đặt.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                256,
+                                567,
+                                280
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 7,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        254,
+                                        567,
+                                        269
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                59,
+                                                254,
+                                                567,
+                                                269
+                                            ],
+                                            "type": "text",
+                                            "content": "• Mỗi dòng trong tệp phải bao gồm bộ mô tả dữ liệu nhập trong dấu ngoặc kép, theo sau là tên tệp mã Pathloss",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        72,
+                                        268,
+                                        230,
+                                        281
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                268,
+                                                230,
+                                                281
+                                            ],
+                                            "type": "text",
+                                            "content": "được phân cách bằng dấu cách hoặc tab.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                285,
+                                567,
+                                321
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 8,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        67,
+                                        283,
+                                        568,
+                                        298
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                67,
+                                                283,
+                                                568,
+                                                298
+                                            ],
+                                            "type": "text",
+                                            "content": "Việc so sánh trong tham chiếu chéo không phân biệt chữ hoa chữ thường; tuy nhiên cách viết trong tệp tham chiếu chéo phải",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        73,
+                                        297,
+                                        568,
+                                        310
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                73,
+                                                297,
+                                                568,
+                                                310
+                                            ],
+                                            "type": "text",
+                                            "content": "giống với tệp dữ liệu. Nếu có một số biến thể trong tệp dữ liệu nhập, thì phải tạo một dòng tham chiếu chéo",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "bbox": [
+                                        73,
+                                        308,
+                                        493,
+                                        321
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                73,
+                                                308,
+                                                493,
+                                                321
+                                            ],
+                                            "type": "text",
+                                            "content": "cho mỗi biến thể. Có thể sử dụng cùng một tên tệp mã Pathloss cho mỗi biến thể.",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text",
+                    "original_bbox": [
+                        58,
+                        227,
+                        568,
+                        321
+                    ],
+                    "size": 15
+                },
+                {
+                    "bbox": [
+                        58,
+                        326,
+                        610,
+                        345
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 9,
+                    "merge_prev": false,
+                    "content": "Một ví dụ về tệp tham chiếu chéo vô tuyến và ăng-ten được đưa ra dưới đây.",
+                    "original_bbox": [
+                        58,
+                        326,
+                        372,
+                        338
+                    ],
+                    "size": 22
+                },
+                {
+                    "bbox": [
+                        58,
+                        346,
+                        610,
+                        365
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 10,
+                    "merge_prev": false,
+                    "content": "ant_xref.txt",
+                    "original_bbox": [
+                        58,
+                        346,
+                        112,
+                        357
+                    ],
+                    "size": 22
+                },
+                {
+                    "bbox": [
+                        58,
+                        366,
+                        610,
+                        505
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 11,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                58,
+                                366,
+                                192,
+                                378
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 12,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        365,
+                                        193,
+                                        378
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                59,
+                                                365,
+                                                193,
+                                                378
+                                            ],
+                                            "type": "text",
+                                            "content": "\"15_GHz/0.6m Andrew\" 6962",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                386,
+                                192,
+                                397
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 13,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        386,
+                                        193,
+                                        398
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                59,
+                                                386,
+                                                193,
+                                                398
+                                            ],
+                                            "type": "text",
+                                            "content": "\"15_GHz/1.2m Andrew\" 6964",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                405,
+                                191,
+                                417
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 14,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        405,
+                                        191,
+                                        418
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                59,
+                                                405,
+                                                191,
+                                                418
+                                            ],
+                                            "type": "text",
+                                            "content": "\"15_GHz/0.3m Andrew\" 6961",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                425,
+                                202,
+                                437
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 15,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        425,
+                                        202,
+                                        438
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                59,
+                                                425,
+                                                202,
+                                                438
+                                            ],
+                                            "type": "text",
+                                            "content": "\"18_GHz/0.6m ANDREW\" 6967",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                446,
+                                202,
+                                457
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 16,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        446,
+                                        203,
+                                        458
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                59,
+                                                446,
+                                                203,
+                                                458
+                                            ],
+                                            "type": "text",
+                                            "content": "\"18_GHz/0.3m ANDREW\" 7010",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                58,
+                                465,
+                                206,
+                                477
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 17,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        465,
+                                        207,
+                                        479
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                59,
+                                                465,
+                                                207,
+                                                479
+                                            ],
+                                            "type": "text",
+                                            "content": "\"18_Ghz/1.2m ANDREW\" 4504a",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text",
+                    "original_bbox": [
+                        58,
+                        366,
+                        206,
+                        478
+                    ],
+                    "size": 23
+                },
+                {
+                    "bbox": [
+                        58,
+                        506,
+                        610,
+                        525
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 18,
+                    "merge_prev": false,
+                    "content": "rad_xref.txt",
+                    "original_bbox": [
+                        58,
+                        506,
+                        112,
+                        518
+                    ],
+                    "size": 22
+                },
+                {
+                    "bbox": [
+                        58,
+                        526,
+                        610,
+                        544
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 19,
+                    "merge_prev": false,
+                    "content": "\"Ajax radio AJ15, 8x2 guaranteed\" AJ15_16s_8E1",
+                    "original_bbox": [
+                        58,
+                        526,
+                        283,
+                        538
+                    ],
+                    "size": 21
+                },
+                {
+                    "bbox": [
+                        58,
+                        545,
+                        610,
+                        564
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 20,
+                    "merge_prev": false,
+                    "content": "\"Ajax radio AJ15, 4x2 guaranteed\" AJ15_4s_4E1",
+                    "original_bbox": [
+                        58,
+                        545,
+                        278,
+                        558
+                    ],
+                    "size": 22
+                },
+                {
+                    "bbox": [
+                        58,
+                        565,
+                        610,
+                        584
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 21,
+                    "merge_prev": false,
+                    "content": "\"Ajax radio AJ15, 16x2 guaranteed\" AJ15_16s_16E1",
+                    "original_bbox": [
+                        58,
+                        565,
+                        294,
+                        578
+                    ],
+                    "size": 22
+                },
+                {
+                    "bbox": [
+                        58,
+                        585,
+                        610,
+                        604
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 22,
+                    "merge_prev": false,
+                    "content": "\"Ajax radio AJ18, 8x2 guaranteed\" AJ18_16s_8E1",
+                    "original_bbox": [
+                        58,
+                        585,
+                        283,
+                        597
+                    ],
+                    "size": 22
+                },
+                {
+                    "bbox": [
+                        58,
+                        605,
+                        610,
+                        624
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 23,
+                    "merge_prev": false,
+                    "content": "\"Ajax radio AJ18, 4x2 guaranteed\" AJ18_4s_4E1",
+                    "original_bbox": [
+                        58,
+                        605,
+                        278,
+                        618
+                    ],
+                    "size": 22
+                },
+                {
+                    "bbox": [
+                        58,
+                        625,
+                        610,
+                        645
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 24,
+                    "merge_prev": false,
+                    "content": "\"Ajax radio AJ18, 16x2 guaranteed\" AJ18_16s_16E1",
+                    "original_bbox": [
+                        58,
+                        625,
+                        294,
+                        638
+                    ],
+                    "size": 23
+                },
+                {
+                    "bbox": [
+                        57,
+                        646,
+                        610,
+                        790
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 25,
+                    "merge_prev": false,
+                    "content": "Các tệp dữ liệu vô tuyến và ăng-ten phải có sẵn để quá trình chuyển đổi thành công. Vị trí của các tệp phải được xác định. Nhấp vào Cấu hình - Thư mục - Mã Ăng-ten Vi ba / Mã Vô tuyến Vi ba và trỏ đến thư mục cao nhất có chứa các tệp dữ liệu",
+                    "original_bbox": [
+                        57,
+                        646,
+                        565,
+                        682
+                    ],
+                    "size": 33
+                }
+            ]
+        },
+        {
+            "discarded_blocks": [],
+            "page_size": [
+                611,
+                791
+            ],
+            "page_idx": 1,
+            "para_blocks": []
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": false,
+    "_vlm_ocr_enable": false,
+    "_version_name": "3.1.8"
+}
