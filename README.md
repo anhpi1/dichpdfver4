@@ -10,7 +10,7 @@ Hệ thống yêu cầu Python 3.8+ và một số thư viện chuyên dụng. B
 Mở Terminal/Command Prompt và chạy các lệnh sau:
 ```bash
 # Cài đặt các thư viện lõi
-pip install openai transformers playwright
+pip install openai transformers playwright pypdf
 
 # Tải và cài đặt trình duyệt Chromium (phục vụ bước 10 xuất PDF)
 playwright install chromium
@@ -55,9 +55,9 @@ input/
        └── images/
 ```
 
-Khi chạy các script, hệ thống sẽ tự động tạo ra thư mục `temp/` bên trong mỗi thư mục PDF để lưu trữ các file trung gian (từ `1.json` đến `10.pdf`).
+Khi chạy các script, hệ thống sẽ tự động tạo ra thư mục `temp/` bên trong mỗi thư mục PDF để lưu trữ các file trung gian (từ `1.json` đến `11.pdf`).
 
-Sau đó, hãy chạy lần lượt các script theo thứ tự từ 1 đến 10:
+Sau đó, hãy chạy lần lượt các script theo thứ tự từ 1 đến 11:
 ```bash
 python 1.py
 python 2.py
@@ -69,6 +69,7 @@ python 7.py
 python 8.py
 python 9.py
 python 10.py
+python 11.py
 ```
 
 ---
@@ -141,6 +142,12 @@ python 10.py
 - Đầu vào: `9.html`
 - Đầu ra: `10.pdf`
 - **Yêu cầu hệ thống:** Cần cài đặt Playwright (`pip install playwright` và `playwright install chromium`).
+
+### Bước 11: `11.py` - Trộn bản gốc và bản dịch (Bilingual PDF Merger)
+**Chức năng:** Tự động dò tìm file PDF gốc ban đầu (`*_origin.pdf`) và trộn đan xen với file PDF đã được dịch (`10.pdf`). Kết quả sẽ cho ra một file tài liệu song ngữ theo thứ tự luân phiên: 1 trang gốc, 1 trang dịch. Việc này giúp người dùng dễ dàng so sánh và đối chiếu nội dung.
+- Đầu vào: `*_origin.pdf` (từ thư mục gốc) và `temp/10.pdf`
+- Đầu ra: Được lưu thành một bản sao sạch trực tiếp tại `output/<tên_gốc>_bilingual.pdf` (Ví dụ: `output/addendum_bilingual.pdf`)
+- **Yêu cầu hệ thống:** Thư viện `pypdf` (`pip install pypdf`).
 
 ---
 
